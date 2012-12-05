@@ -16,3 +16,15 @@
 [submodule ".emacs.d/multiple-cursors"]
 	path = .emacs.d/multiple-cursors
 	url = git://github.com/magnars/multiple-cursors.el.git
+[submodule ".emacs.d/weibo.emacs"]
+	path = .emacs.d/weibo.emacs
+	url = git://github.com/austin-----/weibo.emacs.git
+[submodule ".emacs.d/wrap-region"]
+	path = .emacs.d/wrap-region
+	url = git://github.com/rejeep/wrap-region.git
+[submodule ".emacs.d/emacs-w3m"]
+	path = .emacs.d/emacs-w3m
+	url = git://github.com/doitian/emacs-w3m.git
+[submodule ".emacs.d/expand-region"]
+	path = .emacs.d/expand-region
+	url = git://github.com/magnars/expand-region.el.git

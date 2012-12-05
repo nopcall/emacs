@@ -1,1 +1,0 @@
-/home/visayafan/.emacs.d
