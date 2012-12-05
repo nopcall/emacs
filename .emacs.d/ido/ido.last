@@ -1,0 +1,64 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/visayafan/" . "visayafan.github.com/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/visayafan/visayafan.github.com/"
+ "/home/visayafan/visayafan.github.com/Coding/Cpp/"
+ "/home/visayafan/"
+ "/home/visayafan/.emacs.d/.emacs/"
+ "/home/visayafan/study/coding/cc/"
+ "/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/"
+ "/home/visayafan/software/fish-1.23.1/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "updates.html"
+ "CC11.org"
+ ".bashrc"
+ "recent_updates.py"
+ "index.html"
+ "C++11-lambda-slide.org"
+ "C++11-lambda-slide.html"
+ "C++11.org"
+ "vf-cpp.el"
+ "test.cc"
+ "cc"
+ "lisp"
+ "center"
+ "README"
+ "STL:Algorithm.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/visayafan/study/coding/cc/" (20671 36277) "test" "test.cc" "./" "../" "cb-test/" "test.cpp")
+
+ ("/home/visayafan/" (20671 40001) ".xsession-errors.old" ".xinput.d/" ".emacs" ".gvfs/" ".kde/" ".org-timestamps/" ".dropbox/" "tmp/" ".gconf/" "./" ".slocdata/" "study/" "kaoyan.org" "Ubuntu One/" ".bash_history" ".fonts/" ".local/" ".bash_logout" "vfinstall/" ".ICEauthority" ".smex-items" ".gksu.lock" "movie/" "Downloads/" ".pulse-cookie" ".profile" ".mozilla/" ".komodoide/" "Dropbox/" ".emacs~" ".fontconfig/" ".backups_emacs/" ".config/" ".gnome2/" ".thunderbird/" "Desktop/" ".semanticdb/" ".gitconfig" ".codeblocks/" ".ssh/" "../" ".gstreamer-0.10/" ".sudo_as_admin_successful" ".xsession-errors" ".icons/" ".themes/" ".slime-history.eld" ".mplayer/" ".macromedia/" ".subversion/" ".lesshst" ".bashrc~" ".compiz/" ".session" "software/" ".aliedit/" ".nautilus/" "proxy.sh" ".libreoffice/" ".cache/" "passwd/" ".dmrc" ".pulse/" ".gconfd/" ".dbus/" ".gtk-bookmarks" ".bashrc" "visayafan.github.com/" ".ActiveState/" ".thumbnails/" ".emacs.d/" ".gnupg/" ".ibus/" ".slime/" ".gnome2_private/" ".pki/" ".adobe/" ".esd_auth" "noteAll/" ".dropbox-dist/")
+
+ ("/home/visayafan/visayafan.github.com/" (20671 40114) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "Others/" "Old_Blog/" "Linux/" "Layout/" "index.html" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Coding/Cpp/" (20671 40114) "浮点数正负无穷.org" "浮点数正负无穷.html" "模板特化与偏特化.org" "模板特化与偏特化.html" "数组指针.org" "数组指针.html" "拷贝构造函数.org" "拷贝构造函数.html" "宏字符串化和字符串连接.org" "宏字符串化和字符串连接.html" "名字控制.org" "名字控制.html" "zero_initialization.org" "zero_initialization.html" "typename.org" "typename.html" "typedef.org" "typedef.html" "timer_progress_timer_display.org" "timer_progress_timer_display.html" "template_template_argument.org" "template_argument_deduction.org" "template_argument_deduction.html" "template.org" "template.html" "STL:SequenceContainer.org" "STL:SequenceContainer.html" "STL:Algorithm.org" "STL:Algorithm.html" "static_dynamic_cast.org" "static_dynamic_cast.html" "shan.cpp" "PlacementNew.org" "PlacementNew.html" "member_template_function.org" "member_template_function.html" "map_set.org" "map_set.html" "littleBigEndian.org" "linux_time.org" "linux_time.html" "image/" "hdu2.1.8.org" "hdu2.1.8.html" "GCC.org" "GCC.html" "extern.org" "extern.html" "explicit.org" "explicit.html" "C字符串库.org" "C字符串库.html" "const.org" "const.html" "const-static.org" "const-static.html" "auto_ptr.org" "auto_ptr.html" "template_template_argument.html" "littleBigEndian.html" "../" "./")
+
+ ("/home/visayafan/Dropbox/" (20671 17074) ".dropbox" "./" "config_bk/" "source_code/" ".gitignore" ".git/" ".dropbox.cache/" "../" "goagent/" "software/" "Public/" "Photos/" "visayafan.github.com/")
+
+ ("/home/visayafan/Dropbox/software/" (20644 49728) "Macbuntu-10.10.tar.gz" "./" "emacs/" "../" "Komodo7.1.0_Crack/")
+
+ ("/home/visayafan/Dropbox/software/Komodo7.1.0_Crack/" (20644 48820) "ActiveState.lic" "./" "../" "ReadMe.txt")
+
+ ("/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/" (20671 18896) "html" "toc" "disqus" "./" "div-span" "lisp" "#test#" "srccollapse" "template" "lightbox" "#disqus#" "../" "modal" "img" "collapse" "infojs" "center" "bootstrap" "2collapse" "cc")
+
+ ("/home/visayafan/.emacs.d/.emacs/" (20671 24399) "vf-perl.el" "vf-folding.el" "vf-slime.el" "vf-java.el" "vf-openwidth.el" "vf-expand-region.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-twitter.el" "vf-win.el" "vf-webjump.el" "vf-eshell.el" "vf-mail.el" "vf-matlab.el" "vf-wrap-region.el" "./" "vf-package.el" "vf-ibus.el" "vf-not-sure.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-undo-tree.el" "vf-cedet.el" "vf-python.el" "vf-indent-hint.el" "vf-html-mode.el" "vf-wubi.el" "vf-ido.el" "../" "vf-w3m.el" "vf-org-setting-backup.el" "vf-smex.el" "vf-doxymacs.el" "vf-daemon.el" "vf-openwith.el" "vf-basic.el" "vf-html-helper-mode.el" "vf-ccrypt.el" "vf-autocomplete.el" "vf-cpp.el" "vf-font.el" "vf-color-theme.el" "vf-weibo.el" "vf-email.el" "vf-ecb.el" "vf-global-set-key.el" "vf-yasnippet.el" "vf-zencoding.el" "vf-org-remember.el" "vf-org-setting.el" "vf-jiami.el" "vf-latex.el")
+
+ ("/home/visayafan/visayafan.github.com/Coding/" (20669 52929) "Python/" "Lisp/" "Java/" "Cpp/" "../" "./")
+
+ ("/home/visayafan/software/fish-1.23.1/" (18867 55895) "reader.h" "configure.ac" "xdgmimemagic.c" "proc.c" "print_help.c" "fallback.h" "user_doc/" "history.h" "config.guess" "intern.c" "input.h" "xdgmime.h" "xdgmimeint.c" "signal.h" "xsel-0.9.6.tar" "complete.h" "kill.h" "screen.c" "xdgmimealias.h" "mimedb.h" "./" "wgetopt.h" "env.c" "util.h" "output.h" "print_help.h" "signal.c" "user_doc.head.html" "input_common.c" "tokenizer.h" "share/" "xdgmimeglob.h" "set_color.c" "highlight.h" "output.c" "parser.c" "parser_keywords.c" "configure" "event.h" "builtin_complete.c" "builtin.c" "sanity.c" "complete.c" "seq.in" "parser.h" "make_vcs_completions.fish" "tokenizer.c" "doc_src/" "etc/" "expand.h" "io.c" "builtin.h" "fish.c" "fish_indent.c" "history.c" "env.h" "env_universal.h" "fallback.c" "mimedb.c" "key_reader.c" "parse_util.c" "ChangeLog" "io.h" "xdgmimemagic.h" "../" "wgetopt.c" "halloc.h" "util.c" "config.sub" "Makefile.in" "tests/" "wildcard.c" "fish_pager.c" "builtin_set.c" "fish.spec.in" "xdgmimealias.c" "parse_util.h" "expand.c" "po/" "input.c" "env_universal_common.h" "xdgmime.c" "wildcard.h" "builtin_jobs.c" "Doxyfile.help.in" "fishd.c" "xdgmimeint.h" "env_universal.c" "event.c" "xdgmimeparent.h" "README" "install-sh" "exec.h" "Doxyfile" "exec.c" "proc.h" "xdgmimeglob.c" "halloc.c" "wutil.h" "config.h.in" "halloc_util.c" "path.c" "builtin_ulimit.c" "common.h" "env_universal_common.c" "highlight.c" "kill.c" "path.h" "reader.c" "input_common.h" "sanity.h" "screen.h" "halloc_util.h" "Doxyfile.user" "fish_tests.c" "INSTALL" "xdgmimeparent.c" "function.c" "parser_keywords.h" "common.c" "intern.h" "function.h" "builtin_commandline.c" "wutil.c")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

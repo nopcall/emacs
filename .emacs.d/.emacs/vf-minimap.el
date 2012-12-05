@@ -1,0 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d/minimap")
+(require 'minimap)
+(global-set-key "\C-cmm" 'minimap-create)
+(global-set-key "\C-cmk" 'minimap-kill)
+(provide 'vf-minimap)

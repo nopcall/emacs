@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: too-many-toc
+# key: toc
+# --
+#+OPTIONS: ^:{} _:{} num:t toc:t \n:t
+#+include: ../../template-toc.org

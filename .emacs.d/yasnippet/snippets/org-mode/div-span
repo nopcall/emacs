@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: span
+# key: span
+# --
+#+html:<div class="row-fluid"> <div class="span5">
+$1
+#+html: </div> <div class="span5">
+
+#+html:</div></div>

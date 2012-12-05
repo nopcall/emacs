@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: collapse
+# --
+#+BEGIN_HTML
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a href="#$1" data-toggle="collapse" class="accordion-toggle">${2:Title}</a>
+  </div>
+  <div class="accordion-body collapse" style="height: ${3:0px}" id="${1:CollapseID}">
+    <div class="accordion-inner">
+        $0
+    </div>
+  </div>
+</div>
+#+END_HTML

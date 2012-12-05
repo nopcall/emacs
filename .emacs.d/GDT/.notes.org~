@@ -1,0 +1,63 @@
+#+OPTIONS: "\n:t
+#+OPTIONS: ^:{} _:{} num:t toc:t \n:t
+#+TITLE: 
+#+LaTeX_CLASS: cn-article
+#+STYLE: <link rel="stylesheet" type="text/css" href="style.css" />
+
+* MOVIE
+** TODO Abraham Lincoln: Vampire Hunter
+   <2012-06-30 六>
+** TODO The Amazing Spider-Man
+   <2012-06-30 六>
+** TODO The Dark Knight Rises
+** TODO The Expendables 2
+** TODO The Bourne Legacy
+   The Bourne Legacy
+* SITES
+** movie quotes and more
+   [[http://www.moviequotesandmore.com/]]
+** IBM developworks
+   [[http://www.ibm.com/developerworks/]]
+   [[https://www.ibm.com/developerworks/cn/]]
+   https://www.ibm.com/developerworks/mydeveloperworks/blogs/?lang=zh
+   技术主题：相关主题
+   社区：博客
+** lyrics
+   [[http://www.lyrics.com/]]
+** hacker news
+   [[http://news.ycombinator.com/]]
+** techcrunch
+   http://techcrunch.com/
+** BBC
+   http://www.bbc.co.uk/
+** Matrix67
+   http://www.matrix67.com/blog/
+** lex and yacc
+   http://dinosaur.compilertools.net/
+** MIT 算法导论视频
+   http://v.163.com/special/opencourse/algorithms.html
+** 斯坦福大学 Paradigm
+   http://v.163.com/special/opencourse/paradigms.html
+** TED
+   http://ted.com
+** python 好多源码可供研究
+   http://code.activestate.com/recipes/langs/python/
+* BlogToPublish
+** JavaIO
+  [[file:/media/Source_Study/study/noteAll/java/JavaIO.org]]
+** beamer
+  [[file:~/dstudy/noteAll/latex/beamer.org::*Beamer][Beamer]]
+** JavaThread
+  [[file:~/dstudy/noteAll/java/JavaThread.org::*Java%E8%BF%9B%E7%A8%8B][Java进程]]
+** C＋＋关键字
+  [[file:~/dstudy/noteAll/c_cpp/关键字.org]]
+** 名字控制
+  [[file:~/dstudy/noteAll/c_cpp/TICPP/名字控制.org]]
+** 拷贝构造函数
+  [[file:~/dstudy/noteAll/c_cpp/拷贝构造函数.org]]
+* Linux Command
+** lsb_release
+   lsb_release -a 查看发布版本、代号
+* Articles to Read
+** TODO python subprocess
+   http://www.doughellmann.com/PyMOTW/subprocess/

@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: 2collapse
+# --
+#+BEGIN_HTML
+<div id="accordionParent" class="accordion">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a href="#$1" data-toggle="collapse" data-parent="#accordionParent" class="accordion-toggle">${2:Title1}</a>
+    </div>
+    <div class="accordion-body collapse" style="height: ${3:auto}" id="${1:CollapseID1}">
+      <div class="accordion-inner">
+      ${6: content for collapse1}
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a href="#$4" data-toggle="collapse" data-parent="#accordionParent" class="accordion-toggle">${5:Title2}</a>
+    </div>
+    <div class="accordion-body collapse" style="height: 0px" id="${4:CollapseID2}">
+      <div class="accordion-inner">
+      $0
+      </div>
+    </div>
+  </div>
+</div>
+#+END_HTML

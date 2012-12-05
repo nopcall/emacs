@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: infojs
+# --
+#+INFOJS_OPT: view:overview mouse:#cccccc toc:t ftoc:t  path:../../Layout/JS/org-info.js

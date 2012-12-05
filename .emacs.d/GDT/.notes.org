@@ -1,0 +1,69 @@
+#+OPTIONS: "\n:t
+#+OPTIONS: ^:{} _:{} num:t toc:t \n:t
+#+TITLE: 
+#+LaTeX_CLASS: cn-article
+#+STYLE: <link rel="stylesheet" type="text/css" href="style.css" />
+
+* MOVIE
+** TODO The Dark Knight Rises
+* SITES
+** movie quotes and more
+   [[http://www.moviequotesandmore.com/]]
+** IBM developworks
+   [[http://www.ibm.com/developerworks/]]
+   [[https://www.ibm.com/developerworks/cn/]]
+   https://www.ibm.com/developerworks/mydeveloperworks/blogs/?lang=zh
+   技术主题：相关主题
+   社区：博客
+** lyrics
+   [[http://www.lyrics.com/]]
+** hacker news
+   [[http://news.ycombinator.com/]]
+** techcrunch
+   http://techcrunch.com/
+** BBC
+   http://www.bbc.co.uk/
+** Matrix67
+   http://www.matrix67.com/blog/
+** lex and yacc
+   http://dinosaur.compilertools.net/
+** MIT 算法导论视频
+   http://v.163.com/special/opencourse/algorithms.html
+** 斯坦福大学 Paradigm
+   http://v.163.com/special/opencourse/paradigms.html
+** TED
+   http://ted.com
+** python 好多源码可供研究
+   http://code.activestate.com/recipes/langs/python/
+** git 教程
+   http://www.worldhello.net/
+** GDB反向调试
+   http://www.ibm.com/developerworks/cn/linux/l-cn-gdb7rd/index.html
+** IBM开发资源
+   http://www.ibm.com/developerworks/
+** 美国地图
+   http://www.yourchildlearns.com/mappuzzle/us-puzzle.html
+   http://www.yourchildlearns.com/
+* BlogToPublish
+** beamer
+  [[file:~/dstudy/noteAll/latex/beamer.org::*Beamer][Beamer]]
+** 拷贝构造函数
+  [[file:~/dstudy/noteAll/c_cpp/拷贝构造函数.org]]
+* Linux Command
+* Articles to Read
+** TODO python subprocess
+   http://www.doughellmann.com/PyMOTW/subprocess/
+** TODO 一个Python博客，值得学习
+   http://mrwlwan.wordpress.com/
+* English
+** laugh all the way to the bank
+   to make money without doing much work
+** throw the baby out with the bath water
+   it's an idomatic expression used to suggest an avoidable error in which something good is eliminited when trying to get rid of something bad.
+** there are no flies on him( or her)
+   a person who is absolutely intelligent and not easy to fool.
+** a penny saved is a penny gained
+   even a small action can have a big effect.
+* TODO
+** TODOS Kernel user_struct
+** TODOS Kernel rb_tree

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: modal
+# --
+#+begin_html
+<a href="#$1" class="btn" data-toggle="modal">${2:text show on the button}</a>
+<div id="${1:ModalID1}" class="modal hide">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">x</button>
+    <h3>${3:Title}</h3>
+  </div>
+  <div class="modal-body">
+  $0
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+  </div>
+</div>
+#+end_html

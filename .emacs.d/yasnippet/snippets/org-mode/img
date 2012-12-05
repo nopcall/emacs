@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: img
+# --
+#+html:<img src="$0"></img>

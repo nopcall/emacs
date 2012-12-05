@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cc
+# --
+#+begin_src c++
+$0
+#+end_src

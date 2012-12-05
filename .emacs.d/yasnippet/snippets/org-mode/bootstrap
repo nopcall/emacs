@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bootstrap
+# --
+#+BEGIN_HTML
+<link rel="stylesheet" type="text/css" href="${1:..}/bootstrap/css/bootstrap.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+<script src="$1/bootstrap/js/bootstrap.js"></script>
+#+END_HTML

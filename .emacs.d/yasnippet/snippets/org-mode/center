@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: center
+# --
+#+html:<center>
+$0        
+#+html:</center>

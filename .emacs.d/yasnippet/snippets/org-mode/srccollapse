@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: srccollapse
+# --
+#+BEGIN_HTML
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a href="#$1" data-toggle="collapse" data-parent="#accordionParent" class="accordion-toggle">${2:Title}</a>
+  </div>
+  <div class="accordion-body collapse" style="height:${3:auto}" id="${1:CollapseID}">
+    <div class="accordion-inner">
+#+END_HTML
+#+BEGIN_SRC $4 -n
+$0
+#+END_SRC
+#+BEGIN_HTML
+    </div>
+  </div>
+</div>
+#+END_HTML 
