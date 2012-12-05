@@ -1,0 +1,3 @@
+这是我个人的Emacs配置文件.
+Linux和Win下通用，其中Linux下对应上面的.emacs，Win下对应.emacs_windows.el（改一下名即可）。
+有总是可以来信交流：visayafan@gmail.com
