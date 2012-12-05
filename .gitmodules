@@ -1,0 +1,18 @@
+[submodule ".emacs.d/minimap"]
+	path = .emacs.d/minimap
+	url = git://github.com/dustinlacewell/emacs-minimap.git
+[submodule ".emacs.d/ace-jump-mode"]
+	path = .emacs.d/ace-jump-mode
+	url = git://github.com/winterTTr/ace-jump-mode.git
+[submodule ".emacs.d/auto-complete-clang"]
+	path = .emacs.d/auto-complete-clang
+	url = git://github.com/brianjcj/auto-complete-clang.git
+[submodule ".emacs.d/smex"]
+	path = .emacs.d/smex
+	url = git://github.com/nonsequitur/smex.git
+[submodule ".emacs.d/zencoding"]
+	path = .emacs.d/zencoding
+	url = git://github.com/rooney/zencoding.git
+[submodule ".emacs.d/multiple-cursors"]
+	path = .emacs.d/multiple-cursors
+	url = git://github.com/magnars/multiple-cursors.el.git
