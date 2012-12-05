@@ -1,7 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d")
-(add-to-list 'load-path "~/.emacs.d/others")
 (add-to-list 'load-path "~/.emacs.d/.emacs")
-
+(add-to-list 'load-path "~/.emacs.d/others")
 
 ;; Emacs Conguration From EmacsWiki
 ;; Path: ~/.emacs.d
@@ -9,7 +8,6 @@
 (require 'winner)                       ;C-c left/right undo/redo窗口布局
 (winner-mode t)
 ;; (require 'windresize)                   ;调整窗口大小
-
 ;; My Emacs Configuration
 ;; Path: ~/.emacs.d/.emacs
 (require 'vf-basic)
