@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: options
+# --
+#+OPTIONS: ^:{} _:{} num:t toc:t \n:t 

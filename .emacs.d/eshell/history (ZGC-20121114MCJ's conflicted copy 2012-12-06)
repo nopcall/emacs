@@ -1,0 +1,128 @@
+cdv
+cdee
+(erase-buffer)
+(let ((inhibit-read-only t)) (erase-buffer))
+cdee
+exit
+clc
+ls
+ls
+ls
+ls
+ls
+ls
+exit
+exit
+exit
+exit
+exit
+ls
+ls
+ls
+clc
+exit
+cd
+cdv
+cdce
+cdvcl
+cdv
+du -sh
+cd ..
+ls
+rm -rf *
+clc
+exit
+cdvc
+cdv
+cdvcc
+ls
+cd
+cd software/
+tar zxvf fish-1.23.1.tar.gz 
+rm fish-1.23.1.tar.gz
+cd fish-1.23.1/
+clc
+ls
+cde
+cd yasnippet/snippets/org-mode/
+ls
+cdccc
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+clc
+cdee
+cdccc
+./test 
+clear
+clc
+./test 
+cdvc
+cdvcc
+cd -
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+clc
+./test 
+./test 
+./test 
+./test 
+gcc -v
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+./test 
+cdvcc
+rm C++11-lambda-slide.*
+mv C++11.html CC11.html
+rm C++11.html C++11.org 
+rm C++11.org 
+clc
+cd
+cd -
+ls
+ls|grep cc
+ls|grep c++
+cdccc
+cd
+cd /mnt/Src/Dropbox/software/emacs/
+ls
+ll
+cd
+cdv
+cdee
+cd /media/6A42-E81D/
+ls
+cd visaya/
+ls
+cd EBook/
+ls
+ll
+ls -l
+rm *
+ls -l

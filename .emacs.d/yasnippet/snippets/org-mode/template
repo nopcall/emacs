@@ -2,5 +2,6 @@
 # name: template
 # --
 #+OPTIONS: ^:{} _:{} num:t toc:t \n:t
-#+include "../../template.org"
+#+INCLUDE "../../template.org"
+#+SETUPFILE: "../../extension.org"
 #+title:`(file-name-sans-extension (buffer-name))`$0

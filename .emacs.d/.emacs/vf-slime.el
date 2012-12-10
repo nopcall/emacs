@@ -12,6 +12,7 @@
 (add-hook 'slime-repl-mode-hook 'vf-slime-repl-hook)
 (defun vf-slime-repl-hook ()
   ;; 交换clear-buffer和clear-output快捷键，因为C-c C-o用来clear-buffer用着顺手
+  (define-key slime-repl-mode-map (kbd "M-/") 'slime-complete-symbol)
   (define-key slime-repl-mode-map (kbd "C-c C-o") 'slime-repl-clear-buffer)
   (define-key slime-repl-mode-map (kbd "C-c M-o") 'slime-repl-clear-output))
 

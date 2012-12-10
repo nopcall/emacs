@@ -1,82 +1,3 @@
-mkdir o
-mv *.org o
-mv *.html o
-mv o/* .
-rmdir o
-clc
-cdce
-cdv
-cd Coding/Lisp/
-ls
-cdce
-cdvl
-cdc
-cdvc
-cd ../Lisp/
-cde
-cdee
-cdv
-cdee
-(erase-buffer)
-(let ((inhibit-read-only t)) (erase-buffer))
-cdee
-exit
-clc
-ls
-ls
-ls
-ls
-ls
-ls
-exit
-exit
-exit
-exit
-exit
-ls
-ls
-ls
-clc
-exit
-cd
-cdv
-cdce
-cdvcl
-cdv
-du -sh
-cd ..
-ls
-rm -rf *
-clc
-exit
-cdvc
-cdv
-cdvcc
-ls
-cd
-cd software/
-tar zxvf fish-1.23.1.tar.gz 
-rm fish-1.23.1.tar.gz
-cd fish-1.23.1/
-clc
-ls
-cde
-cd yasnippet/snippets/org-mode/
-ls
-cdccc
-./test 
-./test 
-./test 
-./test 
-./test 
-./test 
-./test 
-clc
-cdee
-cdccc
-./test 
-clear
-clc
 ./test 
 cdvc
 cdvcc
@@ -125,4 +46,83 @@ cd -
 ls
 ls|grep cc
 ls|grep c++
+cdvcc
+ls
+cdsl
+cdcl
+cdce
+clc
+cdvl
+cdvcl
+ls
+cdee
+cd -
+ls
+clc
+cde
+cd minimap/
+ls
+cdvcl
+cdvcl
+rm 数据类型.org 
+cdd
+cd /mnt/Src/
+cdvcl
+cdv
+cd Layout/
+ls
+cd CSS/
+ls
+cd lightbox-images/
+ls
+cd ..
+mkdir images && mv lightbox-images images
+ls images/
+cd images/
+ls
+cd ..
+ls
+mv lightbox-images/* images/
+rmdir lightbox-images/
+mv images ../JS/
+ls ../JS/images/
+mkdir lightbox-images
+cp ../JS/images/* lightbox-images/
+rmdir ../JS/images/
+rm -rf ../JS/images/
+cp lightbox-images/* ~/visayafan.github.com/Coding/Lisp/image/
+cdv
+cd Coding/Lisp/image/
+ls
+cd ..
+mv image images
+cdv
+clc
+clc
+cdcl
+cdccl
+cdce
+cdvcl
+cdee
+cde
+cd yasnippet/snippets/org-mode/
+ls
+rm lightbox
+rm \#img\#
+rm \#test\#
+ls
+cde
+cd yasnippet/snippets/org-mode/
+cdvcl
+ls images/last.jpg 
+cdce
+ls
+rm *.fasl
+cdvcl
 cdccc
+cdvcc
+ls
+mv STL:SequenceContainer.org STL-SequenceContainer.html
+nautilus .
+cd
+cdv

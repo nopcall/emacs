@@ -3,13 +3,13 @@ alias cdcc cd d:/study/coding/c
 alias cdch cd d:/study/coding/html-js-css
 alias c cd c:/
 alias d cd d:/
-alias cdvc cd d:/Dropbox/visayafan.github.com/Coding/Cpp
-alias cdv cd d:/Dropbox/visayafan.github.com/
-alias cdvo cd d:/Dropbox/visayafan.github.com/Others/o
-alias cdvj cd d:/Dropbox/visayafan.github.com/Coding/Java
-alias cdvlc cd d:/Dropbox/visayafan.github.com/Linux/LinuxCoding
-alias cdvl cd d:/Dropbox/visayafan.github.com/Linux/LinuxOS
-alias cdvp cd d:/Dropbox/visayafan.github.com/Coding/Python
+alias cdvc cd d:/visayafan.github.com/Coding/Cpp
+alias cdv cd d:/visayafan.github.com/
+alias cdvo cd d:/visayafan.github.com/Others/o
+alias cdvj cd d:/visayafan.github.com/Coding/Java
+alias cdvlc cd d:/visayafan.github.com/Linux/LinuxCoding
+alias cdvl cd d:/visayafan.github.com/Linux/LinuxOS
+alias cdvp cd d:/visayafan.github.com/Coding/Python
 alias cde cd ~/.emacs.d
 alias cdee cd ~/.emacs.d/.emacs
 
