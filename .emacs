@@ -39,7 +39,7 @@
 ;; twitter 不过不能用
 ;; (require 'vf-twitter)
 ;; 迷你地图
-(require 'vf-minimap)
+;; (require 'vf-minimap)
 ;; 多个光标同时操作
 (require 'vf-multiple-cursors)
 ;; 扩展自带的SGML mode
@@ -78,6 +78,15 @@
 (require 'vf-daemon)
 ;; slime
 (require 'vf-slime)
+;; golden-ratio
+;; (require 'vf-golden-ratio)
+;; gnus
+(require 'vf-gnus)
+
+
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -108,6 +117,7 @@
  '(eshell-scroll-show-maximum-output nil)
  '(fci-rule-color "#383838")
  '(font-use-system-font t)
+ '(gnus-startup-file "~/.emacs.d/gnus/.newsrc")
  '(jde-enable-abbrev-mode t)
  '(jde-jdk (quote ("1.6")))
  '(jde-jdk-doc-url "file:///media/Source_Study/study/java/jdk-7-fcs-bin-b147-apidocs-27_jun_2011/docs/index.html")

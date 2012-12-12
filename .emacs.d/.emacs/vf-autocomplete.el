@@ -19,7 +19,7 @@
 (setq ac-dwim t)
 
 ;; 如果ac-auto-start为nil则表示只有按下触发键后才会补全
-(setq ac-auto-start t)              
+(setq ac-auto-start nil)
 ;; 补全键设置为TAB
 (ac-set-trigger-key "TAB")
 

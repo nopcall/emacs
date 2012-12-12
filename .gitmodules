@@ -28,3 +28,6 @@
 [submodule ".emacs.d/expand-region"]
 	path = .emacs.d/expand-region
 	url = git://github.com/magnars/expand-region.el.git
+[submodule ".emacs.d/golden-ratio"]
+	path = .emacs.d/golden-ratio
+	url = git://github.com/roman/golden-ratio.el.git

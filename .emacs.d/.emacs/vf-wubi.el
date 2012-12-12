@@ -1,7 +1,8 @@
 (add-to-list 'load-path "~/.emacs.d/wubi")
 
 (require 'wubi)
-(wubi-load-local-phrases) ; add user's Wubi phrases
+;; add user's Wubi phrases
+(wubi-load-local-phrases)
 
 (register-input-method
  "chinese-wubi" "Chinese-GB" 'quail-use-package

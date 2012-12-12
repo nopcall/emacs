@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: textarea
+# --
+#+html: <style type="text/css"> textarea{width:100%;}</style>
+$0

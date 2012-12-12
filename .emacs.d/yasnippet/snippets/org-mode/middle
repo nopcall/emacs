@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: left
+# --
+{{{middle($1)}}}
+$0

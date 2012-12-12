@@ -27,6 +27,7 @@ alias e emacs&
 alias ec GTK2_RC_FILES=/usr/share/themes/Clearlooks/gtk-2.0/gtkrc:/home/visayafan/.gtkrc-eclipse eclipse &
 alias dropbox ~/Dropbox/Public/lndir.py >/dev/null 2>&1 &
 alias chx chmod u+x
+alias cdd cd /mnt/Src
 alias cdsp cd ~/study/program
 alias cdee cd ~/.emacs.d/.emacs
 alias cde cd ~/.emacs.d

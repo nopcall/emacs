@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/visayafan/.emacs.d/yasnippet/snippets/" . "org-mode/")
+ ("/home/visayafan/.emacs.d/yasnippet/" . "snippets/")
+ ("/home/visayafan/.emacs.d/" . "yasnippet/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/visayafan/.emacs.d/.emacs/"
+ "/home/visayafan/visayafan.github.com/Coding/Cpp/"
+ "/home/visayafan/"
+ "/mnt/Src/"
+ "/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/"
+ "/home/visayafan/visayafan.github.com/Coding/Lisp/"
+ "/home/visayafan/visayafan.github.com/"
+ "/home/visayafan/study/coding/cc/cb-test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "vf-wubi.el"
+ "CC11.org"
+ ".gnus.el"
+ "todo.org"
+ "cc"
+ "textarea"
+ "Emacs.org"
+ "left"
+ "middle"
+ "right"
+ "extension.org"
+ "vf-autocomplete.el"
+ "Class.org"
+ "main.cpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/visayafan/visayafan.github.com/Coding/Cpp/" (20679 24414) #("娴����\202规\225版����璐\237\346\227\240绌\267.org" 0 18 (charset chinese-gb2312)) #("娴����\202规\225版����璐\237\346\227\240绌\267.html" 0 19 (charset chinese-gb2312)) #("妯℃\235跨\211瑰\214\226涓\216\345\201\217\347\211瑰\214\226.org" 0 22 (charset chinese-gb2312)) #("妯℃\235跨\211瑰\214\226涓\216\345\201\217\347\211瑰\214\226.html" 0 23 (charset chinese-gb2312)) #("\346\225扮\273\204\346\214\207\351\222\210.org" 0 15 (charset chinese-gb2312)) #("\346\225扮\273\204\346\214\207\351\222\210.html" 0 16 (charset chinese-gb2312)) #("\346\213疯\264\235\346\236\204\351\200\240\345\207芥\225\260.org" 0 20 (charset chinese-gb2312)) #("\346\213疯\264\235\346\236\204\351\200\240\345\207芥\225\260.html" 0 21 (charset chinese-gb2312)) #("瀹\217瀛\227绗����覆\345\214\226\345\222\214瀛\227绗����覆杩\236\346\216\245.org" 0 27 (charset chinese-gb2312)) #("瀹\217瀛\227绗����覆\345\214\226\345\222\214瀛\227绗����覆杩\236\346\216\245.html" 0 28 (charset chinese-gb2312)) #("\345\220\215瀛\227\346\216у\210\266.org" 0 14 (charset chinese-gb2312)) #("\345\220\215瀛\227\346\216у\210\266.html" 0 15 (charset chinese-gb2312)) "zero_initialization.org" "zero_initialization.html" "typename.org" "typename.html" "typedef.org" "typedef.html" "timer_progress_timer_display.org" "timer_progress_timer_display.html" "template_template_argument.org" "template_argument_deduction.org" "template_argument_deduction.html" "template.org" "template.html" "STLSequenceContainer.org" "STLSequenceContainer.html" "STLAlgorithm.org" "STLAlgorithm.html" "static_dynamic_cast.org" "static_dynamic_cast.html" "shan.cpp" "PlacementNew.org" "PlacementNew.html" "member_template_function.org" "member_template_function.html" "map_set.org" "map_set.html" "littleBigEndian.org" "linux_time.org" "linux_time.html" "images/" "hdu2.1.8.org" "hdu2.1.8.html" "GCC.org" "GCC.html" "extern.org" "extern.html" "explicit.org" "explicit.html" #("C瀛\227绗����覆搴\223.org" 1 12 (charset chinese-gb2312)) #("C瀛\227绗����覆搴\223.html" 1 13 (charset chinese-gb2312)) "const.org" "const.html" "const-static.org" "const-static.html" "Class.org" "Class.html" "CC11.org" "CC11.html" "auto_ptr.org" "auto_ptr.html" "template_template_argument.html" "littleBigEndian.html" "../" "./")
+
+ ("/home/visayafan/" (20679 22048) ".xsession-errors.old" ".xinput.d/" ".emacs" ".gvfs/" ".kde/" ".org-timestamps/" ".dropbox/" "tmp/" ".gconf/" "./" ".slocdata/" "study/" "kaoyan.org" "Ubuntu One/" ".bash_history" ".fonts/" ".local/" ".bash_logout" "vfinstall/" ".ICEauthority" ".smex-items" ".gksu.lock" "movie/" "Downloads/" ".pulse-cookie" ".profile" ".mozilla/" ".komodoide/" "Dropbox/" ".emacs~" ".fontconfig/" ".dia/" ".backups_emacs/" ".config/" ".gnome2/" ".thunderbird/" "Desktop/" ".semanticdb/" ".gitconfig" ".codeblocks/" ".ssh/" "../" ".gstreamer-0.10/" ".sudo_as_admin_successful" ".xsession-errors" ".icons/" ".themes/" ".slime-history.eld" ".mplayer/" ".macromedia/" ".subversion/" ".lesshst" ".bashrc~" ".compiz/" ".session" "software/" ".aliedit/" ".nautilus/" "proxy.sh" ".libreoffice/" ".cache/" "passwd/" ".dmrc" ".pulse/" ".gconfd/" ".dbus/" ".gtk-bookmarks" ".bashrc" "visayafan.github.com/" ".ActiveState/" ".thumbnails/" ".emacs.d/" ".gnupg/" ".ibus/" ".slime/" ".ecb-tip-of-day.el" ".gnome2_private/" ".pki/" ".adobe/" ".esd_auth" "noteAll/" ".dropbox-dist/")
+
+ ("/mnt/Src/" (20675 3472) "我的文档/" "visayafan.github.com/" "VFInstall/" "todo.org" "tmp/" "System Volume Information/" "study/" "software/" "RECYCLER/" "Picture/" "passwd/" "pagefile.sys" "MyDocuments/" "music/" "Movie/" "goagent/" "emacs-24.2/" "Dropbox/" "BaiduYun/" ".Trash-1000/" "$RECYCLE.BIN/" "../" "./")
+
+ ("/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/" (20679 19015) "toc" "template" "srccollapse" "right" "options" "modal" "middle" "macro" "lisp" "lightbox" "left" "infojs" "img" "html" "div-span" "disqus" "collapse" "center" "cc" "bootstrap" "2collapse" "#disqus#" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20677 60022) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "EmacsSlime.org" "EmacsSlime.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "class.org" "class.html" ".emacs.desktop" "#LittleDB.html#" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Others/o/" (20669 52855) "revolvermaps.org" "revolvermaps.html" "image/" "git.org" "git.html" "CC-Mode.org" "CC-Mode.html" "BlogCollection.org" "BlogCollection.html" "#git.html#" "../" "./")
+
+ ("/home/visayafan/study/coding/cc/cb-test/" (20679 18033) "#main.cpp#" "./" "main.cpp" "test.cbp" "bin/" "obj/" ".#main.cpp" "test.depend" "../" "test.layout" "main")
+
+ ("/home/visayafan/.emacs.d/.emacs/" (20679 13298) "vf-html-mode.el" "vf-html-helper-mode.el" "vf-global-set-key.el" "vf-font.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-email.el" "vf-ecb.el" "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-package.el" "vf-org-setting.el" "vf-org-setting-backup.el" "vf-org-remember.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-matlab.el" "vf-mail.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-ido.el" "vf-ibus.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-ccrypt.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-perl.el" "vf-doxymacs.el" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/" (20679 17472) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Old_Blog/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/visayafan/.emacs.d/yasnippet/snippets/" (20654 30741) "text-mode/" "snippet-mode/" "python-mode/" "org-mode/" "html-mode/" "emacs-lisp-mode/" "css-mode/" "cc-mode/" "c-mode/" "c++-mode/" "../" "./")
+
+ ("/home/visayafan/.emacs.d/yasnippet/" (20658 20387) "yasnippet.el" "yasnippet-tests.el" "yasnippet-debug.el" "snippets暂时用不到的/" "snippets/" "README.org" "README.mdown" "Rakefile" "dropdown-list.el" ".gitmodules" ".gitignore" "../" "./")
+
+ ("/home/visayafan/.emacs.d/" (20679 17878) "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "color-theme-6.6.0/" "cedet-1.1/" "server/" "GDT/" "python/" "others/" "org-7.8.11/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "ido.last" "ido/" "expand-region/" "eshell/" "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "tramp" "smex/" "slime/" "session.10cac3cfadb406560c135470328112414000000013450034" "session.10b2f94455374efa84135474670548255700000032490042" "session.10b13f0a2cf428ba3135460341393377200000013410034" "session.10b03a7460c7e9c64a135473505733514600000014330041" "session.109120f4f7b88a5ee613548892229914500000013200040" "session.10830069971449bfe7135513828180062300000013000034" "session.10673860f01ebe8237135496225563543500000012980035" "session.102c478159cb7bc015135478960983029400000013880038" "session.102330ef9496953e1135461012490367400000048330034" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".org-id-locations" ".mc-lists.elc" ".mc-lists.el" ".emacs/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

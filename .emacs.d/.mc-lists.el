@@ -8,6 +8,7 @@
         autopair-insert-or-skip-quote
         autopair-skip-close-maybe
         c-electric-colon
+        c-electric-paren
         c-electric-semi&comma
         delete-indentation
         kill-region

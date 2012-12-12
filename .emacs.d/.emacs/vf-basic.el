@@ -374,5 +374,8 @@ extendedchars=false %这一条命令可以解决代码跨页时，章节标题�
 ;; C-o 用c-context-open-line替换原来的open-line
 (global-set-key "\C-o" 'open-line)
 
+;; 加载vc-git需要时间较长，故禁止
+(eval-after-load "vc" '(remove-hook 'find-file-hooks 'vc-find-file-hook))
+
 (provide 'vf-basic)
 
