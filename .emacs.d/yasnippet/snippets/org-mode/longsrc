@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: longsrc
+# --
+{{{srcbegin(${1:200})}}}
+{{{srcend}}}

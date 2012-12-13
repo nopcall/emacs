@@ -1,4 +1,12 @@
-((("LAMBDA" .
+((("gnus-save-all-headers" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("gnus-saved-headers" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("gnus-init-file" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("gnus-init-" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("LAMBDA" .
    [0 0 0 0 1 0])
   (":test" .
    [1 0 0 0 0])

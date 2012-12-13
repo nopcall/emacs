@@ -13,12 +13,7 @@
 (add-hook 'message-mode-hook (lambda () (setq fill-column 72) (turn-on-auto-fill)))
 
 ;; 发送设置
-(setq gnus-posting-styles
-      '((".*"
-         (name "visayafan")
-         (address "visayafan@gmail.com")
-         ;; (signature "http://www.visayafan.com \n")
-         )))
+(setq gnus-posting-styles '((".*" (name "visayafan") (address "visayafan@gmail.com"))))
 
 ;; 语言环境设定
 (set-language-environment 'Chinese-GB)
@@ -41,8 +36,6 @@
 ;;设定要显示的头信息
 (setq gnus-visible-headers
       "^\\(^From:\\|^Subject:\\|^Date:\\)")
-;; (setq gnus-visible-headers
-;;       "^\\(^From:\\|^Subject:\\|^Date:\\|^Followup-To: \\|^X-Newsreader:\\|^User-Agent:\\|^X-Mailer: \\|Line:\\|Lines:\\|Content-Type:\\|NNTP-Posting-Host\\)")
 
 ;;设定屏幕的分割比例
 (gnus-add-configuration '(article (vertical 1.0 (summary .382 point) (article 1.0))))

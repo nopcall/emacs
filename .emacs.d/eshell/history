@@ -1,86 +1,3 @@
-ls
-cd ..
-mkdir images && mv lightbox-images images
-ls images/
-cd images/
-ls
-cd ..
-ls
-mv lightbox-images/* images/
-rmdir lightbox-images/
-mv images ../JS/
-ls ../JS/images/
-mkdir lightbox-images
-cp ../JS/images/* lightbox-images/
-rmdir ../JS/images/
-rm -rf ../JS/images/
-cp lightbox-images/* ~/visayafan.github.com/Coding/Lisp/image/
-cdv
-cd Coding/Lisp/image/
-ls
-cd ..
-mv image images
-cdv
-clc
-clc
-cdcl
-cdccl
-cdce
-cdvcl
-cdee
-cde
-cd yasnippet/snippets/org-mode/
-ls
-rm lightbox
-rm \#img\#
-rm \#test\#
-ls
-cde
-cd yasnippet/snippets/org-mode/
-cdvcl
-ls images/last.jpg 
-cdce
-ls
-rm *.fasl
-cdvcl
-cdccc
-cdvcc
-ls
-mv STL:SequenceContainer.org STL-SequenceContainer.html
-nautilus .
-cd
-cdv
-cdccc
-ls
-cd cb-test/
-ls
-cdvcc
-cdee
-cdccc
-cd cb-test/
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-./main 
-cdv
-cdccc
 ./main 
 cd cb-test/
 ./main 
@@ -116,13 +33,96 @@ cdvcl
 cdee
 cd -
 cd
-cd News/
+cdee
+cdccc
+cd cb-test/
+./main 
+cdvcc
+cdvcl
+cd
+cd
+cdee
+cd ../wubi/
 ls
-ls cache/
-ls drafts/
-ls rss/
-cd cache/
-du -sh
+ll
+cdee
+cdvcl
+cd
+cd .emacs.d/
+mkdir gnus
+cp ../.newsrc.eld gnus/
+cp ../.newsrc gnus/
+cp ~/.gnus.el gnus/
+mv ../.newsrc.eld gnus/
+mv ~/.gnus.el gnus/
+mv ../.newsrc gnus/
+cd gnus/
 ls
-ls comp.lang.c++.moderated/
-ls comp.emacs/
+ll
+ll ~|grep new
+rm ~/.newsrc.eld
+rm ~/.newsrc 
+cdd
+cdee
+cd /mnt/Src/
+clc
+cdee
+tail vf-ido.el 
+ll
+cd ../gnus/
+ll
+cd
+cdvcc
+clc
+cde
+cd yasnippet/snippets/cc
+cd yasnippet/snippets/cc-mode/
+ls
+cat if 
+cdvcl
+cdv
+cd Layout/CSS/
+cdv
+cdv
+cd Layout/CSS/
+cdv
+rm Layout/CSS/common.css 
+cd Others/o/
+ls image/
+mv image/中文目录.png ~/visayafan.github.com/Coding/Lisp/images/
+cdvcc
+cdv
+cd Old_Blog/
+ls
+cd others/
+ls
+ls
+cd compiler/
+ls
+cd ..
+cd
+cdv
+clc
+ls
+cd Coding/
+ls
+ls
+cp index.html ../Linux/
+ls ..
+cp index.html ../Compiler/
+cp index.html ../Others/
+cp index.html ../English/
+cp index.html ../Algorithm/
+cp index.html Cpp/
+cd Cpp/
+cdee
+cd v
+cdv
+cd Coding/Java/
+ls
+cdv
+cd Coding/Cpp/
+rm index.html
+cd
+rm -rf News/
+ccl

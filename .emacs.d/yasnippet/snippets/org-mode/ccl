@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ccl
+# --
+{{{srcbegin(${1:200})}}}
+#+begin_src c++
+$0
+#+end_src
+{{{srcend}}}
