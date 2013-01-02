@@ -1,6 +1,6 @@
 ;; org-mode
-(setenv "PATH" (concat (getenv "PATH") ":/home/visayafan/VfInstall/texlive/2011/bin/i386-linux/"))
-(setq exec-path (append exec-path '("/home/visayafan/VfInstall/texlive/2011/bin/i386-linux/")))
+;; (setenv "PATH" (concat (getenv "PATH") ":/home/visayafan/VfInstall/texlive/2011/bin/i386-linux/"))
+;; (setq exec-path (append exec-path '("/home/visayafan/VfInstall/texlive/2011/bin/i386-linux/")))
 (setq load-path (cons "~/.emacs.d/org-7.8.11/lisp" load-path))
 (add-hook 'org-mode-hook 
           (lambda () (setq truncate-lines nil)))
@@ -287,7 +287,7 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#java\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#java\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
@@ -297,7 +297,7 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#python\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#python\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
@@ -307,7 +307,17 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#cpp\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#cpp\">主页</a></div>"
+         :auto-index t
+         :section-numbers t
+         )
+        ("lisp"
+         :base-directory "~/visayafan.github.com/Coding/Lisp"
+         :publishing-directory "~/visayafan.github.com/Coding/Lisp"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-publish-org-to-html
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#lisp\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
@@ -317,7 +327,7 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxkernel\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxkernel\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
@@ -327,7 +337,7 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxos\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxos\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
@@ -339,7 +349,7 @@ starting emacs next time."
          :publishing-function org-publish-org-to-html
          :auto-index t
          :section-numbers t
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxcoding\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxcoding\">主页</a></div>"
          )        
         ("compiler"
          :base-directory "~/visayafan.github.com/Compiler/o"
@@ -347,12 +357,12 @@ starting emacs next time."
          :base-extension "org"
          :recursive t
          :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#compiler\">主页</a><br/><a href=\"#disqus_thread\">评论</a></div>"
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#compiler\">主页</a></div>"
          :auto-index t
          :section-numbers t
          )
         ("all"
-         :components ("cpp" "java" "python" "linux" "linuxc" "kernel" "compiler")
+         :components ("cpp" "java" "python" "lisp" "linux" "linuxc" "kernel" "compiler")
          )
         ))
 (global-set-key (kbd "<f8> p") 'org-publish)

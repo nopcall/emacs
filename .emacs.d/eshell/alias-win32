@@ -1,15 +1,28 @@
-alias cdccc cd d:/study/coding/cc
-alias cdcc cd d:/study/coding/c
-alias cdch cd d:/study/coding/html-js-css
+alias cdc cd D:/study/coding
+alias cdce cd D:/study/coding/elisp
+alias cdccc cd D:/study/coding/cc
+alias cdcc cd D:/study/coding/c
+alias cdcl cd D:/study/coding/linuxc
+
+alis cds D:/study
+alias cdse cd D:/study/elisp
+
+alias cdt d:/tmp
 alias c cd c:/
 alias d cd d:/
-alias cdvc cd d:/visayafan.github.com/Coding/Cpp
-alias cdv cd d:/visayafan.github.com/
-alias cdvo cd d:/visayafan.github.com/Others/o
-alias cdvj cd d:/visayafan.github.com/Coding/Java
-alias cdvlc cd d:/visayafan.github.com/Linux/LinuxCoding
-alias cdvl cd d:/visayafan.github.com/Linux/LinuxOS
-alias cdvp cd d:/visayafan.github.com/Coding/Python
+
+alias cdvcl cd D:/visayafan.github.com/Coding/Lisp
+alias cdvcp cd D:/visayafan.github.com/Coding/Python
+alias cdvcc cd D:/visayafan.github.com/Coding/Cpp
+alias cdvcj cd D:/visayafan.github.com/Coding/Java
+
+alias cdvll cd D:/visayafan.github.com/Linux/LinuxOS
+alias cdvlc cd D:/visayafan.github.com/Linux/LinuxCoding
+
+alias cdvo cd D:/visayafan.github.com/Others/o
+alias cdv cd D:/visayafan.github.com/
+
+
 alias cde cd ~/.emacs.d
 alias cdee cd ~/.emacs.d/.emacs
 

@@ -55,6 +55,8 @@
    http://www.doughellmann.com/PyMOTW/subprocess/
 ** TODO 一个Python博客，值得学习
    http://mrwlwan.wordpress.com/
+** TODO common lisp faq
+   http://random-state.net/files/nikodemus-cl-faq.txt
 * English
 ** laugh all the way to the bank
    to make money without doing much work

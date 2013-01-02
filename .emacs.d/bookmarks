@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-remember-last-stored"
+ (filename . "~/d/todo.org")
+ (front-context-string . "** TODO 查lisp里把l")
+ (rear-context-string . "s github上博客生成代码\n")
+ (position . 710))
+)

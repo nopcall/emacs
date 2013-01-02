@@ -1,128 +1,128 @@
-./main 
-cd cb-test/
-./main 
-./main 
-cde
-cd -
-./main 
-cp ~/visayafan.github.com/Layout/CSS/lightbox-images/* ~/visayafan.github.com/Coding/Cpp/image/
-mv ~/visayafan.github.com/Coding/Cpp/image ~/visayafan.github.com/Coding/Cpp/images
-ls ~/visayafan.github.com/Coding/Cpp/images
-./main 
+./test 
+./test 
+./test 
+./test 
+cdvcl
+cdee
+cd
+ls /mnt/Src/
+ls /mnt/Src/
+clc
+ls /mnt/Src/
+ls
+cd /mnt/Src/
+ls
+ls
+cd Movie/
+ls
+cd
+cd tmp/
+ls
+ls
+clc
+ls
+ls
+clc
+rm *.BGL
+ls
+rm -rf *
+clc
+ls
+cdvcl
 cdv
+cdvcl
+cdcl
+cdce
+cdvcl
+ls
+cd
+cd -
+ls
+cdee
+cd -
+ll
+cdce
+rm test.el
+cdvcl
+cdvcl
 cdvo
-cdvcl
+ls
 cde
-cd yasnippet/snippets/org-mode/
 cd -
-cd -
-cdccc
+l
+ls
+cde
+cd gnus/news/
+ls
+cd ../archive/news-2012/
+ls
+cat 3
+cat 4
 clc
-cd /mnt/Src/
-cdccc
-cd cb-test/
-./main 
-cd
-cdvc
-cdvcc
-cdee
-cdccc
-cdee
-cd
-cdvcl
-cdee
-cd -
-cd
-cdee
-cdccc
-cd cb-test/
-./main 
-cdvcc
-cdvcl
-cd
-cd
-cdee
-cd ../wubi/
+cd news/
 ls
-ll
-cdee
-cdvcl
-cd
-cd .emacs.d/
-mkdir gnus
-cp ../.newsrc.eld gnus/
-cp ../.newsrc gnus/
-cp ~/.gnus.el gnus/
-mv ../.newsrc.eld gnus/
-mv ~/.gnus.el gnus/
-mv ../.newsrc gnus/
-cd gnus/
+cd drafts/
+l
 ls
-ll
-ll ~|grep new
-rm ~/.newsrc.eld
-rm ~/.newsrc 
+ls queue/
+rm queue/*
+cdvcl
+cdce
+cdvl
+cdvcl
+d
+alias d
+cde
+cd eshell/
 cdd
-cdee
-cd /mnt/Src/
 clc
-cdee
-tail vf-ido.el 
-ll
-cd ../gnus/
-ll
 cd
-cdvcc
-clc
-cde
-cd yasnippet/snippets/cc
-cd yasnippet/snippets/cc-mode/
+d
 ls
-cat if 
+cdee
+cd ../GDT/
+ls
+ll
+cdd
+cd
+d
+ls
+cd visayafan.github.com/
+ls
+cat template-toc.org
+exit
+cd
+d
+cdv
+cat template-toc.org
+clc
+cdce
+cdee
+cd -
+ls
+cdee
 cdvcl
-cdv
-cd Layout/CSS/
-cdv
-cdv
-cd Layout/CSS/
-cdv
-rm Layout/CSS/common.css 
-cd Others/o/
-ls image/
-mv image/中文目录.png ~/visayafan.github.com/Coding/Lisp/images/
-cdvcc
-cdv
-cd Old_Blog/
-ls
-cd others/
-ls
-ls
-cd compiler/
-ls
-cd ..
-cd
-cdv
-clc
-ls
-cd Coding/
-ls
-ls
-cp index.html ../Linux/
-ls ..
-cp index.html ../Compiler/
-cp index.html ../Others/
-cp index.html ../English/
-cp index.html ../Algorithm/
-cp index.html Cpp/
-cd Cpp/
+cdvcl
 cdee
-cd v
-cdv
-cd Coding/Java/
+d
+exit
+cdvcl
+cdce
+clc
+cdvcl
+cdee
+cdce
 ls
-cdv
-cd Coding/Cpp/
-rm index.html
+cdvcl
+cdce
+cdce
+cdee
+cdvcl
+cdccc
+./cal
 cd
-rm -rf News/
-ccl
+cd software/lyx-2.0.5/
+d
+cdvo
+cd /usr/local/share/lyx/ui/
+ls

@@ -65,28 +65,24 @@
 (require 'vf-eshell)
 ;; 包管理
 (require 'vf-package)
-;; wubi
-(require 'vf-wubi)
 ;; w3m
 ;; (require 'vf-w3m)
 ;; mail
 ;; (require 'vf-mail)
 ;; 可以在选定区域外包上指定字符串
 (require 'vf-wrap-region)
+;; clang
 ;; (require 'vf-auto-complete-clang)
 ;; daemon client
 (require 'vf-daemon)
 ;; slime
 (require 'vf-slime)
-;; golden-ratio
-;; (require 'vf-golden-ratio)
 ;; gnus
 (require 'vf-gnus)
-
-
-
-
-
+;; newsticker
+;; (require 'vf-newsticker)
+;; iedit
+(require 'vf-iedit)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -98,6 +94,7 @@
  '(c-cleanup-list (quote set-from-style))
  '(c-default-style (quote ((java-mode . "java") (awk-mode . "awk") (other . "gnu"))))
  '(c-hanging-braces-alist (quote set-from-style))
+ '(canlock-password "3bfa2919f2aba5693f4a475d605d39949dfb2269")
  '(column-number-mode t)
  '(comint-completion-addsuffix t)
  '(comint-completion-autolist t)
@@ -127,6 +124,9 @@
  '(minimap-hide-scroll-bar nil)
  '(minimap-update-delay 0.5)
  '(minimap-width-fraction 0.2)
+ '(org-blank-before-new-entry (quote ((heading) (plain-list-item))))
+ '(org-emphasis-regexp-components (quote (" 	('\"{。，？！" "- 	.,:!?;'\")}\\。，？！" " 	
+,\"'" "." 1)))
  '(org-export-default-language "zh-CN")
  '(org-export-html-divs (quote ("preamble" "content" "postamble")))
  '(org-export-html-home/up-format "<div id=\"org-div-home-and-up\">
@@ -270,8 +270,7 @@ BEG and END (region to sort)."
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button))))))
 
-;; (menu-bar-mode -1)
-;; 解决乱码
-(prefer-coding-system 'gb18030)
+;; wubi
+(require 'vf-wubi)
+(setq default-process-coding-system '(utf-8-unix . utf-8-unix))
 (prefer-coding-system 'utf-8)
-

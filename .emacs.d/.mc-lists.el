@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        ace-jump-mode
         autopair-backspace
         autopair-insert-opening
         autopair-insert-or-skip-quote
@@ -12,11 +13,15 @@
         c-electric-semi&comma
         delete-indentation
         kill-region
+        org-end-of-line
+        org-force-self-insert
         org-self-insert-command
         wdired-finish-edit
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        beginning-of-defun
         mark-sexp
         ))

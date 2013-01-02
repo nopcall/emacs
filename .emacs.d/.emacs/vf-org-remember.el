@@ -1,17 +1,15 @@
 (org-remember-insinuate)
 
-(setq org-default-notes-file  "~/.emacs.d/GDT/.notes.org")
-(define-key global-map [M-f12] 'org-remember)
+(setq org-default-notes-file  "~/d/todo.org")
+(define-key global-map [S-M-f12] 'org-remember)
+
 (setq org-remember-templates
-      '(("TODO" ?t "* TODOS %^{TO DO What(Briefly)} \n %?" "~/.emacs.d/GDT/.notes.org" "TODO")
-	("IDEA" ?i "* TODO %^{What's your IDEA (Briefly)} \n %?" "~/.emacs.d/GDT/.notes.org" "IDEA")
-	("MOVIE" ?m "* TODO %^{Enter the Movie Name}\n %?" "~/.emacs.d/GDT/.notes.org" "MOVIE")
-    ("SITES" ?s "* %^{Enter the Name of the Site}\n %?" "~/.emacs.d/GDT/.notes.org" "SITES")
-    ("BlogToPublish" ?b "* %^{Enter the Name of the Blog}\n %a %?" "~/.emacs.d/GDT/.notes.org" "BlogToPublish")
-    ("Articles to Read" ?a "* TODO %^{Enter the Name of the Article}\n %?" "~/.emacs.d/GDT/.notes.org" "Articles to Read")
-    ("Command" ?c "* %^{Enter the Name of the Command}\n %?" "~/.emacs.d/GDT/.notes.org" "Linux Command")
-    ("English" ?e "* %^{Enter the word or phrase}\n %?" "~/.emacs.d/GDT/.notes.org" "English")
-    ("DIARY" ?d "* %T\n %?" "~/.diary.org")
-	))
+      '(("todo" ?t "* TODO %^{to do what(briefly)} \n %?" "~/d/todo.org" "todo")
+        ("idea" ?i "* TODO %^{what's your idea (briefly)} \n %?" "~/d/todo.org" "idea")
+        ("to read" ?a "* TODO %^{name of the article}\n %?" "~/d/todo.org" "to read")
+        ("movie" ?m "* TODO %^{movie name}\n %?" "~/d/todo.org" "movie")
+        ("english" ?e "* %^{enter the word or phrase}\n %?" "~/d/todo.org" "english")
+        ("sites" ?s "* %^{name of the site}\n %?" "~/d/todo.org" "sites")
+        ))
 
 (provide 'vf-org-remember)

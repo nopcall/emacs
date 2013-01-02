@@ -14,7 +14,7 @@
   (set-language-environment 'Chinese-GB))
 
 (setq default-input-method "chinese-wubi")
-(global-set-key [?\M- ] 'toggle-input-method)
+(global-set-key [?\s- ] 'toggle-input-method)
 (global-set-key [?\S- ] 'toggle-input-method)
-
+(global-set-key [?\C-\\] 'set-input-method)
 (provide 'vf-wubi)

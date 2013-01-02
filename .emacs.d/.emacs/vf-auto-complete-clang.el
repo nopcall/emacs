@@ -6,7 +6,8 @@
 (require 'auto-complete-clang)
 
 ;; 自动启动
-(setq ac-auto-start t)
+;; (setq ac-auto-start t)
+(define-key ac-mode-map  [(control tab)] 'auto-complete)
 ;; 延迟
 (setq ac-quick-help-delay 0.5)  
 ;; 添加c-mode和c++-mode的hook，开启auto-complete的clang扩展

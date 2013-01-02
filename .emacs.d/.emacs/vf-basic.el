@@ -377,5 +377,42 @@ extendedchars=false %这一条命令可以解决代码跨页时，章节标题�
 ;; 加载vc-git需要时间较长，故禁止
 (eval-after-load "vc" '(remove-hook 'find-file-hooks 'vc-find-file-hook))
 
-(provide 'vf-basic)
+(defun uniq-lines (beg end)
+  "Unique lines in region.
+Called from a program, there are two arguments:
+BEG and END (region to sort)."
+  (interactive "r")
+  (save-excursion
+    (save-restriction
+      (narrow-to-region beg end)
+      (goto-char (point-min))
+      (while (not (eobp))
+        (kill-line 1)
+        (yank)
+        (let ((next-line (point)))
+          (while
+              (re-search-forward
+               (format "^%s" (regexp-quote (car kill-ring))) nil t)
+            (replace-match "" nil nil))
+          (goto-char next-line))))))
 
+;; open file fast
+(global-unset-key [f1])
+(global-set-key [f1] 'open-file-fast)
+(defun open-file-fast ()
+  (interactive)
+  (let ((file-list '(
+                    "~/.emacs"
+                    "~/visayafan.github.com/index.html"
+                    "~/visayafan.github.com/Coding/Lisp/Emacs.org"
+                    "~/visayafan.github.com/Coding/Lisp/EmacsGnus.org"
+                    ))
+        (prompt-string)
+        number)
+    (dotimes (i (length file-list))
+      (setq prompt-string (concat prompt-string "[" (number-to-string i) "]" (elt file-list i) "\n")))
+    (setq prompt-string (concat prompt-string "Enter a number:"))
+    (setq number (read-number prompt-string))
+                                                    
+    (find-file (elt file-list number))))            
+(provide 'vf-basic)

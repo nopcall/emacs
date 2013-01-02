@@ -1,0 +1,95 @@
+From: visayafan <visayafan@gmail.com>
+Newsgroups: gmane.lisp.china
+Subject: Re: [Lisp-cn] =?utf-8?B?Z2Vuc3lt55Sf5oiQ55qE5Y+Y6YeP5LiN6IO957uR?=
+ =?utf-8?B?5a6abGVuZ3Ro55qE6L+U5Zue5YC877yf?=
+References: <87sj6mjmwh.fsf@gmail.com>
+	<CAJ+N7G=am9cCDbtV6X6JxrALkUhUoKLmBx6gJUWp3iU0aNkpRw@mail.gmail.com>
+	<CAE1rE+GF2rvu-fQVwHJ+K_4hhrgJMhyjCN9nv95+5MDStyofRA@mail.gmail.com>
+	<CAE1rE+ErFUCj9fiAWToLF6pUOnazDUAtz3f73PM7Rg81-4-OJQ@mail.gmail.com>
+X-Draft-From: ("nntp+news.gmane.org:gmane.lisp.china" 2124)
+Date: Tue, 01 Jan 2013 09:52:47 +0800
+Message-ID: <87ehi5vfdc.fsf@gmail.com>
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/24.2 (gnu/linux)
+Cancel-Lock: sha1:jDEUjio880cEUWXlMj7JE6xxkvE=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Lines: 76
+Xref: visayafan-Compaq-510 news-2013:2
+
+=E7=9C=8Bon lisp=E9=87=8C11.4=E7=AB=A0 do-tuples/c=E6=97=B6=E8=A7=89=E5=BE=
+=97=E4=B9=A6=E4=B8=8A=E7=9A=84=E5=BE=88=E9=BA=BB=E7=83=A6=E5=B0=B1=E6=83=B3=
+=E4=BB=BF=E7=85=A7do-tuple/o=E5=86=99=E4=B8=80=E4=B8=AA=EF=BC=8C
+=E4=B8=8B=E9=9D=A2=E6=98=AF=E5=8F=AF=E4=BB=A5=E6=AD=A3=E7=A1=AE=E8=BF=90=E8=
+=A1=8C=E7=9A=84=EF=BC=8C=E6=AF=94=E5=A6=82=EF=BC=9A
+--------------------------------------
+CL-USER> (do-tuples/c (x y z) '(a b c d e)
+           (princ (list x y z)))
+(A B C)(B C D)(C D E)(D E A)(E A B)
+--------------------------------------
+(defmacro with-gensyms (syms &body body)
+  "(with-gensyms (a b) (xxx))
+   =3D=3D> (let ((a (gensym)) (b (gensym))) (xxx))"
+  `(let ,(mapcar #'(lambda (x) `(,x (gensym)))
+                 syms)
+     ,@body))
+
+(defun map0-n (fn n)
+  (mapa-b fn 0 n))
+
+(defun mapa-b (fn a b &optional (step 1))
+  (do ((i a (+ step i))
+       (result nil))
+      ((> i b) (nreverse result))
+    (push (funcall fn i) result)))
+
+(defmacro do-tuples/c (parms source &body body)
+  (when parms
+    (with-gensyms (tmp src len-src)
+      (let ((len-parm (length parms)))  ;;;;;;;;;here
+        `(let* ((,src ,source)
+                (,len-src (length ,src)))
+           (when (>=3D ,len-src ,len-parm)
+             (let ((,tmp (append ,src (butlast ,src (- ,len-src (- ,len-par=
+m 1))))))
+               (mapcar #'(lambda ,parms ,@body)
+                       ,@(map0-n #'(lambda (n) `(nthcdr ,n ,tmp)) (- len-pa=
+rm 1))))))))))=20
+--------------------------------------
+=E4=BD=86=E6=98=AF=E5=A6=82=E6=9E=9C=E6=88=91=E6=8A=8Ado-tuple/c=E9=87=8Cle=
+n-parm=E6=94=BE=E5=9C=A8`=E9=87=8C=E5=88=99=E5=87=BA=E9=94=99=EF=BC=9A
+--------------------------------------
+(defmacro do-tuples/c (parms source &body body)
+  (when parms
+    (with-gensyms (tmp src len-src len-parm)
+      `(let* ((,src ,source)
+              (,len-src (length ,src))
+              (,len-parm ,(length parms))) ;;;;;;;;;here
+         (when (>=3D ,len-src ,len-parm)
+           (let ((,tmp (append ,src (butlast ,src (- ,len-src (- ,len-parm =
+1))))))
+             (mapcar #'(lambda ,parms ,@body)
+                     ,@(map0-n #'(lambda (n) `(nthcdr ,n ,tmp)) (- len-parm=
+ 1)))))))))
+--------------------------------------
+The value #:G1026 is not of type NUMBER. =E8=AF=B4len-parm=E4=B8=8D=E6=98=
+=AFNUMBER=E7=B1=BB=E5=9E=8B=EF=BC=9F
+=E5=8F=AF=E5=9C=A8=E5=89=8D=E9=9D=A2test=E9=87=8C=E5=8F=AF=E4=BB=A5=E7=9C=
+=8B=E5=88=B0tmp=E6=98=AFNUMBER=E7=B1=BB=E5=9E=8B=E7=9A=84=EF=BC=9A
+(defmacro test (arg)
+  (let ((tmp (gensym)))
+    `(let ((,tmp ,(length arg)))
+       (if (eq ,tmp 2)
+           (princ "2")
+           (princ "not 2")))))
+--------------------------------------
+=E4=B8=8D=E6=98=8E=E7=99=BD=E6=98=AF=E4=BB=80=E4=B9=88=E5=8E=9F=E5=9B=A0=E3=
+=80=82=E3=80=82=E3=80=82=20=20=20=20=20=20=20=20=20=20=20
+
+
+> =E5=8F=A6=EF=BC=8C=E6=88=91=E4=B8=8D=E7=90=86=E8=A7=A3=E4=BD=A0=E7=9A=84=
+=E7=A8=8B=E5=BA=8F=E7=9A=84=E6=84=8F=E5=9B=BE=EF=BC=8C=E4=B9=9F=E8=AE=B8=E4=
+=BD=A0=E4=BC=9A=E6=83=B3=E5=8A=A0=E4=B8=80=E4=B8=AA&rest=E3=80=82
+
+visayafan
+--
