@@ -11,6 +11,7 @@
         c-electric-colon
         c-electric-paren
         c-electric-semi&comma
+        c-electric-star
         delete-indentation
         kill-region
         org-end-of-line

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: diary
+# --
+#+OPTIONS: ^:{} _:{} num:t
+#+INCLUDE "../../../Layout/CSS/diary.org"
+#+title:
+$0

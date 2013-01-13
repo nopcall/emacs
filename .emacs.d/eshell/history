@@ -1,65 +1,3 @@
-./test 
-./test 
-./test 
-./test 
-cdvcl
-cdee
-cd
-ls /mnt/Src/
-ls /mnt/Src/
-clc
-ls /mnt/Src/
-ls
-cd /mnt/Src/
-ls
-ls
-cd Movie/
-ls
-cd
-cd tmp/
-ls
-ls
-clc
-ls
-ls
-clc
-rm *.BGL
-ls
-rm -rf *
-clc
-ls
-cdvcl
-cdv
-cdvcl
-cdcl
-cdce
-cdvcl
-ls
-cd
-cd -
-ls
-cdee
-cd -
-ll
-cdce
-rm test.el
-cdvcl
-cdvcl
-cdvo
-ls
-cde
-cd -
-l
-ls
-cde
-cd gnus/news/
-ls
-cd ../archive/news-2012/
-ls
-cat 3
-cat 4
-clc
-cd news/
 ls
 cd drafts/
 l
@@ -126,3 +64,65 @@ d
 cdvo
 cd /usr/local/share/lyx/ui/
 ls
+cdee
+cdvcl
+ls
+cd
+cdvl
+cdvll
+ls
+ll
+cdee
+cd ../eshell/
+cdvo
+cdvcl
+ls images/
+cp ../../Others/o/image/emacs-dired.png images/
+mv ../../Others/o/image/emacs-dired.png images/
+cd
+ll
+clc
+cd .lyx/
+ll
+ll bind/
+cd /usr/local/share/lyx/bind/
+ls
+cdc
+ls
+cd html-js-css/
+ls
+mv test.html ~/tmp/
+cdt
+cdvt
+cdvo
+cd ..
+ls
+mkdir diary
+cd diary/
+mv ~/tmp/test.html ./index.html
+cp ~/tmp/多重返回值的实现\ -\ Liutos的博客_files/hideshow.js  ../../Layout/JS/
+cdv
+cdvo
+clc
+cd ../diary/
+ls
+mkdir 201301
+cde
+cd yasnippet/snippets/org-mode/
+cdv
+cd Layout/CSS/
+cdccc
+./html
+./vsort
+cd
+cdccc
+cdccc
+cd sort/
+ls
+ls send/
+cd send/
+mv ../../html .
+./html
+cdvl
+cdvcl
+cdvo
