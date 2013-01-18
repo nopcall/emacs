@@ -401,18 +401,19 @@ BEG and END (region to sort)."
 (global-set-key [f1] 'open-file-fast)
 (defun open-file-fast ()
   (interactive)
-  (let ((file-list '(
-                    "~/.emacs"
-                    "~/visayafan.github.com/index.html"
-                    "~/visayafan.github.com/Coding/Lisp/Emacs.org"
-                    "~/visayafan.github.com/Coding/Lisp/EmacsGnus.org"
-                    ))
+  (setq gtd-subdir (format-time-string "%Y%m"))
+  (let ((file-list (list
+                     (concat "~/visayafan.github.com/Others/diary/" gtd-subdir "/gtd.org")
+                     "~/.emacs"
+                     "~/visayafan.github.com/index.html"
+                     "~/visayafan.github.com/Coding/Lisp/Emacs.org"
+                     "~/visayafan.github.com/Coding/Lisp/EmacsGnus.org"
+                     ))
         (prompt-string)
         number)
     (dotimes (i (length file-list))
       (setq prompt-string (concat prompt-string "[" (number-to-string i) "]" (elt file-list i) "\n")))
     (setq prompt-string (concat prompt-string "Enter a number:"))
     (setq number (read-number prompt-string))
-                                                    
-    (find-file (elt file-list number))))            
+    (find-file (elt file-list number))))
 (provide 'vf-basic)

@@ -1,128 +1,128 @@
+cd
+cd passwd/
 ls
-cd drafts/
-l
+cd
+cd Dropbox/
 ls
-ls queue/
-rm queue/*
-cdvcl
-cdce
-cdvl
-cdvcl
-d
-alias d
-cde
-cd eshell/
-cdd
+cd passwd/
+ls
+rm google.passwd.gpg 
+cdvo
 clc
-cd
-d
 ls
-cdee
-cd ../GDT/
-ls
-ll
-cdd
-cd
-d
-ls
-cd visayafan.github.com/
-ls
-cat template-toc.org
-exit
-cd
-d
+rm chomsky.pdf test.org test.html 
+clc
 cdv
-cat template-toc.org
-clc
-cdce
-cdee
-cd -
+cd Layout/
 ls
-cdee
-cdvcl
-cdvcl
-cdee
-d
-exit
-cdvcl
-cdce
-clc
-cdvcl
-cdee
-cdce
-ls
-cdvcl
-cdce
-cdce
-cdee
-cdvcl
-cdccc
-./cal
-cd
-cd software/lyx-2.0.5/
-d
-cdvo
-cd /usr/local/share/lyx/ui/
-ls
-cdee
-cdvcl
-ls
-cd
-cdvl
-cdvll
-ls
-ll
-cdee
-cd ../eshell/
-cdvo
-cdvcl
-ls images/
-cp ../../Others/o/image/emacs-dired.png images/
-mv ../../Others/o/image/emacs-dired.png images/
-cd
-ll
-clc
-cd .lyx/
-ll
-ll bind/
-cd /usr/local/share/lyx/bind/
+cd pdfjs/
 ls
 cdc
-ls
 cd html-js-css/
 ls
-mv test.html ~/tmp/
-cdt
-cdvt
-cdvo
-cd ..
-ls
-mkdir diary
-cd diary/
-mv ~/tmp/test.html ./index.html
-cp ~/tmp/多重返回值的实现\ -\ Liutos的博客_files/hideshow.js  ../../Layout/JS/
+cds
+cd
 cdv
+cd Layout/pdfjs/
+cd ..
+rm -rf pdfjs
+cdv
+cp ~/tmp/chomsky.pdf Compiler/o/
 cdvo
-clc
 cd ../diary/
 ls
-mkdir 201301
+cd 201301/
+ls
+cdee
+d
+cdee
+mv org-latex.el vf-org-latex.el
+mv org-gtd.el vf-org-gtd.el
+cdvcl
+cdee
+clc
+cdvd
+cdvo
+cd ../diary/
+ls
+cdcc
+cdccc
+clc
+ls
+d
+cd study/
+ls
+cd math/
+ls
+mv ~/study/coding/cc/数据结构* .
+ll ~/study/coding/cc/数据结构*
+cd -
+cdccc
+ls
+nautilus .
+lc
+clc
+cd cb-test/
+./main
+./main
+./main
+cdvcc
+ls
+ll
+clc
+cdt
+cdv
+ls
+clc
+cdv
+cdvo
+ls
+cdvd
+rm 201301/gtd.html
+cdt
+cd
+cde
+cd others/
+cdccc
+cd cb-test/
+ls
+./main
+./main
+cdvcc
+cd -
+./main
+./main
+./main
+./main
+./main
+./main
+./main
+cdccc
+cdvcl
+cdvcc
+cdccc
+ll
+cd cb-test/
+ll
+eog Top.png
 cde
 cd yasnippet/snippets/org-mode/
-cdv
-cd Layout/CSS/
+cd -
 cdccc
-./html
-./vsort
-cd
-cdccc
-cdccc
-cd sort/
+cp cb-test/Top.png ~/visayafan.github.com/Coding/Cpp/images/
+cdvcc
+cd images/
 ls
-ls send/
-cd send/
-mv ../../html .
-./html
-cdvl
-cdvcl
-cdvo
+cdccc
+cd cb-test/
+./main
+clc
+cdvcc
+cd -
+./main
+./main
+./main
+./main
+./main
+./main
+./main

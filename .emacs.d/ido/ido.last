@@ -2,62 +2,48 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/visayafan/visayafan.github.com/Others/diary/" . "201301/")
- ("/home/visayafan/" . "tmp/")
- ("/home/visayafan/tmp/" . "多重返回值的实现 - Liutos的博客_files/")
+ ("/home/visayafan/visayafan.github.com/Coding/" . "Lisp/")
+ ("/home/visayafan/study/coding/cc/" . "cb-test/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/usr/include/c++/4.5/"
+ "/home/visayafan/visayafan.github.com/Coding/Cpp/"
+ "/home/visayafan/visayafan.github.com/Coding/Lisp/"
+ "/mnt/Src/Dropbox/software/emacs/.emacs.d/yasnippet/snippets/org-mode/"
  "/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/"
- "/home/visayafan/visayafan.github.com/Layout/CSS/"
  "/home/visayafan/visayafan.github.com/"
- "/home/visayafan/visayafan.github.com/Others/diary/201301/"
- "/home/visayafan/tmp/多重返回值的实现 - Liutos的博客_files/"
- "/home/visayafan/visayafan.github.com/Others/diary/"
- "/home/visayafan/tmp/"
- "/home/visayafan/study/coding/html-js-css/"
+ "/home/visayafan/study/coding/cc/cb-test/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "template"
- "diary.org"
- "diary"
- "template.org"
- "4.org"
- "4.html"
- "post.css"
- "index.html"
- "hideshow.js"
- "test.html"
+ "typeinfo"
+ "Class.org"
+ "EmacsOrg.org"
+ "Emacs.org"
+ "left"
+ "lightbox"
+ "extension.org"
+ "main.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/" (20710 25811) "toc" "textarea" "template" "srccollapse" "right" "options" "modal" "middle" "macro" "longsrc" "lispl" "lisp" "lightbox" "left" "infojs" "img" "html" "div-span" "disqus" "diary" "collapse" "center" "ccl" "cc" "bootstrap" "2collapse" ".#diary" "#disqus#" "../" "./")
+ ("/home/visayafan/study/coding/cc/cb-test/" (20728 6694) "Top.png" "Top.dot" "test.layout" "test.depend" "test.cbp" "obj/" "main.cpp" "main" "bin/" "A.png" "A.dot" ".#main.cpp" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Layout/" (20671 10647) "pdfjs/" "JS/" "CSS/" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20728 2119) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Layout/CSS/" (20684 33066) "weibo/" "vf.css" "too_many_toc.css" "style.css" "lightbox-images/" "jquery.lightbox-0.5.css" "index_template.css" "Grails_Bootstrap.css" "bootstrap_old.css" "bootstrap.min.css" "../" "./")
+ ("/usr/include/c++/4.5/" (19893 64524) "ios" "istream" "tuple" "initializer_list" "climits" "cfenv" "cinttypes" "set" "cxxabi-forced.h" "complex.h" "thread" "cerrno" "string" "future" "cxxabi.h" "cctype" "fstream" "./" "sstream" "tr1/" "cstdio" "functional" "atomic" "exception" "tr1_impl/" "complex" "stdatomic.h" "cstddef" "profile/" "utility" "stdexcept" "locale" "new" "deque" "cstring" "iomanip" "cassert" "bitset" "iosfwd" "csetjmp" "mutex" "condition_variable" "iterator" "tgmath.h" "unordered_map" "ciso646" "algorithm" "../" "ctime" "system_error" "cstdint" "exception_ptr.h" "i686-linux-gnu/" "bits/" "forward_list" "vector" "queue" "memory" "decimal/" "csignal" "clocale" "ratio" "cwchar" "array" "iostream" "limits" "cmath" "valarray" "cwctype" "stack" "random" "list" "exception_defines.h" "debug/" "cstdlib" "fenv.h" "backward/" "parallel/" "regex" "chrono" "unordered_set" "nested_exception.h" "i486-linux-gnu/" "typeinfo" "streambuf" "ostream" "map" "numeric" "cstdbool" "cstdarg" "ext/" "type_traits" "cfloat" "ccomplex" "ctgmath")
 
- ("/home/visayafan/study/coding/html-js-css/" (20710 22452) ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+ ("/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/" (20710 25955) "toc" "textarea" "template" "srccollapse" "right" "options" "modal" "middle" "macro" "longsrc" "lispl" "lisp" "lightbox" "left" "infojs" "img" "html" "div-span" "disqus" "diary" "collapse" "center" "ccl" "cc" "bootstrap" "2collapse" "#disqus#" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/diary/" (20710 24360) "index.html" "201301/" "../" "./")
+ ("/home/visayafan/visayafan.github.com/" (20724 11816) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/diary/201301/" (20710 24337) "../" "./")
+ ("/home/visayafan/visayafan.github.com/Coding/" (20681 45210) "Python/" "Lisp/" "Java/" "index.html" "Cpp/" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/o/" (20708 38376) "名言警句.org" "名言警句.html" "revolvermaps.org" "revolvermaps.html" "lyx.org" "lyx.html" "image/" "git.org" "git.html" "CC-Mode.org" "CC-Mode.html" "BlogCollection.org" "BlogCollection.html" "#git.html#" "../" "./")
-
- ("/home/visayafan/tmp/多重返回值的实现 - Liutos的博客_files/" (20710 22837) "upload.html" "beacon.js" "hideshow.js" "reply.html" "theme.js" "./" "embed.js" "theme.css" "avatar32(2).jpg" "event.js" "3957747.js" "thread.js" "avatar32(1).jpg" "defaults.css" "../" "zh.js" "thread(1).js" "avatar32.jpg" "post.css" "disqus.js" "noavatar32.png" "def.html" "lib.js")
-
- ("/home/visayafan/tmp/" (20710 23433) "./" ".emacs.desktop" "../" "多重返回值的实现 - Liutos的博客.html" "多重返回值的实现 - Liutos的博客_files/")
-
- ("/home/visayafan/" (20710 21944) ".xsession-errors.old" ".xinput.d/" ".selected_editor" "d/" ".emacs" ".gvfs/" ".kde/" "Yunio/" ".org-timestamps/" ".dropbox/" "tmp/" ".gconf/" "./" ".slocdata/" "study/" "kaoyan.org" ".texlive2012/" "Ubuntu One/" ".bash_history" ".fonts/" ".local/" ".bash_logout" "vfinstall/" ".ICEauthority" ".smex-items" ".gksu.lock" "movie/" "Downloads/" "quicklisp/" ".pulse-cookie" ".profile" ".w3m/" ".mozilla/" ".komodoide/" "Dropbox/" ".emacs~" ".fontconfig/" ".dia/" ".backups_emacs/" ".config/" ".gnome2/" ".thunderbird/" ".openyoudao/" "Desktop/" ".semanticdb/" ".gitconfig" ".codeblocks/" ".ssh/" "../" ".gstreamer-0.10/" ".sudo_as_admin_successful" ".xsession-errors" ".sdcv_history" ".icons/" ".themes/" ".rnd" ".slime-history.eld" ".mplayer/" ".macromedia/" ".subversion/" ".lyx/" ".lesshst" ".bashrc~" ".compiz/" ".session" "software/" ".goldendict/" ".aliedit/" ".nautilus/" "Mail/" "proxy.sh" ".libreoffice/" ".cache/" "passwd/" ".dmrc" ".pulse/" ".gconfd/" ".dbus/" ".gtk-bookmarks" ".bashrc" ".stardict/" "visayafan.github.com/" ".sbclrc" ".ActiveState/" ".thumbnails/" ".emacs.d/" ".gnupg/" ".ibus/" "quicklisp.lisp" ".slime/" ".ecb-tip-of-day.el" ".gnome2_private/" ".pki/" ".adobe/" ".esd_auth" "noteAll/" ".dropbox-dist/")
-
- ("/home/visayafan/visayafan.github.com/" (20708 26536) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Others/" (20710 23410) "o/" "index.html" "diary/" "../" "./")
+ ("/home/visayafan/study/coding/cc/" (20724 542) "sort/" "datastructure/" "cb-test/" ".fuse_hidden000004d200000001" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

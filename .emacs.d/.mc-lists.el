@@ -8,15 +8,21 @@
         autopair-insert-opening
         autopair-insert-or-skip-quote
         autopair-skip-close-maybe
+        c-electric-brace
         c-electric-colon
+        c-electric-lt-gt
         c-electric-paren
         c-electric-semi&comma
         c-electric-star
+        c-indent-line-or-region
         delete-indentation
         kill-region
+        org-beginning-of-line
+        org-cycle
         org-end-of-line
         org-force-self-insert
         org-self-insert-command
+        tab-to-tab-stop
         wdired-finish-edit
         yas-expand
         ))

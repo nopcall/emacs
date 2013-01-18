@@ -12,7 +12,7 @@
 ;; Path: ~/.emacs.d/.emacs
 (require 'vf-basic)
 (require 'vf-autocomplete)
-;; (require 'vf-cedet)
+(require 'vf-cedet)
 ;; (require 'vf-color-theme)
 (require 'vf-cpp)
 ;; (require 'vf-doxymacs)
@@ -58,13 +58,13 @@
 ;; (exec-path-from-shell-initialize)
 
 ;; 调用外部命令打开emacs不能打开的文件
-(require 'vf-openwith)
+;; (require 'vf-openwith)
 ;; 加密
 (require 'vf-jiami)
 ;; eshell
 (require 'vf-eshell)
 ;; 包管理
-(require 'vf-package)
+;; (require 'vf-package)
 ;; w3m
 ;; (require 'vf-w3m)
 ;; mail
@@ -82,7 +82,9 @@
 ;; newsticker
 ;; (require 'vf-newsticker)
 ;; iedit
-(require 'vf-iedit)
+;; (require 'vf-iedit)
+;; graphviz
+;; (require 'graphviz-dot-mode)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

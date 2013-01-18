@@ -30,7 +30,6 @@ that was stored with ska-point-to-register."
   "Insert date at point."
   (interactive)
   (insert (format-time-string "%Y年%m月%e日%k:%M")))
-
 ;; 插入当前时间
 (global-set-key "\C-cit" 'insert-current-time)
 (defun insert-current-time () 

@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-remember-last-stored"
  (filename . "~/d/todo.org")
- (front-context-string . "** TODO 查lisp里把l")
- (rear-context-string . "s github上博客生成代码\n")
- (position . 710))
+ (front-context-string . "** TODO graphviz")
+ (rear-context-string . "sp里把list随机打乱的函数\n")
+ (position . 737))
 )
