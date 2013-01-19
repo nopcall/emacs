@@ -1,41 +1,3 @@
-cd
-cd passwd/
-ls
-cd
-cd Dropbox/
-ls
-cd passwd/
-ls
-rm google.passwd.gpg 
-cdvo
-clc
-ls
-rm chomsky.pdf test.org test.html 
-clc
-cdv
-cd Layout/
-ls
-cd pdfjs/
-ls
-cdc
-cd html-js-css/
-ls
-cds
-cd
-cdv
-cd Layout/pdfjs/
-cd ..
-rm -rf pdfjs
-cdv
-cp ~/tmp/chomsky.pdf Compiler/o/
-cdvo
-cd ../diary/
-ls
-cd 201301/
-ls
-cdee
-d
-cdee
 mv org-latex.el vf-org-latex.el
 mv org-gtd.el vf-org-gtd.el
 cdvcl
@@ -126,3 +88,41 @@ cd -
 ./main
 ./main
 ./main
+cdv
+cdvcc
+cdc
+clc
+ls
+mkdir graphviz
+cd graphviz/
+cdvo
+cd -
+eog test.png
+eog test.png
+cp test.png ~/visayafan.github.com/Others/o/image/
+cdvo
+mv image/ images
+ls images/
+cd images/
+eog Screenshot.png 
+rm Screenshot.png 
+eog rebase.png 
+ls ~/visayafan.github.com/Layout/CSS/lightbox-images/
+cp ~/visayafan.github.com/Layout/CSS/lightbox-images/ .
+cp ~/visayafan.github.com/Layout/CSS/lightbox-images/* .
+ls
+cp ~/study/coding/graphviz/test.png hash.png
+cp ~/study/coding/graphviz/test.png binary.png
+cp ~/study/coding/graphviz/test.png peripheries.png
+cp ~/study/coding/graphviz/test.png mix.png
+cp ~/study/coding/graphviz/test.png finite.png
+cp ~/study/coding/graphviz/test.png lr.png
+eog lr
+eog lr.png 
+cd -
+cdc
+cd graphviz/
+eog test.png
+eog test.png
+clc
+cdt
