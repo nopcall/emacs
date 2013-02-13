@@ -1,34 +1,3 @@
-cdcc
-cdccc
-clc
-ls
-d
-cd study/
-ls
-cd math/
-ls
-mv ~/study/coding/cc/数据结构* .
-ll ~/study/coding/cc/数据结构*
-cd -
-cdccc
-ls
-nautilus .
-lc
-clc
-cd cb-test/
-./main
-./main
-./main
-cdvcc
-ls
-ll
-clc
-cdt
-cdv
-ls
-clc
-cdv
-cdvo
 ls
 cdvd
 rm 201301/gtd.html
@@ -126,3 +95,34 @@ cdv
 cd English/Advice_For_CS_College_Students/
 cd d/Dropbox/software/emacs/
 cdv
+d
+cd Dropbox/software/emacs/
+ls
+ll
+d
+cd emacs-24.2/
+cd
+clc
+clc
+d
+cd Dropbox/software/emacs/
+ls
+ll
+ll
+mv .emacs_windows.el .emacs.d/
+mv .emacs_linux.el .emacs.d/
+ls
+cdd
+cd
+cde
+cd yasnippet/snippets/org-mode/
+cat disqus 
+cd
+d
+clc
+cd emacs-24.2/
+ls
+cat .emacs
+cp ~/.emacs .
+cat .emacs
+clc

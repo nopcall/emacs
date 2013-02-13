@@ -2,27 +2,39 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/visayafan/visayafan.github.com/Layout/" . "CSS/")
- ("/home/visayafan/visayafan.github.com/" . "Layout/")
+ ("/home/visayafan/d/Dropbox/software/emacs/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/visayafan/visayafan.github.com/Layout/CSS/"
+ "/home/visayafan/"
+ "/home/visayafan/d/Dropbox/software/emacs/.emacs.d/"
+ "/home/visayafan/d/Dropbox/software/emacs/"
+ "/home/visayafan/d/emacs-24.2/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "index_template.css"
+ ".emacs"
+ ".bashrc"
+ ".emacs_linux.el"
+ ".em"
+ ".emacs_windows.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/visayafan.github.com/Layout/CSS/" (20710 28098) "weibo/" "vf.css" "too_many_toc.css" "style.css" "lightbox-images/" "jquery.lightbox-0.5.css" "index_template.css" "Grails_Bootstrap.css" "diary.org" "bootstrap_old.css" "bootstrap.min.css" "../" "./")
+ ("/home/visayafan/" (20763 23266) ".xsession-errors.old" ".xinput.d/" ".selected_editor" ".srecode/" "d/" ".emacs" ".gvfs/" ".kde/" "Yunio/" ".org-timestamps/" ".dropbox/" "tmp/" ".gconf/" "./" ".slocdata/" "study/" "kaoyan.org" ".texlive2012/" "Ubuntu One/" ".bash_history" ".fonts/" ".local/" ".bash_logout" "vfinstall/" ".ICEauthority" ".smex-items" ".gksu.lock" "movie/" "Downloads/" "quicklisp/" ".pulse-cookie" ".profile" ".w3m/" ".mozilla/" ".komodoide/" "Dropbox/" ".emacs~" ".fontconfig/" ".dia/" ".backups_emacs/" ".config/" ".gnome2/" ".thunderbird/" ".openyoudao/" "Desktop/" ".semanticdb/" ".gitconfig" ".codeblocks/" ".ssh/" "C:\\nppdf32Log\\debuglog.txt" "../" ".gstreamer-0.10/" ".sudo_as_admin_successful" ".xsession-errors" ".sdcv_history" ".icons/" ".themes/" ".rnd" ".slime-history.eld" ".mplayer/" ".macromedia/" ".subversion/" ".lyx/" ".lesshst" ".bashrc~" ".compiz/" ".session" "software/" ".goldendict/" ".aliedit/" ".nautilus/" "Mail/" "proxy.sh" ".libreoffice/" ".cache/" "passwd/" ".dmrc" ".pulse/" ".gconfd/" ".dbus/" ".gtk-bookmarks" ".bashrc" ".stardict/" "visayafan.github.com/" ".sbclrc" ".ActiveState/" ".thumbnails/" ".emacs.d/" ".gnupg/" ".ibus/" "quicklisp.lisp" ".slime/" ".ecb-tip-of-day.el" ".gnome2_private/" ".pki/" ".adobe/" ".esd_auth" "noteAll/" ".dropbox-dist/")
 
- ("/home/visayafan/visayafan.github.com/Layout/" (20722 57691) "JS/" "CSS/" "../" "./")
+ ("/home/visayafan/d/" (20755 31437) "我的文档/" "visayafan.github.com/" "VFInstall/" "todo.org" "todo.html" "tmp/" "TDDOWNLOAD/" "System Volume Information/" "study/" "software/" "RECYCLER/" "Picture/" "MyDrivers/" "MyDocuments/" "music/" "Movie/" "kankan/" "goagent/" "FavoriteVideo/" "emacs-24.2/" "DTLDownLoads/" "Dropbox/" "Config.Msi/" "BaiduYun/" "baidu player/" ".Trash-1000/" "$RECYCLE.BIN/" "Program Files/" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/" (20729 23205) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
+ ("/home/visayafan/d/Dropbox/" (20755 30307) "visayafan.github.com/" "source_code/" "software/" "Public/" "passwd/" "goagent/" "desktop.ini" "config_bk/" ".dropbox.cache/" "../" "./")
+
+ ("/home/visayafan/d/Dropbox/software/" (20671 51779) "emacs/" "../" "./")
+
+ ("/home/visayafan/d/Dropbox/software/emacs/" (20763 23045) "README.org" "ignore" ".gitmodules" ".gitignore" ".git/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("/home/visayafan/d/emacs-24.2/" (20755 33160) "visayafan.github.com/" "site-lisp/" "README.W32" "README" "News/" "Mail/" "lisp/" "leim/" "info/" "cscope-15.7/" "COPYING" "BUGS" "bin/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".session" ".semanticdb/" ".newsrc.eld" ".newsrc" ".gitconfig" ".gdbinit" ".eshell/" ".emacs.d/" ".emacs" ".backups_emacs/" "etc/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
