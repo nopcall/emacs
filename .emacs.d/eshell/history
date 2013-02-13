@@ -1,12 +1,3 @@
-mv org-latex.el vf-org-latex.el
-mv org-gtd.el vf-org-gtd.el
-cdvcl
-cdee
-clc
-cdvd
-cdvo
-cd ../diary/
-ls
 cdcc
 cdccc
 clc
@@ -126,3 +117,12 @@ eog test.png
 eog test.png
 clc
 cdt
+d
+cd Dropbox/software/emacs/
+ls
+cd
+cdvcc
+cdv
+cd English/Advice_For_CS_College_Students/
+cd d/Dropbox/software/emacs/
+cdv

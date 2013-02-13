@@ -2,48 +2,27 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/visayafan/visayafan.github.com/Coding/" . "Lisp/")
- ("/home/visayafan/study/coding/cc/" . "cb-test/")
+ ("/home/visayafan/visayafan.github.com/Layout/" . "CSS/")
+ ("/home/visayafan/visayafan.github.com/" . "Layout/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/usr/include/c++/4.5/"
- "/home/visayafan/visayafan.github.com/Coding/Cpp/"
- "/home/visayafan/visayafan.github.com/Coding/Lisp/"
- "/mnt/Src/Dropbox/software/emacs/.emacs.d/yasnippet/snippets/org-mode/"
- "/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/"
- "/home/visayafan/visayafan.github.com/"
- "/home/visayafan/study/coding/cc/cb-test/"
+ "/home/visayafan/visayafan.github.com/Layout/CSS/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "typeinfo"
- "Class.org"
- "EmacsOrg.org"
- "Emacs.org"
- "left"
- "lightbox"
- "extension.org"
- "main.cpp"
+ "index_template.css"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/study/coding/cc/cb-test/" (20728 6694) "Top.png" "Top.dot" "test.layout" "test.depend" "test.cbp" "obj/" "main.cpp" "main" "bin/" "A.png" "A.dot" ".#main.cpp" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Layout/CSS/" (20710 28098) "weibo/" "vf.css" "too_many_toc.css" "style.css" "lightbox-images/" "jquery.lightbox-0.5.css" "index_template.css" "Grails_Bootstrap.css" "diary.org" "bootstrap_old.css" "bootstrap.min.css" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20728 2119) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Layout/" (20722 57691) "JS/" "CSS/" "../" "./")
 
- ("/usr/include/c++/4.5/" (19893 64524) "ios" "istream" "tuple" "initializer_list" "climits" "cfenv" "cinttypes" "set" "cxxabi-forced.h" "complex.h" "thread" "cerrno" "string" "future" "cxxabi.h" "cctype" "fstream" "./" "sstream" "tr1/" "cstdio" "functional" "atomic" "exception" "tr1_impl/" "complex" "stdatomic.h" "cstddef" "profile/" "utility" "stdexcept" "locale" "new" "deque" "cstring" "iomanip" "cassert" "bitset" "iosfwd" "csetjmp" "mutex" "condition_variable" "iterator" "tgmath.h" "unordered_map" "ciso646" "algorithm" "../" "ctime" "system_error" "cstdint" "exception_ptr.h" "i686-linux-gnu/" "bits/" "forward_list" "vector" "queue" "memory" "decimal/" "csignal" "clocale" "ratio" "cwchar" "array" "iostream" "limits" "cmath" "valarray" "cwctype" "stack" "random" "list" "exception_defines.h" "debug/" "cstdlib" "fenv.h" "backward/" "parallel/" "regex" "chrono" "unordered_set" "nested_exception.h" "i486-linux-gnu/" "typeinfo" "streambuf" "ostream" "map" "numeric" "cstdbool" "cstdarg" "ext/" "type_traits" "cfloat" "ccomplex" "ctgmath")
-
- ("/home/visayafan/.emacs.d/yasnippet/snippets/org-mode/" (20710 25955) "toc" "textarea" "template" "srccollapse" "right" "options" "modal" "middle" "macro" "longsrc" "lispl" "lisp" "lightbox" "left" "infojs" "img" "html" "div-span" "disqus" "diary" "collapse" "center" "ccl" "cc" "bootstrap" "2collapse" "#disqus#" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/" (20724 11816) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Coding/" (20681 45210) "Python/" "Lisp/" "Java/" "index.html" "Cpp/" "../" "./")
-
- ("/home/visayafan/study/coding/cc/" (20724 542) "sort/" "datastructure/" "cb-test/" ".fuse_hidden000004d200000001" "../" "./")
+ ("/home/visayafan/visayafan.github.com/" (20729 23205) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
