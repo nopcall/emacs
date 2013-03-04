@@ -1,53 +1,32 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
-;; 括号自动匹配
-;; (require 'autopair)
-;; (autopair-global-mode) ;; to enable in all buffers
-
-;; 将buffer转化为html文件，保持颜色不变
-(require 'htmlize)
-
-;; 显示行号
-(require 'linum)
-(global-linum-mode 1)
-
-;; 标签
-(require 'tabbar)
+(require 'tabbar)                       ;标签
 (tabbar-mode)
 (global-set-key (kbd "M-P") 'tabbar-backward-group)
 (global-set-key (kbd "M-N") 'tabbar-forward-group)
 (global-set-key (kbd "M-p") 'tabbar-backward)
 (global-set-key (kbd "M-n") 'tabbar-forward)
-
-
 ;; 最近访问过的文件和最近修改过的文件
 (require 'session)
 (add-hook 'after-init-hook 'session-initialize)
-
 ;; kill-ring 方便粘贴。
 (require 'browse-kill-ring)
 (global-set-key [(control c)(k)] 'browse-kill-ring)
 (browse-kill-ring-default-keybindings)
-
 ;; 替换自带的切换Buffer功能
 (require 'ibuffer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
-
 ;; 高亮当前行：hi-line.el,emacs自己带的
-(require 'hl-line)
-(global-hl-line-mode -1)
-
+;; (require 'hl-line)
+;; (global-hl-line-mode -1)
 ;; 应该是Chrome用的吧？
 (require 'edit-server)
 (edit-server-start)
-
 ;; 设置光标为竖线
 ;; (setq-default cursor-type 'bar)
-
 ;; 光标禁止闪烁-1 光标闪烁1
 (blink-cursor-mode 1)
-
 (add-hook 'c-mode-hook 'hs-minor-mode)
 (add-hook 'C++-mode-hook 'hs-minor-mode)
 (add-hook 'lisp-mode-hook 'hs-minor-mode)
@@ -66,18 +45,16 @@
 (global-set-key (kbd "C-c h L") 'hide-lines)
 (global-set-key (kbd "C-c s l") 'show-all-invisible)
 (global-set-key (kbd "C-c m l") 'list-matching-lines)
-
 ;; 返回最近修改的地方
 (require 'goto-last-change)
 (global-set-key "\C-c g l" 'goto-last-change)
-
 ;;;; sudo apt-get install cscope
 (require 'xcscope)
 (setq cscope-do-not-update-database t)
 (add-hook 'c-mode-hook (function cscope:hook))
 (add-hook 'c++-mode-hook (function cscope:hook))
 (add-hook 'dired-mode-hook (function cscope:hook))
-                                        ;(define-key global-map (kbd "C-c s a")  'cscope-set-initial-directory)
+;; (define-key global-map (kbd "C-c s a")  'cscope-set-initial-directory)
 (define-key global-map (kbd "C-c s A")  'cscope-unset-initial-directory)
 (define-key global-map (kbd "C-c s s ")  'cscope-find-this-symbol)
 (define-key global-map (kbd "C-c s d")  'cscope-find-global-definition)
@@ -399,11 +376,11 @@ BEG and END (region to sort)."
 ;; open file fast
 (global-unset-key [f1])
 (global-set-key [f1] 'open-file-fast)
+
 (defun open-file-fast ()
   (interactive)
-  (setq gtd-subdir (format-time-string "%Y%m"))
   (let ((file-list (list
-                     (concat "~/visayafan.github.com/Others/diary/" gtd-subdir "/gtd.org")
+                     "~/visayafan.github.com/Others/diary/gtd.org"
                      "~/.emacs"
                      "~/visayafan.github.com/index.html"
                      "~/visayafan.github.com/Coding/Lisp/Emacs.org"
@@ -416,4 +393,14 @@ BEG and END (region to sort)."
     (setq prompt-string (concat prompt-string "Enter a number:"))
     (setq number (read-number prompt-string))
     (find-file (elt file-list number))))
+
+(fset 'vf-copy-current-line-down
+      "\C-a\367\C-y\C-e")
+(fset 'vf-copy-current-line-up
+      "\C-a\367\C-y\C-e\C-p")
+(global-set-key (kbd "s-n") 'vf-copy-current-line-down)
+(global-set-key [(control shift meta n)] 'vf-copy-current-line-down)
+(global-set-key (kbd "s-p") 'vf-copy-current-line-up)
+(global-set-key [(control shift meta p)] 'vf-copy-current-line-up)
+
 (provide 'vf-basic)

@@ -1,0 +1,8 @@
+(
+;; active playlist
+" *EMMS Playlist*"
+;; playlists: ((BUFFER_NAME SELECT_POSITION TRACKS) ...)
+((" *EMMS Playlist*" 1 ((*track* (type . file) (name . "d:/music/µ•…Ì«È∏Ë.mp3") (metadata) (last-played 20767 45213 937000 0) (play-count . 1)))))
+;; play method
+((emms-repeat-track) (emms-repeat-playlist))
+)

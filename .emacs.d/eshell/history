@@ -1,128 +1,128 @@
-ls
-cdvd
-rm 201301/gtd.html
-cdt
-cd
-cde
-cd others/
-cdccc
-cd cb-test/
-ls
-./main
-./main
-cdvcc
-cd -
-./main
-./main
-./main
-./main
-./main
-./main
-./main
-cdccc
+cdve
 cdvcl
-cdvcc
-cdccc
-ll
-cd cb-test/
-ll
-eog Top.png
-cde
-cd yasnippet/snippets/org-mode/
-cd -
-cdccc
-cp cb-test/Top.png ~/visayafan.github.com/Coding/Cpp/images/
-cdvcc
-cd images/
-ls
-cdccc
-cd cb-test/
-./main
 clc
-cdvcc
-cd -
-./main
-./main
-./main
-./main
-./main
-./main
-./main
 cdv
+cde
+cd mew-6.5/
+cde
+cde
+cd
+cd Dropbox/passwd/
+cdee
+cdee
+cd
+cd Dropbox/passwd/
+cdee
+cdv
+cd Others/diary/
+clc
+ls
+mkdir 201302
+cat 201301/4.org
+clc
+cd
+cd Dropbox/passwd/
+cdccc
+cl
+clc
+ls
+cd cb-test/
+./main
+./main
+./main
+./main
+./main
+./main
+./main
+./main
+./main
+clc
 cdvcc
-cdc
+cd -
+g++ -S main.cpp
+ls
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+g++ -S main.cpp
+cdvo
+clc
+cdvcl
+cdve
+cdvo
+ls
+cdv
+ls
+cd English/
+ls
+cd NewWords/
+ls
+cdv
+cdee
+cdv
+ls *.py
+ll
+git add -u
+git st
+git lol
 clc
 ls
-mkdir graphviz
-cd graphviz/
 cdvo
-cd -
-eog test.png
-eog test.png
-cp test.png ~/visayafan.github.com/Others/o/image/
-cdvo
-mv image/ images
-ls images/
-cd images/
-eog Screenshot.png 
-rm Screenshot.png 
-eog rebase.png 
-ls ~/visayafan.github.com/Layout/CSS/lightbox-images/
-cp ~/visayafan.github.com/Layout/CSS/lightbox-images/ .
-cp ~/visayafan.github.com/Layout/CSS/lightbox-images/* .
+cd ../diary/
+cdve
+cdv
+cd English/VOA/
+cd
+cd movie/America.The.Story.of.Us.Complete\(12\).2010.BluRay.720p.x264.DTS-HDiY/
 ls
-cp ~/study/coding/graphviz/test.png hash.png
-cp ~/study/coding/graphviz/test.png binary.png
-cp ~/study/coding/graphviz/test.png peripheries.png
-cp ~/study/coding/graphviz/test.png mix.png
-cp ~/study/coding/graphviz/test.png finite.png
-cp ~/study/coding/graphviz/test.png lr.png
-eog lr
-eog lr.png 
-cd -
-cdc
-cd graphviz/
-eog test.png
-eog test.png
-clc
+cd America_The_Story_of_Us_S01_720p_WEB_DL_AAC2_0_h_264_BTN/
+ls
+cd America_The_Story_of_Us_S01_720p_WEB_DL_AAC2_0_h_264_BTN/
+ls
+cdvo
+cdv
+cd Layout/CSS/
+cdvo
+cde
+cd yasnippet/
+ls
+cd snippets/
+ls
+cd c++-mode/
+ls
+cd cc
+cd ../cc-mode/
+ls
+cd ../../
+ls
+cdv
+cd Others/diary/
+ls
+mkdir 201303
+cd 201303
+ls
+cd ..
+ls
 cdt
-d
-cd Dropbox/software/emacs/
-ls
-cd
-cdvcc
 cdv
-cd English/Advice_For_CS_College_Students/
-cd d/Dropbox/software/emacs/
+cd English/
+ls
+mkdir Scenario
+cd Scenario/
+xelatex Batman-TheDarkKnightRises.tex 
 cdv
-d
-cd Dropbox/software/emacs/
+cd English/
 ls
+cd NewWords/
+ls
+clc
 ll
-d
-cd emacs-24.2/
-cd
+head Amercia-TheStoryOfUs-WW2.org
 clc
-clc
-d
-cd Dropbox/software/emacs/
+cd ../Scenario/
 ls
-ll
-ll
-mv .emacs_windows.el .emacs.d/
-mv .emacs_linux.el .emacs.d/
-ls
-cdd
-cd
-cde
-cd yasnippet/snippets/org-mode/
-cat disqus 
-cd
-d
-clc
-cd emacs-24.2/
-ls
-cat .emacs
-cp ~/.emacs .
-cat .emacs
-clc
