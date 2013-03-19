@@ -1,0 +1,18 @@
+;; Object JS/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "JS/"
+  :tables (list 
+   (semanticdb-table "MathJax.js"
+    :major-mode 'js-mode
+    :tags nil
+    :file "MathJax.js"
+    :pointmax 49696
+    :fsize 49695
+    :lastmodtime '(20316 44702 0 0)
+    :unmatched-syntax '((END_BLOCK 49692 . 49693) (VARIABLE 946 . 953) (IF 972 . 974) (PAREN_BLOCK 974 . 1044) (PAREN_BLOCK 905 . 922))
+    )
+   )
+  :file "!mnt!SRC!visayafan.github.com!Layout!JS!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

@@ -1,4 +1,4 @@
-;; (add-to-list 'load-path "~/.emacs.d/ibus-el-0.2.1")
+(add-to-list 'load-path "~/.emacs.d/ibus-el")
 (require 'ibus)
 ;; Turn on ibus-mode automatically after loading .emacs
 (add-hook 'after-init-hook 'ibus-mode-on)

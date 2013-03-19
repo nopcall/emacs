@@ -47,7 +47,7 @@
 (global-set-key (kbd "C-c m l") 'list-matching-lines)
 ;; 返回最近修改的地方
 (require 'goto-last-change)
-(global-set-key "\C-c g l" 'goto-last-change)
+(global-set-key "\C-cgl" 'goto-last-change)
 ;;;; sudo apt-get install cscope
 (require 'xcscope)
 (setq cscope-do-not-update-database t)
@@ -132,8 +132,6 @@
 
 ;; goto-line
 (global-set-key (kbd "M-g") 'goto-line)
-;(menu-bar-mode nil)
-;(scroll-bar-mode nil)
 ;; y/n代替yes/no
 (fset 'yes-or-no-p 'y-or-n-p)
 ;;禁用启动画面
@@ -256,7 +254,6 @@
  '(default-input-method "chinese-b5-quick")
  '(ecb-options-version "2.40")
  '(matlab-shell-command "/usr/local/MATLAB/R2010b/bin/matlab")
- '(menu-bar-mode t)
  '(org-format-latex-header "\\documentclass{article}
 \\usepackage[usenames]{color}
 \\usepackage{amsmath}

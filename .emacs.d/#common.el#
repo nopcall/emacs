@@ -7,7 +7,6 @@
 (require 'vf-basic)
 (require 'vf-autocomplete)
 (require 'vf-cpp)
-(require 'vf-gdb)
 (require 'vf-global-set-key)
 (require 'vf-not-sure)
 (require 'vf-org-setting)
@@ -29,12 +28,11 @@
 (require 'vf-wrap-region)               ;可以在选定区域外包上指定字符串
 (require 'vf-emms)
 ;; (require 'vf-ibus)
-;; (require 'vf-wubi)                      ;wubi
-(require 'vf-cedet)
-(require 'vf-ecb)
-(require 'graphviz-dot-mode)         ;graphviz
+(require 'vf-wubi)                      ;wubi
+;; (require 'vf-cedet)
 ;; (require 'vf-color-theme)
 ;; (require 'vf-doxymacs)
+;; (require 'vf-ecb)
 ;; (require 'vf-latex)
 ;; (require 'vf-matlab)
 ;; (require 'vf-perl)
@@ -61,6 +59,7 @@
 ;; (require 'vf-daemon)                 ;daemon client
 ;; (require 'vf-newsticker)             ;newsticker
 ;; (require 'vf-iedit)                  ;iedit
+;; (require 'graphviz-dot-mode)         ;graphviz
 ;; (require 'unicad)                       ;自动判断文档编码Universal Charset Auto Detector
 ;; (require 'winner)                       ;C-c left/right undo/redo窗口布局
 ;; (winner-mode t)
@@ -208,8 +207,7 @@ extendedchars=false %这一条命令可以解决代码跨页时，章节标题�
  '(wubi-phrases-file-el "~/.emacs.d/wubi/.wubi-phrases.el")
  '(yas-prompt-functions (quote (yas/dropdown-prompt yas/completing-prompt yas/ido-prompt yas/x-prompt yas-dropdown-prompt yas/no-prompt)))
  '(yas-snippet-dirs (quote ("~/.emacs.d/yasnippet/snippets")) nil (yasnippet))
- '(yas-trigger-key "<tab>")
-)
+ '(yas-trigger-key "<tab>"))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

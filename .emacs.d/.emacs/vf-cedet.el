@@ -68,5 +68,5 @@
 (define-key semantic-tag-folding-mode-map (kbd "C-c . -") 'semantic-tag-folding-fold-all)
 (define-key semantic-tag-folding-mode-map (kbd "C-c . =") 'semantic-tag-folding-show-all)
 
-
+(setq semanticdb-default-save-directory "~/.emacs.d/") 
 (provide 'vf-cedet)

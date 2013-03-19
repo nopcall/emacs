@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: math
+# --
+#+MATHJAX: align:"center" mathml:t path:"../../Layout/JS/MathJax/MathJax.js"

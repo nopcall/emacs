@@ -2,40 +2,42 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/visayafan/visayafan.github.com/Others/diary/" . "201303/")
+ ("/home/visayafan/visayafan.github.com/Linux/" . "LinuxCoding/")
+ ("/home/visayafan/visayafan.github.com/" . "Linux/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/visayafan/visayafan.github.com/Others/diary/201303/"
- "/home/visayafan/visayafan.github.com/Others/diary/201302/"
- "/home/visayafan/visayafan.github.com/Others/diary/201301/"
- "/home/visayafan/visayafan.github.com/English/Scenario/"
- "/home/visayafan/visayafan.github.com/English/NewWords/"
+ "/home/visayafan/visayafan.github.com/Layout/JS/"
+ "/home/visayafan/visayafan.github.com/Linux/LinuxCoding/"
+ "/home/visayafan/visayafan.github.com/Algorithm/kruskal/"
+ "/home/visayafan/visayafan.github.com/Algorithm/o/kruskal/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "gtd.org"
- "template.tex"
- "Amercia-TheStoryOfUs-WW2.org"
- "TheSocialNetwork.tex"
- "TheDarkKnightRises.org"
+ "MathJax.js"
+ "fork.org"
+ "kruskal.org"
+ "kruskal.dot"
+ "kruskal.cc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/visayafan.github.com/Others/diary/201303/" (20784 56026) "gtd.org" "1.org" "1.html" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Layout/JS/" (20807 17343 68107 0) "weibo/" "pdfobject.min.js" "PDFObject/" "org-info.js" "MathJax.js" "jquery_1.7.1.js" "jquery.lightbox-0.5.js" "html5.js" "hideshow.js" "disqus-comment.js" "common.js" "bootstrap_old.js" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/diary/201302/" (20784 55998) "gtd.org" "24.org" "24.html" "21.org" "21.html" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Linux/LinuxCoding/" (20682 31570 437994 0) "进程同步.org" "进程同步.html" "process.org" "process.html" "linux_time.org" "linux_time.html" "image/" "fork.org" "fork.html" "file.org" "file.html" "attribute.org" "attribute.html" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/diary/" (20787 47204) "template.org" "index.html" "201303/" "201302/" "201301/" ".#gtd.org" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Linux/" (20681 45233 734905 0) "LinuxOS/" "LinuxKernel/" "LinuxCoding/" "index.html" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/Others/diary/201301/" (20729 33697) "gtd.org" "4.org" "4.html" "../" "./")
+ ("/home/visayafan/visayafan.github.com/" (20796 62029 180078 0) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/English/Scenario/" (20787 36459) "TheSocialNetwork.tex" "TheSocialNetwork.pdf" "TheSocialNetwork.log" "TheSocialNetwork.aux" "template.tex" "Batman-TheDarkKnightRises.tex" "Batman-TheDarkKnightRises.pdf" "Batman-TheDarkKnightRises.log" "Batman-TheDarkKnightRises.aux" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Algorithm/" (20807 16848 275229 0) "o/" "kruskal/" "index.html" "../" "./")
 
- ("/home/visayafan/visayafan.github.com/English/NewWords/" (20787 43505) "TheMatrix.org" "TheMatrix.html" "TheGreastOpenSourceSoftware.org" "TheDarkKnightRises.org" "TheDarkKnightRises.html" "TheBigBangS5-5.org" "note01.org" "NewWords03.org" "NewWords03.html" "NewWords02.org" "NewWords02.html" "NewWords01.org" "NewWords01.html" "money.org" "money.html" "LeaveOutAllTheRest.org" "InTheEnd.org" "image/" "friendsNote.org" "AskQuestions.org" "Amercia-TheStoryOfUs-WW2.org" "Amercia-TheStoryOfUs-WW2.html" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Algorithm/kruskal/" (20807 17372 662435 0) "kruskal.png" "kruskal.org" "kruskal.html" "kruskal.dot" "kruskal.cc" "kruskal" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Algorithm/o/kruskal/" (20807 16417 148590 0) "kruskal.png" "kruskal.dot" "kruskal.cc" "kruskal" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -5,5 +5,5 @@
 ;; C-u C-u C-c SPC   ==> ace-jump-line-mode
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 ;; win+space
-(define-key global-map [?\M- ] 'ace-jump-mode)
+(define-key global-map [?\s- ] 'ace-jump-mode)
 (provide 'vf-ace-jump-mode)

@@ -1,128 +1,128 @@
-cdve
+du -sh
+find -name "*.[ch]"
+find -name "*.[ch]" > cscope.files
+du -sh cscope.files 
+cscope -b
+du -sh cscope.out 
+clc
+rm cscope*
+cd ..
+find -name "*.[ch]" > cscope.files
+cscope -b
+ll cscope.out
+ll -h cscope.out
+find -name "*.def"
+cdv
+cd Compiler/o/
+cdcc
+clc
+cdvo
 cdvcl
-clc
+cdee
+cde
+cde
 cdv
-cde
-cd mew-6.5/
-cde
-cde
-cd
-cd Dropbox/passwd/
-cdee
-cdee
-cd
-cd Dropbox/passwd/
-cdee
-cdv
-cd Others/diary/
-clc
+cd Compiler/o/images/
+help
 ls
-mkdir 201302
-cat 201301/4.org
+rm *
 clc
-cd
-cd Dropbox/passwd/
-cdccc
-cl
-clc
-ls
-cd cb-test/
-./main
-./main
-./main
-./main
-./main
-./main
-./main
-./main
-./main
-clc
+cde
+cdvc
 cdvcc
-cd -
-g++ -S main.cpp
-ls
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-g++ -S main.cpp
-cdvo
-clc
-cdvcl
-cdve
-cdvo
-ls
 cdv
+cd Compiler/o/
+cdcc
+./test
+./test
+gcc @b
+rm a.out 
+gcc @b
 ls
-cd English/
+rm test
+gcc @b
 ls
-cd NewWords/
-ls
-cdv
+gcc @b
+./test
+cdvcc
+d
+cd study/CC/gcc-4.7.2/libiberty/
+cd .emacs.d/.emacs/
+cdcc
 cdee
-cdv
-ls *.py
-ll
-git add -u
-git st
-git lol
+cdccc
+cdccc
+./test
 clc
-ls
-cdvo
-cd ../diary/
-cdve
+exit
+cdcc
+./test
+./test -a "abc" -b "sdfs"
+./test -a "abc" -b "sdfs"
+./test -a "abc" -b "sdfs" -d "sdkl"
+./test -a "abc" -b "sdfs" -d "sdkl"
+./test -a "abc" -b "sdfs" -d "sdkl"
+./test -a "abc" -b "sdfs" -d "sdkl"
+./test -a "abc" -b "sdfs" -d "sdkl"
+./test -aabc -b"sdfs" -d "sdkl"
+make
+rm test
+make
+./test -aabc -b"sdfs" -d "sdkl"
+make
+./test -aabc -b"sdfs" -d "sdkl"
+make
+./test -aabc -b "sdfs" -d "sdkl"
+cdccc
 cdv
-cd English/VOA/
+cd Algorithm/
+ls
+cd o/
+ls
+mkdir kruskal
+cd kruskal/
+./kruskal
+./kruskal
+cd ..
+mv kruskal ..
+ls
+cd ../kruskal/
+ls
+cdv
+cd Linux/LinuxCoding/
+ls fork.org
+cd ../../Layout/JS/
+ls MathJax.js 
+cdv
+cd Linux/LinuxOS/
 cd
-cd movie/America.The.Story.of.Us.Complete\(12\).2010.BluRay.720p.x264.DTS-HDiY/
-ls
-cd America_The_Story_of_Us_S01_720p_WEB_DL_AAC2_0_h_264_BTN/
-ls
-cd America_The_Story_of_Us_S01_720p_WEB_DL_AAC2_0_h_264_BTN/
-ls
-cdvo
-cdv
-cd Layout/CSS/
-cdvo
 cde
 cd yasnippet/
 ls
 cd snippets/
-ls
-cd c++-mode/
-ls
-cd cc
-cd ../cc-mode/
-ls
-cd ../../
+cd org-mode/
+cdv
+cd Algorithm/kruskal/
 ls
 cdv
-cd Others/diary/
-ls
-mkdir 201303
-cd 201303
-ls
-cd ..
-ls
-cdt
+cdvo
+mv ../../Algorithm/kruskal/kruskal.png images/lheadltail.png
+mv images/lheadltail.png ../../Algorithm/kruskal/kruskal.png
+mv ../../Algorithm/kruskal/find_set.png images/lheadltail.png
 cdv
-cd English/
+cd Algorithm/kruskal/
+mv find_set.png find_set_0.png
+rm find_set_0.png
+history
+clc
 ls
-mkdir Scenario
-cd Scenario/
-xelatex Batman-TheDarkKnightRises.tex 
+rm \#find_set.dot\# 
+clc
+d
+cd Dropbox/software/emacs/
 cdv
-cd English/
-ls
-cd NewWords/
+cd Linux/LinuxOS/
 ls
 clc
 ll
-head Amercia-TheStoryOfUs-WW2.org
-clc
-cd ../Scenario/
-ls
+rm 禁止Ubuntu开机网络配置.org 

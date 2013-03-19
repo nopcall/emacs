@@ -1,0 +1,130 @@
+;; Object kruskal/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "kruskal/"
+  :tables (list 
+   (semanticdb-table "kruskal.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Kruskal算法" section nil nil [246 600])
+            ("*///-->" section nil nil [600 2075])
+            ("Kruskal算法" section (:members 
+              ( ("Kruskal算法" section nil nil [2103 2143]))              ) nil [2075 2143])
+            ("-->
+<link rel=\"stylesheet\" type=\"text/css\" href=\"../../Layout/CSS/bootstrap_old.css\" />
+<link rel=\"stylesheet\" type=\"text/css\" href=\"../../Layout/CSS/style.css\" />
+<script src=\"../../Layout/JS/jquery_1.7.1.js\">" section nil nil [2143 2420])
+            ("Kruskal算法是最有效的最小生成树算法之一。<br/>" section nil nil [2420 2476])
+            ("Kruskal算法是最有效的最小生成树算法之一。<br/>" section nil nil [2476 3909])
+            ("$(function() {$('a.lightbox').lightBox();});" section nil nil [3909 4130])
+            ("$(function() {$('a.lightbox').lightBox();});" section nil nil [4130 4418])
+            ("$(function() {$('a.lightbox').lightBox();});" section nil nil [4418 4637])
+            ("$(function() {$('a.lightbox').lightBox();});" section (:members 
+              ( ("http://www.slyar.com/blog/kruskal-disjoint-sets-c.html" anchor nil nil [4744 4747]))              ) nil [4637 10198]))          
+    :file "kruskal.html"
+    :pointmax 10198
+    :fsize 11467
+    :lastmodtime '(20807 28933 231518 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "find_set.dot"
+    :major-mode 'graphviz-dot-mode
+    :tags 
+        '( ("G" digraph (:members 
+              ( ("clusterA" graph (:members 
+                  ( ("edge" node (:attributes 
+                      ( ("dir" attribute (:value "back") (reparse-symbol attribute-block) [67 75]))                      ) (reparse-symbol graph-contents) [62 77])
+                    ("D" link (:to "C") (reparse-symbol graph-contents) [86 90])
+                    ("B" link (:to "A") (reparse-symbol graph-contents) [92 96])
+                    ("B" link (:to "BB") (reparse-symbol graph-contents) [110 116])
+                    ("C" link (:to "CC") (reparse-symbol graph-contents) [125 131])
+                    ("D" link (:to "DD") (reparse-symbol graph-contents) [140 146]))                  ) (reparse-symbol graph-contents) [16 289])
+                ("clusterB" graph (:members 
+                  ( ("edge" node (:attributes 
+                      ( ("dir" attribute (:value "back") (reparse-symbol attribute-block) [345 353]))                      ) (reparse-symbol graph-contents) [340 355])
+                    ("a" link (:to "aa") (reparse-symbol graph-contents) [384 390])
+                    ("b" link (:to "bb") (reparse-symbol graph-contents) [399 405])
+                    ("c" link (:to "cc") (reparse-symbol graph-contents) [414 420])
+                    ("d" link (:to "dd") (reparse-symbol graph-contents) [429 435]))                  ) (reparse-symbol graph-contents) [294 654]))              ) nil [1 656]))          
+    :file "find_set.dot"
+    :pointmax 659
+    :fsize 670
+    :lastmodtime '(20807 27916 295685 0)
+    :unmatched-syntax '((thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 659 . 659) (thing 657 . 658) (thing 657 . 658) (thing 650 . 657) (thing 650 . 657) (thing 641 . 642) (thing 641 . 642) (thing 636 . 641) (thing 636 . 641) (thing 607 . 609) (thing 607 . 609) (thing 605 . 606) (thing 605 . 606) (thing 600 . 605) (thing 600 . 605) (thing 578 . 580) (thing 578 . 580) (thing 571 . 573) (thing 571 . 573) (thing 549 . 551) (thing 549 . 551) (thing 542 . 544) (thing 542 . 544) (thing 520 . 522) (thing 520 . 522) (thing 513 . 515) (thing 513 . 515) (thing 501 . 502) (thing 501 . 502) (thing 484 . 486) (thing 484 . 486) (thing 482 . 483) (thing 482 . 483) (thing 463 . 464) (thing 463 . 464) (thing 444 . 445) (thing 444 . 445) (thing 429 . 430) (thing 429 . 430) (thing 425 . 427) (thing 425 . 427) (thing 419 . 421) (thing 419 . 421) (thing 379 . 380) (thing 379 . 380) (thing 372 . 379) (thing 372 . 379) (thing 374 . 375) (thing 374 . 375) (thing 367 . 374) (thing 367 . 374) (thing 364 . 365) (thing 364 . 365) (thing 328 . 329) (thing 328 . 329) (thing 321 . 328) (thing 321 . 328) (thing 276 . 277) (thing 276 . 277) (thing 271 . 276) (thing 271 . 276) (thing 242 . 244) (thing 242 . 244) (thing 213 . 215) (thing 213 . 215) (thing 184 . 186) (thing 184 . 186) (thing 155 . 157) (thing 155 . 157) (thing 100 . 101) (thing 100 . 101) (thing 96 . 98) (thing 96 . 98) (thing 90 . 92) (thing 90 . 92) (thing 50 . 51) (thing 50 . 51) (thing 43 . 50) (thing 43 . 50) (thing 30 . 31) (thing 30 . 31) (thing 25 . 26) (thing 25 . 26) (thing 17 . 25) (thing 17 . 25))
+    )
+   (semanticdb-table "kruskal.dot"
+    :major-mode 'graphviz-dot-mode
+    :tags 
+        '( ("G" graph (:members 
+              ( ("A" link
+                   (:attributes 
+                      ( ("label" attribute (:value "7") (reparse-symbol attribute-block) [51 58])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [59 69])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [70 80]))                      
+                    :to "B")
+                    (reparse-symbol graph-contents) [46 82])
+                ("A" link
+                   (:attributes 
+                      ( ("label" attribute (:value "5") (reparse-symbol attribute-block) [92 99])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [100 110])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [111 121]))                      
+                    :to "D")
+                    (reparse-symbol graph-contents) [87 123])
+                ("B" link
+                   (:attributes 
+                      ( ("label" attribute (:value "8") (reparse-symbol attribute-block) [133 140]))                      
+                    :to "C")
+                    (reparse-symbol graph-contents) [128 142])
+                ("B" link
+                   (:attributes 
+                      ( ("label" attribute (:value "7") (reparse-symbol attribute-block) [152 159])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [160 170])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [171 181]))                      
+                    :to "E")
+                    (reparse-symbol graph-contents) [147 183])
+                ("C" link
+                   (:attributes 
+                      ( ("label" attribute (:value "5") (reparse-symbol attribute-block) [193 200])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [201 211])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [212 222]))                      
+                    :to "E")
+                    (reparse-symbol graph-contents) [188 224])
+                ("D" link
+                   (:attributes 
+                      ( ("label" attribute (:value "15") (reparse-symbol attribute-block) [234 242]))                      
+                    :to "E")
+                    (reparse-symbol graph-contents) [229 244])
+                ("D" link
+                   (:attributes 
+                      ( ("label" attribute (:value "6") (reparse-symbol attribute-block) [254 261])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [262 272])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [273 283]))                      
+                    :to "F")
+                    (reparse-symbol graph-contents) [249 285])
+                ("E" link
+                   (:attributes 
+                      ( ("label" attribute (:value "8") (reparse-symbol attribute-block) [295 302]))                      
+                    :to "F")
+                    (reparse-symbol graph-contents) [290 304])
+                ("E" link
+                   (:attributes 
+                      ( ("label" attribute (:value "9") (reparse-symbol attribute-block) [314 321])
+                        ("color" attribute (:value "blue") (reparse-symbol attribute-block) [322 332])
+                        ("style" attribute (:value "bold") (reparse-symbol attribute-block) [333 343]))                      
+                    :to "G")
+                    (reparse-symbol graph-contents) [309 345])
+                ("F" link
+                   (:attributes 
+                      ( ("label" attribute (:value "11") (reparse-symbol attribute-block) [355 363]))                      
+                    :to "G")
+                    (reparse-symbol graph-contents) [350 365]))              ) nil [1 367]))          
+    :file "kruskal.dot"
+    :pointmax 370
+    :fsize 369
+    :lastmodtime '(20807 28121 221684 0)
+    :unmatched-syntax '((SEMI 40 . 41) (EQUAL 34 . 35) (SEMI 24 . 25) (symbol 14 . 21) (EQUAL 21 . 22))
+    )
+   )
+  :file "!mnt!SRC!visayafan.github.com!Algorithm!kruskal!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

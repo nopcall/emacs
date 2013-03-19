@@ -1,0 +1,49 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables (list 
+   (semanticdb-table "common.el"
+    :major-mode 'emacs-lisp-mode
+    :tags 
+        '( ("add-to-list" code nil nil [1 38])
+            ("add-to-list" code nil nil [39 83])
+            ("add-to-list" code nil nil [84 128])
+            ("vf-basic" include nil nil [201 220])
+            ("vf-autocomplete" include nil nil [221 247])
+            ("vf-cpp" include nil nil [248 265])
+            ("vf-gdb" include nil nil [266 283])
+            ("vf-global-set-key" include nil nil [284 312])
+            ("vf-not-sure" include nil nil [313 335])
+            ("vf-org-setting" include nil nil [336 361])
+            ("vf-webjump" include nil nil [362 383])
+            ("vf-org-remember" include nil nil [384 410])
+            ("vf-zencoding" include nil nil [411 434])
+            ("vf-yasnippet" include nil nil [435 458])
+            ("vf-multiple-cursors" include nil nil [459 489])
+            ("vf-html-mode" include nil nil [509 532])
+            ("vf-ace-jump-mode" include nil nil [565 592])
+            ("vf-expand-region" include nil nil [693 720])
+            ("vf-ido" include nil nil [762 779])
+            ("vf-smex" include nil nil [780 798])
+            ("vf-jiami" include nil nil [830 849])
+            ("vf-eshell" include nil nil [874 894])
+            ("vf-slime" include nil nil [922 941])
+            ("vf-gnus" include nil nil [969 987])
+            ("vf-wrap-region" include nil nil [1015 1040])
+            ("vf-emms" include nil nil [1072 1090])
+            ("vf-cedet" include nil nil [1162 1181])
+            ("vf-ecb" include nil nil [1182 1199])
+            ("graphviz-dot-mode" include nil nil [1200 1228])
+            ("custom-set-variables" code nil nil [2383 13206])
+            ("custom-set-faces" code nil nil [13208 14819]))          
+    :file "common.el"
+    :pointmax 14820
+    :fsize 15309
+    :lastmodtime '(20805 51834 119059 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!mnt!SRC!Dropbox!software!emacs!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )

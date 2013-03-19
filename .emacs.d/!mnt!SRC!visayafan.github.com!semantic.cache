@@ -1,0 +1,18 @@
+;; Object visayafan.github.com/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "visayafan.github.com/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "index.html"
+    :pointmax 17100
+    :fsize 19155
+    :lastmodtime '(20807 28706 29187 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!mnt!SRC!visayafan.github.com!semantic.cache"
+  :semantic-tag-version "2.1"
+  :semanticdb-version "2.1"
+  )
