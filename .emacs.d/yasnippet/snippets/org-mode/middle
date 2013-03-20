@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: middle
+# name: {{{middle(width)}}}
 # --
 {{{middle($1)}}}
 $0

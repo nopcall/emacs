@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: {{{singletop(title)}}}...{{{singleend}}}
+# --
+{{{singletop(${1:title})}}}
+$0
+{{{singleend}}}

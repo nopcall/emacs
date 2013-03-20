@@ -2,42 +2,39 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/visayafan/visayafan.github.com/Linux/" . "LinuxCoding/")
- ("/home/visayafan/visayafan.github.com/" . "Linux/")
+ ("/home/visayafan/Dropbox/" . "passwd/")
+ ("/home/visayafan/" . "Dropbox/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/visayafan/visayafan.github.com/Layout/JS/"
- "/home/visayafan/visayafan.github.com/Linux/LinuxCoding/"
- "/home/visayafan/visayafan.github.com/Algorithm/kruskal/"
- "/home/visayafan/visayafan.github.com/Algorithm/o/kruskal/"
+ "/sudo:root@visayafan-Compaq-510:/usr/local/share/emacs/24.3/lisp/eshell/"
+ "/home/visayafan/Dropbox/passwd/"
+ "/home/visayafan/"
+ "/home/visayafan/passwd/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "MathJax.js"
- "fork.org"
- "kruskal.org"
- "kruskal.dot"
- "kruskal.cc"
+ "em-hist.el.gz"
+ "password.org.gpg"
+ ".bashrc"
+ "google.passwd.gpg"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/visayafan.github.com/Layout/JS/" (20807 17343 68107 0) "weibo/" "pdfobject.min.js" "PDFObject/" "org-info.js" "MathJax.js" "jquery_1.7.1.js" "jquery.lightbox-0.5.js" "html5.js" "hideshow.js" "disqus-comment.js" "common.js" "bootstrap_old.js" "../" "./")
+ ("/sudo:root@visayafan-Compaq-510:/usr/local/share/emacs/24.3/lisp/eshell/" (ftp . 378833.75111111114) "em-script.el.gz" "em-basic.elc" "em-cmpl.el.gz" "esh-cmd.el.gz" "em-xtra.elc" "em-glob.elc" "em-cmpl.elc" "esh-opt.elc" "esh-mode.elc" "esh-arg.el.gz" "esh-var.elc" "esh-module.elc" "em-glob.el.gz" "esh-util.el.gz" "esh-proc.elc" "eshell.elc" "em-term.elc" "esh-ext.elc" "esh-groups.el" "em-script.elc" "esh-proc.el.gz" "em-ls.el.gz" "em-dirs.elc" "esh-io.el.gz" "esh-cmd.elc" "esh-module.el.gz" "em-alias.elc" "em-ls.elc" "em-term.el.gz" "em-rebind.elc" "esh-opt.el.gz" "em-unix.el.gz" "../" "esh-arg.elc" "esh-ext.el.gz" "em-hist.elc" "em-pred.el.gz" "em-smart.elc" "em-pred.elc" "em-banner.el.gz" "em-hist.el.gz" "esh-io.elc" "esh-mode.el.gz" "em-prompt.el.gz" "em-banner.elc" "em-rebind.el.gz" "esh-var.el.gz" "em-dirs.el.gz" "em-xtra.el.gz" "esh-util.elc" "./" "em-prompt.elc" "em-smart.el.gz" "em-basic.el.gz" "eshell.el.gz" "em-unix.elc" "em-alias.el.gz")
 
- ("/home/visayafan/visayafan.github.com/Linux/LinuxCoding/" (20682 31570 437994 0) "进程同步.org" "进程同步.html" "process.org" "process.html" "linux_time.org" "linux_time.html" "image/" "fork.org" "fork.html" "file.org" "file.html" "attribute.org" "attribute.html" "../" "./")
+ ("/usr/local/share/emacs/24.3/lisp/eshell/" (20809 58125 424342 575000) "em-alias.el.gz" "em-unix.elc" "eshell.el.gz" "em-basic.el.gz" "em-smart.el.gz" "em-prompt.elc" "./" "esh-util.elc" "em-xtra.el.gz" "em-dirs.el.gz" "esh-var.el.gz" "em-rebind.el.gz" "em-banner.elc" "em-prompt.el.gz" "esh-mode.el.gz" "esh-io.elc" "em-hist.el.gz" "em-banner.el.gz" "em-pred.elc" "em-smart.elc" "em-pred.el.gz" "em-hist.elc" "esh-ext.el.gz" "esh-arg.elc" "../" "em-unix.el.gz" "esh-opt.el.gz" "em-rebind.elc" "em-term.el.gz" "em-ls.elc" "em-alias.elc" "esh-module.el.gz" "esh-cmd.elc" "esh-io.el.gz" "em-dirs.elc" "em-ls.el.gz" "esh-proc.el.gz" "em-script.elc" "esh-groups.el" "esh-ext.elc" "em-term.elc" "eshell.elc" "esh-proc.elc" "esh-util.el.gz" "em-glob.el.gz" "esh-module.elc" "esh-var.elc" "esh-arg.el.gz" "esh-mode.elc" "esh-opt.elc" "em-cmpl.elc" "em-glob.elc" "em-xtra.elc" "esh-cmd.el.gz" "em-cmpl.el.gz" "em-basic.elc" "em-script.el.gz")
 
- ("/home/visayafan/visayafan.github.com/Linux/" (20681 45233 734905 0) "LinuxOS/" "LinuxKernel/" "LinuxCoding/" "index.html" "../" "./")
+ ("/home/visayafan/Dropbox/passwd/" (20790 13901 0 0) "./" "wordpress.passwd.gpg" "adsl" "../" "考研号.txt" "password.org.gpg" "DouDiZhu.txt.gpg" "XuNiADSL.gpg" "ip")
 
- ("/home/visayafan/visayafan.github.com/" (20796 62029 180078 0) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
+ ("/home/visayafan/Dropbox/" (20809 60839 93798 930000) "./" ".dropbox.cache/" "../" "Public/" "goagent/" "source_code/" "software/" "config_bk/" "passwd/" "coding/" ".dropbox")
 
- ("/home/visayafan/visayafan.github.com/Algorithm/" (20807 16848 275229 0) "o/" "kruskal/" "index.html" "../" "./")
+ ("/home/visayafan/" (20809 61426 612712 287000) ".local/" "./" ".xsession-errors" "d/" ".dropbox-dist/" ".macromedia/" ".dbus/" ".fontconfig/" ".thunderbird/" ".adobe/" "examples.desktop" "Templates/" "vfinstall/" ".gvfs/" "Desktop/" "../" ".thumbnails/" "Pictures/" "Public/" ".cache/" ".lesshst" ".pki/" "visayafan.github.com/" ".pulse-cookie" ".ICEauthority" ".bash_logout" ".appdata/" ".gconf/" ".pulse/" "nohup.out" ".emacs.d/" ".bashrc" ".profile" ".lyx/" ".mission-control/" ".dmrc" "software/" "passwd/" ".#.bashrc" ".config/" ".Xauthority" ".gtk-bookmarks" "Dropbox/" ".gnome2/" "proxy.sh" ".mozilla/" "Documents/" "Music/" "Downloads/" "Videos/" ".backups_emacs/" ".gksu.lock" ".gnupg/" ".bash_history" ".gstreamer-0.10/" ".face" ".emacs" ".dropbox/")
 
- ("/home/visayafan/visayafan.github.com/Algorithm/kruskal/" (20807 17372 662435 0) "kruskal.png" "kruskal.org" "kruskal.html" "kruskal.dot" "kruskal.cc" "kruskal" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Algorithm/o/kruskal/" (20807 16417 148590 0) "kruskal.png" "kruskal.dot" "kruskal.cc" "kruskal" "../" "./")
+ ("/home/visayafan/passwd/" (20809 59144 945398 106000) "./" "xuniadsl.gpg" "google.passwd.gpg" "wordpress.passwd.gpg" "adsl" "../" "考研号.txt" "DouDiZhu.txt.gpg" "ip")
 )
 
 ;; ----- ido-unc-hosts-cache -----

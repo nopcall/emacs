@@ -68,5 +68,6 @@
 (define-key semantic-tag-folding-mode-map (kbd "C-c . -") 'semantic-tag-folding-fold-all)
 (define-key semantic-tag-folding-mode-map (kbd "C-c . =") 'semantic-tag-folding-show-all)
 
-(setq semanticdb-default-save-directory "~/.emacs.d/") 
+;; 设置semantic cache临时文件的路径，避免到处都是临时文件
+(setq semanticdb-default-save-directory "~/.emacs.d/semantic.cache") 
 (provide 'vf-cedet)

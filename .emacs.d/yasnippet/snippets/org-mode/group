@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: {{{grouptop(title)}}}...{{{groupmiddle(title)}}}...{{{groupend}}}
+# --
+{{{grouptop(${1:title})}}}
+$0
+{{{groupmiddle(${2:title})}}}
+
+{{{groupend}}}

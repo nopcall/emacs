@@ -1,56 +1,3 @@
-du -sh
-find -name "*.[ch]"
-find -name "*.[ch]" > cscope.files
-du -sh cscope.files 
-cscope -b
-du -sh cscope.out 
-clc
-rm cscope*
-cd ..
-find -name "*.[ch]" > cscope.files
-cscope -b
-ll cscope.out
-ll -h cscope.out
-find -name "*.def"
-cdv
-cd Compiler/o/
-cdcc
-clc
-cdvo
-cdvcl
-cdee
-cde
-cde
-cdv
-cd Compiler/o/images/
-help
-ls
-rm *
-clc
-cde
-cdvc
-cdvcc
-cdv
-cd Compiler/o/
-cdcc
-./test
-./test
-gcc @b
-rm a.out 
-gcc @b
-ls
-rm test
-gcc @b
-ls
-gcc @b
-./test
-cdvcc
-d
-cd study/CC/gcc-4.7.2/libiberty/
-cd .emacs.d/.emacs/
-cdcc
-cdee
-cdccc
 cdccc
 ./test
 clc
@@ -126,3 +73,56 @@ ls
 clc
 ll
 rm 禁止Ubuntu开机网络配置.org 
+cdv
+cdt
+ls
+cdt
+cde
+cd yasnippet/snippets/org-mode/
+cdv
+cd Algorithm/o/
+ls
+cde
+cd yasnippet/snippets/org-mode/
+ls
+mkdir 用不到的
+mv collapse 用不到的/
+mv 用不到的/collapse .
+rm 用不到的/
+rm \#*
+ls
+nautilus ~/visayafan.github.com/Layout/JS/MathJax/
+cd -
+cdv
+cd Algorithm/o/
+ls
+rm *
+clc
+cdv
+cd Layout/JS/MathJax/
+ls
+cd test/
+ls
+cdv
+cd Compiler/o/
+ls
+cdv
+cd Layout/JS/PDFObject/
+ls
+clc
+cd-
+cdv
+cd Compiler/o/
+mv test.html chromsky.html
+ls
+mv chromsky.html chomsky.html
+cd Compiler/o/
+d
+cd study/CC/gcc-4.7.2/
+ls
+cd gcc/
+cd
+cd passwd/
+clc
+cd
+rm -rf passwd/

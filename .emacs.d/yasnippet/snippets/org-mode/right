@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: right
+# name: {{{right(width)}}}
 # --
 {{{right}}}
 $0

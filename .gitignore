@@ -1,2 +1,4 @@
 .emacs.d/gnus/news
 .emacs.d/gnus/mail
+.emacs.d/semantic.cache
+.emacs.d/session.*
