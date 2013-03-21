@@ -1,128 +1,128 @@
-cdccc
-./test
+ls dict/
+cd dict/
+ls
+cdt
+cdee
+cdt
+cdt
+cde
+cd yasnippet/snippets/graphviz-dot-mode/
+ls
+rm d
+mv s style
+mv s.1 shape
+mv n node
+cat l
+mv l label
+mv e edge
+cat g
+mv g graph
 clc
-exit
-cdcc
-./test
-./test -a "abc" -b "sdfs"
-./test -a "abc" -b "sdfs"
-./test -a "abc" -b "sdfs" -d "sdkl"
-./test -a "abc" -b "sdfs" -d "sdkl"
-./test -a "abc" -b "sdfs" -d "sdkl"
-./test -a "abc" -b "sdfs" -d "sdkl"
-./test -a "abc" -b "sdfs" -d "sdkl"
-./test -aabc -b"sdfs" -d "sdkl"
-make
-rm test
-make
-./test -aabc -b"sdfs" -d "sdkl"
-make
-./test -aabc -b"sdfs" -d "sdkl"
-make
-./test -aabc -b "sdfs" -d "sdkl"
-cdccc
-cdv
-cd Algorithm/
 ls
-cd o/
+rm shape 
+cp style shape
+cdt
+cdvcl
+clc
+cd
+cde
+cd auto-complete/auto-complete/
+tree
+cd dict/
+tree
+clc
+cd
+tree ~/.emacs.d/auto-complete/auto-complete/dict
+clc
+cdt
+cde
+cd yasnippet/snippets/graphviz-dot-mode/
+clc
+mv \$ \[
 ls
-mkdir kruskal
-cd kruskal/
-./kruskal
-./kruskal
-cd ..
-mv kruskal ..
-ls
-cd ../kruskal/
-ls
-cdv
-cd Linux/LinuxCoding/
-ls fork.org
-cd ../../Layout/JS/
-ls MathJax.js 
+cat \[
+rm \[
+cdee
+cde
+cd others/
+cdt
+cde
+cd others/
+rm graphviz-dot-mode.elc
+cdt
+cdt
+cde
+cd others/
+rm graphviz-dot-mode.elc
+cdvo
+cdvcl
+cdt
+eog test.png
+mv test.png ~/visayafan.github.com/Others/o/images/
+cd ~/visayafan.github.com/Others/o/images/
+mv test.png lalr.png
 cdv
 cd Linux/LinuxOS/
 cd
+clc
 cde
-cd yasnippet/
-ls
-cd snippets/
-cd org-mode/
-cdv
-cd Algorithm/kruskal/
-ls
-cdv
-cdvo
-mv ../../Algorithm/kruskal/kruskal.png images/lheadltail.png
-mv images/lheadltail.png ../../Algorithm/kruskal/kruskal.png
-mv ../../Algorithm/kruskal/find_set.png images/lheadltail.png
-cdv
-cd Algorithm/kruskal/
-mv find_set.png find_set_0.png
-rm find_set_0.png
-history
-clc
-ls
-rm \#find_set.dot\# 
-clc
-d
-cd Dropbox/software/emacs/
-cdv
-cd Linux/LinuxOS/
 ls
 clc
 ll
-rm 禁止Ubuntu开机网络配置.org 
-cdv
-cdt
-ls
-cdt
-cde
-cd yasnippet/snippets/org-mode/
-cdv
-cd Algorithm/o/
-ls
-cde
-cd yasnippet/snippets/org-mode/
-ls
-mkdir 用不到的
-mv collapse 用不到的/
-mv 用不到的/collapse .
-rm 用不到的/
-rm \#*
-ls
-nautilus ~/visayafan.github.com/Layout/JS/MathJax/
-cd -
-cdv
-cd Algorithm/o/
-ls
-rm *
+ls ac-dict/
+cat .emms-history
+rm .emms-history
+cat .mc-lists.el
+cat bookmarks 
+cat .org-id-locations 
+rm .org-id-locations 
 clc
-cdv
-cd Layout/JS/MathJax/
-ls
-cd test/
-ls
-cdv
-cd Compiler/o/
-ls
-cdv
-cd Layout/JS/PDFObject/
-ls
+ll
+ll -h
+cl
 clc
-cd-
-cdv
-cd Compiler/o/
-mv test.html chromsky.html
-ls
-mv chromsky.html chomsky.html
-cd Compiler/o/
+ll
+cat abbrev_defs 
+clc
+ll
+rm abbrev_defs 
+rm bookmarks 
+clc
+cdee
+cd ..
+clc
+mv .mc-lists.el* multiple-cursors/
+ll
+cdee
+clc
+cde
+ll
+mv ac-comphist.dat auto-complete/
+ls auto-save-list/
+ll auto-save-list/
+rm auto-save-list/*
+nautilus auto-save-list/
 d
-cd study/CC/gcc-4.7.2/
-ls
-cd gcc/
-cd
-cd passwd/
+cd Dropbox/software/emacs/
+cd .emacs.d/
+ls auto-save-list/
 clc
-cd
-rm -rf passwd/
+ll
+ls GDT/
+ll GDT/
+cd GDT/
+clc
+cd ../..
+git rm -r .emacs.d/GDT
+cd .emacs.d/
+ll
+ls elpa/
+ls elpa/archives/
+tree elpa/archives/
+ls gnus/
+ll gnus/
+ls server/
+ll server/
+rmdir server/
+ls smex/
+clc

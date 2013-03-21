@@ -3,3 +3,5 @@
 .emacs.d/gnus/mail
 .emacs.d/semantic.cache
 .emacs.d/session.*
+.emacs.d/auto-save-list
+.emacs.d/GDT

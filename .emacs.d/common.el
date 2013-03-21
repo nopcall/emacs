@@ -32,7 +32,7 @@
 ;; (require 'vf-wubi)                      ;wubi
 (require 'vf-cedet)
 (require 'vf-ecb)
-(require 'graphviz-dot-mode)         ;graphviz
+(require 'vf-graphviz)            ;graphviz
 ;; (require 'vf-color-theme)
 ;; (require 'vf-doxymacs)
 ;; (require 'vf-latex)

@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: edge[]
+# --
+edge[$0]

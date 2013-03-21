@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: shape=
+# --
+shape=${0:record}

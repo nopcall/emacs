@@ -30,4 +30,13 @@
 ;; 就是在你输入错误信息的时候，仍旧采用模糊匹配去给出合理的补全关键字。
 (setq ac-fuzzy-enable t)
 
+;; 进入graphviz-dot-mode时启用auto complete
+(add-to-list 'ac-modes 'graphviz-dot-mode)
+
+(defun graphviz-dot-mode-setup ()
+  (setq ac-sources '(ac-source-yasnippet ac-source-dictionary ac-source-words-in-same-mode-buffers)))
+(add-hook 'graphviz-dot-mode-hook 'graphviz-dot-mode-setup)
+
+;; ac-comphist.dat 保存目录（用于保存补全历史记录）
+(setq ac-comphist-file "~/.emacs.d/auto-complete")
 (provide 'vf-autocomplete)
