@@ -1,59 +1,50 @@
-alias cdc cd ~/study/coding
-alias cdce cd ~/study/coding/elisp
-alias cdccc cd ~/study/coding/cc
-alias cdcc cd ~/study/coding/c
-alias cdcl cd ~/study/coding/linuxc
-
-
-alis cds D:/study
-alias cdse cd D:/study/elisp
-
-alias cdt ~/tmp
-alias d cd ~/d
-
-
-alias cdvcl cd ~/visayafan.github.com/Coding/Lisp
-alias cdvcp cd ~/visayafan.github.com/Coding/Python
-alias cdvcc cd ~/visayafan.github.com/Coding/Cpp
-alias cdvcj cd ~/visayafan.github.com/Coding/Java
-
-alias cdvll cd ~/visayafan.github.com/Linux/LinuxOS
-alias cdvlc cd ~/visayafan.github.com/Linux/LinuxCoding
-
-alias cdvo cd ~/visayafan.github.com/Others/o
-alias cdvd cd ~/visayafan.github.com/Others/diary
-alias cdv cd ~/visayafan.github.com/
-
-
-alias cde cd ~/.emacs.d
-alias cdee cd ~/.emacs.d/.emacs
-
-alias chx chmod u+x
-alias dropbox ~/Dropbox/Public/lndir.py >/dev/null 2>&1 &
-alias ec GTK2_RC_FILES=/usr/share/themes/Clearlooks/gtk-2.0/gtkrc:/home/visayafan/.gtkrc-eclipse eclipse &
-alias e emacs&
-alias emacs find-file $1 
-alias en emacs -q -nw
-alias eq emacs -q
-alias k9 kill -9
-alias komodo ~/vfInstall/Komodo-7.1.0/bin/komodo >/dev/null 2>&1 &
-alias left xrandr --output VGA1 --left-of LVDS1 --mode 1680x1050
-alias matlab ~/vfInstall/MATLAB/R2010b/bin/matlab >/dev/null 2>&1 &
-alias mountiso sudo mount -t iso9660 -o loop
-alias oleft xrandr --output VGA1 --off --output LVDS1 --auto
-alias oright xrandr --output VGA1 --mode 1920x1080 --output LVDS1 --off
-alias right xrandr --output VGA1 --right-of LVDS1 --mode 1920x1080
-alias rmrf rm -rf
-alias sag sudo apt-get
-alias sai sudo apt-get install 
-alias sar sudo apt-get remove  
-alias sen emacs -q -nw
-alias seq sudo emacs -q
-alias sublime ~/SublimeText2/sublime_text
-alias thunderbird ~/software/thunderbird/thunderbird >/dev/null 2>&1 &
-alias upload-github cd ~/visayafan.github.com && ./upload.py
-alias vh sudo init 0
-alias vl gnome-session-quit
-alias vr sudo init 1
-alias ll ls -al $*
 alias rm rm -rf $*
+alias ll ls -al $*
+alias vr sudo init 1
+alias vl gnome-session-quit
+alias vh sudo init 0
+alias upload-github cd ~/visayafan.github.com && ./upload.py
+alias thunderbird ~/software/thunderbird/thunderbird >/dev/null 2>&1 &
+alias sublime ~/SublimeText2/sublime_text
+alias seq sudo emacs -q
+alias sen emacs -q -nw
+alias sar sudo apt-get remove  
+alias sai sudo apt-get install 
+alias sag sudo apt-get
+alias rmrf rm -rf
+alias right xrandr --output VGA1 --right-of LVDS1 --mode 1920x1080
+alias oright xrandr --output VGA1 --mode 1920x1080 --output LVDS1 --off
+alias oleft xrandr --output VGA1 --off --output LVDS1 --auto
+alias mountiso sudo mount -t iso9660 -o loop
+alias matlab ~/vfInstall/MATLAB/R2010b/bin/matlab >/dev/null 2>&1 &
+alias left xrandr --output VGA1 --left-of LVDS1 --mode 1680x1050
+alias komodo ~/vfInstall/Komodo-7.1.0/bin/komodo >/dev/null 2>&1 &
+alias k9 kill -9
+alias eq emacs -q
+alias en emacs -q -nw
+alias emacs find-file $1 
+alias e emacs&
+alias ec GTK2_RC_FILES=/usr/share/themes/Clearlooks/gtk-2.0/gtkrc:/home/visayafan/.gtkrc-eclipse eclipse &
+alias dropbox ~/Dropbox/Public/lndir.py >/dev/null 2>&1 &
+alias chx chmod u+x
+alias cdee cd ~/.emacs.d/.emacs
+alias cde cd ~/.emacs.d
+alias cdv cd ~/visayafan.github.com/
+alias cdvd cd ~/visayafan.github.com/Others/diary
+alias cdvo cd ~/visayafan.github.com/Others/o
+alias cdvlc cd ~/visayafan.github.com/Linux/LinuxCoding
+alias cdvll cd ~/visayafan.github.com/Linux/LinuxOS
+alias cdvcj cd ~/visayafan.github.com/Coding/Java
+alias cdvcc cd ~/visayafan.github.com/Coding/Cpp
+alias cdvcp cd ~/visayafan.github.com/Coding/Python
+alias cdvcl cd ~/visayafan.github.com/Coding/Lisp
+alias cddn cd ~/visayafan.github.com/Deutsch/NeuWort
+alias cden cd ~/visayafan.github.com/English/NewWords
+alias d cd ~/d
+alias cdt ~/tmp
+alias cdse cd D:/study/elisp
+alias cdcl cd ~/study/coding/linuxc
+alias cdccc cd ~/study/coding/cc
+alias cdce cd ~/study/coding/elisp
+alias cdc cd ~/study/coding
+alias cdgcc cd ~/d/study/CC/gcc-4.7.2

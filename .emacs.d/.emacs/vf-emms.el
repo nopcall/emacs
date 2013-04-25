@@ -1,5 +1,7 @@
 ;; 打开en后缀的文件进入后en-mode，此mode下左/右键后退/前进，上键暂停，下键打开文件
 (setq auto-mode-alist (cons '("\\.en$" . en-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.de$" . en-mode) auto-mode-alist))
+
 (define-derived-mode en-mode text-mode "LEN")
 (add-hook 'en-mode-hook 'en-mode-emms)
 (defun en-mode-emms ()
@@ -35,8 +37,8 @@
   (define-key en-mode-map (kbd "C-c e f") 'emms-play-playlist)
   (define-key en-mode-map (kbd "C-c e d") 'emms-play-directory-tree)
   (define-key en-mode-map (kbd "C-c e a") 'emms-add-directory-tree)
-  (define-key en-mode-map [\C-\M-right] 'emms-next)
-  (define-key en-mode-map [\C-\M-left] 'emms-previous)
+  (define-key en-mode-map [\C-\S-right] 'emms-next)
+  (define-key en-mode-map [\C-\S-left] 'emms-previous)
   (define-key en-mode-map [left]  (lambda () (interactive) (emms-seek -3))) ;5 seconds
   (define-key en-mode-map [right]  (lambda () (interactive) (emms-seek +3)))
   (define-key en-mode-map [\C-right] 'emms-seek-forward) ;10 seconds
@@ -44,6 +46,7 @@
   (define-key en-mode-map [\M-left]  (lambda () (interactive) (emms-seek -15))) ;15 seconds
   (define-key en-mode-map [\M-right]  (lambda () (interactive) (emms-seek +15)))
   (define-key en-mode-map [up] 'emms-pause)
+  (define-key en-mode-map (kbd "M-j") 'emms-pause) ;为写时方便暂停，设置快捷键为M-j
   (define-key en-mode-map [down] 'emms-play-file)
   (define-key en-mode-map [\C-down] 'emms-volume-lower)
   (define-key en-mode-map [\C-up] 'emms-volume-raise))

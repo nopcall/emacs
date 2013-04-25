@@ -5,3 +5,4 @@
 #+OPTIONS: ^:{} _:{} num:t toc:t \n:t
 #+SETUPFILE: "../../extension.org"
 #+INCLUDE: ../../template-toc.org
+#+title:`(file-name-sans-extension (buffer-name))`$0

@@ -10,6 +10,7 @@
 ;; 最近访问过的文件和最近修改过的文件
 (require 'session)
 (add-hook 'after-init-hook 'session-initialize)
+(setq session-save-file-coding-system 'utf-8)
 ;; kill-ring 方便粘贴。
 (require 'browse-kill-ring)
 (global-set-key [(control c)(k)] 'browse-kill-ring)
@@ -399,5 +400,7 @@ BEG and END (region to sort)."
 (global-set-key [(control shift meta n)] 'vf-copy-current-line-down)
 (global-set-key (kbd "s-p") 'vf-copy-current-line-up)
 (global-set-key [(control shift meta p)] 'vf-copy-current-line-up)
+
+(setq default-input-method nil)
 
 (provide 'vf-basic)

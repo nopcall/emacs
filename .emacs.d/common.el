@@ -28,15 +28,17 @@
 (require 'vf-gnus)                      ;gnus
 (require 'vf-wrap-region)               ;可以在选定区域外包上指定字符串
 (require 'vf-emms)
-;; (require 'vf-ibus)
-;; (require 'vf-wubi)                      ;wubi
 (require 'vf-cedet)
 (require 'vf-ecb)
 (require 'vf-graphviz)            ;graphviz
+(require 'vf-matlab)
+;; (require 'typopunct)
+;; (require 'vf-weibo)
+;; (require 'vf-wubi)                      ;wubi
+;; (require 'vf-ibus)
 ;; (require 'vf-color-theme)
 ;; (require 'vf-doxymacs)
 ;; (require 'vf-latex)
-;; (require 'vf-matlab)
 ;; (require 'vf-perl)
 ;; (require 'vf-java)
 ;; (require 'vf-python)
@@ -44,16 +46,12 @@
 ;; (require 'vf-folding)
 ;; 没有sublime的缩进线细
 ;; (require 'vf-indent-hint)
-;; 微博
-;; (require 'vf-weibo)
-;; twitter 不过不能用
 ;; (require 'vf-twitter)
-;; 迷你地图
 ;; (require 'vf-minimap)
 ;; (require 'vf-undo-tree)              ;undo-tree 不怎么常用
 ;; (require 'exec-path-from-shell)
 ;; (exec-path-from-shell-initialize)
-;;(require 'vf-openwith)                ;调用外部命令打开emacs不能打开的文件
+;; (require 'vf-openwith)               ;调用外部命令打开emacs不能打开的文件
 ;; (require 'vf-package)                ;包管理
 ;; (require 'vf-w3m)                    ;w3m
 ;; (require 'vf-mail)                   ;mail
@@ -88,7 +86,6 @@
  '(custom-enabled-themes (quote (vf)))
  '(custom-safe-themes (quote ("8fa5156415ee36c4eb1e1492d5ec43ef105e94bf3d416abeefe3723fc35f356a" "2739ab45a856cab6ca78df53463390498961342d2836ec50cab433a50dba2e20" "71b172ea4aad108801421cc5251edb6c792f3adbaecfa1c52e94e3d99634dee7" default)))
  '(custom-theme-directory "~/.emacs.d/vfthemes")
- '(default-input-method "chinese-wubi")
  '(ecb-layout-window-sizes nil)
  '(ecb-options-version "2.40")
  '(eshell-aliases-file "/home/visayafan/.emacs.d/eshell/alias")

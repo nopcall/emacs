@@ -2,35 +2,30 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/mnt/Src/Dropbox/software/emacs/.emacs.d/" . ".emacs/")
+ ("d:/study/Mandelbrot_Set/" . "Mandelbrot_Set/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/visayafan/tmp/"
- "/mnt/Src/Dropbox/software/emacs/.emacs.d/.emacs/"
- "/home/visayafan/.emacs.d/"
+ "d:/study/Mandelbrot_Set/Mandelbrot_Set/"
+ "d:/study/Bilateral_Filter/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "test.dot"
- "vf-autocomplete.el"
- "vf-graphviz.el"
- "common.el"
+ "MS_WithGPU.m"
+ "fun.m"
+ "Bil_Filter.m"
+ "test.m"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/visayafan/tmp/" (20811 24067 599526 117000) "./" "test.png" "test.dot" "../" "test.cc")
+ ("d:/study/Mandelbrot_Set/Mandelbrot_Set/" (20856 53297 0 0) "ProcessMandelbrotElement.ptx" "ProcessMandelbrotElement.m" "pctdemo_processMandelbrotElement.cu" "MS_Working_in_CUDA.m" "MS_Working_in_CUDA.jpg" "MS_WithoutGPU.m" "MS_WithoutGPU.jpg" "MS_WithGPU.m" "MS_WithGPU.jpg" "MS_Removing_Indexing.m" "MS_Removing_Indexing.jpg" "MS_Element_wise_Operation.m" "MS_Element_wise_Operation.jpg" "Mandelbrot.pdf" "Mandelbrot.jpg" "GPU_thread_block_grid.jpg" "Draw_Mandelbrot.m" "../" "./")
 
- ("/mnt/Src/Dropbox/software/emacs/.emacs.d/.emacs/" (20811 24055 468910 0) "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-package.el" "vf-org-setting.el" "vf-org-setting-backup.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-ccrypt.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-perl.el" "vf-doxymacs.el" "../" "./")
+ ("d:/study/Mandelbrot_Set/" (20856 57311 0 0) "todo.org" "tmp/" "Mandelbrot_zoom.gif" "Mandelbrot_zoom.avi" "Mandelbrot_Set/" "Mandelbrot_sequence_new.gif" "Mandelbrot_sequence_new.avi" "Mandelbrot.pdf" "Mandelbrot.lyx~" "Mandelbrot.lyx" "GPU_thread_block_grid.pptx" "Bilateral_Filter/" "#Mandelbrot.lyx#" "../" "./")
 
- ("/home/visayafan/.emacs.d/" (20811 23715 311705 0) ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "%backup%~" "!mnt!Src!Dropbox!software!emacs!semantic.cache" "!mnt!Src!Dropbox!software!emacs!.emacs.d!.emacs!semantic.cache" "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "tramp" "smex/" "slime/" "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "server/" "GDT/" ".mc-lists.el" "semantic.cache/" "python/" "others/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".org-id-locations" ".mc-lists.elc" "../" "./")
-
- ("/mnt/Src/Dropbox/software/emacs/.emacs.d/" (20811 23715 311705 0) ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "%backup%~" "!mnt!Src!Dropbox!software!emacs!semantic.cache" "!mnt!Src!Dropbox!software!emacs!.emacs.d!.emacs!semantic.cache" "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "tramp" "smex/" "slime/" "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "server/" "GDT/" ".mc-lists.el" "semantic.cache/" "python/" "others/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".org-id-locations" ".mc-lists.elc" "../" "./")
-
- ("/home/visayafan/.emacs.d/.emacs/" (20811 21698 200671 0) "vf-html-mode.el" "vf-html-helper-mode.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-package.el" "vf-org-setting.el" "vf-org-setting-backup.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-ccrypt.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-perl.el" "vf-doxymacs.el" "../" "./")
+ ("d:/study/Bilateral_Filter/" (20856 63057 0 0) "test.m" "test.asv" "lena.jpg" "lena/" "fun.m" "fun.asv" "Bil_Filter_GPU_Jacket.m" "Bil_Filter_GPU.m" "Bil_Filter.m" "bfilter2.m" "#Bil_Filter_GPU.m#" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

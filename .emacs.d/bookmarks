@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("compile_file"
+ (filename . "~/d/study/CC/gcc-4.7.2/gcc/toplev.c")
+ (front-context-string . "compile_file (vo")
+ (rear-context-string . "*/\n\nstatic void\n")
+ (position . 17255))
+("toplev_main"
+ (filename . "~/d/study/CC/gcc-4.7.2/gcc/toplev.c")
+ (front-context-string . "int\ntoplev_main ")
+ (rear-context-string . "than once.  */\n\n")
+ (position . 64010))
+)

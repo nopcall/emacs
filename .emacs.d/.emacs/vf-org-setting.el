@@ -8,18 +8,23 @@
 (require 'vf-org-gtd)
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 
-(global-set-key "\C-col" 'org-store-link)
-(global-set-key "\C-coc" 'org-capture)
-(global-set-key "\C-coa" 'org-agenda)
-(global-set-key "\C-cob" 'org-iswitchb)
-
 ;; org-publish 配置
 (require 'org-publish)
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 ;; setq truncate-lines nil的两行代码是为了解决org-mode在编辑中文的时候不会自动折行的问题
 (add-hook 'org-mode-hook 
-          (lambda () (setq truncate-lines nil)))
+          '(lambda ()
+              (setq truncate-lines nil)
+              (define-key org-mode-map "\C-col" 'org-store-link)
+              (define-key org-mode-map "\C-coc" 'org-capture)
+              (define-key org-mode-map "\C-coa" 'org-agenda)
+              (define-key org-mode-map "\C-cob" 'org-iswitchb)            ;switch only between files with org suffix
+              (define-key org-mode-map "\C-cot" 'org-toggle-link-display) ;toogle link display, literal or descriptive
+              (define-key org-mode-map [f5] 'org-export-as-html-and-open)
+              (define-key org-mode-map [f7] 'org-export-as-html)
+              (define-key org-mode-map [f8] 'org-publish)
+              ))
 
 
 (setq org-publish-project-alist
@@ -103,11 +108,30 @@
          :auto-index t
          :section-numbers t
          )
+        ("english"
+         :base-directory "~/visayafan.github.com/English/NewWords"
+         :publishing-directory "~/visayafan.github.com/English/NewWords"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-publish-org-to-html
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
+         :auto-index t
+         :section-numbers t
+         )
+        ("deutsh"
+         :base-directory "~/visayafan.github.com/Deutsch/NeuWort"
+         :publishing-directory "~/visayafan.github.com/Deutsch/NeuWort"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-publish-org-to-html
+         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
+         :auto-index t
+         :section-numbers t
+         )
         ("all"
          :components ("cpp" "java" "python" "lisp" "linux" "linuxc" "kernel" "compiler")
          )
         ))
-(global-set-key (kbd "<f8> p") 'org-publish)
 
 (provide 'vf-org-setting)
 

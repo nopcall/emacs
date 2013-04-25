@@ -1,128 +1,128 @@
-ls dict/
-cd dict/
-ls
 cdt
-cdee
-cdt
-cdt
-cde
-cd yasnippet/snippets/graphviz-dot-mode/
-ls
-rm d
-mv s style
-mv s.1 shape
-mv n node
-cat l
-mv l label
-mv e edge
-cat g
-mv g graph
+mv test.png ~/visayafan.github.com/Others/o/images/chinese.png
+cd -
 clc
-ls
-rm shape 
-cp style shape
-cdt
-cdvcl
-clc
-cd
-cde
-cd auto-complete/auto-complete/
-tree
-cd dict/
-tree
-clc
-cd
-tree ~/.emacs.d/auto-complete/auto-complete/dict
-clc
-cdt
-cde
-cd yasnippet/snippets/graphviz-dot-mode/
-clc
-mv \$ \[
-ls
-cat \[
-rm \[
-cdee
-cde
-cd others/
-cdt
-cde
-cd others/
-rm graphviz-dot-mode.elc
-cdt
-cdt
-cde
-cd others/
-rm graphviz-dot-mode.elc
-cdvo
-cdvcl
-cdt
-eog test.png
-mv test.png ~/visayafan.github.com/Others/o/images/
-cd ~/visayafan.github.com/Others/o/images/
-mv test.png lalr.png
 cdv
-cd Linux/LinuxOS/
-cd
+cd English/Deutsch/
+ls
 clc
-cde
+cdv
+cd English/Deutsch/
+exit
+cdv
+cd English/NewWords/
+cdv
+cd English/Deutsch/
+cdvcl
+clc
+cdee
+cdv
+cd English/NewWords/
 ls
 clc
 ll
-ls ac-dict/
-cat .emms-history
-rm .emms-history
-cat .mc-lists.el
-cat bookmarks 
-cat .org-id-locations 
-rm .org-id-locations 
-clc
-ll
-ll -h
 cl
 clc
-ll
-cat abbrev_defs 
+cdv
+clc
+mkdir -p Deutsch/NeueWort
+mv English/Deutsch/* Deutsch/NeueWort/
+rmdir English/Deutsch/
+ls Deutsch/NeueWort/
+rm -rf English/Deutsch/
+clc
+cdv
+cd Deutsch/NeueWort/
+clc
+ls
+clc
+mv DativVerben.org DativeCase.org
+cdvcl
+ls
+ls images/
+ls images/emacs-dired.png 
+cdv
+mv Deutsch Deutsche
+cd Deutsche/
+ls
+mv NeueWort NeuWort
+clc
+cd NeuWort/
+ls
 clc
 ll
-rm abbrev_defs 
-rm bookmarks 
 clc
-cdee
-cd ..
-clc
-mv .mc-lists.el* multiple-cursors/
 ll
-cdee
-clc
+cdv
+cd Deutsche/NeuWort/
 cde
+cd yasnippet/snippets/org-mode/
+cdee
+cdv
+cd English/NewWords/
+ls
+clc
+l
 ll
-mv ac-comphist.dat auto-complete/
-ls auto-save-list/
-ll auto-save-list/
-rm auto-save-list/*
-nautilus auto-save-list/
+cdee
+cd
 d
-cd Dropbox/software/emacs/
-cd .emacs.d/
-ls auto-save-list/
+cdv
+mv Deutsche Deutsch
+cl
 clc
-ll
-ls GDT/
-ll GDT/
-cd GDT/
+cd Deutsch/
+ls
+ls NeuWort/
 clc
-cd ../..
-git rm -r .emacs.d/GDT
-cd .emacs.d/
-ll
-ls elpa/
-ls elpa/archives/
-tree elpa/archives/
-ls gnus/
-ll gnus/
-ls server/
-ll server/
-rmdir server/
-ls smex/
+cdee
+cdee
+cde
+cdee
+cdee
+cdv
+cd Deutsch/NeuWort/
+cdt
+ls
+evince presentation.pdf 
+evince presentation.pdf 
 clc
+ls
+cp ~/d/Picture/Collections/Emacs_logo.jpg .
+evince presentation.pdf
+clc
+cdv
+cd English/NewWords/
+cde
+cdv
+cd Deutsch/NeuWort/
+clc
+cdee
+clc
+d
+cd study/Mandeldrot_Set/
+nautilus .
+cdt
+clc
+ls
+cd test/
+ls
+cdv
+cdvo
+cdv
+cd Linux/LinuxOS/
+ls
+cdt
+cd test/
+ls
+rm *.jpg new.avi 
+clc
+ls
+pdflatex test.avi
+pdflatex test.tex
+pdflatex test.tex
+pdflatex test.tex
+c;c
+pdflatex test.tex
+evince test.pdf 
+acroread test.pdf 

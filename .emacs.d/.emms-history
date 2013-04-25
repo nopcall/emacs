@@ -1,0 +1,8 @@
+(
+;; active playlist
+" *EMMS Playlist*"
+;; playlists: ((BUFFER_NAME SELECT_POSITION TRACKS) ...)
+((" *EMMS Playlist*" 371 ((*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/056 Einheit2 TextA.mp3") (metadata) (last-played 20837 36070 438809 88000) (play-count . 1)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/057 Einheit2 TextB.mp3") (metadata) (last-played 20837 36537 225224 542000) (play-count . 1)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/058 Einheit2 Intentionen.mp3") (metadata) (last-played 20837 36605 973942 236000) (play-count . 1)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/059 Einheit2 Hoerverstehen.mp3") (metadata) (last-played 20837 37644 858453 345000) (play-count . 6)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/060 Einheit2 Vokabel Einfuehrung.mp3") (metadata) (last-played 20837 37742 446656 497000) (play-count . 6)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/061 Einheit2 Vokabel Text.mp3") (metadata)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/062 Einheit2 Vokabel Uebungen.mp3") (metadata)) (*track* (type . file) (name . "/home/visayafan/d/study/deutsch/Klick auf Deutsch Band 1/Einheit2/063 Einheit2 Vokabel.mp3") (metadata)))))
+;; play method
+((emms-repeat-track) (emms-repeat-playlist))
+)

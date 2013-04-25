@@ -34,3 +34,6 @@
 [submodule ".emacs.d/iedit"]
 	path = .emacs.d/iedit
 	url = https://github.com/victorhge/iedit.git
+[submodule ".emacs.d/twittering-mode"]
+	path = .emacs.d/twittering-mode
+	url = git://github.com/hayamiz/twittering-mode.git
