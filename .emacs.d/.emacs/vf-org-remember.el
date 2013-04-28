@@ -1,4 +1,4 @@
-(org-remember-insinuate)
+;; (org-remember-insinuate)
 
 (setq org-default-notes-file  "~/d/todo.org")
 (define-key global-map [S-M-f12] 'org-remember)

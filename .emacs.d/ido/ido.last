@@ -2,30 +2,70 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("d:/study/Mandelbrot_Set/" . "Mandelbrot_Set/")
+ ("/home/visayafan/visayafan.github.com/Deutsch/" . "NeuWort/")
+ ("/home/visayafan/visayafan.github.com/Others/" . "o/")
+ ("/home/visayafan/visayafan.github.com/" . "Deutsch/")
+ ("/home/visayafan/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "d:/study/Mandelbrot_Set/Mandelbrot_Set/"
- "d:/study/Bilateral_Filter/"
+ "/home/visayafan/visayafan.github.com/Coding/Lisp/"
+ "/home/visayafan/visayafan.github.com/Linux/LinuxOS/"
+ "/home/visayafan/.emacs.d/.emacs/"
+ "/home/visayafan/.emacs.d/org-8.0.2/"
+ "/home/visayafan/.emacs.d/org-8.0.2/doc/"
+ "/home/visayafan/visayafan.github.com/Deutsch/NeuWort/"
+ "/home/visayafan/tmp/testgrep/"
+ "/home/visayafan/visayafan.github.com/Others/o/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "MS_WithGPU.m"
- "fun.m"
- "Bil_Filter.m"
- "test.m"
+ "EmacsOrg.org"
+ "UbuntuTrick.org"
+ "vf-org-setting.el"
+ "README"
+ "org"
+ "NeuWort01.html"
+ "NeuWort01.org"
+ "NeuWort05.org"
+ "test.org"
+ "DativeCase.org"
+ "Redensart.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("d:/study/Mandelbrot_Set/Mandelbrot_Set/" (20856 53297 0 0) "ProcessMandelbrotElement.ptx" "ProcessMandelbrotElement.m" "pctdemo_processMandelbrotElement.cu" "MS_Working_in_CUDA.m" "MS_Working_in_CUDA.jpg" "MS_WithoutGPU.m" "MS_WithoutGPU.jpg" "MS_WithGPU.m" "MS_WithGPU.jpg" "MS_Removing_Indexing.m" "MS_Removing_Indexing.jpg" "MS_Element_wise_Operation.m" "MS_Element_wise_Operation.jpg" "Mandelbrot.pdf" "Mandelbrot.jpg" "GPU_thread_block_grid.jpg" "Draw_Mandelbrot.m" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20860 21060 730151 0) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
 
- ("d:/study/Mandelbrot_Set/" (20856 57311 0 0) "todo.org" "tmp/" "Mandelbrot_zoom.gif" "Mandelbrot_zoom.avi" "Mandelbrot_Set/" "Mandelbrot_sequence_new.gif" "Mandelbrot_sequence_new.avi" "Mandelbrot.pdf" "Mandelbrot.lyx~" "Mandelbrot.lyx" "GPU_thread_block_grid.pptx" "Bilateral_Filter/" "#Mandelbrot.lyx#" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Linux/LinuxOS/" (20860 21063 405916 0) "查找相关.org" "查找相关.html" "批量修改文件.org" "批量修改文件.html" "命令行trick.org" "命令行trick.html" "xclip.org" "xclip.html" "wget.org" "wget.html" "Ubuntu软件.org" "Ubuntu软件.html" "Ubuntu包管理系统.org" "Ubuntu包管理系统.html" "Ubuntu下配置GAE翻墙.org" "Ubuntu下配置GAE翻墙.html" "UbuntuTrick.org" "Ubuntu12.04配置.org" "Ubuntu12.04配置.html" "tree.org" "tree.html" "tar.org" "tar.html" "Netstat命令查看端口号进程.org" "Netstat命令查看端口号进程.html" "kscope.org" "kscope.html" "images/" "help.org" "help.html" "grep.org" "grep.html" "etc.issue.org" "etc.issue.html" "UbuntuTrick.html" "../" "./")
 
- ("d:/study/Bilateral_Filter/" (20856 63057 0 0) "test.m" "test.asv" "lena.jpg" "lena/" "fun.m" "fun.asv" "Bil_Filter_GPU_Jacket.m" "Bil_Filter_GPU.m" "Bil_Filter.m" "bfilter2.m" "#Bil_Filter_GPU.m#" "../" "./")
+ ("/home/visayafan/.emacs.d/.emacs/" (20860 23089 796766 0) "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-package.el" "vf-org-setting.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-ccrypt.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-perl.el" "vf-doxymacs.el" "../" "./")
+
+ ("/home/visayafan/.emacs.d/" (20860 23821 123705 0) "ac-comphist.dat" "abbrev_defs" ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "%backup%~" "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "twittering-mode/" "tramp" "smex/" "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "slime/" "gnus/" "ac-dict/" "session.10df559b17e9188ee4136603696352108500000012580041" "semantic.cache/" "python/" "others/" "org-mode/" "org-8.0.2/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "install.bat" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "expand-region/" "eshell/" "emms-3.0/" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "../" "./")
+
+ ("/home/visayafan/.emacs.d/org-mode/" (20860 24006 902726 0) "testing/" "request-assign-future.txt" "README_maintainer" "README_git" "README_ELPA" "README_contribute" "README" "mk/" "Makefile" "lisp/" "etc/" "doc/" "COPYING" "contrib/" ".gitmodules" ".gitignore" ".git/" ".dir-settings.el" ".dir-locals.el" "../" "./")
+
+ ("/home/visayafan/.emacs.d/org-8.0.2/" (20860 10546 0 0) "request-assign-future.txt" "README" "mk/" "Makefile" "lisp/" "etc/" "doc/" "COPYING" "contrib/" "../" "./")
+
+ ("/home/visayafan/.emacs.d/org-8.0.2/doc/" (20860 10546 0 0) "texinfo.tex" "pdflayout.sty" "org_dual_license.texi" "orgguide.texi" "orgguide.pdf" "orgcard_letter.pdf" "orgcard.txt" "orgcard.tex" "orgcard.pdf" "org.texi" "org.pdf" "org-version.inc" "org" "Makefile" "library-of-babel.org" "Documentation_Standards.org" "doclicense.texi" "dir" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Deutsch/NeuWort/" (20860 21950 704181 0) "名词的性.org" "名词的性.html" "suffix.org" "suffix.html" "Redensart.org" "Redensart.html" "prefix.org" "prefix.html" "NeuWort05.org" "NeuWort05.html" "NeuWort04.org" "NeuWort04.html" "NeuWort03.org" "NeuWort03.html" "NeuWort02.org" "NeuWort02.html" "NeuWort01.org" "NeuWort01.html" "index.org" "index.html" "DativeCase.org" "DativeCase.html" "../" "./")
+
+ ("/home/" (20810 17961 871624 89000) "./" "../" "visayafan/")
+
+ ("/home/visayafan/tmp/testgrep/" (20860 20614 151507 551000) "prefix.org" "Redensart.org" "NeuWort03.org" "./" "NeuWort04.org" "名词的性.org" "../" "NeuWort05.org" "suffix.org" "DativeCase.org" "NeuWort02.org" "NeuWort01.org" "index.org")
+
+ ("/home/visayafan/visayafan.github.com/Deutsch/" (20844 5592 887323 0) "NeuWort/" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Others/o/" (20860 19427 681651 0) "名言警句.org" "名言警句.html" "test.org" "test.html" "test.css" "revolvermaps.org" "revolvermaps.html" "others.org" "lyx_shortcuts/" "lyx-beamer-preamble.tex" "lyx-article-preamble.tex" "latex-lyx.org" "latex-lyx.html" "images/" "graphviz.org" "graphviz.html" "git.org" "git.html" "CC-Mode.org" "CC-Mode.html" "BlogCollection.org" "BlogCollection.html" "#git.html#" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/Others/" (20710 23410 837673 0) "o/" "index.html" "diary/" "../" "./")
+
+ ("/home/visayafan/visayafan.github.com/" (20846 48094 72039 0) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Deutsch/" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/visayafan/" (20860 19405 521514 296000) ".local/" ".xinput.d/" "./" ".xsession-errors" "d/" ".smex-items" ".goutputstream-GI4CUW" ".dropbox-dist/" ".compiz-1/" ".texlive2012/" ".macromedia/" ".dbus/" ".fontconfig/" ".kde/" ".thunderbird/" "Ubuntu One/" ".adobe/" ".goutputstream-JHXBVW" ".goutputstream-97HDVW" "Templates/" "vfinstall/" ".gvfs/" ".goutputstream-ZGAHUW" "Desktop/" ".goutputstream-NDTYUW" "../" ".thumbnails/" ".goutputstream-H1K6VW" "Pictures/" ".cache/" ".lesshst" ".pki/" ".goldendict/" ".gitconfig" "GCC/" "visayafan.github.com/" ".mplayer/" ".pulse-cookie" ".t.weibo.emacs.d/" ".ICEauthority" ".ecb-tip-of-day.el" ".bash_logout" ".appdata/" ".ecb-user-layouts.el" ".gconf/" ".pulse/" ".goutputstream-0YTSVW" "nohup.out" ".org-timestamps/" ".session" ".goutputstream-A87EVW" ".emacs.d/" ".bashrc" ".profile" ".lyx/" ".mission-control/" ".ssh/" ".dmrc" "software/" ".goutputstream-W4SFVW" ".config/" "Mail/" ".Xauthority" "tmp/" "study/" ".gtk-bookmarks" ".goutputstream-0ZFZVW" "Dropbox/" ".goutputstream-M51ZUW" "C:\\nppdf32Log\\debuglog.txt" ".gnome2/" "proxy.sh" ".mozilla/" ".aliedit/" ".emms-cache" "Downloads/" ".backups_emacs/" ".gksu.lock" ".gnupg/" ".bash_history" ".goutputstream-RXVVUW" ".xsession-errors.old" ".gstreamer-0.10/" ".face" ".fonts/" ".emacs" ".dropbox/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,4 +1,4 @@
 # -*- mode: snippet -*-
 # name: lightbox
 # --
-{{{lightbox($1,$2)}}} 
+{{{lightbox(images/${1:image filename},${2:400})}}} 

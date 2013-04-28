@@ -1,4 +1,5 @@
 # -*- mode: snippet -*-
 # name: result
 # --
-$$\underrightarrow{\ \ result\ \ }$$
+#+html:<br/><br/><br/><br/><br/>
+#+html:<img src="images/result.jpg"></img>

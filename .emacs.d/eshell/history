@@ -1,128 +1,128 @@
-cdt
-mv test.png ~/visayafan.github.com/Others/o/images/chinese.png
-cd -
+cd
+cd .lyx/bind/
+cd
 clc
-cdv
-cd English/Deutsch/
+d
+cd study/Mandelbrot_Set/
 ls
-clc
-cdv
-cd English/Deutsch/
-exit
-cdv
-cd English/NewWords/
-cdv
-cd English/Deutsch/
-cdvcl
-clc
-cdee
-cdv
-cd English/NewWords/
+mkdir Mid_Presentation
+mv 毕设中期答辩Beamer.lyx Mid_Presentation/
+cd Mid_Presentation/
 ls
-clc
-ll
-cl
-clc
-cdv
-clc
-mkdir -p Deutsch/NeueWort
-mv English/Deutsch/* Deutsch/NeueWort/
-rmdir English/Deutsch/
-ls Deutsch/NeueWort/
-rm -rf English/Deutsch/
-clc
-cdv
-cd Deutsch/NeueWort/
-clc
-ls
-clc
-mv DativVerben.org DativeCase.org
-cdvcl
-ls
+cdvo
+ls lyx*
+rm lyx-latex-preamble-bk.tex
+cat lyx-beamer-preamble.tex
+cd
+cd .lyx/bind/
+cdvo
 ls images/
-ls images/emacs-dired.png 
-cdv
-mv Deutsch Deutsche
-cd Deutsche/
-ls
-mv NeueWort NeuWort
 clc
-cd NeuWort/
-ls
-clc
-ll
-clc
-ll
-cdv
-cd Deutsche/NeuWort/
 cde
 cd yasnippet/snippets/org-mode/
-cdee
-cdv
-cd English/NewWords/
+cdvo
+clc
+ls
+mkdir lyx_shortcuts
+nautilus lyx_shortcuts/
+cd lyx_shortcuts/
+cdvo
+cd images/
+ls
 ls
 clc
-l
-ll
-cdee
-cd
-d
-cdv
-mv Deutsche Deutsch
-cl
-clc
-cd Deutsch/
 ls
-ls NeuWort/
+eog result.jpg
 clc
-cdee
-cdee
 cde
-cdee
-cdee
+cd yasnippet/snippets/org-mode/
+cdvoc
+cdvo
+cd images/
+ls
+ls
+clc
+ls
+mv Beamer_difference_between_only_and_uncover_result3.png.png Beamer_difference_between_only_and_uncover_result3.png
+cdvcl
+ls
+cd -
+clc
+ls
+cdvo
+ls figures/
+cdvd
 cdv
 cd Deutsch/NeuWort/
 cdt
-ls
-evince presentation.pdf 
-evince presentation.pdf 
-clc
-ls
-cp ~/d/Picture/Collections/Emacs_logo.jpg .
-evince presentation.pdf
-clc
-cdv
-cd English/NewWords/
-cde
-cdv
-cd Deutsch/NeuWort/
+cdvcl
+cdee
+cdvo
 clc
 cdee
+cdee
 clc
-d
-cd study/Mandeldrot_Set/
-nautilus .
-cdt
+cdvo
 clc
+cdee
+cde
+clc
+cde
+cd org-8.0.2/doc/
 ls
+evince org.pdf 
+cdvo
+cde
+cdee
+cdt
 cd test/
 ls
+cd ..
+mkdir testgrep
+cd testgrep/
+ccl
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+ccl
+ls
+rm *.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+cde
+cd yasnippet/snippets/org-mode/
+head template 
+head toc 
+cdt
+cd testgrep/
+rm *.rog
+rm *.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+clc
 cdv
-cdvo
+cddn
+clc
+touch *
+cddn
+touch *
+touch *
+touch *
+cde
+cd org-8.0.2/doc/
+clc
+ls
+cat org-version.inc 
+cat Makefile 
+clc
+cd ..
+ls
+cdv
+clc
+cde
+clc
+git clone git://orgmode.org/org-mode.git
+ls org-mode/
+cd org-mode/
+cdee
 cdv
 cd Linux/LinuxOS/
-ls
-cdt
-cd test/
-ls
-rm *.jpg new.avi 
 clc
-ls
-pdflatex test.avi
-pdflatex test.tex
-pdflatex test.tex
-pdflatex test.tex
-c;c
-pdflatex test.tex
-evince test.pdf 
-acroread test.pdf 
+cdvcl

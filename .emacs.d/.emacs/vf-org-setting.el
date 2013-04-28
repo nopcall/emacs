@@ -1,4 +1,5 @@
-(setq load-path (cons "~/.emacs.d/org-7.8.11/lisp" load-path))
+;; org7和8版本之间差别非常大，这里是版本8的配置文件
+(setq load-path (cons "~/.emacs.d/org-mode/lisp" load-path))
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 (require 'org-install)
 (require 'org-latex)
@@ -15,123 +16,128 @@
 ;; setq truncate-lines nil的两行代码是为了解决org-mode在编辑中文的时候不会自动折行的问题
 (add-hook 'org-mode-hook 
           '(lambda ()
-              (setq truncate-lines nil)
-              (define-key org-mode-map "\C-col" 'org-store-link)
-              (define-key org-mode-map "\C-coc" 'org-capture)
-              (define-key org-mode-map "\C-coa" 'org-agenda)
-              (define-key org-mode-map "\C-cob" 'org-iswitchb)            ;switch only between files with org suffix
-              (define-key org-mode-map "\C-cot" 'org-toggle-link-display) ;toogle link display, literal or descriptive
-              (define-key org-mode-map [f5] 'org-export-as-html-and-open)
-              (define-key org-mode-map [f7] 'org-export-as-html)
-              (define-key org-mode-map [f8] 'org-publish)
-              ))
+             (setq org-html-postamble nil)           ;在7.x版本中使用的是org-export-html-postamble
+             (setq org-html-preamble t)              
+             (setq org-export-language-setup (append org-export-language-setup '(("zh-CN" "作者" "日期" "目录" "脚注"))))
+             (setq org-export-default-language "zh-CN")
+             (setq org-html-style-include-default nil)
+             (setq org-html-style-include-scripts nil)
+             (setq org-html-home/up-format "<div id=\"org-div-home-and-up\"> <a accesskey=\"H\" href=\"%s\"> HOME </a> </div>")
+             (setq org-blank-before-new-entry (quote ((heading) (plain-list-item))))
+             (setq org-hide-emphasis-markers nil)
+             (setq org-export-dispatch-use-expert-ui t) ;C-c C-e后不显示提示bufffer
+             (setq truncate-lines nil)
+             (define-key org-mode-map "\C-col" 'org-store-link)
+             (define-key org-mode-map "\C-coc" 'org-capture)
+             (define-key org-mode-map "\C-coa" 'org-agenda)
+             (define-key org-mode-map "\C-cob" 'org-iswitchb)            ;switch only between files with org suffix
+             (define-key org-mode-map "\C-cot" 'org-toggle-link-display) ;toogle link display, literal or descriptive
+             (define-key org-mode-map [f5] 'org-html-export-to-html-and-open)
+             (define-key org-mode-map [f7] 'org-html-export-to-html)
+             (define-key org-mode-map [f8] 'org-publish)
+             ))
+;;"org8中去掉了导出HTML并打开的函数，不过可以利用 org-open-file实现一个"
+(defun org-html-export-to-html-and-open ()
+  (interactive)
+  (org-open-file (org-html-export-to-html)))
 
+;; org-babel
+;; active Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages '(
+   (sh . t)
+   (dot . t)
+   (ditaa . t)
+   (plantuml . t)
+   (emacs-lisp . t)))
+(setq org-confirm-babel-evaluate nil)
 
 (setq org-publish-project-alist
       '(("java"
          :base-directory "~/visayafan.github.com/Coding/Java"
          :publishing-directory "~/visayafan.github.com/Coding/Java"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#java\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#java\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("python"
          :base-directory "~/visayafan.github.com/Coding/Python"
          :publishing-directory "~/visayafan.github.com/Coding/Python"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#python\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#python\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("cpp"
          :base-directory "~/visayafan.github.com/Coding/Cpp"
          :publishing-directory "~/visayafan.github.com/Coding/Cpp"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#cpp\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#cpp\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("lisp"
          :base-directory "~/visayafan.github.com/Coding/Lisp"
          :publishing-directory "~/visayafan.github.com/Coding/Lisp"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#lisp\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#lisp\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("kernel"
          :base-directory "~/visayafan.github.com/Linux/LinuxKernel"
          :publishing-directory "~/visayafan.github.com/Linux/LinuxKernel"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxkernel\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxkernel\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("linux"
          :base-directory "~/visayafan.github.com/Linux/LinuxOS"
          :publishing-directory "~/visayafan.github.com/Linux/LinuxOS"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxos\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxos\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("linuxc"
          :base-directory "~/visayafan.github.com/Linux/LinuxCoding"
          :publishing-directory "~/visayafan.github.com/Linux/LinuxCoding"
-         :base-extension "org"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :auto-index t
-         :section-numbers t
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxcoding\">主页</a></div>"
+         :publishing-function org-html-publish-to-html
+         :base-extension "org"
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#linuxcoding\">主页</a></div>"
          )        
         ("compiler"
          :base-directory "~/visayafan.github.com/Compiler/o"
          :publishing-directory "~/visayafan.github.com/Compiler/o"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#compiler\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#compiler\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("english"
          :base-directory "~/visayafan.github.com/English/NewWords"
          :publishing-directory "~/visayafan.github.com/English/NewWords"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("deutsh"
          :base-directory "~/visayafan.github.com/Deutsch/NeuWort"
          :publishing-directory "~/visayafan.github.com/Deutsch/NeuWort"
          :base-extension "org"
+         :publishing-function org-html-publish-to-html
+         :html-preamble "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
          :recursive t
-         :publishing-function org-publish-org-to-html
-         :style "<div id=\"org-div-comments\"><a href=\"../../index.html#english\">主页</a></div>"
-         :auto-index t
-         :section-numbers t
          )
         ("all"
          :components ("cpp" "java" "python" "lisp" "linux" "linuxc" "kernel" "compiler")
          )
         ))
+
 
 (provide 'vf-org-setting)
 
