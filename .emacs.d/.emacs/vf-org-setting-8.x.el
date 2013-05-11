@@ -1,5 +1,5 @@
 ;; org7和8版本之间差别非常大，这里是版本8的配置文件
-(setq load-path (cons "~/.emacs.d/org-mode/lisp" load-path))
+(add-to-list 'load-path "~/.emacs.d/org-mode/lisp")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-common.el")
 (add-hook 'org-mode-hook 
           '(lambda ()

@@ -1,6 +1,4 @@
-(setq load-path (cons "~/.emacs.d/org-7.8.11/lisp" load-path))
-(require 'org-install)
-(require 'org-latex)
+(add-to-list 'load-path "~/.emacs.d/org-7.8.11/lisp")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-common.el")
 (add-hook 'org-mode-hook 
           '(lambda ()

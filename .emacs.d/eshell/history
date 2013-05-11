@@ -1,128 +1,128 @@
-cv
-cdv
+clc
 cdee
-cat ~/.emacs.d/yasnippet/snippets/org-mode/disqus 
-cd ../org-mode/lisp/
-cd -
-cde
-cd org-mode/
-clc
-ls
-cd lisp/
-clc
-ls
 cdee
 clc
 cdvo
+clc
+cdee
+cde
+clc
+cde
+cd org-8.0.2/doc/
+ls
+evince org.pdf 
+cdvo
+cde
+cdee
+cdt
+cd test/
+ls
+cd ..
+mkdir testgrep
+cd testgrep/
+ccl
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+ccl
+ls
+rm *.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+cde
+cd yasnippet/snippets/org-mode/
+head template 
+head toc 
+cdt
+cd testgrep/
+rm *.rog
+rm *.org
+cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+clc
+cdv
+cddn
+clc
+touch *
+cddn
+touch *
+touch *
+touch *
+cde
+cd org-8.0.2/doc/
+clc
+ls
+cat org-version.inc 
+cat Makefile 
+clc
+cd ..
+ls
+cdv
+clc
+cde
+clc
+git clone git://orgmode.org/org-mode.git
+ls org-mode/
+cd org-mode/
+cdee
+cdv
+cd Linux/LinuxOS/
+clc
+cdvcl
+d
+cd
+cd software/emacs-24.3/
+cd ../emacs/
+ls
+cdv
+cdvo
+clc
+cdee
+ls
+clc
+cde
+cdvo
+clc
+cd
+cp .emacs ~/d/Dropbox/software/emacs/
+d
+cd Dropbox/software/emacs/.emacs.d/ace-jump-mode/
+cdvo
+cdvcl
+cdvo
+d
+cde
+cd ../.emacs.d/.emacs/
+d
+cdvcl
 cdee
 cdvcl
 cde
 cd yasnippet/snippets/org-mode/
-cddn
-cde
-cd
-cde
+cdvo
+cdvo
+clc
 cdee
-cdt
-cde
-cd others/
+cd ../cedet-1.1/
+ls
+make
 cdee
-rm vf-en-mode.el 
+cde
+clc
+cd cedet-bzr/
+ls
+make clean-all
+make
+d
+cd ccc
+cccc
+ccc
+alias 
+cdvcc
+clc
+ls
+cdccc
 cdvcl
 cdee
-cdt
-cdee
-cdccc
-cdccc
-cdccc
-cdccc
-cdee
-cd ..
-rm .emacs_windows.el
-rm .emacs_linux.el
-clc
-clc
-pwd
-ls
-d
-ls
-d
-cd study/ImageRecognition/
-cdee
-d
-cd study/ImageRecognition/
-d
-cd study/ImageRecognition/
-clc
-ls
-nautilus .
-cd ../Bilateral_Filter/
-cp lena.jpg ../ImageRecognition/
-cd -
-clc
-l
-ls
-cd ../Mandelbrot_Set/
-ls
-cden
-d
-cd study/ImageRecognition/
+cdvcl
 cddn
-d
-cd study/ImageRecognition/
-mkdir mex
-cd mex/
-touch fun.m
-mv fun.m fun.cu
+clc
 cdee
-d
-cd study/ImageRecognition/mex/test/
-cd
-cd -
-rm test.cpp 
-ls test.cpp
-d
-cd study/ImageRecognition/mex/work/
-ls
-cde
-cd eshell/
-clc
-alias gitst 'git status'
-cdv
-gitst
-cd
-d
-cd study/ImageRecognition/mex/
-gitst
-cde
-d
-cd
-exit
-d
-cd study/ImageRecognition/mex/
-git st
-git lol
-git lolg
-git diff cal.cu
-clc
-exit
-d
-cd study/ImageRecognition/mex/
-clc
-gitl
-git lol
-clc
-gitb
-gitd cal.cu
-clc
-git remote add origin ssh://git@bitbucket.org/hanfan/imagerecognition_mexandcuda.git
-git push -u origin --all
-git push -u origin --all
-clc
-d
-cd study/Bilateral_Filter/mex/test/
-cdee
-d
-cd Dropbox/software/emacs/
-cdee
-cd -
+cdccc

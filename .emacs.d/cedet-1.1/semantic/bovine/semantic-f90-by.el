@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2010 Free Software Foundation
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:23+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:45:45+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

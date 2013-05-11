@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012 Eric M. Ludlam
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:20+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:45:42+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

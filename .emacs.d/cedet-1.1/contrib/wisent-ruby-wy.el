@@ -2,8 +2,8 @@
 
 ;;; Copyright (C) 2007 Daniel Debertin (debertin@gmail.com)
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:46+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:47:20+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

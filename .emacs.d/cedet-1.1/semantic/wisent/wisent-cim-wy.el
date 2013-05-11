@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002 David Ponce
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:00+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:45:11+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

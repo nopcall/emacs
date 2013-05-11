@@ -1,4 +1,5 @@
 (load-file "~/.emacs.d/cedet-1.1/common/cedet.el")    
+;; (load-file "~/.emacs.d/cedet-bzr/cedet-devel-load.el")
 ;; ;; 各个mode的功能见：http://emacser.com/cedet.htm
 ;; (semantic-load-enable-minimum-features)
 (semantic-load-enable-code-helpers)

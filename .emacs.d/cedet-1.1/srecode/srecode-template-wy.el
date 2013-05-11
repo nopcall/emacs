@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2005, 2007, 2008, 2009, 2010 Eric M. Ludlam
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:26+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:46:02+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
@@ -233,20 +233,17 @@
 ;;
 (require 'semantic-lex)
 
-(define-lex-keyword-type-analyzer srecode-template-wy--<keyword>-keyword-analyzer
-  "keyword analyzer for <keyword> tokens."
-  "\\(\\sw\\|\\s_\\)+")
+(define-lex-regex-type-analyzer srecode-template-wy--<property>-regexp-analyzer
+  "regexp analyzer for <property> tokens."
+  ":\\(\\w\\|\\s_\\)*"
+  nil
+  'property)
 
 (define-lex-regex-type-analyzer srecode-template-wy--<symbol>-regexp-analyzer
   "regexp analyzer for <symbol> tokens."
   "\\(\\sw\\|\\s_\\)+"
   nil
   'symbol)
-
-(define-lex-sexp-type-analyzer srecode-template-wy--<string>-sexp-analyzer
-  "sexp analyzer for <string> tokens."
-  "\\s\""
-  'string)
 
 (define-lex-regex-type-analyzer srecode-template-wy--<number>-regexp-analyzer
   "regexp analyzer for <number> tokens."
@@ -260,11 +257,14 @@
   nil
   'punctuation)
 
-(define-lex-regex-type-analyzer srecode-template-wy--<property>-regexp-analyzer
-  "regexp analyzer for <property> tokens."
-  ":\\(\\w\\|\\s_\\)*"
-  nil
-  'property)
+(define-lex-sexp-type-analyzer srecode-template-wy--<string>-sexp-analyzer
+  "sexp analyzer for <string> tokens."
+  "\\s\""
+  'string)
+
+(define-lex-keyword-type-analyzer srecode-template-wy--<keyword>-keyword-analyzer
+  "keyword analyzer for <keyword> tokens."
+  "\\(\\sw\\|\\s_\\)+")
 
 
 ;;; Epilogue

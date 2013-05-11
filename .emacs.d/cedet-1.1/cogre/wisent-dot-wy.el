@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2003, 2004, 2009 Eric M. Ludlam
 
-;; Author: visayafan <visayafan@vf.localdomain>
-;; Created: 2012-10-31 00:39:39+0800
+;; Author:  <Administrator@XP-201212150321>
+;; Created: 2013-05-11 23:46:42+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
@@ -215,10 +215,6 @@
 ;;
 (require 'semantic-lex)
 
-(define-lex-keyword-type-analyzer wisent-dot-wy--<keyword>-keyword-analyzer
-  "keyword analyzer for <keyword> tokens."
-  "\\(\\sw\\|\\s_\\)+")
-
 (define-lex-block-type-analyzer wisent-dot-wy--<block>-block-analyzer
   "block analyzer for <block> tokens."
   "\\s(\\|\\s)"
@@ -236,11 +232,6 @@
   nil
   'symbol)
 
-(define-lex-sexp-type-analyzer wisent-dot-wy--<string>-sexp-analyzer
-  "sexp analyzer for <string> tokens."
-  "\\s\""
-  'string)
-
 (define-lex-regex-type-analyzer wisent-dot-wy--<number>-regexp-analyzer
   "regexp analyzer for <number> tokens."
   semantic-lex-number-expression
@@ -256,6 +247,15 @@
     (LINK . "--")
     (DILINK . "->"))
   'punctuation)
+
+(define-lex-sexp-type-analyzer wisent-dot-wy--<string>-sexp-analyzer
+  "sexp analyzer for <string> tokens."
+  "\\s\""
+  'string)
+
+(define-lex-keyword-type-analyzer wisent-dot-wy--<keyword>-keyword-analyzer
+  "keyword analyzer for <keyword> tokens."
+  "\\(\\sw\\|\\s_\\)+")
 
 
 ;;; Epilogue
