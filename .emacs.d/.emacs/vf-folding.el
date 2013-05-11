@@ -37,4 +37,3 @@
 (fold-add-to-marks-list 'shell-script-mode "# {{{" "# }}}" nil)
 (fold-add-to-marks-list 'sh-mode "# {{{ " "# }}}" nil)
 
-(provide 'vf-folding)

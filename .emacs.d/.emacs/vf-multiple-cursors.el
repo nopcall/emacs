@@ -9,4 +9,4 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-S-c C-<") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-S-c C->") 'mc/mark-all-in-region)
-(provide 'vf-multiple-cursors)
+

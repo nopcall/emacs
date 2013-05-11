@@ -8,4 +8,4 @@
                             (define-key c-mode-base-map [C-f5] 'gud-run)     ;run
                             (define-key c-mode-base-map [S-f5] 'gud-cont)    ;continue
                             ))
-(provide 'vf-gdb)
+

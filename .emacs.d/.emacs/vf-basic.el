@@ -1,6 +1,4 @@
 (tool-bar-mode -1)
-(menu-bar-mode -1)
-
 (require 'tabbar)                       ;标签
 (tabbar-mode)
 (global-set-key (kbd "M-P") 'tabbar-backward-group)
@@ -47,8 +45,8 @@
 (global-set-key (kbd "C-c s l") 'show-all-invisible)
 (global-set-key (kbd "C-c m l") 'list-matching-lines)
 ;; 返回最近修改的地方
-(require 'goto-last-change)
-(global-set-key "\C-cgl" 'goto-last-change)
+;; (require 'goto-last-change)
+;; (global-set-key "\C-cgl" 'goto-last-change)
 ;;;; sudo apt-get install cscope
 (require 'xcscope)
 (setq cscope-do-not-update-database t)
@@ -144,7 +142,6 @@
 (setq column-number-mode t)
 ;; 把滚动条放在左边
 (menu-bar-left-scroll-bar)
-
 ;; narrow C-x n m / C-x n w
 (put 'narrow-to-page 'disabled nil)
 (put 'narrow-to-region 'disabled nil)
@@ -189,9 +186,9 @@
 (global-set-key (kbd "M-n") 'tabbar-forward)
 (global-set-key "\C-cds" 'desktop-save)
 (global-set-key "\C-cdc" 'desktop-change-dir)
-(load "desktop")
-(desktop-load-default)
-(desktop-read)
+;; (load "desktop")
+;; (desktop-load-default)
+;; (desktop-read)
 
 ;;abbrev
 (setq abbrev-mode t)
@@ -207,10 +204,6 @@
 (setq x-select-enable-clipboard t)
 ;; 在标题栏显示buffer名
 (setq frame-title-format '("" buffer-file-name ))
-
-;; 保存
-(global-set-key "\C-cds" 'desktop-save)
-(global-set-key "\C-cdc" 'desktop-change-dir)
 
 (setq tags-table-list '("~/.emacs.d/TAGS"))
 
@@ -236,98 +229,6 @@
   (let ((comint-buffer-maximum-size 0))
     (comint-truncate-buffer)))
 
-(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "文泉驿等宽微米黑"))))
- '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
- '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button))))))
-
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- '(c-default-style (quote ((java-mode . "java") (awk-mode . "awk") (other . "gnu"))) t)
- '(column-number-mode t)
- '(default-input-method "chinese-b5-quick")
- '(ecb-options-version "2.40")
- '(matlab-shell-command "/usr/local/MATLAB/R2010b/bin/matlab")
- '(org-format-latex-header "\\documentclass{article}
-\\usepackage[usenames]{color}
-\\usepackage{amsmath}
-\\usepackage[mathscr]{eucal}
-\\pagestyle{empty}             % do not remove
-[PACKAGES]
-[DEFAULT-PACKAGES]
-% The settings below are copied from fullpage.sty
-\\setlength{\\textwidth}{\\paperwidth}
-\\addtolength{\\textwidth}{-3cm}
-\\setlength{\\oddsidemargin}{1.5cm}
-\\addtolength{\\oddsidemargin}{-2.54cm}
-\\setlength{\\evensidemargin}{\\oddsidemargin}
-\\setlength{\\textheight}{\\paperheight}
-\\addtolength{\\textheight}{-\\headheight}
-\\addtolength{\\textheight}{-\\headsep}
-\\addtolength{\\textheight}{-\\footskip}
-\\addtolength{\\textheight}{-3cm}
-\\setlength{\\topmargin}{1.5cm}
-\\addtolength{\\topmargin}{-2.54cm}
-\\usepackage{fontspec,xunicode,xltxtra}
-\\usepackage{listings}
-\\usepackage{xcolor}
-\\usepackage{color}
-\\usepackage{float}
-\\usepackage{blkarray}
-\\usepackage{multicol}
-\\usepackage{tcolorbox}
-\\tcbuselibrary{listings}
-%\\setmainfont[BoldFont=Adobe Heiti Std]{FangSong_GB2312}
-%\\setsansfont[BoldFont=Adobe Heiti Std]{KaiTi_GB2312}
-\\setmainfont[BoldFont=Adobe Heiti Std]{Adobe Song Std}
-\\setsansfont[BoldFont=Adobe Heiti Std]{AR PL UKai CN}
-\\setmonofont{Bitstream Vera Sans Mono}
-\\XeTeXlinebreaklocale \"zh\"  %
-\\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
-\\newcommand\\li{\\fontspec{LiSu}}
-\\newcommand\\hei{\\fontspec{SimHei}}
-\\newcommand\\you{\\fontspec{YouYuan}}
-%\\newcommand\\sun{\\fontspec{SimSun}}
-\\newcommand\\fangsong{\\fontspec{仿宋_GB2312}}
-\\newcommand\\kai{\\fontspec{KaiTi_GB2312}}
-\\usepackage{titlesec}
-\\titleformat{\\chapter}{\\centering\\huge}{第\\thechapter{}章}{1em}{\\textbf}
-\\titleformat{\\part}{\\centering\\huge}{第\\thepart{}部分}{1em}{\\textbf}
-\\renewcommand{\\contentsname}{目~录}
-\\renewcommand{\\listfigurename}{插图目录}
-\\renewcommand{\\listtablename}{表格目录}
-\\renewcommand{\\indexname}{索引}
-\\renewcommand{\\tablename}{表}
-\\renewcommand{\\figurename}{图}
-
-\\lstset{
-basicstyle=\\scriptsize,
-numbers=left,
-keywordstyle=\\color{blue},
-numberstyle={\\tiny\\color{lightgray}},
-stepnumber=1, %行号会逐行往上递增
-numbersep=5pt,
-commentstyle=\\small\\color{red},
-%backgroundcolor=\\color[rgb]{0.95,1.0,1.0},
-showspaces=false,
-showtabs=false,
-frame=shadowbox, framexleftmargin=5mm, rulesepcolor=\\color{red!20!green!20!blue!20!},
-% frame=single,
-% TABframe=single,
-tabsize=4,
-breaklines=tr,
-extendedchars=false %这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
-}")
- '(preview-gs-options (quote ("-q" "-dNOPAUSE" "-DNOPLATFONTS" "-dPrinted" "-dTextAlphaBits=4" "-dGraphicsAlphaBits=4")))
- '(show-paren-mode t))
-
 ;; 将备份文件保存在~/.emacs_backups中而非当前目录
 (setq backup-directory-alist (quote (("." . "~/.backups_emacs"))))
 ;; 当文件存在硬链接时默认的备份会破坏这种链接（新建一个文件在新文件中修改，与原来链接文件的inode不同，故与原来链接文件存在链接关系的文件不会同步更新），可以修改当存在链接的时候,通过拷贝来备份，而不是写进一个新文件，故链接关系不会被破坏。
@@ -341,7 +242,7 @@ extendedchars=false %这一条命令可以解决代码跨页时，章节标题�
 
 ;; highlight the current line; set a custom face, so we can
 ;; recognize from the normal marking (selection)
-(defface hl-line '((t (:background "wihte")))
+(defface hl-line '((t (:background "white")))
   "Face to use for `hl-line-face'." :group 'hl-line)
 (setq hl-line-face 'hl-line)
 (global-hl-line-mode t) ; turn it on for all modes by default
@@ -396,11 +297,17 @@ BEG and END (region to sort)."
       "\C-a\367\C-y\C-e")
 (fset 'vf-copy-current-line-up
       "\C-a\367\C-y\C-e\C-p")
-(global-set-key (kbd "s-n") 'vf-copy-current-line-down)
+;; (global-set-key (kbd "s-n") 'vf-copy-current-line-down)
 (global-set-key [(control shift meta n)] 'vf-copy-current-line-down)
-(global-set-key (kbd "s-p") 'vf-copy-current-line-up)
+;; (global-set-key (kbd "s-p") 'vf-copy-current-line-up)
 (global-set-key [(control shift meta p)] 'vf-copy-current-line-up)
 
-(setq default-input-method nil)
+;; 默认输入法设置为德语，切换快捷键为C-\
+(setq default-input-method "german")
 
-(provide 'vf-basic)
+;; 开启自动闭合括号minor mode，但在lisp mode中关掉它，因为写lisp代码时这个功能会成为阻碍
+(electric-pair-mode 1)
+(add-hook 'emacs-lisp-mode-hook
+          '(lambda ()
+             (set (make-local-variable 'electric-pair-mode) nil)))
+                             

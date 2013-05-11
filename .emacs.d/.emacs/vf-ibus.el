@@ -11,4 +11,4 @@
 ;; Use s-SPC to toggle input status
 (global-set-key (kbd "S-SPC") 'ibus-toggle)
 
-(provide 'vf-ibus)
+

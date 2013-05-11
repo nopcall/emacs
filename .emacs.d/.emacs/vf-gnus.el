@@ -63,4 +63,4 @@
 (setq gnus-group-line-format "%P%M%S%p%P%5y-|-%6t-|-%B%(%g%)
 ")                                      ;此处换行不可移动到上行中
 
-(provide 'vf-gnus)
+

@@ -19,4 +19,4 @@
 ;;                 ("baidu" . [simple-query "www.baidu.com" "www.baidu.com/s?wd=" ""])
 ;;                 )
 ;;               webjump-sample-sites))
-(provide 'vf-webjump)
+

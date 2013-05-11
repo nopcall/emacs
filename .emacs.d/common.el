@@ -4,72 +4,64 @@
 
 ;; My Emacs Configuration
 ;; Path: .emacs.d/others and .emacs.d/.emacs
-(require 'vf-basic)
-(require 'vf-autocomplete)
-(require 'vf-cpp)
-(require 'vf-gdb)
-(require 'vf-global-set-key)
-(require 'vf-not-sure)
-(require 'vf-org-setting)
-(require 'vf-webjump)
-(require 'vf-org-remember)
-(require 'vf-zencoding)
-(require 'vf-yasnippet)
-(require 'vf-multiple-cursors)          ;多个光标同时操作
-(require 'vf-html-mode)                 ;扩展自带的SGML mode
-(require 'vf-ace-jump-mode)             ;按下一个键后可能跳转的地主用红色的不同字母标识
-                                        ;只要再按下此标识字符即可跳转到那个地方  
-(require 'vf-expand-region)             ;C-=根据位置选中可能要选中的，例如引号之间，括号之间
-(require 'vf-ido)
-(require 'vf-smex)                      ;M-x更加智能化
-(require 'vf-jiami)                     ;加密
-(require 'vf-eshell)                    ;eshell
-(require 'vf-slime)                     ;slime
-(require 'vf-gnus)                      ;gnus
-(require 'vf-wrap-region)               ;可以在选定区域外包上指定字符串
-(require 'vf-emms)
-(require 'vf-cedet)
-(require 'vf-ecb)
-(require 'vf-graphviz)            ;graphviz
-(require 'vf-matlab)
-;; (require 'typopunct)
-;; (require 'vf-weibo)
-;; (require 'vf-wubi)                      ;wubi
-;; (require 'vf-ibus)
-;; (require 'vf-color-theme)
-;; (require 'vf-doxymacs)
-;; (require 'vf-latex)
-;; (require 'vf-perl)
-;; (require 'vf-java)
-;; (require 'vf-python)
-;; (require 'vf-html-helper-mode)
-;; (require 'vf-folding)
-;; 没有sublime的缩进线细
-;; (require 'vf-indent-hint)
-;; (require 'vf-twitter)
-;; (require 'vf-minimap)
-;; (require 'vf-undo-tree)              ;undo-tree 不怎么常用
-;; (require 'exec-path-from-shell)
+(load-file "~/.emacs.d/.emacs/vf-basic.el")
+(load-file "~/.emacs.d/.emacs/vf-autocomplete.el")
+(load-file "~/.emacs.d/.emacs/vf-cpp.el")
+(load-file "~/.emacs.d/.emacs/vf-gdb.el")
+(load-file "~/.emacs.d/.emacs/vf-global-set-key.el")
+(load-file "~/.emacs.d/.emacs/vf-not-sure.el")
+(load-file "~/.emacs.d/.emacs/vf-org-setting-7.x.el")
+(load-file "~/.emacs.d/.emacs/vf-webjump.el")
+(load-file "~/.emacs.d/.emacs/vf-org-remember.el")
+(load-file "~/.emacs.d/.emacs/vf-zencoding.el")
+(load-file "~/.emacs.d/.emacs/vf-yasnippet.el")
+(load-file "~/.emacs.d/.emacs/vf-multiple-cursors.el")          ;多个光标同时操作
+(load-file "~/.emacs.d/.emacs/vf-html-mode.el")                 ;扩展自带的SGML mode
+(load-file "~/.emacs.d/.emacs/vf-ace-jump-mode.el")             ;按下一个键后可能跳转的地主用红色的不同字母标识只要再按下此标识字符即可跳转到那个地方  
+(load-file "~/.emacs.d/.emacs/vf-expand-region.el")             ;C-=根据位置选中可能要选中的，例如引号之间，括号之间
+(load-file "~/.emacs.d/.emacs/vf-ido.el")
+(load-file "~/.emacs.d/.emacs/vf-smex.el")                      ;M-x更加智能化
+(load-file "~/.emacs.d/.emacs/vf-jiami.el")                     ;加密
+(load-file "~/.emacs.d/.emacs/vf-eshell.el")                    ;eshell
+(load-file "~/.emacs.d/.emacs/vf-slime.el")                     ;slime
+(load-file "~/.emacs.d/.emacs/vf-gnus.el")                      ;gnus
+(load-file "~/.emacs.d/.emacs/vf-wrap-region.el")               ;可以在选定区域外包上指定字符串
+(load-file "~/.emacs.d/.emacs/vf-emms.el")
+(load-file "~/.emacs.d/.emacs/vf-cedet.el")
+(load-file "~/.emacs.d/.emacs/vf-graphviz.el") ;graphviz
+(load-file "~/.emacs.d/.emacs/vf-matlab.el")
+;; (load-file "~/.emacs.d/.emacs/typopunct.el")
+;; (load-file "~/.emacs.d/.emacs/vf-weibo.el")
+;; (load-file "~/.emacs.d/.emacs/vf-wubi.el")                      ;wubi
+;; (load-file "~/.emacs.d/.emacs/vf-ibus.el")
+;; (load-file "~/.emacs.d/.emacs/vf-color-theme.el")
+;; (load-file "~/.emacs.d/.emacs/vf-doxymacs.el")
+;; (load-file "~/.emacs.d/.emacs/vf-latex.el")
+;; (load-file "~/.emacs.d/.emacs/vf-perl.el")
+;; (load-file "~/.emacs.d/.emacs/vf-java.el")
+;; (load-file "~/.emacs.d/.emacs/vf-python.el")
+;; (load-file "~/.emacs.d/.emacs/vf-html-helper-mode.el")
+;; (load-file "~/.emacs.d/.emacs/vf-folding.el")
+;; (load-file "~/.emacs.d/.emacs/vf-indent-hint.el")            ;没有sublime的缩进线细
+;; (load-file "~/.emacs.d/.emacs/vf-twitter.el")
+;; (load-file "~/.emacs.d/.emacs/vf-minimap.el")
+;; (load-file "~/.emacs.d/.emacs/vf-undo-tree.el")              ;undo-tree 不怎么常用
+;; (load-file "~/.emacs.d/.emacs/exec-path-from-shell.el")
 ;; (exec-path-from-shell-initialize)
-;; (require 'vf-openwith)               ;调用外部命令打开emacs不能打开的文件
-;; (require 'vf-package)                ;包管理
-;; (require 'vf-w3m)                    ;w3m
-;; (require 'vf-mail)                   ;mail
-;; (require 'vf-auto-complete-clang)    ;clang
-;; (require 'vf-daemon)                 ;daemon client
-;; (require 'vf-newsticker)             ;newsticker
-;; (require 'vf-iedit)                  ;iedit
-;; (require 'unicad)                       ;自动判断文档编码Universal Charset Auto Detector
-;; (require 'winner)                       ;C-c left/right undo/redo窗口布局
+;; (load-file "~/.emacs.d/.emacs/vf-openwith.el")               ;调用外部命令打开emacs不能打开的文件
+;; (load-file "~/.emacs.d/.emacs/vf-package.el")                ;包管理
+;; (load-file "~/.emacs.d/.emacs/vf-w3m.el")                    ;w3m
+;; (load-file "~/.emacs.d/.emacs/vf-mail.el")                   ;mail
+;; (load-file "~/.emacs.d/.emacs/vf-auto-complete-clang.el")    ;clang
+;; (load-file "~/.emacs.d/.emacs/vf-daemon.el")                 ;daemon client
+;; (load-file "~/.emacs.d/.emacs/vf-newsticker.el")             ;newsticker
+;; (load-file "~/.emacs.d/.emacs/vf-iedit.el")                  ;iedit
+;; (load-file "~/.emacs.d/.emacs/unicad.el")                       ;自动判断文档编码Universal Charset Auto Detector
+;; (load-file "~/.emacs.d/.emacs/winner.el")                       ;C-c left/right undo/redo窗口布局
 ;; (winner-mode t)
-;; (require 'windresize)                   ;调整窗口大小
+;; (load-file "~/.emacs.d/.emacs/windresize.el")                   ;调整窗口大小
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
  '(auth-source-save-behavior nil)
  '(blink-cursor-mode nil)
  '(c-cleanup-list (quote set-from-style))
@@ -84,46 +76,7 @@
  '(comint-scroll-show-maximum-output t)
  '(comint-scroll-to-bottom-on-input t)
  '(custom-enabled-themes (quote (vf)))
- '(custom-safe-themes (quote ("8fa5156415ee36c4eb1e1492d5ec43ef105e94bf3d416abeefe3723fc35f356a" "2739ab45a856cab6ca78df53463390498961342d2836ec50cab433a50dba2e20" "71b172ea4aad108801421cc5251edb6c792f3adbaecfa1c52e94e3d99634dee7" default)))
  '(custom-theme-directory "~/.emacs.d/vfthemes")
- '(ecb-layout-window-sizes nil)
- '(ecb-options-version "2.40")
- '(eshell-aliases-file "/home/visayafan/.emacs.d/eshell/alias")
- '(eshell-glob-case-insensitive nil)
- '(eshell-hist-rebind-keys-alist (quote (([(control 112)] . eshell-previous-input) ([(control 110)] . eshell-next-input) ([(control up)] . eshell-previous-input) ([(control down)] . eshell-next-input) ([(control 114)] . eshell-isearch-backward) ([(control 115)] . eshell-isearch-forward) ([(meta 114)] . eshell-previous-matching-input) ([(meta 112)] . eshell-previous-matching-input-from-input) ([(meta 110)] . eshell-next-matching-input-from-input) ([up] . eshell-previous-matching-input-from-input) ([down] . eshell-next-matching-input-from-input))))
- '(eshell-scroll-show-maximum-output nil)
- '(fci-rule-color "#383838")
- '(font-use-system-font t)
- '(gnus-startup-file "~/.emacs.d/gnus/.newsrc" t)
- '(graphviz-dot-auto-indent-on-newline nil)
- '(jde-enable-abbrev-mode t)
- '(jde-jdk (quote ("1.6")))
- '(jde-jdk-doc-url "file:///media/Source_Study/study/java/jdk-7-fcs-bin-b147-apidocs-27_jun_2011/docs/index.html")
- '(jde-jdk-registry (quote (("1.6" . "/usr/lib/jvm/java-1.6.0-openjdk"))))
- '(matlab-shell-command "/usr/local/MATLAB/R2010b/bin/matlab")
- '(menu-bar-mode t)
- '(minimap-hide-scroll-bar nil)
- '(minimap-update-delay 0.5)
- '(minimap-width-fraction 0.2)
- '(org-emphasis-regexp-components (quote (" 	('\"{。，？！" "- 	.,:!?;'\")}\\。，？！" " 	
-,\"'" "." 1)))
- '(org-modules (quote (org-bbdb org-bibtex org-docview org-gnus org-info org-jsinfo org-irc org-mew org-mhe org-rmail org-special-blocks org-vm org-wl org-w3m)))
- '(preview-gs-options (quote ("-q" "-dNOPAUSE" "-DNOPLATFONTS" "-dPrinted" "-dTextAlphaBits=4" "-dGraphicsAlphaBits=4")))
- '(scroll-bar-mode (quote left))
- '(show-paren-mode t)
- '(w3m-add-tab-number t)
- '(w3m-bookmark-file-coding-system (quote gb18030))
- '(w3m-command-arguments (quote ("-cookie" "-F" "-o" "http_proxy=http://127.0.0.1:8087/")))
- '(w3m-default-save-directory "~/Downloads")
- '(w3m-home-page "about:")
- '(w3m-init-file "~/.emacs.d/w3m/.emacs-w3m")
- '(w3m-search-default-engine "baidu")
- '(w3m-search-engine-alist (quote (("yahoo" "http://search.yahoo.com/bin/search?p=%s" nil) ("yahoo-ja" "http://search.yahoo.co.jp/bin/search?p=%s" euc-japan) ("alc" "http://eow.alc.co.jp/%s/UTF-8/" utf-8) ("blog" "http://blogsearch.google.com/blogsearch?q=%s&oe=utf-8&ie=utf-8" utf-8) ("blog-en" "http://blogsearch.google.com/blogsearch?q=%s&hl=en&oe=utf-8&ie=utf-8" utf-8) ("google" "http://www.google.com/search?q=%s&ie=utf-8&oe=utf-8" utf-8) ("google-en" "http://www.google.com/search?q=%s&hl=en&ie=utf-8&oe=utf-8" utf-8) ("google news" "http://news.google.com/news?q=%s&ie=utf-8&oe=utf-8" utf-8) ("google news-en" "http://news.google.com/news?q=%s&hl=en&ie=utf-8&oe=utf-8" nil) ("google groups" "http://groups.google.com/groups?q=%s" nil) ("All the Web" "http://www.alltheweb.com/search?q=%s&web&_sb_lang=en" nil) ("All the Web-ja" "http://www.alltheweb.com/search?q=%s&web&_sb_lang=ja&cs=euc-jp" euc-japan) ("technorati" "http://www.technorati.com/search/%s" utf-8) ("technorati-ja" "http://www.technorati.jp/search/search.html?query=%s&language=ja" utf-8) ("technorati-tag" "http://www.technorati.com/tag/%s" utf-8) ("goo-ja" "http://search.goo.ne.jp/web.jsp?MT=%s" euc-japan) ("excite-ja" "http://www.excite.co.jp/search.gw?target=combined&look=excite_jp&lang=jp&tsug=-1&csug=-1&search=%s" shift_jis) ("altavista" "http://altavista.com/sites/search/web?q=\"%s\"&kl=ja&search=Search" nil) ("rpmfind" "http://rpmfind.net/linux/rpm2html/search.php?query=%s" nil) ("debian-pkg" "http://packages.debian.org/cgi-bin/search_contents.pl?directories=yes&arch=i386&version=unstable&case=insensitive&word=%s" nil) ("debian-bts" "http://bugs.debian.org/cgi-bin/pkgreport.cgi?archive=yes&pkg=%s" nil) ("freebsd-users-jp" "http://home.jp.FreeBSD.org/cgi-bin/namazu.cgi?key=\"%s\"&whence=0&max=50&format=long&sort=score&dbname=FreeBSD-users-jp" euc-japan) ("iij-archie" "http://www.iij.ad.jp/cgi-bin/archieplexform?query=%s&type=Case+Insensitive+Substring+Match&order=host&server=archie1.iij.ad.jp&hits=95&nice=Nice" nil) ("waei" "http://dictionary.goo.ne.jp/search.php?MT=%s&kind=je" euc-japan) ("eiwa" "http://dictionary.goo.ne.jp/search.php?MT=%s&kind=ej" nil) ("kokugo" "http://dictionary.goo.ne.jp/search.php?MT=%s&kind=jn" euc-japan) ("eiei" "http://www.dictionary.com/cgi-bin/dict.pl?term=%s&r=67" nil) ("amazon" "http://www.amazon.com/exec/obidos/search-handle-form/250-7496892-7797857" iso-8859-1 "url=index=blended&field-keywords=%s") ("amazon-ja" "http://www.amazon.co.jp/gp/search?__mk_ja_JP=%%83J%%83%%5E%%83J%%83i&url=search-alias%%3Daps&field-keywords=%s" shift_jis) ("emacswiki" "http://www.emacswiki.org/cgi-bin/wiki?search=%s" nil) ("en.wikipedia" "http://en.wikipedia.org/wiki/Special:Search?search=%s" nil) ("de.wikipedia" "http://de.wikipedia.org/wiki/Spezial:Search?search=%s" utf-8) ("ja.wikipedia" "http://ja.wikipedia.org/wiki/Special:Search?search=%s" utf-8) ("msdn" "http://search.msdn.microsoft.com/search/default.aspx?query=%s" nil) ("freshmeat" "http://freshmeat.net/search/?q=%s&section=projects" nil) ("baidu" "http://www.baidu.com/s?wd=%s" undecided))))
- '(wubi-phrases-file "~/.emacs.d/wubi/wubi-phrases.txt")
- '(wubi-phrases-file-el "~/.emacs.d/wubi/.wubi-phrases.el")
- '(yas-prompt-functions (quote (yas/dropdown-prompt yas/completing-prompt yas/ido-prompt yas/x-prompt yas-dropdown-prompt yas/no-prompt)))
- '(yas-snippet-dirs (quote ("~/.emacs.d/yasnippet/snippets")) nil (yasnippet))
- '(yas-trigger-key "<tab>")
 )
 
 (custom-set-faces
@@ -141,3 +94,5 @@
  '(region ((t (:background "gtk_selection_bg_color" :foreground "gtk_selection_fg_color"))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button))))))
+
+(menu-bar-mode -1)

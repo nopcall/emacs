@@ -35,4 +35,4 @@ this may be useful when you want to eval a function in a slime buffer with C-M-x
       (slime-repl-clear-buffer)
       (select-window current-window-name))))
 
-(provide 'vf-slime)
+

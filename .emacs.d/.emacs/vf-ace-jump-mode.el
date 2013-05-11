@@ -6,4 +6,4 @@
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 ;; alt+space
 (define-key global-map [?\M- ] 'ace-jump-mode)
-(provide 'vf-ace-jump-mode)
+

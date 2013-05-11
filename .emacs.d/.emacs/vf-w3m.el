@@ -6,6 +6,15 @@
 (setq w3m-default-save-directory "~/.emacs.d/w3m/")
 (setq w3m-command-arguments '("-cookie" "-F"))
 (setq w3m-use-cookies t)
+
+(setq w3m-add-tab-number t)
+(setq w3m-bookmark-file-coding-system (quote gb18030))
+(setq w3m-command-arguments (quote ("-cookie" "-F" "-o" "http_proxy=http://127.0.0.1:8087/")))
+(setq w3m-default-save-directory "~/Downloads")
+(setq w3m-home-page "about:")
+(setq w3m-init-file "~/.emacs.d/w3m/.emacs-w3m")
+(setq w3m-search-default-engine "baidu")
+
 ;; ;;Enable Cookies
 ;; (setq w3m-use-cookies t)
 ;; ;;Follow links in W3M
@@ -18,4 +27,4 @@
 ;; ;;W3M doesn't name buffers very intelligently. Let's fix that:
 ;; (add-hook 'w3m-display-hook(lambda (url)(rename-buffer(format "*w3m: %s*" (or w3m-current-titlew3m-current-url)) t)))
 
-(provide 'vf-w3m)
+

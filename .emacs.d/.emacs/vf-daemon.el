@@ -37,4 +37,4 @@
     (set-frame-parameter frame 'menu-bar-lines 0))))
 (add-hook 'after-make-frame-functions 'customize-terminal-frame)
 
-(provide 'vf-daemon)
+

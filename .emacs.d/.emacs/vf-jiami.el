@@ -8,4 +8,4 @@
 (setq epa-file-cache-passphrase-for-symmetric-encryption t)
 ;; auto-save
 (setq epa-file-inhibit-auto-save nil)
-(provide 'vf-jiami)
+

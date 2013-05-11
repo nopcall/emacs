@@ -69,4 +69,3 @@
 (add-hook 'LaTeX-mode-hook 'latex-auto-pair)
 (add-hook 'latex-mode-hook 'latex-auto-pair)
 
-(provide 'vf-latex)

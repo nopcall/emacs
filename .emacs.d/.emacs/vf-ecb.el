@@ -1,6 +1,8 @@
 ;;;;ECB
 (add-to-list 'load-path "~/.emacs.d/ecb-2.40")
 (require 'ecb)
+(setq ecb-layout-window-sizes nil)
+(setq ecb-options-version "2.40")
 (setq ecb-tip-of-the-day nil)
 ;; (require 'ecb-autoloads)
 (setq stack-trace-on-error nil)
@@ -24,4 +26,4 @@
 (defun vf-show-method-window-only ()
   (ecb-maximize-window-methods))
 
-(provide 'vf-ecb)
+

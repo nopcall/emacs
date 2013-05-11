@@ -89,4 +89,4 @@ occurence of CHAR."
 (global-set-key [(super down)] 'windmove-down)
 
 
-(provide 'vf-global-set-key)
+

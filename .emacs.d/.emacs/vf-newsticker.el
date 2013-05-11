@@ -7,4 +7,4 @@
 ;; (autoload 'w3m-region "w3m" nil t)
 ;; (setq newsticker-html-renderer 'w3m-region)
 
-(provide 'vf-newsticker)
+

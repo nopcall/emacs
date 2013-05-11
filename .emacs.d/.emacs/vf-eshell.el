@@ -7,7 +7,9 @@
  '(comint-input-ignoredups t)           ; no duplicates in command history
  '(comint-completion-addsuffix t)       ; insert space/slash after file completion
  '(eshell-glob-case-insensitive t)
- )
+ '(eshell-aliases-file "/home/visayafan/.emacs.d/eshell/alias")
+ '(eshell-scroll-show-maximum-output nil)
+)
 ;; 空行按回车自动 ls; 展开 "..."=>"../.." ; "...."=>"../../.." 
 (defun user-ret ()
   (interactive)
@@ -67,4 +69,4 @@
   (let ((inhibit-read-only t))
     (erase-buffer)))
 
-(provide 'vf-eshell)
+

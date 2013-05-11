@@ -29,4 +29,4 @@
            (define-key sgml-mode-map "\C-\M-e" 'sgml-skip-tag-backward)))
 
 
-(provide 'vf-html-mode)
+

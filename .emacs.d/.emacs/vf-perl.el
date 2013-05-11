@@ -12,4 +12,3 @@
   (set-face-background 'cperl-array-face "wheat")
   (set-face-background 'cperl-hash-face "wheat")
   )
-(provide 'vf-perl)

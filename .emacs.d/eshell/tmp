@@ -1,0 +1,6 @@
+#alias gitco git checkout
+#alias gitlol git log --oneline
+#alias gitlolg git log --oneline --graph
+#alias gitst git status
+#alias gitm git commit -m
+

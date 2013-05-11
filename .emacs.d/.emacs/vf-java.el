@@ -39,4 +39,4 @@
 (global-set-key (kbd "C-c C-v g a l") 'jde-gen-action-listener)
 (global-set-key (kbd "C-c C-v g w l") 'jde-gen-window-listener)
 
-(provide 'vf-java)                      ;
+                      ;

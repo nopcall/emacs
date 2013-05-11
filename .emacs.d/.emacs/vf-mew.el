@@ -28,4 +28,4 @@
 ;; 不删除服务器上的邮件    
 (setq mew-pop-delete nil)
 
-(provide 'vf-mew)
+

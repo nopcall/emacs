@@ -13,4 +13,4 @@
    ("/* " " */" "#" '(java-mode javascript-mode css-mode))
    ("`" "`" nil '(markdown-mode ruby-mode))))
 ;; 可以指定在某些模式下不可用，设置变量wrap-region-except-modes
-(provide 'vf-wrap-region)
+

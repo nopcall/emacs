@@ -14,4 +14,4 @@
 ;; (setq interpreter-mode-alist(cons '("python" . python-mode)
 ;;                            interpreter-mode-alist))
 
-(provide 'vf-python)
+

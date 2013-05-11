@@ -10,4 +10,4 @@
 ;; (global-set-key "\C-ccd" 'color-theme-euphoria)
 ;; (global-set-key "\C-cce" 'color-theme-emacs-21)
 
-(provide 'vf-color-theme)
+

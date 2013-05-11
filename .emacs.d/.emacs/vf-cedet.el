@@ -1,9 +1,6 @@
 (load-file "~/.emacs.d/cedet-1.1/common/cedet.el")    
-
 ;; ;; 各个mode的功能见：http://emacser.com/cedet.htm
-
 ;; (semantic-load-enable-minimum-features)
-
 (semantic-load-enable-code-helpers)
 ;; (semantic-load-enable-guady-code-helpers)
 ;; 打开这个mode后，semantic会在类/函数等tag上方加一条蓝色的线，源文件很大的时候用它可以提示出哪些是类和函数的头。
@@ -70,4 +67,3 @@
 
 ;; 设置semantic cache临时文件的路径，避免到处都是临时文件
 (setq semanticdb-default-save-directory "~/.emacs.d/semantic.cache") 
-(provide 'vf-cedet)

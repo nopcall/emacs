@@ -39,4 +39,4 @@
 
 ;; ac-comphist.dat 保存目录（用于保存补全历史记录）
 (setq ac-comphist-file "~/.emacs.d/auto-complete")
-(provide 'vf-autocomplete)
+

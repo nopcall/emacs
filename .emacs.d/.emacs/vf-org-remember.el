@@ -12,4 +12,4 @@
         ("sites" ?s "* %^{name of the site}\n %?" "~/d/todo.org" "sites")
         ))
 
-(provide 'vf-org-remember)
+

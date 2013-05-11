@@ -43,4 +43,4 @@ starting emacs next time."
 (setq islamic-holidays nil)
 (setq solar-holidays nil)
 (setq org-export-html-validation-link nil)
-(provide 'vf-org-gtd)
+

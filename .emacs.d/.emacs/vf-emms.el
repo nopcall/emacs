@@ -1,8 +1,7 @@
-;; 打开en后缀的文件进入后en-mode，此mode下左/右键后退/前进，上键暂停，下键打开文件
-(setq auto-mode-alist (cons '("\\.en$" . en-mode) auto-mode-alist))
-(setq auto-mode-alist (cons '("\\.de$" . en-mode) auto-mode-alist))
-
+;; 打开en或de后缀的文件进入后en-mode，此mode下左/右键后退/前进，上键暂停，下键打开文件
 (define-derived-mode en-mode text-mode "LEN")
+(add-to-list 'auto-mode-alist ' ("\\.\\(en\\|de\\)\\'" . en-mode))
+
 (add-hook 'en-mode-hook 'en-mode-emms)
 (defun en-mode-emms ()
   (interactive)
@@ -51,4 +50,4 @@
   (define-key en-mode-map [\C-down] 'emms-volume-lower)
   (define-key en-mode-map [\C-up] 'emms-volume-raise))
 
-(provide 'vf-emms)
+

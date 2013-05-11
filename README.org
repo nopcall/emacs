@@ -1,9 +1,7 @@
 #+OPTIONS: ^:{} _:{} \n:t
 
-这是我个人的Emacs配置文件.
+这是我个人的Emacs配置文件，Linux和Win下通用。
 
 下载： =git clone --recursive git@github.com:visayafan/emacs.git=
-
-Linux和Win下通用，其中Linux下对应.emacs.d/.emacs_linux.el，Win下对应.emacs.d/.emacs_windows.el。通过.emacs中的条件语句根据系统环境选择执行。
 
 有问题可以来信交流：visayafan@gmail.com

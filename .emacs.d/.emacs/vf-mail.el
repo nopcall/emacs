@@ -35,4 +35,4 @@
 (setq mew-use-biff t)  ;; 设置使用Biff检查邮箱是否有新邮件，默认为5分钟。如果有新邮件，则在emacs的状态栏显示Mail(n)的提示—n表示新邮件数目。
 ;; (setq mew-use-biff-bell t)  ;; 设置嘟嘟声通知有新邮件
 (setq mew-biff-interval 10) ;; 设置自动检查新邮件的时间间隔，单位：分钟
-(provide 'vf-mail)
+

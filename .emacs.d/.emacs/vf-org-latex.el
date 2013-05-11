@@ -192,4 +192,4 @@ menucolor=blue]{hyperref}
       ps-print-header nil
       ps-landscape-mode nil)
 
-(provide 'vf-org-latex)
+

@@ -23,6 +23,8 @@ alias cdvo cd D:/visayafan.github.com/Others/o
 alias cdvd cd ~/visayafan.github.com/Others/diary
 alias cdv cd D:/visayafan.github.com/
 
+alias cddn cd D:/visayafan.github.com/Deutsch/NeuWort
+alias cden cd D:/visayafan.github.com/English/NewWords
 
 alias cde cd ~/.emacs.d
 alias cdee cd ~/.emacs.d/.emacs
@@ -30,3 +32,20 @@ alias cdee cd ~/.emacs.d/.emacs
 
 alias ll ls -al $*
 alias rm rm -rf $*
+
+
+alias gita git add
+alias gitm git commit -m
+alias gitam git commit -m
+alias gitp git push
+alias gitst git status
+alias gitl git log
+alias gitlol git log --oneline
+alias gitlolg git log --oneline --graph
+alias gitco git checkout
+alias gitcl git clone
+alias gitpu git pull
+alias gitb git branch
+alias gitd git diff
+alias gitrr git remote rm
+alias gitra git remote add

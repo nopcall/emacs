@@ -28,4 +28,4 @@
  /usr/include/i386-linux-gnu
  /usr/include
 ")))
-(provide 'vf-auto-complete-clang)
+

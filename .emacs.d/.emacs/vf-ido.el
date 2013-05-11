@@ -28,8 +28,7 @@
 ;; use M-s to switch between buffer rather than the default C-x b
 ;; (global-unset-key (kbd "C-x b"))
 ;; (global-set-key (kbd "M-q") 'ido-switch-buffer)
+
 (global-set-key (kbd "M-s") 'ido-switch-buffer)
 
 
-
-(provide 'vf-ido)
