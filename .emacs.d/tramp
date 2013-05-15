@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <13/04/02 00:57:54 /home/visayafan/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <13/05/14 22:52:08 /home/visayafan/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -84,7 +84,7 @@
   ("remote-encoding" "base64")
   ("remote-decoding" "base64 -d -i"))
  (["sudo" "root" "visayafan-Compaq-510" nil nil]
-  ("uname" "Linux 3.5.0-26-generic")
+  ("uname" "Linux 3.5.0-28-generic")
   ("test" "test")
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
@@ -98,4 +98,6 @@
   ("file-exists" "test -e")
   ("id" "/usr/bin/id")
   ("gid-integer" 0)
-  ("uid-integer" 0)))
+  ("uid-integer" 0))
+ (["scpc" nil "sudo" nil nil]
+  nil))

@@ -278,12 +278,15 @@ BEG and END (region to sort)."
 
 (defun open-file-fast ()
   (interactive)
-  (let ((file-list (list
-                     "~/visayafan.github.com/Others/diary/gtd.org"
+  (let* ((prefix (if (eq system-type 'gnu/linux)
+                    "~/"
+                  "d:/"))
+        (file-list (list
+                     (concat prefix "visayafan.github.com/Others/diary/gtd.org")
                      "~/.emacs"
-                     "~/visayafan.github.com/index.html"
-                     "~/visayafan.github.com/Coding/Lisp/Emacs.org"
-                     "~/visayafan.github.com/Coding/Lisp/EmacsGnus.org"
+                     (concat prefix "visayafan.github.com/index.html")
+                     (concat prefix "visayafan.github.com/Coding/Lisp/Emacs.org")
+                     (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org")
                      ))
         (prompt-string)
         number)
@@ -311,3 +314,5 @@ BEG and END (region to sort)."
           '(lambda ()
              (set (make-local-variable 'electric-pair-mode) nil)))
                              
+;; replace-string可以无询问式地替换指定区域内容
+(global-set-key "\C-crs" 'replace-string)

@@ -24,15 +24,19 @@ that was stored with ska-point-to-register."
 (fset 'v_cua_mode
    [?\M-x ?c ?u ?a ?  ?m ?o ?d ?e return])
 
-;; 插入日期
+;; 插入日期/时间
 (global-set-key "\C-cid" 'insert-date)
+(global-set-key "\C-cit" 'insert-time)
+(global-set-key "\C-cift" 'insert-full-time)
 (defun insert-date ()
   "Insert date at point."
   (interactive)
-  (insert (format-time-string "%Y年%m月%e日%k:%M")))
-;; 插入当前时间
-(global-set-key "\C-cit" 'insert-current-time)
-(defun insert-current-time () 
+  (insert (format-time-string "%Y年%m月%e日")))
+(defun insert-time ()
+  "Insert date at point."
+  (interactive)
+  (insert (format-time-string "%k:%M")))
+(defun insert-full-time () 
   "Insert the current time" 
   (interactive "*") 
   (insert (current-time-string)))

@@ -1,6 +1,7 @@
 *~
 .emacs.d/gnus/news
 .emacs.d/gnus/mail
+.emacs.d/gnus/archive
 .emacs.d/semantic.cache
 .emacs.d/session.*
 .emacs.d/auto-save-list

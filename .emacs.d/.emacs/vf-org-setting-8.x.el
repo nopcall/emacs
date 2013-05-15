@@ -20,6 +20,31 @@
   (interactive)
   (org-open-file (org-html-export-to-html)))
 
+;; HTML生成最后阶段进行替换
+;; (add-hook 'org-export-html-final-hook 'org-delete-!!!)
+;; (defun org-delete-!!! ()
+;;   (interactive)
+;;   (goto-char (point-min))
+;;   (while (re-search-forward "!!!!!" nil t)
+;;     (replace-match "<"))
+;;   (goto-char (point-min))
+;;   (while (re-search-forward "@@@@@" nil t)
+;;     (replace-match ">")))
+
+(eval-after-load 'ox-html
+  '(add-to-list 'org-export-filter-final-output-functions
+             'fan/org-html-produce-inline-html))
+(defun fan/org-html-produce-inline-html (string backend info)
+  "replace !!!!! to < and @@@@@ to >"
+  (when (and (org-export-derived-backend-p backend 'html)
+             (string-match "!!!!!" string))
+    (replace-regexp-in-string (rx  (= 5 "!")
+                                   (group (+? anything))
+                                   (= 5 "@"))
+                              "<\\1>"
+                              string)))
+      
+    
 (setq org-publish-project-alist
       '(("java"
          :base-directory "~/visayafan.github.com/Coding/Java"

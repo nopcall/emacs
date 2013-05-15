@@ -40,3 +40,6 @@
 [submodule ".emacs.d/org-mode"]
 	path = .emacs.d/org-mode
 	url = git://orgmode.org/org-mode.git
+[submodule ".emacs.d/bbdb3"]
+	path = .emacs.d/bbdb3
+	url = git://github.com/barak/bbdb3.git

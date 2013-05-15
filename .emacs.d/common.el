@@ -10,7 +10,7 @@
 (load-file "~/.emacs.d/.emacs/vf-gdb.el")
 (load-file "~/.emacs.d/.emacs/vf-global-set-key.el")
 (load-file "~/.emacs.d/.emacs/vf-not-sure.el")
-(load-file "~/.emacs.d/.emacs/vf-cedet-bzr.el")
+;; (load-file "~/.emacs.d/.emacs/vf-cedet-bzr.el")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")
 (load-file "~/.emacs.d/.emacs/vf-webjump.el")
 (load-file "~/.emacs.d/.emacs/vf-org-remember.el")
@@ -30,6 +30,7 @@
 (load-file "~/.emacs.d/.emacs/vf-emms.el")
 (load-file "~/.emacs.d/.emacs/vf-graphviz.el") ;graphviz
 (load-file "~/.emacs.d/.emacs/vf-matlab.el")
+;; (load-file "~/.emacs.d/.emacs/vf-bbdb.el")
 ;; (load-file "~/.emacs.d/.emacs/typopunct.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-weibo.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-wubi.el")                      ;wubi

@@ -2,107 +2,35 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("d:/emacs-24.3/.emacs.d/" . ".emacs/")
- ("d:/emacs-24.2/.emacs.d/" . ".emacs/")
- ("/home/visayafan/d/Dropbox/software/emacs/.git/modules/.emacs.d/" . "ace-jump-mode/")
- ("/home/visayafan/d/Dropbox/software/emacs/.git/modules/" . ".emacs.d/")
- ("/home/visayafan/d/Dropbox/software/emacs/.git/" . "modules/")
+ ("/mnt/Src/Dropbox/software/emacs/.emacs.d/" . "gnus/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "d:/emacs-24.3/.emacs.d/.emacs/"
- "d:/emacs-24.3/.emacs.d/cedet-1.1/"
- "d:/emacs-24.3/.emacs.d/"
- "d:/visayafan.github.com/Others/o/"
- "d:/emacs-24.3/.emacs.d/yasnippet/snippets/org-mode/"
- "d:/visayafan.github.com/"
- "d:/visayafan.github.com/Coding/Lisp/"
- "d:/study/Bilateral_Filter/mex/"
- "d:/study/Bilateral_Filter/"
- "d:/study/Bilateral_Filter/mex/test/"
- "d:/emacs-24.2/.emacs.d/.emacs/"
- "d:/emacs-24.2/.emacs.d/"
- "/home/visayafan/visayafan.github.com/Others/o/"
  "/home/visayafan/visayafan.github.com/Coding/Lisp/"
- "/home/visayafan/d/Dropbox/software/emacs/.git/modules/.emacs.d/ace-jump-mode/"
- "/home/visayafan/d/Dropbox/software/emacs/.emacs.d/ace-jump-mode/"
+ "/mnt/Src/Dropbox/software/emacs/.emacs.d/gnus/"
+ "/home/visayafan/.emacs.d/.emacs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "vf-cedet-bzr.el"
- "vf-cedet.el"
- "cedet-build.el"
- "INSTALL"
- "common.el"
- "vf-linux.el"
- "git.org"
- "template"
- "template-toc.org"
- "Emacs.org"
- "vf-org-setting-7.x.el"
- "exec.m"
- "Bil_Filter_MEX.cu"
- "bfilter2.m"
- "texture3Dtest.cu"
- "NoGrid.cu"
- "vf-org-setting-8.x.el"
- "vf-org-setting-common.el"
- "config"
- ".git"
- "BlogCollection.org"
+ "EmacsOrg.org"
+ "EmacsGnus.org"
+ ".gnus.el"
+ "vf-gnus.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("d:/emacs-24.3/.emacs.d/.emacs/" (20878 26380 0 0) "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-perl.el" "vf-package.el" "vf-org-setting-common.el" "vf-org-setting-8.x.el" "vf-org-setting-7.x.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-doxymacs.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-cedet-bk.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "../" "./")
+ ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20882 34063 89152 0) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
 
- ("d:/emacs-24.3/.emacs.d/cedet-1.1/" (20877 48066 0 0) "USING_CEDET_FROM_BZR" "tests/" "srecode/" "speedbar/" "semantic/" "PRERELEASE_CHECKLIST" "NEWS" "Makefile" "INSTALL" "eieio/" "ede/" "contrib/" "common/" "cogre/" "cedet-update-version.el" "cedet-build.el" "../" "./")
+ ("/mnt/Src/Dropbox/software/emacs/.emacs.d/gnus/" (20882 32973 291366 0) "news/" "mail/" "archive/" ".newsrc.eld" ".newsrc-dribble" ".newsrc" ".gnus.el" "../" "./")
 
- ("d:/visayafan.github.com/Others/o/" (20878 25660 0 0) "名言警句.org" "名言警句.html" "revolvermaps.org" "revolvermaps.html" "others.org" "MATLAB笔记.org" "lyx_shortcuts/" "lyx-beamer-preamble.tex" "lyx-article-preamble.tex" "ltxpng/" "latex-lyx.org" "latex-lyx.html" "images/" "graphviz.org" "graphviz.html" "git.org" "git.html" "CC-Mode.org" "CC-Mode.html" "BlogCollection.org" "BlogCollection.html" "#git.html#" "../" "./")
+ ("/mnt/Src/Dropbox/software/emacs/.emacs.d/" (20882 33030 797241 0) "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "twittering-mode/" "tramp" "srecode-map.el" "smex/" "slime/" "semanticdb/" "semantic.cache/" "python/" "others/" "org-mode/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "install.bat" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "elpa/" "ede-projects.el" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-bzr/" "cedet-1.1/" "bookmarks" "bbdb3/" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "emacs-w3m/" "../" "./")
 
- ("d:/emacs-24.3/.emacs.d/yasnippet/snippets/org-mode/" (20877 48070 0 0) "toc" "textarea" "template" "srccollapse" "single" "right" "result" "options" "modal" "middle" "math" "macro" "longsrc" "lispl" "lisp" "lightbox" "left" "infojs" "img" "html" "group" "div-span" "disqus" "diary" "collapse" "center" "ccl" "cc" "bootstrap" "blanklines" "2collapse" "$" "../" "./")
+ ("/mnt/Src/Dropbox/software/emacs/.emacs.d/.emacs/" (20882 33034 303785 0) "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-perl.el" "vf-package.el" "vf-org-setting-common.el" "vf-org-setting-8.x.el" "vf-org-setting-7.x.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-doxymacs.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-cedet-bzr.el" "vf-cedet-bk.el" "vf-bbdb.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-minimap.el" "vf-font.el" "../" "./")
 
- ("d:/visayafan.github.com/" (20871 50996 0 0) "upload.py" "updates.html" "template.org" "template-toc.org" "recent_updates.py" "README.org" "Others/" "Linux/" "Layout/" "index.html" "extension.org" "English/" "disqus.org" "Deutsch/" "Compiler/" "Coding/" "CNAME" "Algorithm/" ".gitignore" ".git/" "../" "./")
-
- ("d:/visayafan.github.com/Coding/" (20681 45210 0 0) "Python/" "Lisp/" "Java/" "index.html" "Cpp/" "../" "./")
-
- ("d:/visayafan.github.com/Coding/Lisp/" (20878 25577 0 0) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
-
- ("d:/emacs-24.3/.emacs.d/" (20878 22465 0 0) "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "twittering-mode/" "tramp" "smex/" "slime/" "semantic.cache/" "python/" "others/" "org-mode/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "install.bat" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "../" "./")
-
- ("d:/study/Bilateral_Filter/mex/" (20878 16989 0 0) "test/" "lena.jpg" "exec.m" "Bil_Filter_MEX.cu" ".gitignore" ".git/" "../" "./")
-
- ("d:/study/Bilateral_Filter/" (20876 22364 0 0) "test.m" "mex/" "lena.jpg" "lena/" "fun.m" "Bil_Filter_GPU_Jacket.m" "Bil_Filter_GPU.m" "Bil_Filter.m" "bfilter2.m" "#Bil_Filter_GPU.m#" "../" "./")
-
- ("d:/study/Bilateral_Filter/mex/test/" (20878 3126 0 0) "tmp.txt" "texture3Dtest.mexw64" "texture3Dtest.cu" "texture3Dtest.cpp" "test.m" "printftest.ptx" "printftest.cu" "NoGridTest.m" "NoGrid.mexw64" "NoGrid.cu" "NoGrid.cpp" "../" "./")
-
- ("d:/emacs-24.2/.emacs.d/" (20877 50660 0 0) "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "twittering-mode/" "tramp" "smex/" "slime/" "semantic.cache/" "python/" "others/" "org-mode/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "install.bat" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "emacs-w3m/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "../" "./")
-
- ("d:/emacs-24.2/.emacs.d/.emacs/" (20877 50280 0 0) "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-perl.el" "vf-package.el" "vf-org-setting-common.el" "vf-org-setting-8.x.el" "vf-org-setting-7.x.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-minimap.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-doxymacs.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-cedet-bk.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "../" "./")
-
- ("d:/emacs-24.2/" (20877 49157 0 0) "visayafan.github.com/" "site-lisp/" "README.W32" "README" "News/" "mplayer/" "Mail/" "lisp/" "leim/" "info/" "etc/" "cscope-15.7/" "COPYING" "BUGS" "bin/" ".ssh/" ".smex-items" ".slime-history.eld" ".slime/" ".session" ".semanticdb/" ".org-timestamps/" ".newsrc.eld" ".newsrc" ".gitconfig" ".gdbinit" ".eshell/" ".emms-cache" ".emacs.d/" ".emacs" ".backups_emacs/" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Coding/Lisp/" (20863 23408 750000 0) "词法-动态变量.org" "词法-动态变量.html" "VectorListSetHashtableString.org" "VectorListSetHashtableString.html" "Macro.org" "Macro.html" "LoopDo.org" "LoopDo.html" "LittleDB.org" "LittleDB.html" "images/" "Function.org" "Function.html" "EmacsSlime.org" "EmacsSlime.html" "EmacsOrg.org" "EmacsOrg.html" "EmacsGnus.org" "EmacsGnus.html" "Emacs.org" "Emacs.html" "Elisp.org" "Elisp.html" "CLIO.org" "class.org" "class.html" ".emacs.desktop" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Others/" (20710 23410 837673 0) "o/" "index.html" "diary/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.git/modules/.emacs.d/ace-jump-mode/" (20877 45984 966021 0) "refs/" "packed-refs" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "branches/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.git/modules/.emacs.d/" (20877 46412 232533 0) "zencoding/" "wrap-region/" "weibo.emacs/" "twittering-mode/" "smex/" "org-mode/" "multiple-cursors/" "minimap/" "iedit/" "golden-ratio/" "expand-region/" "emacs-w3m/" "auto-complete-clang/" "ace-jump-mode/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.git/modules/" (20877 45981 671450 0) ".emacs.d/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.git/" (20877 46848 507158 0) "refs/" "packed-refs" "objects/" "modules/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "branches/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/" (20877 47096 742058 0) "README.org" ".gitmodules" ".gitignore" ".git/" ".emacs.d/" ".emacs" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.emacs.d/" (20877 47012 321390 0) "zencoding/" "yasnippet/" "wubi/" "wrap-region/" "weibo.emacs/" "w3m/" "url/" "twittering-mode/" "tramp" "smex/" "slime/" "semantic.cache/" "python/" "others/" "org-mode/" "org-7.8.11/" "newsticker/" "multiple-cursors/" "minimap/" "mew-6.5/" "matlab-emacs/" "javaIDE/" "install.bat" "iedit/" "ido/" "ibus-el/" "golden-ratio/" "gnus/" "expand-region/" "eshell/" "emms-3.0/" "elpa/" "ecb-2.40/" "doxymacs-1.8.0/" "cscope-15.7/" "common.el" "color-theme-6.6.0/" "cedet-1.1/" "bookmarks" "auto-save-list/" "auto-complete-clang/" "auto-complete/" "auctex-11.86/" "ace-jump-mode/" "ac-dict/" "ac-comphist.dat" "abbrev_defs" ".emms-history" ".emacs_windows.el" ".emacs_linux.el" ".emacs/" "emacs-w3m/" "../" "./")
-
- ("/home/visayafan/d/Dropbox/software/emacs/.emacs.d/ace-jump-mode/" (20877 47676 124507 0) "README.md" "ace-jump-mode.el" ".git" "../" "./")
-
- ("/home/visayafan/visayafan.github.com/Others/o/" (20872 52798 218750 0) "名言警句.org" "名言警句.html" "revolvermaps.org" "revolvermaps.html" "others.org" "MATLAB笔记.org" "lyx_shortcuts/" "lyx-beamer-preamble.tex" "lyx-article-preamble.tex" "ltxpng/" "latex-lyx.org" "latex-lyx.html" "images/" "graphviz.org" "graphviz.html" "git.org" "git.html" "CC-Mode.org" "CC-Mode.html" "BlogCollection.org" "BlogCollection.html" "#git.html#" "../" "./")
+ ("/home/visayafan/.emacs.d/.emacs/" (20882 32875 366727 0) "vf-zencoding.el" "vf-yasnippet.el" "vf-wubi.el" "vf-wrap-region.el" "vf-win.el" "vf-weibo.el" "vf-webjump.el" "vf-w3m.el" "vf-undo-tree.el" "vf-twitter.el" "vf-smex.el" "vf-slime.el" "vf-python.el" "vf-perl.el" "vf-package.el" "vf-org-setting-common.el" "vf-org-setting-8.x.el" "vf-org-setting-7.x.el" "vf-org-remember.el" "vf-org-latex.el" "vf-org-gtd.el" "vf-openwith.el" "vf-openwidth.el" "vf-not-sure.el" "vf-newsticker.el" "vf-multiple-cursors.el" "vf-mew.el" "vf-matlab.el" "vf-mail.el" "vf-linux.el" "vf-latex.el" "vf-jiami.el" "vf-java.el" "vf-indent-hint.el" "vf-iedit.el" "vf-ido.el" "vf-ibus.el" "vf-html-mode.el" "vf-html-helper-mode.el" "vf-graphviz.el" "vf-gnus.el" "vf-global-set-key.el" "vf-gdb.el" "vf-font-win.el" "vf-folding.el" "vf-expand-region.el" "vf-eshell.el" "vf-emms.el" "vf-email.el" "vf-ecb.el" "vf-doxymacs.el" "vf-daemon.el" "vf-cpp.el" "vf-color-theme.el" "vf-cedet.el" "vf-cedet-bzr.el" "vf-cedet-bk.el" "vf-bbdb.el" "vf-basic.el" "vf-autocomplete.el" "vf-auto-complete-clang.el" "vf-ace-jump-mode.el" "vf-minimap.el" "vf-font.el" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

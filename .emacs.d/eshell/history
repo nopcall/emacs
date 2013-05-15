@@ -1,128 +1,128 @@
 clc
-cdee
-cdee
-clc
-cdvo
-clc
-cdee
-cde
-clc
-cde
-cd org-8.0.2/doc/
+git checkout -b deleteGrid
+git branch
+d
+cd study/ImageRecognition/mex/
 ls
-evince org.pdf 
+alias
+gitb
+gitco master
+git add .
+git commit -m "删除了grid参数"
+gitco master
+git merge deleteGrid
+ls
+gitst
+git add -u
+clc
+ls
+gitst
+gitlol
+cd
 cdvo
+cdt
+d
+cd study/Bilateral_Filter/mex/
+ls
+ls images/
+clc
+d
+cd study/Bilateral_Filter/mex/
+ls
+cd ../../ImageRecognition/mex/
+cdvo
+ls
+cd ../diary/
+ls
+clc
+cd
+cd 
+d
+cd study/ImageRecognition/mex/
+d
+cd study/GraduationProject/Real_Time_Compresive_Tracking/
+clc
+ls
 cde
 cdee
-cdt
-cd test/
+cde
+cdee
+ls ~/d/Dropbox/
+cd ~/d/Dropbox/
+mkdir others
+cde
+cd others/
+cde
+cd others/
+cdee
+d
+cd Dropbox/others/
+cde
+cd others/
+rm bbdb-vcard.el vcard.el 
+clc
+cd ../bbdb3/
+ls
+ls
+cd doc/
 ls
 cd ..
-mkdir testgrep
-cd testgrep/
-ccl
-cp ~/visayafan.github.com/Deutsch/NeuWort/*.org
-cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
-ccl
+d
+cd study/GraduationProject/Real_Time_Compresive_Tracking/
 ls
-rm *.org
-cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
-cde
-cd yasnippet/snippets/org-mode/
-head template 
-head toc 
-cdt
-cd testgrep/
-rm *.rog
-rm *.org
-cp ~/visayafan.github.com/Deutsch/NeuWort/*.org .
+xelatex test.tex
+bibtex test
+xelatex test.tex
+bibtex test
+xelatex test.tex
+bibtex test
+xelatex test
+xelatex test
+evince test.pdf 
 clc
-cdv
-cddn
-clc
-touch *
-cddn
-touch *
-touch *
-touch *
-cde
-cd org-8.0.2/doc/
+cdvo
+ls
+cd -
 clc
 ls
-cat org-version.inc 
-cat Makefile 
+rm test.*
 clc
-cd ..
 ls
-cdv
+rm *.bib
+ls
+ls
 clc
-cde
+ls
+rm reference.tex reference.lyx 
 clc
-git clone git://orgmode.org/org-mode.git
-ls org-mode/
-cd org-mode/
-cdee
+d
+cd study/GraduationProject/Real_Time_Compresive_Tracking/
+cdvo
+clc
+d
 cdv
 cd Linux/LinuxOS/
-clc
-cdvcl
 d
-cd
-cd software/emacs-24.3/
-cd ../emacs/
-ls
-cdv
 cdvo
-clc
-cdee
-ls
-clc
-cde
-cdvo
-clc
-cd
-cp .emacs ~/d/Dropbox/software/emacs/
-d
-cd Dropbox/software/emacs/.emacs.d/ace-jump-mode/
-cdvo
-cdvcl
-cdvo
-d
-cde
-cd ../.emacs.d/.emacs/
-d
-cdvcl
-cdee
-cdvcl
+cdt
 cde
 cd yasnippet/snippets/org-mode/
-cdvo
-cdvo
-clc
-cdee
-cd ../cedet-1.1/
 ls
-make
+cdv
+cdvcl
+cdccc
+clc
+./test
+./test
 cdee
+cd
+cd ß
+cd -
 cde
-clc
-cd cedet-bzr/
-ls
-make clean-all
-make
-d
-cd ccc
-cccc
-ccc
-alias 
-cdvcc
-clc
-ls
-cdccc
+cd gnus/
+cdt
+cd
+cdee
 cdvcl
 cdee
 cdvcl
-cddn
-clc
-cdee
-cdccc
