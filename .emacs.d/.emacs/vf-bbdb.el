@@ -1,3 +1,4 @@
+;; 此模式可以被org-contacts替代
 (add-to-list 'load-path "~/.emacs.d/bbdb/lisp")
 (require 'bbdb-loaddefs)
 (require 'bbdb)

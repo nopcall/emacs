@@ -1,0 +1,1526 @@
+
+[五  5月 17 2013]
+*** Topic for #emacs: To be an emacs user without changing it is no more
+    possible than to be alive without breathing. -- MLK | Emacsconf vids
+    http://j.mp/emacs2013videos | Read http://www.emacswiki.org/EmacsChannel |
+    Pastebin: http://paste.lisp.org | No public logging! What happens in
+    #emacs stays in #emacs! | No sexism, racism, xenophobia, misogyny or
+    general asshattery  [01:07]
+*** #emacs: topic set by
+    ijp!~user@host81-155-24-157.range81-155.btcentralplus.com, 2013-05-13
+    11:06:53
+*** Users on #emacs: visayafan sohail Joreji Sixmsj jlatt nu7hatch Eldariof-ru
+    Rovanion tgunr jstein sorabji5252 bmac ketil solarmist dtm UrsoBranco
+    thepreacher daniel_- prk hiroakip scfrazer pocoyo` parsifal_ ntus1017
+    kilon mahmoudimus cortexman leo2007 b1rkh0ff GnarlyBob morazow_ Twey Sigma
+    damiancarrillo andres-v kliph Munksgaard alakra Guest15574 nullie assem
+    seangrove Macphisto jlf surio ananthakumaran bitonic plotr npeihl
+    jackcviers cofi retroj jeffisabelle smazga
+*** Users on #emacs: lusory CR0W th0ma5 jagaj konr shergill pppaul dkh` icule
+    normanrichards jcromartie cmatei mtk tiwula zellio greenhat cyberspace-
+    libertas zenwryly PetrVod lu2 chronno underscores tupi ecraven natechan
+    nicferrier isomer_ galex-713 benny cortman victor_lowther microcode
+    s00pcan kanru segv- asrail bnzmnzhnz golodhrim cvandusen erkin nilg
+    drmeister1 davexunit psii vicenteH RhubarbSin paddymahoney bobdobbs cluck
+    unknown_lamer ivan`` chrisb pkkm tmh_ vmlinuz
+*** Users on #emacs: fledermaus Grobwiefein adrian netmod progo sanbor marjan-
+    cud jlhg2 mgile danlentz wilder dropdrive danicampa901 theos rking1 jrm
+    jweiss ginkgo xinming teiresias mfisher elbeardmorez nikhilg _AnK pw_
+    charlietanksley Gooder`` d11wtq jcazevedo plovs CrazyEddy kitallis
+    freefall jashank gciolli thone mstevens ivan\ molqr Philonous simao ggole_
+    vipzrx rgrau mrSpec killown msx thompsy shadowdaemon cbpage_ mpenet lduros
+    djcoin wagle emss dash edgar-rft quazimodo
+*** Users on #emacs: doomlord__ jehan tmh__ Myk267 forcer SamB cityroasted
+    rudybot kahen ggherdov monotux HedgeMage amoe yacks crculver Bentbot ndrst
+    IanKelling gazoombo jlf_` karbak kmic zz_runningskull tali713 gko
+    Monolith| SuperNoeMan loke_ jave_ Fuco barika ffualo_ _flow_ solarus peder
+    dajva` brendyn Ralt cerror abend quasisane ingenious maxm-- batsheep
+    sorenmacbeth dueno mjc``` developernotes quiesce Ober_ abuiles dysinger
+    cjones it3ration k-man wgreenhouse bpalmer
+*** Users on #emacs: ckoch__ stokachu lustlife peterhil ktosiek ndngvr vibhav
+    thatJasonSmith gstamp SunMoonStar mrBliss ljhms jeffrubic prebz taylanub
+    netzwurm daimrod Nafai Digit Mosu timvisher martinjlowm kennyd jlindsay
+    classix nunag yrk sawjig abeaumont dooglus dgvncsz0f pjb callen Pio
+    MicaiahC johnw cmmagid AimHere sajith roelj bps jdavidboyd brianloveswords
+    _daniel-s__ exobit Marcel|HSD Silex ErhardtMundt aspiers Demosthenex
+    doomlord stowelly sword aurelien antoszka
+*** Users on #emacs: Rapp gensym dal oakaz sexyshap1 mee rods Guest6664 z0d
+    StMichel Amadiro xneme mr_yall vds yibe__ broquaint brjannc tromey
+    TheCrittaC trademark91 steez L42y noptys mathrick mengwong_ terjesb
+    stablo_ jeekl birny thomases quotemstr esfraga ndsmith nick06 otm_ ragnul_
+    easye iflista_ frusen boodle arelius xrq jbarrios xhrl demolith1 isak1 kmt
+    lykathea fsmunoz tbarletz gianlucadv ArneBab bionicspider texel drewr
+    LAMMJohnson cuba33ci faen leifw remote anxt
+*** Users on #emacs: turbofail tuv insomnia` fhd wilfredh fikusz vila jonasac
+    jasond` shabble_ Krystof joe9_ chewbranca hober zeltak1 ckoch786 tg
+    myeffort_ Sembei dim ganbold Raynes Derander_ rokstar arkx_ jmaister dzho
+    tessier wapiflapi sigjuice avar dothebart ruediger wtatsuru technomancy
+    legumbre balle ski__ ground4_ rootzlevel brighid_ calimocho syrinx_ barik
+    ext twem2 elarson jaimef reeses illovae Hapsbanan quicksilver nano-_
+    froggey genehack_ prip YoungFrog yacc bremner
+*** Users on #emacs: jjore_ daemian BlastHardcheese ieure karupanerura ahoops
+    Borbus russm dshep quackv4 spacebat mcdonc Ulrar bastii literal fimblo
+    asuka Odin- wyan cthuluh zhengyi samrat fperrin james_woods felipe_
+    Lenzoid korutsu aroemers neurodamage rizumu TTilus fschmitt sweet_kid
+    mnemonikk offby1_ Jobbe arbn raph_ael mw_ magnars necronian Sketch jubos_
+    steckerhalter nyergler insatsu epsylon` dotemacs_ caveat- adimit angelixd_
+    Will|- erewhon _schulte_ tvaalen muep murr4y
+*** Users on #emacs: jordanm srid boredomist j0ni yang_ eN_Joy a00001 k0ral_
+    dented42 hanDerPeder kbtr roxlu txxt elik raso2 maio Guest grettke_ Hodapp
+    Seb kjfletch spratap drewc anaumov Boney lokydor zendeavor tychoish
+    iderrick majoh bob2 Han yezariaely robmyers_ offbyone aboudreault kenyon
+    baudtack smull_ sshirokov Dybber jhj arrdem rcj_ spaceone kelebeks
+    wdouglas marten superbil qDot_ _guitarman_ semente fmu binjured Koshian__
+    cpt_nemo portante beneth` mstr zw01
+*** Users on #emacs: redline6561 thorkill Guest25865 surrounder _mst
+    tensorpudding mefisto hhuuggoo theBlackDragon binski mns rotty_ dominikh
+    Natch webframp Apic dbristow chriswk emilh elpolilla NaCl kloeri davef
+    hiredman fuleo2 yhvh Neptu dubz mokau dale_ heath notdan torbjorn qlkzy
+    cross copiga ezanol_ hgb anyfoo snufu `micro Jonte tuvwx cantsin hlprmnky_
+    AlexanderS eqyiel jdhore NimeshNeema adriftatsea2 madnificent wchun
+    wanders_ mgsk jaredrhine johnsu01 axrfnu xhrl_
+*** Users on #emacs: PuffTheMagic kordex basho cmbntr Laynef corecode mattcen
+    iiska_ oufo oconnore mami CosmicRay kini shoepie1 brainproxy tirengarfio
+    ok2 emacsnw mechairo` justinabrahms tazle jannie bigjust leathekd nuba
+    paroneayea acewin Viiru chaoflow kodein CampinSam delYsid` marienz fsbot
+    Anusko mitchty Joelbyte boyscared PuercoPop Vorpal cbmuser Dr_Jazz_
+    scgilardi- derrida ktx mds Euthy` gnomon_ sybariten mh_le edenc ryanc
+    jabot_ vmesons zobbo rson fallout jayne
+*** Users on #emacs: macrobat newcup __main__ Nahra ToothlessGear expez
+    LogicallyDashing seneca xristos
+*** #emacs URL: http://emacswiki.org/
+*** #emacs modes: +np
+*** #emacs was created on 2006-11-26 14:42:33
+<wgreenhouse> jave_:  well, I've been having problems in vanilla Emacs with
+              image-dired as well, possibly related  [01:08]
+<Fuco> wgreenhouse: hm, html5 emacsclient... that sounds like a better idea
+       even :P
+<wgreenhouse> Fuco: I'm not entirely with Joey Hess on this--but I think he
+              has the right general idea--in saying that modern UNIX apps
+              should have a CLI and a web UI, and probably in the end little
+              else matters except as a legacy interface  [01:09]
+<xrq> http://www.quickmeme.com/meme/3ufith/
+<Fuco> well I don't need a web interface, but something that can render stuff
+       "like a web rendering engine" would be close towhat I want  [01:10]
+<technomancy> wgreenhouse: I wonder how common a CLI app that just delegates
+              to a local rest interface is
+<Fuco> running the web browser can be a hinderance
+<leifw> xrq: lol, though I've switched over to emacsclient completely, tmux
+        seemed to just get in the way  [01:11]
+<Fuco> or even better render the UI using TeX ;D
+<jlf> jave_: ooc do you know if anyone is working on osx support for xembed?
+<jlf> xrq: false dichotomy -- launch with tmux and create gui frames with
+      emacsclient :)  [01:13]
+<xrq> leifw: I use a few different machines during the day so I can't do
+      without it 
+<xrq> leifw: work machine, home machine, phone, etc.
+<Fuco> it's not about eyecandy, it's about terminals being useless. See the
+       previous discussion  [01:14]
+*** zz_runningskull (~runningsk@li77-167.members.linode.com) is now known as
+    runningskull
+<Fuco> you wouldn't be able to tell my GUI emacs from terminal emacs, mostly
+<jlf> pff, terminals are far from useless  [01:15]
+<xrq> terminals being useless?  O_o
+<Fuco> what *in principle* can terminal do better than similar feature written
+       to run inside emacs
+
+[五  5月 17 2013]
+           *** Topic for #emacs: To be an emacs user without changing it is no
+               more possible than to be alive without breathing. -- MLK |
+               Emacsconf vids http://j.mp/emacs2013videos | Read
+               http://www.emacswiki.org/EmacsChannel | Pastebin:
+               http://paste.lisp.org | No public logging! What happens in
+               #emacs stays in #emacs! | No sexism, racism, xenophobia,
+               misogyny or general asshattery  [01:16]
+           *** #emacs: topic set by
+               ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+               2013-05-13 11:06:53
+           *** Users on #emacs: visayafan marsam hyperair SoftwareMaven CR0W
+               dstatyvka davemq spcshpopr8r drot bipt Gue______ sohail Joreji
+               Sixmsj jlatt nu7hatch Eldariof-ru Rovanion tgunr jstein
+               sorabji5252 bmac ketil solarmist dtm UrsoBranco thepreacher
+               daniel_- prk hiroakip scfrazer pocoyo` parsifal_ ntus1017 kilon
+               mahmoudimus cortexman leo2007 b1rkh0ff GnarlyBob morazow_ Twey
+               Sigma damiancarrillo andres-v kliph Munksgaard alakra
+               Guest15574 nullie assem seangrove Macphisto jlf surio
+           *** Users on #emacs: ananthakumaran bitonic plotr npeihl jackcviers
+               cofi retroj jeffisabelle smazga lusory th0ma5 jagaj konr
+               shergill pppaul dkh` icule normanrichards jcromartie cmatei mtk
+               tiwula zellio greenhat cyberspace- libertas zenwryly PetrVod
+               lu2 chronno underscores tupi ecraven natechan nicferrier
+               isomer_ galex-713 benny cortman victor_lowther microcode
+               s00pcan kanru segv- asrail bnzmnzhnz golodhrim cvandusen erkin
+               nilg drmeister1 davexunit psii vicenteH RhubarbSin
+           *** Users on #emacs: paddymahoney bobdobbs cluck unknown_lamer
+               ivan`` chrisb pkkm tmh_ vmlinuz fledermaus adrian netmod progo
+               sanbor marjan- cud jlhg2 mgile danlentz wilder dropdrive
+               danicampa901 theos rking1 jrm jweiss ginkgo xinming teiresias
+               mfisher elbeardmorez nikhilg _AnK pw_ charlietanksley Gooder``
+               d11wtq jcazevedo plovs CrazyEddy kitallis freefall jashank
+               gciolli thone mstevens ivan\ molqr Philonous simao ggole_
+               vipzrx rgrau mrSpec killown msx thompsy shadowdaemon
+           *** Users on #emacs: cbpage_ mpenet lduros djcoin wagle emss dash
+               edgar-rft quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+               cityroasted rudybot kahen ggherdov monotux HedgeMage amoe yacks
+               crculver Bentbot ndrst IanKelling gazoombo jlf_` karbak kmic
+               runningskull tali713 gko Monolith| SuperNoeMan loke_ jave_ Fuco
+               barika ffualo_ _flow_ solarus peder dajva` brendyn Ralt cerror
+               abend quasisane ingenious maxm-- batsheep sorenmacbeth dueno
+               mjc``` developernotes quiesce Ober_
+           *** Users on #emacs: abuiles dysinger cjones it3ration k-man
+               wgreenhouse bpalmer ckoch__ stokachu lustlife peterhil ktosiek
+               ndngvr vibhav thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+               jeffrubic prebz taylanub netzwurm daimrod Nafai Digit Mosu
+               timvisher martinjlowm kennyd jlindsay classix nunag yrk sawjig
+               abeaumont dooglus dgvncsz0f pjb callen Pio MicaiahC johnw
+               cmmagid AimHere sajith roelj bps jdavidboyd brianloveswords
+               _daniel-s__ exobit Marcel|HSD Silex ErhardtMundt
+           *** Users on #emacs: aspiers Demosthenex doomlord stowelly sword
+               aurelien antoszka Rapp gensym dal oakaz sexyshap1 mee rods
+               Guest6664 z0d StMichel Amadiro xneme mr_yall vds yibe__
+               broquaint brjannc tromey TheCrittaC trademark91 steez L42y
+               noptys mathrick mengwong_ terjesb stablo_ jeekl birny thomases
+               quotemstr esfraga ndsmith nick06 otm_ ragnul_ easye iflista_
+               frusen boodle arelius xrq jbarrios xhrl demolith1 isak1 kmt
+               lykathea fsmunoz tbarletz gianlucadv ArneBab bionicspider
+           *** Users on #emacs: texel drewr LAMMJohnson cuba33ci faen leifw
+               remote anxt turbofail tuv insomnia` fhd wilfredh fikusz vila
+               jonasac jasond` shabble_ Krystof joe9_ chewbranca hober zeltak1
+               ckoch786 tg myeffort_ Sembei dim ganbold Raynes Derander_
+               rokstar arkx_ jmaister dzho tessier wapiflapi sigjuice avar
+               dothebart ruediger wtatsuru technomancy legumbre balle ski__
+               ground4_ rootzlevel brighid_ calimocho syrinx_ barik ext twem2
+               elarson jaimef reeses illovae Hapsbanan
+           *** Users on #emacs: quicksilver nano-_ froggey genehack_ prip
+               YoungFrog yacc bremner jjore_ daemian BlastHardcheese ieure
+               karupanerura ahoops Borbus russm dshep quackv4 spacebat mcdonc
+               xristos seneca LogicallyDashing expez ToothlessGear Nahra
+               __main__ newcup macrobat jayne fallout rson zobbo vmesons
+               jabot_ ryanc edenc mh_le sybariten gnomon_ Euthy` mds ktx
+               derrida scgilardi- Dr_Jazz_ cbmuser Vorpal PuercoPop boyscared
+               Joelbyte mitchty Anusko fsbot marienz delYsid` CampinSam
+           *** Users on #emacs: kodein chaoflow Viiru acewin paroneayea nuba
+               leathekd bigjust jannie tazle justinabrahms mechairo` emacsnw
+               ok2 tirengarfio brainproxy shoepie1 kini CosmicRay mami
+               oconnore oufo iiska_ mattcen corecode Laynef cmbntr basho
+               kordex PuffTheMagic xhrl_ axrfnu johnsu01 jaredrhine mgsk
+               wanders_ wchun madnificent adriftatsea2 NimeshNeema jdhore
+               eqyiel AlexanderS hlprmnky_ cantsin tuvwx Jonte `micro snufu
+               anyfoo hgb ezanol_ copiga cross qlkzy torbjorn notdan heath
+           *** Users on #emacs: dale_ mokau dubz Neptu yhvh fuleo2 hiredman
+               davef kloeri NaCl elpolilla emilh chriswk dbristow Apic
+               webframp Natch dominikh rotty_ mns binski theBlackDragon
+               hhuuggoo mefisto tensorpudding _mst surrounder Guest25865
+               thorkill redline6561 zw01 mstr beneth` portante cpt_nemo
+               Koshian__ binjured fmu semente _guitarman_ qDot_ superbil
+               marten wdouglas kelebeks spaceone rcj_ arrdem jhj Dybber
+               sshirokov smull_ baudtack kenyon aboudreault offbyone robmyers_
+           *** Users on #emacs: yezariaely Han bob2 majoh iderrick tychoish
+               zendeavor lokydor Boney anaumov drewc spratap kjfletch Seb
+               Hodapp grettke_ Guest maio raso2 elik txxt roxlu kbtr
+               hanDerPeder dented42 k0ral_ a00001 eN_Joy yang_ j0ni boredomist
+               srid jordanm murr4y muep tvaalen _schulte_ erewhon Will|-
+               angelixd_ adimit caveat- dotemacs_ epsylon` insatsu nyergler
+               steckerhalter jubos_ Sketch necronian magnars mw_ fschmitt
+               TTilus rizumu neurodamage aroemers korutsu Lenzoid felipe_
+           *** Users on #emacs: james_woods fperrin samrat zhengyi cthuluh
+               wyan Odin- asuka fimblo literal bastii Ulrar sweet_kid
+               mnemonikk offby1_ Jobbe arbn raph_ael
+-cameron.freenode.net- [freenode-info] help freenode weed out clonebots --
+               please register your IRC nick and auto-identify:
+               http://freenode.net/faq.shtml#nicksetup
+           *** #emacs URL: http://emacswiki.org/
+           *** #emacs modes: +np
+           *** #emacs was created on 2006-11-26 14:42:33
+        <Fuco> jlf: thanks for helpful comment ~_~
+     <bremner> Fuco: it can run without starting emacs.
+     <jordanm> the shell does the work, which in no way depends on the
+               emulator
+         <jlf> Fuco: yw.  ,,next   [01:17]
+       <fsbot> Another satisfied customer. NEXT!
+        <Fuco> jordanm: which is why I didn't say *shell*, I said *terminal*
+     <bremner> Fuco: in particular, terminals are better at installing emacs
+               than emacs is.
+         <jlf> inb4 it's emacs all the way down
+         <pjb> Fuco: hail Hercules (emulator of IBM 370) :-)
+
+[五  5月 17 2013]
+           *** Topic for #emacs: To be an emacs user without changing it is no
+               more possible than to be alive without breathing. -- MLK |
+               Emacsconf vids http://j.mp/emacs2013videos | Read
+               http://www.emacswiki.org/EmacsChannel | Pastebin:
+               http://paste.lisp.org | No public logging! What happens in
+               #emacs stays in #emacs! | No sexism, racism, xenophobia,
+               misogyny or general asshattery  [01:17]
+           *** #emacs: topic set by
+               ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+               2013-05-13 11:06:53
+           *** Users on #emacs: visayafan marsam hyperair SoftwareMaven CR0W
+               dstatyvka davemq spcshpopr8r drot bipt Gue______ sohail Joreji
+               Sixmsj jlatt nu7hatch Eldariof-ru Rovanion tgunr jstein
+               sorabji5252 bmac ketil solarmist dtm UrsoBranco thepreacher
+               daniel_- prk hiroakip scfrazer pocoyo` parsifal_ ntus1017 kilon
+               mahmoudimus cortexman leo2007 b1rkh0ff GnarlyBob morazow_ Twey
+               Sigma damiancarrillo andres-v kliph Munksgaard alakra
+               Guest15574 nullie assem seangrove Macphisto jlf surio
+           *** Users on #emacs: ananthakumaran bitonic plotr npeihl jackcviers
+               cofi retroj jeffisabelle smazga lusory th0ma5 jagaj konr
+               shergill pppaul dkh` icule normanrichards jcromartie cmatei mtk
+               tiwula zellio greenhat cyberspace- libertas zenwryly PetrVod
+               lu2 chronno underscores tupi ecraven natechan nicferrier
+               isomer_ galex-713 benny cortman victor_lowther microcode
+               s00pcan kanru segv- asrail bnzmnzhnz golodhrim cvandusen erkin
+               nilg drmeister1 davexunit psii vicenteH RhubarbSin
+           *** Users on #emacs: paddymahoney bobdobbs cluck unknown_lamer
+               ivan`` chrisb pkkm tmh_ vmlinuz fledermaus adrian netmod progo
+               sanbor marjan- cud jlhg2 mgile danlentz wilder dropdrive
+               danicampa901 theos rking1 jrm jweiss ginkgo xinming teiresias
+               mfisher elbeardmorez nikhilg _AnK pw_ charlietanksley Gooder``
+               d11wtq jcazevedo plovs CrazyEddy kitallis freefall jashank
+               gciolli thone mstevens ivan\ molqr Philonous simao ggole_
+               vipzrx rgrau mrSpec killown msx thompsy shadowdaemon
+           *** Users on #emacs: cbpage_ mpenet lduros djcoin wagle emss dash
+               edgar-rft quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+               cityroasted rudybot kahen ggherdov monotux HedgeMage amoe yacks
+               crculver Bentbot ndrst IanKelling gazoombo jlf_` karbak kmic
+               runningskull tali713 gko Monolith| SuperNoeMan loke_ jave_ Fuco
+               barika ffualo_ _flow_ solarus peder dajva` brendyn Ralt cerror
+               abend quasisane ingenious maxm-- batsheep sorenmacbeth dueno
+               mjc``` developernotes quiesce Ober_
+           *** Users on #emacs: abuiles dysinger cjones it3ration k-man
+               wgreenhouse bpalmer ckoch__ stokachu lustlife peterhil ktosiek
+               ndngvr vibhav thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+               jeffrubic prebz taylanub netzwurm daimrod Nafai Digit Mosu
+               timvisher martinjlowm kennyd jlindsay classix nunag yrk sawjig
+               abeaumont dooglus dgvncsz0f pjb callen Pio MicaiahC johnw
+               cmmagid AimHere sajith roelj bps jdavidboyd brianloveswords
+               _daniel-s__ exobit Marcel|HSD Silex ErhardtMundt aspiers
+           *** Users on #emacs: Demosthenex doomlord stowelly sword aurelien
+               antoszka Rapp gensym dal oakaz sexyshap1 mee rods Guest6664 z0d
+               StMichel Amadiro xneme mr_yall vds yibe__ broquaint brjannc
+               tromey TheCrittaC trademark91 steez L42y noptys mathrick
+               mengwong_ terjesb stablo_ jeekl birny thomases quotemstr
+               esfraga ndsmith nick06 otm_ ragnul_ easye iflista_ frusen
+               boodle arelius xrq jbarrios xhrl demolith1 isak1 kmt lykathea
+               fsmunoz tbarletz gianlucadv ArneBab bionicspider texel
+           *** Users on #emacs: drewr LAMMJohnson cuba33ci faen leifw remote
+               anxt turbofail tuv insomnia` fhd wilfredh fikusz vila jonasac
+               jasond` shabble_ Krystof joe9_ chewbranca hober zeltak1
+               ckoch786 tg myeffort_ Sembei dim ganbold Raynes Derander_
+               rokstar arkx_ jmaister dzho tessier wapiflapi sigjuice avar
+               dothebart ruediger wtatsuru technomancy legumbre balle ski__
+               ground4_ rootzlevel brighid_ calimocho syrinx_ barik ext twem2
+               elarson jaimef reeses illovae Hapsbanan quicksilver
+           *** Users on #emacs: nano-_ froggey genehack_ prip YoungFrog yacc
+               bremner jjore_ daemian BlastHardcheese ieure karupanerura
+               ahoops Borbus russm dshep quackv4 spacebat mcdonc xristos
+               seneca LogicallyDashing expez ToothlessGear Nahra __main__
+               newcup macrobat jayne fallout rson zobbo vmesons jabot_ ryanc
+               edenc mh_le sybariten gnomon_ Euthy` mds ktx derrida scgilardi-
+               Dr_Jazz_ cbmuser Vorpal PuercoPop boyscared Joelbyte mitchty
+               Anusko fsbot marienz delYsid` CampinSam kodein
+           *** Users on #emacs: chaoflow Viiru acewin paroneayea nuba leathekd
+               bigjust jannie tazle justinabrahms mechairo` emacsnw ok2
+               tirengarfio brainproxy shoepie1 kini CosmicRay mami oconnore
+               oufo iiska_ mattcen corecode Laynef cmbntr basho kordex
+               PuffTheMagic xhrl_ axrfnu johnsu01 jaredrhine mgsk wanders_
+               wchun madnificent adriftatsea2 NimeshNeema jdhore eqyiel
+               AlexanderS hlprmnky_ cantsin tuvwx Jonte `micro snufu anyfoo
+               hgb ezanol_ copiga cross qlkzy torbjorn notdan heath dale_
+           *** Users on #emacs: mokau dubz Neptu yhvh fuleo2 hiredman davef
+               kloeri NaCl elpolilla emilh chriswk dbristow Apic webframp
+               Natch dominikh rotty_ mns binski theBlackDragon hhuuggoo
+               mefisto tensorpudding _mst surrounder Guest25865 thorkill
+               redline6561 zw01 mstr beneth` portante cpt_nemo majoh iderrick
+               tychoish zendeavor lokydor Boney anaumov drewc spratap kjfletch
+               Seb Hodapp grettke_ Guest maio raso2 elik txxt roxlu kbtr
+               hanDerPeder dented42 k0ral_ a00001 eN_Joy yang_ j0ni
+           *** Users on #emacs: boredomist srid jordanm murr4y muep tvaalen
+               _schulte_ erewhon Will|- angelixd_ adimit caveat- dotemacs_
+               epsylon` insatsu nyergler steckerhalter jubos_ Sketch necronian
+               magnars mw_ raph_ael arbn Jobbe offby1_ mnemonikk sweet_kid
+               Ulrar bastii literal fimblo asuka Odin- wyan cthuluh zhengyi
+               samrat fperrin james_woods felipe_ Lenzoid korutsu aroemers
+               neurodamage rizumu TTilus fschmitt bob2 Han yezariaely
+               robmyers_ offbyone aboudreault kenyon baudtack smull_
+           *** Users on #emacs: sshirokov Dybber jhj arrdem rcj_ spaceone
+               kelebeks wdouglas marten superbil qDot_ _guitarman_ semente fmu
+               binjured Koshian__
+           *** #emacs modes: +np
+           *** #emacs was created on 2006-11-26 14:42:33
+           *** #emacs URL: http://emacswiki.org/
+        <Fuco> xrq: discussion before that
+        <Fuco> like 2 hours ago
+         <jlf> <jlf> xrq: false dichotomy -- launch with tmux and create gui
+               frames with emacsclient :)  [01:18]
+         <xrq> Fuco: as for "previous discussion"... the meme is from a
+               discussion weeks ago
+        <Fuco> yes OK. tmux + cli emacs is still not better than gui emacs
+           *** runningskull (~runningsk@li77-167.members.linode.com) is now
+               known as zz_runningskull  [01:19]
+        <cofi> terminal emacs should start displaying "abandon all hope ye who
+               enter here!"  [01:20]
+ <technomancy> I'd prefer "Let only geometers enter"
+         <xrq> jlf: I'm not sure how that would work.  I have a personal
+               machine with all my notes, todo lists and research on it
+               running tmux.  when I take it to work I want to resume those
+               sessions on the work machine.  how does emacsclient apply
+               there?
+         <jlf> cofi: i suffer from terminal emacs, you insensitive clod!
+        <Fuco> xrq: emacs client works through TCP sockets just fine
+        <cofi> jlf: well .. maybe "I'm so sorry .."  [01:21]
+         <jlf> :)
+     <bpalmer> why aren't those notes in the 'cloud' ?  [01:22]
+        <cofi> but there are too many people using terminal emacs without good
+               reason
+             * bpalmer adds whatever supreme court case said cloud storage
+               didn't a warrant to the list.
+        <Fuco> let's all switch back to VT102!
+
+[五  5月 17 2013]
+           *** Topic for #emacs: To be an emacs user without changing it is no
+               more possible than to be alive without breathing. -- MLK |
+               Emacsconf vids http://j.mp/emacs2013videos | Read
+               http://www.emacswiki.org/EmacsChannel | Pastebin:
+               http://paste.lisp.org | No public logging! What happens in
+               #emacs stays in #emacs! | No sexism, racism, xenophobia,
+               misogyny or general asshattery  [01:26]
+           *** #emacs: topic set by
+               ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+               2013-05-13 11:06:53
+           *** Users on #emacs: visayafan nikhilg` freealan goshawk osnr jgama
+               hyperair SoftwareMaven CR0W dstatyvka davemq spcshpopr8r drot
+               bipt Gue______ Joreji Sixmsj nu7hatch Eldariof-ru Rovanion
+               tgunr jstein sorabji5252 bmac ketil solarmist dtm UrsoBranco
+               thepreacher daniel_- prk hiroakip scfrazer pocoyo` parsifal_
+               ntus1017 kilon mahmoudimus cortexman leo2007 b1rkh0ff GnarlyBob
+               morazow_ Twey Sigma damiancarrillo andres-v kliph Munksgaard
+               alakra Guest15574 nullie assem seangrove
+           *** Users on #emacs: Macphisto jlf surio ananthakumaran bitonic
+               plotr npeihl jackcviers cofi retroj jeffisabelle smazga lusory
+               th0ma5 jagaj konr shergill pppaul dkh` icule normanrichards
+               jcromartie cmatei mtk tiwula zellio greenhat cyberspace-
+               libertas zenwryly PetrVod lu2 chronno underscores tupi ecraven
+               natechan nicferrier isomer_ galex-713 benny cortman
+               victor_lowther microcode s00pcan kanru segv- asrail bnzmnzhnz
+               golodhrim cvandusen erkin nilg drmeister1 davexunit psii
+           *** Users on #emacs: vicenteH RhubarbSin paddymahoney bobdobbs
+               cluck unknown_lamer ivan`` chrisb pkkm tmh_ vmlinuz fledermaus
+               adrian netmod progo sanbor marjan- cud jlhg2 mgile danlentz
+               wilder dropdrive danicampa901 theos rking1 jrm jweiss ginkgo
+               xinming teiresias mfisher elbeardmorez nikhilg _AnK pw_
+               charlietanksley Gooder`` d11wtq jcazevedo plovs CrazyEddy
+               freefall jashank thone ivan\ molqr Philonous simao ggole_
+               vipzrx rgrau mrSpec killown msx thompsy shadowdaemon
+           *** Users on #emacs: cbpage_ mpenet lduros djcoin wagle emss dash
+               edgar-rft quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+               cityroasted rudybot kahen ggherdov monotux HedgeMage amoe yacks
+               crculver Bentbot ndrst IanKelling gazoombo jlf_` karbak kmic
+               zz_runningskull tali713 gko Monolith| SuperNoeMan loke_ jave_
+               Fuco barika ffualo_ _flow_ solarus peder dajva` brendyn Ralt
+               cerror abend quasisane ingenious maxm-- batsheep sorenmacbeth
+               dueno mjc``` developernotes quiesce
+           *** Users on #emacs: Ober_ abuiles dysinger cjones it3ration k-man
+               wgreenhouse bpalmer ckoch__ stokachu lustlife peterhil ktosiek
+               ndngvr vibhav thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+               jeffrubic prebz taylanub netzwurm daimrod Nafai Digit Mosu
+               timvisher martinjlowm kennyd jlindsay classix nunag yrk sawjig
+               abeaumont dooglus dgvncsz0f pjb callen Pio MicaiahC johnw
+               cmmagid AimHere sajith roelj bps jdavidboyd brianloveswords
+               _daniel-s__ exobit Marcel|HSD Silex
+           *** Users on #emacs: ErhardtMundt aspiers Demosthenex doomlord
+               stowelly sword aurelien antoszka Rapp gensym dal oakaz
+               sexyshap1 mee rods Guest6664 z0d StMichel Amadiro xneme mr_yall
+               vds yibe__ broquaint brjannc tromey TheCrittaC trademark91
+               steez L42y noptys mathrick mengwong_ terjesb stablo_ jeekl
+               birny thomases quotemstr esfraga ndsmith nick06 otm_ ragnul_
+               easye iflista_ frusen boodle arelius xrq jbarrios xhrl
+               demolith1 isak1 kmt lykathea fsmunoz tbarletz gianlucadv
+           *** Users on #emacs: ArneBab bionicspider texel drewr LAMMJohnson
+               cuba33ci faen leifw remote anxt turbofail tuv insomnia` fhd
+               wilfredh fikusz vila jonasac jasond` shabble_ Krystof joe9_
+               chewbranca hober zeltak1 ckoch786 tg myeffort_ Sembei dim
+               ganbold Raynes Derander_ rokstar arkx_ jmaister dzho tessier
+               wapiflapi sigjuice avar dothebart ruediger wtatsuru technomancy
+               legumbre balle ski__ ground4_ rootzlevel brighid_ calimocho
+               syrinx_ barik ext twem2 elarson jaimef reeses
+           *** Users on #emacs: illovae Ulrar bastii literal fimblo asuka
+               Odin- wyan cthuluh zhengyi samrat fperrin james_woods felipe_
+               Lenzoid korutsu aroemers neurodamage rizumu TTilus fschmitt
+               sweet_kid mnemonikk offby1_ Jobbe arbn raph_ael mw_ magnars
+               necronian Sketch jubos_ steckerhalter nyergler insatsu epsylon`
+               dotemacs_ caveat- adimit angelixd_ Will|- erewhon _schulte_
+               tvaalen muep murr4y jordanm srid boredomist j0ni yang_ eN_Joy
+               a00001 k0ral_ dented42 hanDerPeder kbtr roxlu
+           *** Users on #emacs: txxt elik raso2 maio lightquake grettke_
+               Hodapp Seb kjfletch spratap drewc anaumov Boney lokydor
+               zendeavor tychoish iderrick majoh bob2 Han yezariaely robmyers_
+               offbyone aboudreault kenyon baudtack smull_ sshirokov Dybber
+               jhj arrdem rcj_ spaceone kelebeks wdouglas marten superbil
+               qDot_ _guitarman_ semente fmu binjured Koshian__ cpt_nemo
+               portante beneth` mstr zw01 redline6561 thorkill Guest25865
+               surrounder _mst tensorpudding mefisto hhuuggoo
+           *** Users on #emacs: theBlackDragon binski mns rotty_ dominikh
+               Natch webframp Apic dbristow chriswk emilh elpolilla NaCl
+               kloeri davef hiredman fuleo2 yhvh Neptu dubz mokau dale_ heath
+               notdan torbjorn qlkzy cross copiga ezanol_ hgb anyfoo snufu
+               `micro Jonte tuvwx cantsin hlprmnky_ AlexanderS eqyiel jdhore
+               NimeshNeema adriftatsea2 madnificent wchun wanders_ mgsk
+               jaredrhine johnsu01 axrfnu xhrl_ PuffTheMagic kordex basho
+               cmbntr Laynef corecode mattcen iiska_ oufo oconnore mami
+           *** Users on #emacs: CosmicRay kini shoepie1 brainproxy tirengarfio
+               ok2 emacsnw mechairo` justinabrahms tazle jannie bigjust
+               leathekd nuba paroneayea acewin Viiru chaoflow kodein CampinSam
+               delYsid` marienz fsbot Anusko mitchty Joelbyte boyscared
+               PuercoPop Vorpal cbmuser Dr_Jazz_ scgilardi- derrida ktx mds
+               Euthy` gnomon_ sybariten mh_le edenc ryanc jabot_ vmesons zobbo
+               rson fallout jayne macrobat newcup __main__ Nahra ToothlessGear
+               expez LogicallyDashing seneca xristos
+           *** Users on #emacs: mcdonc spacebat quackv4 dshep russm Borbus
+               ahoops karupanerura ieure BlastHardcheese daemian jjore_
+               bremner yacc YoungFrog prip genehack_ froggey nano-_
+               quicksilver Hapsbanan
+           *** #emacs URL: http://emacswiki.org/
+           *** #emacs modes: +np
+           *** #emacs was created on 2006-11-26 14:42:33
+         <xrq> the point was me mentioning tmux+cli emacs and people saying
+               "people who use cli are crazy! fringes and more keybindings are
+               so much better!"  [01:27]
+        <Fuco> ok, let's change topic
+        <Fuco> :P
+     <bremner> /topic terminals sux  [01:29]
+        <Fuco> ,shoot bremner 
+             * fsbot loads its goldplated cable and plugs bremner into a tube
+               amplifier.
+        <cofi> but I like the quote in the topic?
+         <xrq> ,salespitch cli
+       <fsbot> We aren't gonna lie. Cli sucks. Some of us tolerate it, but we
+               can't tell you if YOU'LL be able to. Try it and make up your
+               own mind.
+             * bremner hums contentedly
+        <Fuco> xrq: just to make it clear, nothing personal :P I hope it's all
+               good
+        <Fuco> sometimes I get a bit carried away
+
+[五  5月 17 2013]
+           *** Topic for #emacs: To be an emacs user without changing it is no
+               more possible than to be alive without breathing. -- MLK |
+               Emacsconf vids http://j.mp/emacs2013videos | Read
+               http://www.emacswiki.org/EmacsChannel | Pastebin:
+               http://paste.lisp.org | No public logging! What happens in
+               #emacs stays in #emacs! | No sexism, racism, xenophobia,
+               misogyny or general asshattery  [01:34]
+           *** #emacs: topic set by
+               ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+               2013-05-13 11:06:53
+           *** Users on #emacs: visayafan nikhilg` c0rn marsam dberg agumonkey
+               freealan goshawk jgama hyperair SoftwareMaven CR0W dstatyvka
+               davemq spcshpopr8r bipt Gue______ Joreji Sixmsj nu7hatch
+               Eldariof-ru Rovanion tgunr jstein sorabji5252 bmac ketil
+               solarmist dtm UrsoBranco thepreacher daniel_- prk hiroakip
+               scfrazer pocoyo` parsifal_ ntus1017 kilon mahmoudimus cortexman
+               leo2007 b1rkh0ff GnarlyBob morazow_ Twey Sigma damiancarrillo
+               andres-v kliph Munksgaard alakra Guest15574 nullie
+           *** Users on #emacs: assem seangrove Macphisto jlf surio
+               ananthakumaran bitonic plotr npeihl jackcviers cofi retroj
+               jeffisabelle smazga lusory th0ma5 jagaj konr shergill pppaul
+               dkh` icule normanrichards jcromartie cmatei mtk tiwula zellio
+               greenhat cyberspace- libertas zenwryly PetrVod lu2 chronno
+               underscores tupi ecraven natechan nicferrier isomer_ galex-713
+               benny cortman victor_lowther microcode s00pcan kanru segv-
+               asrail bnzmnzhnz golodhrim cvandusen erkin nilg drmeister1
+           *** Users on #emacs: davexunit psii vicenteH RhubarbSin
+               paddymahoney bobdobbs cluck unknown_lamer ivan`` chrisb pkkm
+               tmh_ vmlinuz fledermaus adrian netmod progo sanbor marjan- cud
+               jlhg2 mgile danlentz wilder dropdrive danicampa901 theos rking1
+               jrm jweiss ginkgo xinming teiresias mfisher elbeardmorez
+               nikhilg _AnK pw_ charlietanksley Gooder`` d11wtq jcazevedo
+               plovs CrazyEddy freefall jashank thone ivan\ molqr Philonous
+               simao ggole_ vipzrx rgrau mrSpec killown msx thompsy
+           *** Users on #emacs: shadowdaemon cbpage_ mpenet lduros djcoin
+               wagle emss dash edgar-rft quazimodo doomlord__ jehan tmh__
+               Myk267 forcer SamB cityroasted rudybot kahen ggherdov monotux
+               HedgeMage amoe yacks crculver Bentbot ndrst IanKelling gazoombo
+               jlf_` karbak kmic zz_runningskull tali713 gko Monolith|
+               SuperNoeMan loke_ jave_ Fuco barika ffualo_ _flow_ solarus
+               peder dajva` brendyn Ralt cerror abend quasisane ingenious
+               maxm-- batsheep sorenmacbeth dueno mjc``` developernotes
+           *** Users on #emacs: quiesce Ober_ abuiles dysinger cjones
+               it3ration k-man wgreenhouse bpalmer ckoch__ stokachu lustlife
+               peterhil ktosiek ndngvr vibhav thatJasonSmith gstamp
+               SunMoonStar mrBliss ljhms jeffrubic prebz taylanub netzwurm
+               daimrod Nafai Mosu timvisher martinjlowm kennyd jlindsay
+               classix nunag yrk sawjig abeaumont dooglus dgvncsz0f pjb callen
+               Pio MicaiahC johnw cmmagid AimHere sajith roelj bps jdavidboyd
+               brianloveswords _daniel-s__ exobit Marcel|HSD Silex
+           *** Users on #emacs: ErhardtMundt aspiers Demosthenex doomlord
+               stowelly sword aurelien antoszka Rapp gensym dal oakaz
+               sexyshap1 mee rods Guest6664 z0d StMichel Amadiro xneme mr_yall
+               vds yibe__ broquaint brjannc tromey TheCrittaC trademark91
+               steez L42y noptys mengwong_ terjesb stablo_ jeekl birny
+               thomases quotemstr esfraga ndsmith nick06 otm_ ragnul_ easye
+               iflista_ frusen boodle arelius xrq jbarrios xhrl demolith1
+               isak1 kmt lykathea fsmunoz tbarletz gianlucadv ArneBab
+           *** Users on #emacs: bionicspider texel drewr LAMMJohnson cuba33ci
+               faen leifw remote anxt turbofail tuv insomnia` Ulrar bastii
+               literal fimblo asuka Odin- wyan cthuluh zhengyi samrat fperrin
+               james_woods felipe_ Lenzoid korutsu aroemers neurodamage rizumu
+               TTilus fschmitt sweet_kid mnemonikk offby1_ Jobbe arbn raph_ael
+               mw_ magnars necronian Sketch jubos_ steckerhalter nyergler
+               insatsu epsylon` dotemacs_ caveat- adimit angelixd_ Will|-
+               erewhon _schulte_ tvaalen muep murr4y jordanm
+           *** Users on #emacs: srid boredomist j0ni yang_ eN_Joy a00001
+               k0ral_ dented42 hanDerPeder kbtr roxlu txxt elik raso2 maio
+               lightquake grettke_ Hodapp Seb kjfletch spratap drewc anaumov
+               Boney lokydor zendeavor tychoish iderrick majoh bob2 Han
+               yezariaely robmyers_ offbyone aboudreault kenyon baudtack
+               smull_ sshirokov Dybber jhj arrdem rcj_ spaceone kelebeks
+               wdouglas marten superbil qDot_ _guitarman_ semente fmu binjured
+               Koshian__ cpt_nemo portante beneth` mstr zw01 redline6561
+           *** Users on #emacs: thorkill Guest25865 surrounder _mst
+               tensorpudding mefisto hhuuggoo theBlackDragon binski mns rotty_
+               dominikh Natch webframp Apic dbristow chriswk emilh elpolilla
+               NaCl kloeri davef hiredman fuleo2 yhvh Neptu dubz mokau dale_
+               heath notdan torbjorn qlkzy cross copiga ezanol_ hgb anyfoo
+               snufu `micro Jonte tuvwx cantsin hlprmnky_ AlexanderS eqyiel
+               jdhore NimeshNeema adriftatsea2 madnificent wchun wanders_ mgsk
+               jaredrhine johnsu01 axrfnu xhrl_ PuffTheMagic
+           *** Users on #emacs: kordex basho cmbntr Laynef corecode mattcen
+               iiska_ oufo oconnore mami CosmicRay kini shoepie1 brainproxy
+               tirengarfio ok2 emacsnw mechairo` justinabrahms tazle jannie
+               bigjust leathekd nuba paroneayea acewin Viiru chaoflow kodein
+               CampinSam delYsid` marienz fsbot Anusko mitchty Joelbyte
+               boyscared PuercoPop Vorpal cbmuser Dr_Jazz_ scgilardi- derrida
+               ktx mds Euthy` gnomon_ sybariten mh_le edenc ryanc jabot_
+               vmesons zobbo rson fallout jayne macrobat newcup
+           *** Users on #emacs: __main__ Nahra ToothlessGear expez
+               LogicallyDashing seneca xristos mcdonc spacebat quackv4 dshep
+               russm Borbus ahoops karupanerura ieure BlastHardcheese daemian
+               jjore_ bremner yacc YoungFrog prip genehack_ froggey nano-_
+               quicksilver Hapsbanan illovae reeses jaimef elarson twem2 ext
+               barik syrinx_ calimocho brighid_ rootzlevel ground4_ ski__
+               balle legumbre technomancy wtatsuru ruediger dothebart avar
+               sigjuice wapiflapi tessier dzho jmaister arkx_ rokstar
+           *** Users on #emacs: Derander_ Raynes ganbold dim Sembei myeffort_
+               tg ckoch786 zeltak1 hober chewbranca joe9_ Krystof shabble_
+               jasond` jonasac vila fikusz wilfredh fhd
+           *** #emacs URL: http://emacswiki.org/
+           *** #emacs modes: +np
+           *** #emacs was created on 2006-11-26 14:42:33
+        <Fuco> I use terminals too, I just really really hate it :/
+     <bremner> ,heretic
+       <fsbot> Caedite eos. Novit enim Dominus qui sunt eius.
+
+[五  5月 17 2013]
+           *** Topic for #emacs: To be an emacs user without changing it is no
+               more possible than to be alive without breathing. -- MLK |
+               Emacsconf vids http://j.mp/emacs2013videos | Read
+               http://www.emacswiki.org/EmacsChannel | Pastebin:
+               http://paste.lisp.org | No public logging! What happens in
+               #emacs stays in #emacs! | No sexism, racism, xenophobia,
+               misogyny or general asshattery  [01:41]
+           *** #emacs: topic set by
+               ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+               2013-05-13 11:06:53
+           *** Users on #emacs: visayafan mathrick wishbone4 haroldwu marie
+               c0rn marsam dberg agumonkey freealan goshawk jgama hyperair
+               SoftwareMaven CR0W dstatyvka davemq spcshpopr8r bipt Gue______
+               Joreji Sixmsj nu7hatch Eldariof-ru Rovanion tgunr jstein
+               sorabji5252 bmac ketil solarmist dtm UrsoBranco thepreacher
+               daniel_- prk hiroakip scfrazer pocoyo` parsifal_ ntus1017 kilon
+               mahmoudimus cortexman leo2007 b1rkh0ff GnarlyBob morazow_ Twey
+               Sigma damiancarrillo andres-v kliph Munksgaard
+           *** Users on #emacs: alakra Guest15574 nullie assem seangrove
+               Macphisto jlf surio ananthakumaran bitonic plotr npeihl
+               jackcviers cofi retroj jeffisabelle smazga lusory th0ma5 jagaj
+               konr shergill pppaul dkh` icule normanrichards jcromartie
+               cmatei mtk tiwula zellio greenhat cyberspace- libertas zenwryly
+               PetrVod lu2 chronno underscores tupi ecraven natechan
+               nicferrier isomer_ galex-713 benny cortman victor_lowther
+               microcode s00pcan kanru segv- asrail bnzmnzhnz golodhrim
+           *** Users on #emacs: cvandusen erkin nilg drmeister1 davexunit psii
+               vicenteH RhubarbSin paddymahoney bobdobbs cluck unknown_lamer
+               ivan`` chrisb pkkm tmh_ vmlinuz fledermaus adrian netmod progo
+               sanbor marjan- cud jlhg2 mgile danlentz wilder dropdrive
+               danicampa901 theos rking1 jrm jweiss ginkgo xinming teiresias
+               mfisher elbeardmorez nikhilg _AnK pw_ charlietanksley Gooder``
+               d11wtq jcazevedo plovs CrazyEddy freefall jashank thone ivan\
+               molqr Philonous simao ggole_ vipzrx rgrau
+           *** Users on #emacs: mrSpec killown msx thompsy shadowdaemon
+               cbpage_ mpenet lduros djcoin wagle emss dash edgar-rft
+               quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB cityroasted
+               rudybot kahen ggherdov monotux HedgeMage amoe yacks crculver
+               Bentbot ndrst IanKelling gazoombo jlf_` karbak kmic
+               zz_runningskull tali713 gko Monolith| SuperNoeMan loke_ jave_
+               Fuco barika ffualo_ _flow_ solarus peder dajva` brendyn Ralt
+               cerror abend quasisane ingenious maxm-- batsheep sorenmacbeth
+           *** Users on #emacs: dueno mjc``` developernotes quiesce Ober_
+               abuiles dysinger cjones it3ration k-man wgreenhouse bpalmer
+               ckoch__ stokachu lustlife peterhil ktosiek ndngvr vibhav
+               thatJasonSmith gstamp SunMoonStar mrBliss ljhms jeffrubic prebz
+               taylanub netzwurm daimrod Nafai Mosu timvisher martinjlowm
+               kennyd jlindsay classix nunag yrk sawjig abeaumont dooglus
+               dgvncsz0f pjb callen Pio MicaiahC johnw cmmagid AimHere sajith
+               roelj bps jdavidboyd brianloveswords _daniel-s__
+           *** Users on #emacs: exobit Marcel|HSD Silex ErhardtMundt aspiers
+               Demosthenex doomlord stowelly sword aurelien antoszka Rapp
+               gensym dal oakaz sexyshap1 mee rods Guest6664 z0d StMichel
+               Amadiro xneme mr_yall vds yibe__ broquaint brjannc tromey
+               TheCrittaC trademark91 steez L42y noptys mengwong_ terjesb
+               stablo_ jeekl birny thomases quotemstr esfraga ndsmith nick06
+               otm_ ragnul_ easye iflista_ frusen boodle arelius xrq jbarrios
+               xhrl demolith1 isak1 kmt lykathea fsmunoz tbarletz
+           *** Users on #emacs: gianlucadv ArneBab bionicspider texel drewr
+               LAMMJohnson cuba33ci faen leifw remote anxt turbofail tuv
+               insomnia` fhd wilfredh fikusz vila jonasac jasond` shabble_
+               Krystof joe9_ chewbranca hober zeltak1 ckoch786 tg myeffort_
+               Sembei dim ganbold Raynes Derander_ rokstar arkx_ jmaister dzho
+               tessier wapiflapi sigjuice avar dothebart ruediger wtatsuru
+               technomancy legumbre balle ski__ ground4_ rootzlevel brighid_
+               calimocho syrinx_ barik ext twem2 elarson jaimef
+           *** Users on #emacs: reeses illovae Hapsbanan quicksilver nano-_
+               froggey genehack_ prip YoungFrog yacc bremner jjore_ daemian
+               BlastHardcheese ieure karupanerura ahoops Borbus russm dshep
+               quackv4 spacebat mcdonc xristos seneca LogicallyDashing expez
+               ToothlessGear Nahra __main__ newcup macrobat jayne fallout rson
+               zobbo vmesons jabot_ ryanc edenc mh_le sybariten gnomon_ Euthy`
+               mds ktx derrida scgilardi- Dr_Jazz_ cbmuser Vorpal PuercoPop
+               boyscared Joelbyte mitchty Anusko fsbot
+           *** Users on #emacs: marienz delYsid` CampinSam kodein chaoflow
+               Viiru acewin paroneayea nuba leathekd bigjust jannie tazle
+               justinabrahms mechairo` emacsnw ok2 tirengarfio brainproxy
+               shoepie1 kini CosmicRay mami oconnore oufo iiska_ mattcen
+               corecode Laynef cmbntr basho kordex PuffTheMagic xhrl_ axrfnu
+               johnsu01 jaredrhine mgsk wanders_ wchun madnificent
+               adriftatsea2 NimeshNeema jdhore eqyiel AlexanderS hlprmnky
+               cantsin tuvwx Jonte `micro snufu anyfoo hgb ezanol_ copiga
+               cross
+           *** Users on #emacs: qlkzy torbjorn notdan heath dale_ mokau dubz
+               Neptu yhvh fuleo2 hiredman davef kloeri NaCl elpolilla emilh
+               chriswk dbristow Apic webframp Natch dominikh rotty_ mns binski
+               theBlackDragon hhuuggoo mefisto tensorpudding _mst surrounder
+               Guest25865 thorkill redline6561 zw01 mstr beneth` portante
+               cpt_nemo Koshian__ binjured fmu semente _guitarman_ qDot_
+               superbil marten wdouglas kelebeks spaceone rcj_ arrdem jhj
+               Dybber sshirokov smull_ baudtack kenyon
+           *** Users on #emacs: aboudreault offbyone robmyers_ yezariaely Han
+               bob2 majoh iderrick tychoish zendeavor lokydor Boney anaumov
+               drewc spratap kjfletch Seb Hodapp grettke_ lightquake maio
+               raso2 elik txxt roxlu kbtr hanDerPeder dented42 k0ral_ a00001
+               eN_Joy yang_ j0ni boredomist srid jordanm murr4y muep tvaalen
+               _schulte_ erewhon Will|- angelixd_ adimit caveat- dotemacs_
+               epsylon` insatsu nyergler steckerhalter jubos_ Sketch necronian
+               magnars mw_ raph_ael arbn Jobbe offby1_
+           *** Users on #emacs: mnemonikk sweet_kid Ulrar bastii literal
+               fimblo asuka Odin- wyan cthuluh zhengyi samrat fperrin
+               james_woods felipe_ Lenzoid korutsu aroemers neurodamage rizumu
+               TTilus fschmitt
+           *** #emacs URL: http://emacswiki.org/
+           *** #emacs modes: +np
+           *** #emacs was created on 2006-11-26 14:42:33
+        <dash> Fuco: http://achewood.com/index.php?date=03082002  [01:42]
+        <Fuco> seems like a good webcomic ;P  [01:43]
+        <Fuco> hm, I've re-read 4 chapters of the revelations but nothing
+               quoteworthy, or rather relevant/usable ;d  [01:54]
+        <Fuco> I need to dig up some medieval torture manuals  [01:55]
+     <bremner> you read 4 chapters of revelations in latin?  [01:56]
+        <Fuco> yea
+  <nicferrier> you could do more than just wish me well guys. you could help.
+     <bremner> can you turn that into a monad tutorial?  [01:57]
+        <Fuco> hm... how? :d
+        <Fuco> you can read it e.g. here:
+               http://www.sacred-texts.com/bib/vul/rev005.htm#004
+     <bremner> a monad is like the end times?
+        <Fuco> (chapter 5)
+        <Fuco> oh :P
+        <Fuco> Et monada sancta dixit: ego sum qui est, qui erat et quae
+               ventura est!  [01:58]
+        <Fuco> ah lol :P
+        <Fuco> forgot to s/qui/quae/ :)
+     <bremner> nicferrier: is that a generic plea for help, or about the
+               curses replacement?  [01:59]
+        <Fuco> though is monad feminine or masculine? I think feminine 
+  <nicferrier> Fuco: I think it's bovine.
+     <JordiGH> Man, I gotta write my monad blog post.
+     <JordiGH> It's a rite of passage for learning Haskell.
+  <nicferrier> bremner: always general.
+ <technomancy> JordiGH: don't do iiiiit  [02:00]
+ <technomancy> or do it under a pseudonym or something
+     <JordiGH> technomancy: Will you post it to Reddit and HN for me?
+ <technomancy> I have HN blocked in /etc/hosts
+     <JordiGH> Haha.
+   <HedgeMage> that must be an incredible time-saver, technomancy :)
+         <xrq> Fuco: monad is divine
+             * HedgeMage has enough willpower just to stay off
+ <technomancy> HedgeMage: sanity-saver too
+   <HedgeMage> technomancy: agreed  [02:01]
+  <nicferrier> I never go there anymore.
+  <nicferrier> reddit/emacs I do visit.
+ <technomancy> I don't have it blocked on my phone, which means I basically
+               only visit it on the loo
+   <HedgeMage> technomancy: I've managed to recruit all the people I liked to
+               other chans, then left #startups and hacker news in general
+    <ryuslash> hi everyone
+        <Fuco> xrq: well of course, that's why 'monada sancta'. I think it
+               works better as feminine
+          ERC> /FLUSH
+[02:15]           *** Topic for #emacs: To be an emacs user without changing
+                      it is no more possible than to be alive without
+                      breathing. -- MLK | Emacsconf vids
+                      http://j.mp/emacs2013videos | Read
+                      http://www.emacswiki.org/EmacsChannel | Pastebin:
+                      http://paste.lisp.org | No public logging! What happens
+                      in #emacs stays in #emacs! | No sexism, racism,
+                      xenophobia, misogyny or general asshattery
+                  *** #emacs: topic set by
+                      ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+                      2013-05-13 11:06:53
+                  *** Users on #emacs: visayafan wgreenhouse nikhilg``
+                      MaxLanar ryuslash edw JordiGH ivan-kanis hypnocat
+                      joebloggs59 mathrick wishbone4 haroldwu c0rn dberg
+                      agumonkey goshawk jgama hyperair SoftwareMaven CR0W
+                      dstatyvka davemq spcshpopr8r bipt Gue______ Joreji
+                      nu7hatch Eldariof-ru Rovanion tgunr jstein sorabji5252
+                      bmac ketil dtm UrsoBranco daniel_- hiroakip scfrazer
+                      pocoyo` parsifal_ kilon mahmoudimus cortexman leo2007
+                      b1rkh0ff GnarlyBob morazow_ Twey Sigma damiancarrillo
+                      andres-v
+                  *** Users on #emacs: kliph Munksgaard alakra Guest15574
+                      nullie assem seangrove Macphisto jlf surio
+                      ananthakumaran bitonic npeihl jackcviers cofi retroj
+                      jeffisabelle smazga lusory th0ma5 jagaj konr shergill
+                      pppaul dkh` icule normanrichards jcromartie cmatei mtk
+                      tiwula zellio greenhat cyberspace- libertas zenwryly
+                      PetrVod lu2 chronno underscores ecraven natechan
+                      nicferrier isomer_ galex-713 benny cortman
+                      victor_lowther microcode s00pcan kanru segv- asrail
+                      bnzmnzhnz golodhrim
+                  *** Users on #emacs: cvandusen erkin nilg drmeister1
+                      davexunit psii vicenteH RhubarbSin paddymahoney bobdobbs
+                      cluck unknown_lamer ivan`` chrisb pkkm tmh_ vmlinuz
+                      fledermaus adrian progo marjan- cud jlhg2 mgile danlentz
+                      wilder dropdrive theos rking1 jrm jweiss ginkgo xinming
+                      teiresias mfisher elbeardmorez nikhilg _AnK pw_
+                      charlietanksley Gooder`` d11wtq plovs CrazyEddy freefall
+                      jashank thone ivan\ molqr Philonous simao vipzrx rgrau
+                      mrSpec killown msx thompsy shadowdaemon cbpage_
+                  *** Users on #emacs: mpenet lduros djcoin wagle emss dash
+                      edgar-rft quazimodo doomlord__ jehan tmh__ Myk267 forcer
+                      SamB cityroasted rudybot kahen ggherdov monotux
+                      HedgeMage amoe yacks crculver Bentbot ndrst IanKelling
+                      gazoombo jlf_` karbak kmic runningskull tali713 gko
+                      Monolith| SuperNoeMan loke_ jave_ Fuco barika ffualo_
+                      _flow_ solarus peder dajva` brendyn Ralt cerror abend
+                      quasisane ingenious maxm-- batsheep sorenmacbeth dueno
+                      mjc``` developernotes quiesce Ober_ abuiles
+                  *** Users on #emacs: dysinger cjones it3ration k-man bpalmer
+                      ckoch__ stokachu lustlife peterhil ktosiek ndngvr vibhav
+                      thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+                      jeffrubic prebz taylanub netzwurm daimrod Nafai Mosu
+                      timvisher martinjlowm kennyd jlindsay classix nunag yrk
+                      sawjig abeaumont dooglus dgvncsz0f pjb callen Pio
+                      MicaiahC johnw cmmagid AimHere sajith roelj bps
+                      jdavidboyd brianloveswords _daniel-s__ exobit Silex
+                      ErhardtMundt aspiers Demosthenex doomlord stowelly sword
+                  *** Users on #emacs: aurelien antoszka Rapp gensym dal oakaz
+                      sexyshap1 mee rods Guest6664 z0d StMichel Amadiro xneme
+                      mr_yall vds yibe__ broquaint brjannc tromey TheCrittaC
+                      trademark91 steez L42y noptys mengwong_ terjesb stablo_
+                      jeekl birny thomases quotemstr esfraga ndsmith nick06
+                      otm_ ragnul_ easye iflista_ frusen boodle arelius xrq
+                      jbarrios xhrl demolith1 isak1 kmt lykathea fsmunoz
+                      tbarletz gianlucadv ArneBab bionicspider texel drewr
+                      cuba33ci faen leifw remote anxt turbofail
+                  *** Users on #emacs: tuv insomnia` fhd wilfredh fikusz vila
+                      jonasac jasond` shabble_ Krystof joe9_ chewbranca hober
+                      zeltak1 ckoch786 tg myeffort_ Sembei dim ganbold Raynes
+                      Derander_ rokstar arkx_ jmaister dzho tessier wapiflapi
+                      sigjuice avar dothebart ruediger wtatsuru technomancy
+                      legumbre balle ski__ ground4_ rootzlevel brighid_
+                      calimocho syrinx_ barik ext twem2 elarson jaimef reeses
+                      illovae Hapsbanan quicksilver nano- froggey genehack_
+                      prip YoungFrog yacc bremner jjore_
+                  *** Users on #emacs: daemian BlastHardcheese ieure
+                      karupanerura ahoops Borbus russm dshep quackv4 spacebat
+                      mcdonc xristos seneca LogicallyDashing expez
+                      ToothlessGear Nahra __main__ newcup macrobat jayne
+                      fallout rson zobbo vmesons jabot_ ryanc mh_le sybariten
+                      gnomon_ Euthy` mds ktx derrida scgilardi- Dr_Jazz_
+                      cbmuser Vorpal PuercoPop boyscared Joelbyte mitchty
+                      Anusko fsbot marienz delYsid` CampinSam kodein Viiru
+                      chaoflow acewin paroneayea nuba leathekd bigjust jannie
+                      tazle
+                  *** Users on #emacs: justinabrahms mechairo` emacsnw ok2
+                      tirengarfio brainproxy shoepie1 kini CosmicRay mami
+                      oconnore oufo iiska_ mattcen corecode Laynef cmbntr
+                      basho kordex PuffTheMagic xhrl_ axrfnu johnsu01
+                      jaredrhine mgsk wanders_ wchun madnificent adriftatsea2
+                      NimeshNeema jdhore eqyiel AlexanderS hlprmnky cantsin
+                      tuvwx Jonte `micro snufu anyfoo hgb ezanol_ copiga cross
+                      qlkzy torbjorn notdan heath dale_ mokau dubz Neptu yhvh
+                      fuleo2 hiredman davef kloeri NaCl elpolilla emilh
+                  *** Users on #emacs: chriswk dbristow Apic webframp Natch
+                      dominikh rotty_ mns binski theBlackDragon hhuuggoo
+                      mefisto tensorpudding _mst surrounder Guest25865
+                      thorkill redline6561 zw01 mstr beneth` portante cpt_nemo
+                      Koshian__ binjured fmu semente _guitarman_ qDot_
+                      superbil marten wdouglas kelebeks spaceone rcj_ arrdem
+                      jhj Dybber sshirokov smull_ baudtack kenyon aboudreault
+                      offbyone robmyers_ yezariaely Han bob2 majoh iderrick
+                      tychoish zendeavor lokydor Boney anaumov drewc
+                  *** Users on #emacs: spratap kjfletch Seb Hodapp grettke_
+                      lightquake maio raso2 elik txxt roxlu kbtr hanDerPeder
+                      dented42 k0ral_ a00001 eN_Joy yang_ j0ni boredomist srid
+                      jordanm murr4y muep tvaalen _schulte_ erewhon Will|-
+                      angelixd_ adimit caveat- dotemacs_ epsylon` insatsu
+                      nyergler steckerhalter jubos_ Sketch necronian magnars
+                      mw_ raph_ael arbn Jobbe offby1_ mnemonikk sweet_kid
+                      fschmitt TTilus rizumu neurodamage aroemers korutsu
+                      Lenzoid felipe_ james_woods fperrin samrat
+                  *** Users on #emacs: zhengyi cthuluh wyan Odin- asuka fimblo
+                      literal bastii Ulrar
+                  *** #emacs URL: http://emacswiki.org/
+                  *** #emacs modes: +np
+                  *** #emacs was created on 2006-11-26 14:42:33
+[02:16]          ERC> /clr
+            <bremner> hmm. I wonder if linus torvalds in full rant mode about
+                      a font problem that annoys me also increases or
+                      decreases my chance of getting the problem solved.
+         <nicferrier> maybe. people love him don't they?
+         <nicferrier> well. respect him.
+            <bremner> I guess I should be more like JordiGH and/or stab myself
+                      in the eye with a fork.
+[02:17]  <nicferrier> I wish there was one bookmark interface
+            <JordiGH> bremner: url to rant plz
+            <JordiGH> ,g linus font rant
+              <fsbot> [google]
+                      https://plus.google.com/%2BLinusTorvalds/posts/UkoAaLDpF4i
+              <fsbot>
+                      http://rants.scribus.net/2007/12/07/a-real-linux-font-manager-for-designers/
+[02:18]     <bremner> JordiGH: https://plus.google.com/+LinusTorvalds/posts
+            <bremner> about the last 3 posts are about bad rendering of
+                      "Robotto" font.
+[02:19]     <JordiGH> Is this bitching about how anti-aliased fonts are harder
+                      to read again?
+            <bremner> I have a good title for a rant "Fuck you very much,
+                      Mr. Robotto", but I can't be arsed to write the rant.
+            <JordiGH> It's funny to hear Linus being as much of a backwards
+                      neckbeard as rms sometimes.
+               <Fuco> ha, linus made a post about clippy
+               <Fuco> I hope someone linked him clippy.el
+            <bremner> JordiGH: no, it's about how the new font in google+ is
+                      crap
+[02:21]  <nicferrier> Fuco: he wouldn't be interested because he hates emacs.
+            <bremner> so not anti-aliased fonts in general, a _particular_
+                      anti-aliased font ;)
+               <Fuco> nicferrier: what? He's an emacs user as far as I know
+            <JordiGH> Jesus, how do you get an actual url to the post?
+         <nicferrier> Fuco: no. he's a MICROemacs user.
+               <Fuco> JordiGH: welcome to social media :/
+         <nicferrier> Fuco: don't make that mistake. he hates emacs. *a lot*
+           <jandrusk> Kind of like when Linux was whining about Gnome3/Unity
+                      GUI. Never understood this coming from a kernel hacker. 
+             <forcer> ... because kernel hackers can't use GUIs?
+[02:22]     <JordiGH> Why is over half of my browser screen taken up by stuff
+                      that is not content?
+               <Fuco> JordiGH: welcome to social media :/
+[02:23]      <forcer> JordiGH: Somehow, "the date" has become the "link to the
+                      post" thing in most sociopathic media sites.
+           <legumbre> JordiGH: content is overrated
+            <JordiGH> Seriously, are you guys seeing what I'm seeing?
+                      http://jordi.platinum.linux.pl/piccies/Screenshot.png
+        <technomancy> what are you some kind of malcontent
+            <JordiGH> Or does Google+ just hate my browser?
+           <legumbre> ,technomancy++
+              <fsbot> Noted, legumbre.  One brownie-point for technomancy!
+            <JordiGH> Oh, wait.
+             <forcer> JordiGH: That's particularly bad :-D
+            <JordiGH> I know what I can do.
+           <legumbre> dulce maria
+            <JordiGH> legumbre: Don't judge me.
+                    * legumbre would never do such a thing
+[02:24]        <Fuco> I wonder how did he get the font to render in such a
+                      shitty way
+               <Fuco> it must be a chrome thing
+[02:24]           *** Topic for #emacs: To be an emacs user without changing
+                      it is no more possible than to be alive without
+                      breathing. -- MLK | Emacsconf vids
+                      http://j.mp/emacs2013videos | Read
+                      http://www.emacswiki.org/EmacsChannel | Pastebin:
+                      http://paste.lisp.org | No public logging! What happens
+                      in #emacs stays in #emacs! | No sexism, racism,
+                      xenophobia, misogyny or general asshattery
+                  *** #emacs: topic set by
+                      ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+                      2013-05-13 11:06:53
+                  *** Users on #emacs: visayafan nikhilg`` jandrusk
+                      wgreenhouse ryuslash edw JordiGH ivan-kanis hypnocat
+                      joebloggs59 mathrick wishbone4 haroldwu c0rn dberg
+                      agumonkey goshawk jgama hyperair SoftwareMaven CR0W
+                      dstatyvka davemq spcshpopr8r bipt Gue______ Joreji
+                      nu7hatch Eldariof-ru Rovanion tgunr jstein sorabji5252
+                      bmac ketil dtm UrsoBranco daniel_- hiroakip scfrazer
+                      pocoyo` parsifal_ kilon mahmoudimus cortexman leo2007
+                      b1rkh0ff GnarlyBob morazow_ Twey Sigma damiancarrillo
+                      andres-v
+                  *** Users on #emacs: kliph Munksgaard alakra Guest15574
+                      nullie assem seangrove Macphisto jlf surio
+                      ananthakumaran bitonic npeihl jackcviers cofi retroj
+                      jeffisabelle smazga lusory th0ma5 jagaj konr shergill
+                      pppaul dkh` icule normanrichards jcromartie cmatei mtk
+                      tiwula zellio greenhat cyberspace- libertas zenwryly
+                      PetrVod lu2 chronno underscores ecraven natechan
+                      nicferrier isomer_ galex-713 benny cortman
+                      victor_lowther microcode s00pcan kanru segv- asrail
+                      bnzmnzhnz golodhrim
+                  *** Users on #emacs: cvandusen erkin nilg drmeister1
+                      davexunit psii vicenteH RhubarbSin paddymahoney bobdobbs
+                      cluck unknown_lamer ivan`` chrisb pkkm tmh_ vmlinuz
+                      fledermaus adrian progo marjan- cud jlhg2 mgile danlentz
+                      wilder dropdrive theos rking1 jrm jweiss ginkgo xinming
+                      teiresias mfisher elbeardmorez nikhilg _AnK pw_
+                      charlietanksley Gooder`` d11wtq plovs CrazyEddy freefall
+                      jashank thone ivan\ molqr Philonous simao vipzrx rgrau
+                      mrSpec killown msx thompsy shadowdaemon cbpage_
+                  *** Users on #emacs: mpenet lduros djcoin wagle emss dash
+                      edgar-rft quazimodo doomlord__ jehan tmh__ Myk267 forcer
+                      SamB cityroasted rudybot kahen ggherdov monotux
+                      HedgeMage amoe yacks crculver Bentbot ndrst IanKelling
+                      gazoombo jlf_` karbak kmic runningskull tali713 gko
+                      Monolith| SuperNoeMan loke_ jave_ Fuco barika ffualo_
+                      _flow_ solarus peder dajva` brendyn Ralt cerror abend
+                      quasisane ingenious maxm-- batsheep sorenmacbeth dueno
+                      mjc``` developernotes quiesce Ober_ abuiles
+                  *** Users on #emacs: dysinger cjones it3ration k-man bpalmer
+                      ckoch__ stokachu lustlife peterhil ktosiek ndngvr vibhav
+                      thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+                      jeffrubic prebz taylanub netzwurm daimrod Nafai Mosu
+                      timvisher martinjlowm kennyd jlindsay classix nunag yrk
+                      sawjig abeaumont dooglus dgvncsz0f pjb callen Pio
+                      MicaiahC johnw cmmagid AimHere sajith roelj bps
+                      jdavidboyd brianloveswords _daniel-s__ exobit Silex
+                      ErhardtMundt aspiers Demosthenex doomlord stowelly sword
+                  *** Users on #emacs: aurelien antoszka Rapp gensym dal oakaz
+                      sexyshap1 mee rods Guest6664 z0d StMichel Amadiro xneme
+                      mr_yall vds yibe__ broquaint brjannc tromey TheCrittaC
+                      trademark91 steez L42y noptys mengwong_ terjesb stablo_
+                      jeekl birny thomases quotemstr esfraga ndsmith nick06
+                      otm_ ragnul_ easye iflista_ frusen boodle arelius xrq
+                      jbarrios xhrl demolith1 isak1 kmt lykathea fsmunoz
+                      tbarletz gianlucadv ArneBab bionicspider texel drewr
+                      cuba33ci faen leifw remote anxt turbofail
+                  *** Users on #emacs: tuv insomnia` fhd wilfredh fikusz vila
+                      jonasac jasond` shabble_ Krystof joe9_ chewbranca hober
+                      zeltak1 ckoch786 tg myeffort_ Sembei dim ganbold Raynes
+                      Derander_ rokstar arkx_ jmaister dzho tessier wapiflapi
+                      sigjuice avar dothebart ruediger wtatsuru technomancy
+                      legumbre balle ski__ ground4_ rootzlevel brighid_
+                      calimocho syrinx_ barik ext twem2 elarson jaimef reeses
+                      illovae Hapsbanan quicksilver nano- froggey genehack_
+                      prip YoungFrog yacc bremner jjore_
+                  *** Users on #emacs: daemian BlastHardcheese ieure
+                      karupanerura ahoops Borbus russm dshep quackv4 spacebat
+                      mcdonc xristos seneca LogicallyDashing expez
+                      ToothlessGear Nahra __main__ newcup macrobat jayne
+                      fallout rson zobbo vmesons jabot_ ryanc mh_le sybariten
+                      gnomon_ Euthy` mds ktx derrida scgilardi- Dr_Jazz_
+                      cbmuser Vorpal PuercoPop boyscared Joelbyte mitchty
+                      Anusko fsbot marienz delYsid` CampinSam kodein chaoflow
+                      Viiru acewin paroneayea nuba leathekd bigjust jannie
+                      tazle
+                  *** Users on #emacs: justinabrahms mechairo` emacsnw ok2
+                      tirengarfio brainproxy shoepie1 kini CosmicRay mami
+                      oconnore oufo iiska_ mattcen corecode Laynef cmbntr
+                      basho kordex PuffTheMagic xhrl_ axrfnu johnsu01
+                      jaredrhine mgsk wanders_ wchun madnificent adriftatsea2
+                      NimeshNeema jdhore Ulrar bastii literal fimblo asuka
+                      Odin- wyan cthuluh zhengyi samrat fperrin james_woods
+                      felipe_ Lenzoid korutsu aroemers neurodamage rizumu
+                      TTilus fschmitt sweet_kid mnemonikk offby1_ Jobbe arbn
+                  *** Users on #emacs: raph_ael mw_ magnars necronian Sketch
+                      jubos_ steckerhalter nyergler insatsu epsylon` dotemacs_
+                      caveat- adimit angelixd_ Will|- erewhon _schulte_
+                      tvaalen muep murr4y jordanm srid boredomist j0ni yang_
+                      eN_Joy a00001 k0ral_ dented42 hanDerPeder kbtr roxlu
+                      txxt elik raso2 maio lightquake grettke_ Hodapp Seb
+                      kjfletch spratap drewc anaumov Boney lokydor zendeavor
+                      tychoish iderrick majoh bob2 Han yezariaely robmyers_
+                      offbyone aboudreault kenyon baudtack smull_
+                  *** Users on #emacs: sshirokov Dybber jhj arrdem rcj_
+                      spaceone kelebeks wdouglas marten superbil qDot_
+                      _guitarman_ semente fmu binjured Koshian__ cpt_nemo
+                      portante beneth` mstr zw01 redline6561 thorkill
+                      Guest25865 surrounder _mst tensorpudding mefisto
+                      hhuuggoo theBlackDragon binski mns rotty_ dominikh Natch
+                      webframp Apic dbristow chriswk emilh elpolilla NaCl
+                      kloeri davef hiredman fuleo2 yhvh Neptu dubz mokau dale_
+                      heath notdan torbjorn qlkzy cross copiga ezanol_ hgb
+                      anyfoo
+                  *** Users on #emacs: snufu `micro Jonte tuvwx cantsin
+                      hlprmnky AlexanderS eqyiel
+                  *** #emacs URL: http://emacswiki.org/
+                  *** #emacs modes: +np
+                  *** #emacs was created on 2006-11-26 14:42:33
+               <SamB> wgreenhouse: eh?
+[02:25]     <JordiGH> There we go, hiding all that crap with Adblock makes it
+                      usable:
+                      http://jordi.platinum.linux.pl/piccies/Screenshot-2.png
+        <technomancy> lol linus uses hashtags non-ironically
+            <JordiGH> lol
+               <SamB> is that referring to the silly philosophical idea, the
+                      CT thing, powershell, or all three?
+[02:26] <technomancy> what a noob
+            <bremner> ,salespitch Leibniz
+              <fsbot> We aren't gonna lie. Leibniz sucks. Some of us tolerate
+                      it, but we can't tell you if YOU'LL be able to. Try it
+                      and make up your own mind.
+[02:27]        <dash> somebody remind me the name of that thing for showing
+                      the name of the function under the point in the modeline
+               <Fuco> eldoc-mode
+           <legumbre> whichfunc-mode
+[02:28]        <dash> legumbre: that's the thing.
+           <legumbre> which-
+        <technomancy> it's kind of disturbing that such a mode exists
+        <technomancy> kind of a ,,doctordoctor thing
+              <fsbot> give me the news. I've got a bad case of lovin' you.
+        <technomancy> ,doctor-doctor
+              <fsbot> Don't Do That, Then
+[02:29]        <dash> technomancy: i preferred the previous version
+                  *** drmeister1 (~drmeister@farnsworth.chem.temple.edu) is
+                      now known as drmeister
+               <dash> technomancy: what's most useful about it is that when
+                      editing python it shows the class name too.
+        <technomancy> I've got a bad case of loving to write two-hundred-line
+                      functions.
+            <bremner> ooh, JordiGH must be so happy:
+                      http://en.wikipedia.org/wiki/Monadology
+        <technomancy> the doctors are giving me two weeks, tops
+[02:30]        <dash> at least i'm not using JS where this sort of thing is
+                      hilariously impossible
+             <tromey> 200 lines, hahaha
+[02:31]      <tromey> gdb has a 2000 line function
+               <dash> yeah 200 lines is just getting warmed up for the average
+                      function, in the C i've seen
+             <tromey> well, nearly 2100
+        <technomancy> disgraceful
+             <tromey> yeah
+             <tromey> also very hard to fix though
+[02:32]      <forcer> Emacs core has a whole bunch of gigantic functions
+             <forcer> Both in C and lisp
+         <nicferrier> ,told technomancy
+              <fsbot> Awww! technomancy got *told*!
+             <tromey> there's a few that have to be large
+        <technomancy> forcer: I've tried to maintain one of said functions
+        <technomancy> couldn't do it. I gave up.
+[02:33]      <forcer> Can't blame you.
+        <technomancy> the question you should be asking is not "how can I find
+                      what function I'm in" but "should I break this into
+                      smaller functions or abandon it entirely?"
+         <nicferrier> that in itself would be a good thing to get help
+                      on. count the lines in functions and yell about anything
+                      over 100 lines.
+             <forcer> s/100/23/
+             <forcer> <.<
+         <nicferrier> yeah
+        <technomancy> nicferrier: disable self-insert-command under certain
+                      circumstances
+[02:34]  <nicferrier> but gotta start small
+         <nicferrier> or large rather
+         <nicferrier> self-insert-command is one?
+               <Fuco> Ha, so it's true. God invented calculus, not Leibniz!
+               <Fuco> Dunno why they write about that in revelations though
+[02:35]  <nicferrier> I can't even find that, the link is broken for me in
+                      help. that's bad.
+             <forcer> "god.el is incomplete"
+         <nicferrier> it's like it doesn't want to be fixed.
+             <forcer> I think I need to make a repo for that
+         <fledermaus> ,sting
+              <fsbot> Ba-Dum *Tish!*
+               <Fuco> 2.17 Qui habet aurem, audiat quid Spiritus dicat
+                      ecclesiis: Vincenti dabo [...] et dabo illi calculum
+                      candidum.
+[02:36]        <Fuco> some of the things are pretty weird too... like he's
+                      going to kill someone with swort in his mouth
+         <nicferrier> technomancy: self-insert-command is about 20 lines long.
+               <Fuco> I think I'll need some professional explanation
+[02:37] <wgreenhouse> SamB: it was a joke about the incomprehensibility of
+                      monads.  I imagine a lot of people here are searching
+                      about them all the time
+[02:38]        <Fuco> wgreenhouse: you don't have "Fusing monads with folds"
+                      as your homepage?!?!
+               <Fuco> shame!
+               <SamB> wgreenhouse: what, just because Haskell 98 doesn't
+                      support Monad Comprehensions anymore?
+               <Fuco> SamB: I wonder why is that actually
+[02:39]        <Fuco> seems pretty sweet to me :/
+        <wgreenhouse> //me doesn't know if snark :)
+               <SamB> that was a pun
+               <Fuco> <insert HAHA ostrich>
+[02:40]  <nicferrier> tromey: how's concurrency going?
+         <nicferrier> ,tromey4maintainer
+              <fsbot> nicferrier: you don't even know lisp, so how can you
+                      call yourself a programmer
+[02:51]           *** Topic for #emacs: To be an emacs user without changing
+                      it is no more possible than to be alive without
+                      breathing. -- MLK | Emacsconf vids
+                      http://j.mp/emacs2013videos | Read
+                      http://www.emacswiki.org/EmacsChannel | Pastebin:
+                      http://paste.lisp.org | No public logging! What happens
+                      in #emacs stays in #emacs! | No sexism, racism,
+                      xenophobia, misogyny or general asshattery
+                  *** #emacs: topic set by
+                      ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+                      2013-05-13 11:06:53
+                  *** Users on #emacs: visayafan yrk redblue Sixmsj parsifal`
+                      LAMMJohnson tali713 ijp rryoumaa dark_element Joreji
+                      easye digie wgreenhouse leifw Munksgaard sellout-
+                      Gue______ jandrusk ryuslash edw JordiGH ivan-kanis
+                      hypnocat joebloggs59 mathrick wishbone4 haroldwu c0rn
+                      dberg agumonkey goshawk jgama hyperair SoftwareMaven
+                      CR0W dstatyvka davemq spcshpopr8r bipt nu7hatch
+                      Eldariof-ru Rovanion tgunr jstein sorabji5252 ketil dtm
+                      UrsoBranco daniel_- hiroakip scfrazer pocoyo` kilon
+                  *** Users on #emacs: mahmoudimus leo2007 b1rkh0ff GnarlyBob
+                      morazow_ Twey Sigma damiancarrillo andres-v kliph alakra
+                      Guest15574 nullie assem seangrove Macphisto jlf surio
+                      bitonic npeihl jackcviers cofi retroj jeffisabelle
+                      smazga lusory th0ma5 jagaj konr shergill pppaul dkh`
+                      icule jcromartie cmatei mtk tiwula zellio greenhat
+                      cyberspace- libertas zenwryly PetrVod lu2 chronno
+                      underscores ecraven natechan nicferrier isomer_
+                      galex-713 benny cortman victor_lowther microcode
+                  *** Users on #emacs: s00pcan kanru segv- bnzmnzhnz golodhrim
+                      cvandusen erkin nilg drmeister davexunit vicenteH
+                      RhubarbSin paddymahoney bobdobbs cluck unknown_lamer
+                      ivan`` chrisb pkkm tmh_ vmlinuz fledermaus adrian progo
+                      marjan- cud jlhg2 mgile danlentz wilder dropdrive theos
+                      rking1 jrm jweiss ginkgo xinming teiresias mfisher
+                      elbeardmorez nikhilg _AnK pw_ charlietanksley Gooder``
+                      d11wtq plovs CrazyEddy freefall jashank thone ivan\
+                      molqr Philonous simao vipzrx rgrau mrSpec
+                  *** Users on #emacs: killown msx thompsy shadowdaemon
+                      cbpage_ mpenet lduros djcoin wagle emss dash edgar-rft
+                      quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+                      cityroasted rudybot kahen ggherdov monotux HedgeMage
+                      amoe yacks crculver Bentbot ndrst IanKelling gazoombo
+                      jlf_` karbak kmic runningskull gko Monolith| SuperNoeMan
+                      loke_ jave_ Fuco barika ffualo_ _flow_ solarus peder
+                      dajva` brendyn Ralt cerror abend quasisane ingenious
+                      maxm-- batsheep sorenmacbeth dueno mjc```
+                  *** Users on #emacs: developernotes quiesce Ober_ abuiles
+                      dysinger cjones it3ration k-man bpalmer ckoch__ stokachu
+                      lustlife peterhil ktosiek ndngvr vibhav thatJasonSmith
+                      gstamp SunMoonStar mrBliss ljhms jeffrubic prebz
+                      taylanub netzwurm daimrod Nafai Mosu timvisher
+                      martinjlowm kennyd jlindsay classix nunag sawjig
+                      abeaumont dooglus dgvncsz0f pjb callen Pio MicaiahC
+                      johnw cmmagid AimHere sajith roelj bps jdavidboyd
+                      brianloveswords _daniel-s__ exobit Silex ErhardtMundt
+                      aspiers
+                  *** Users on #emacs: Demosthenex doomlord stowelly sword
+                      aurelien antoszka Rapp gensym dal oakaz sexyshap1 mee
+                      rods Guest6664 z0d StMichel Amadiro xneme mr_yall vds
+                      yibe__ broquaint brjannc tromey TheCrittaC trademark91
+                      steez L42y noptys mengwong_ terjesb stablo_ jeekl birny
+                      thomases quotemstr esfraga ndsmith nick06 otm_ ragnul_
+                      iflista_ frusen boodle arelius xrq jbarrios xhrl
+                      demolith1 isak1 kmt lykathea fsmunoz tbarletz gianlucadv
+                      ArneBab bionicspider texel drewr cuba33ci
+                  *** Users on #emacs: faen remote anxt turbofail tuv
+                      insomnia` fhd wilfredh fikusz vila jonasac jasond`
+                      shabble_ Krystof joe9_ chewbranca hober zeltak1 ckoch786
+                      tg myeffort_ Sembei dim ganbold Raynes Derander_ rokstar
+                      arkx_ jmaister dzho tessier wapiflapi sigjuice avar
+                      dothebart ruediger wtatsuru technomancy legumbre balle
+                      ski__ ground4_ rootzlevel brighid_ calimocho syrinx_
+                      barik ext twem2 elarson jaimef reeses illovae Hapsbanan
+                      quicksilver nano- froggey genehack_ prip
+                  *** Users on #emacs: YoungFrog yacc bremner jjore_ daemian
+                      BlastHardcheese ieure karupanerura ahoops Borbus russm
+                      dshep quackv4 spacebat mcdonc xristos seneca
+                      LogicallyDashing expez ToothlessGear Nahra __main__
+                      newcup macrobat jayne fallout rson zobbo vmesons jabot_
+                      ryanc mh_le sybariten gnomon_ Euthy` mds ktx derrida
+                      scgilardi- Dr_Jazz_ cbmuser Vorpal PuercoPop boyscared
+                      Joelbyte mitchty Anusko fsbot marienz delYsid` CampinSam
+                      kodein chaoflow Viiru acewin paroneayea nuba
+                  *** Users on #emacs: leathekd bigjust jannie tazle
+                      justinabrahms mechairo` emacsnw ok2 tirengarfio
+                      brainproxy shoepie1 kini CosmicRay mami oconnore oufo
+                      iiska_ mattcen corecode Laynef cmbntr basho kordex
+                      PuffTheMagic xhrl_ axrfnu johnsu01 jaredrhine mgsk
+                      wanders_ wchun madnificent adriftatsea2 NimeshNeema
+                      jdhore eqyiel AlexanderS hlprmnky cantsin tuvwx Jonte
+                      `micro snufu anyfoo hgb ezanol_ copiga cross qlkzy
+                      torbjorn notdan heath dale_ mokau dubz Neptu yhvh fuleo2
+                      hiredman
+                  *** Users on #emacs: davef kloeri NaCl elpolilla emilh
+                      chriswk dbristow Apic webframp Natch dominikh rotty_ mns
+                      binski theBlackDragon hhuuggoo mefisto tensorpudding
+                      _mst surrounder Guest25865 thorkill redline6561 zw01
+                      mstr beneth` portante cpt_nemo Koshian__ binjured fmu
+                      semente _guitarman_ qDot_ superbil marten wdouglas
+                      kelebeks spaceone rcj_ arrdem jhj Dybber sshirokov
+                      smull_ baudtack kenyon aboudreault offbyone robmyers_
+                      yezariaely Han bob2 majoh iderrick tychoish
+                  *** Users on #emacs: zendeavor lokydor Boney anaumov drewc
+                      spratap kjfletch Seb Hodapp grettke_ lightquake maio
+                      raso2 elik txxt roxlu kbtr hanDerPeder dented42 k0ral_
+                      a00001 eN_Joy yang_ j0ni boredomist srid jordanm murr4y
+                      muep tvaalen _schulte_ erewhon Will|- angelixd_ adimit
+                      caveat- dotemacs_ epsylon` insatsu nyergler
+                      steckerhalter jubos_ Sketch necronian magnars mw_
+                      raph_ael arbn Jobbe offby1_ mnemonikk sweet_kid Ulrar
+                      bastii literal fimblo asuka Odin- wyan cthuluh
+                  *** Users on #emacs: zhengyi samrat fperrin james_woods
+                      felipe_ Lenzoid korutsu aroemers neurodamage rizumu
+                      TTilus fschmitt
+                  *** #emacs URL: http://emacswiki.org/
+                  *** #emacs modes: +np
+                  *** #emacs was created on 2006-11-26 14:42:33
+                 ERC> /clr
+                  *** clr: Unknown command
+                 ERC> /clc
+                  *** clc: Unknown command
+               <Fuco> how nice, it even kills the function for you
+[02:52]          ERC> /clc
+                  *** clc: Unknown command
+        <technomancy> Fuco: it only deletes the content that you inserted to
+                      make the function too long
+                 ERC> /names
+                  *** Users on #emacs: visayafan yrk redblue Sixmsj parsifal`
+                      LAMMJohnson tali713 ijp rryoumaa dark_element Joreji
+                      easye digie wgreenhouse leifw Munksgaard sellout-
+                      Gue______ jandrusk ryuslash edw JordiGH ivan-kanis
+                      hypnocat joebloggs59 mathrick wishbone4 haroldwu c0rn
+                      dberg agumonkey goshawk jgama hyperair SoftwareMaven
+                      CR0W dstatyvka davemq spcshpopr8r bipt nu7hatch
+                      Eldariof-ru Rovanion tgunr jstein sorabji5252 ketil dtm
+                      UrsoBranco daniel_- hiroakip scfrazer pocoyo` kilon
+                  *** Users on #emacs: mahmoudimus leo2007 b1rkh0ff GnarlyBob
+                      morazow_ Twey Sigma damiancarrillo andres-v kliph alakra
+                      Guest15574 nullie assem seangrove Macphisto jlf surio
+                      bitonic npeihl jackcviers cofi retroj jeffisabelle
+                      smazga lusory th0ma5 jagaj konr shergill pppaul dkh`
+                      icule jcromartie cmatei mtk tiwula zellio greenhat
+                      cyberspace- libertas zenwryly PetrVod lu2 chronno
+                      underscores ecraven natechan nicferrier isomer_
+                      galex-713 benny cortman victor_lowther microcode
+                  *** Users on #emacs: s00pcan kanru segv- bnzmnzhnz golodhrim
+                      cvandusen erkin nilg drmeister davexunit vicenteH
+                      RhubarbSin paddymahoney bobdobbs cluck unknown_lamer
+                      ivan`` chrisb pkkm tmh_ vmlinuz fledermaus adrian progo
+                      marjan- cud jlhg2 mgile danlentz wilder dropdrive theos
+                      rking1 jrm jweiss ginkgo xinming teiresias mfisher
+                      elbeardmorez nikhilg _AnK pw_ charlietanksley Gooder``
+                      d11wtq plovs CrazyEddy freefall jashank thone ivan\
+                      molqr Philonous simao vipzrx rgrau mrSpec
+                  *** Users on #emacs: killown msx thompsy shadowdaemon
+                      cbpage_ mpenet lduros djcoin wagle emss dash edgar-rft
+                      quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+                      cityroasted rudybot kahen ggherdov monotux HedgeMage
+                      amoe yacks crculver Bentbot ndrst IanKelling gazoombo
+                      jlf_` karbak kmic runningskull gko Monolith| SuperNoeMan
+                      loke_ jave_ Fuco barika ffualo_ _flow_ solarus peder
+                      dajva` brendyn Ralt cerror abend quasisane ingenious
+                      maxm-- batsheep sorenmacbeth dueno mjc```
+                  *** Users on #emacs: developernotes quiesce Ober_ abuiles
+                      dysinger cjones it3ration k-man bpalmer ckoch__ stokachu
+                      lustlife peterhil ktosiek ndngvr vibhav thatJasonSmith
+                      gstamp SunMoonStar mrBliss ljhms jeffrubic prebz
+                      taylanub netzwurm daimrod Nafai Mosu timvisher
+                      martinjlowm kennyd jlindsay classix nunag sawjig
+                      abeaumont dooglus dgvncsz0f pjb callen Pio MicaiahC
+                      johnw cmmagid AimHere sajith roelj bps jdavidboyd
+                      brianloveswords _daniel-s__ exobit Silex ErhardtMundt
+                      aspiers
+                  *** Users on #emacs: Demosthenex doomlord stowelly sword
+                      aurelien antoszka Rapp gensym dal oakaz sexyshap1 mee
+                      rods Guest6664 z0d StMichel Amadiro xneme mr_yall vds
+                      yibe__ broquaint brjannc tromey TheCrittaC trademark91
+                      steez L42y noptys mengwong_ terjesb stablo_ jeekl birny
+                      thomases quotemstr esfraga ndsmith nick06 otm_ ragnul_
+                      iflista_ frusen boodle arelius xrq jbarrios xhrl
+                      demolith1 isak1 kmt lykathea fsmunoz tbarletz gianlucadv
+                      ArneBab bionicspider texel drewr cuba33ci
+                  *** Users on #emacs: faen remote anxt turbofail tuv
+                      insomnia` fhd wilfredh fikusz vila jonasac jasond`
+                      shabble_ Krystof joe9_ chewbranca hober zeltak1 ckoch786
+                      tg myeffort_ Sembei dim ganbold Raynes Derander_ rokstar
+                      arkx_ jmaister dzho tessier wapiflapi sigjuice avar
+                      dothebart ruediger wtatsuru technomancy legumbre balle
+                      ski__ ground4_ rootzlevel brighid_ calimocho syrinx_
+                      barik ext twem2 elarson jaimef reeses illovae Hapsbanan
+                      quicksilver nano- froggey genehack_ prip
+                  *** Users on #emacs: YoungFrog yacc bremner jjore_ daemian
+                      BlastHardcheese ieure karupanerura ahoops Borbus russm
+                      dshep quackv4 spacebat mcdonc xristos seneca
+                      LogicallyDashing expez ToothlessGear Nahra __main__
+                      newcup macrobat jayne fallout rson zobbo vmesons jabot_
+                      ryanc mh_le sybariten gnomon_ Euthy` mds ktx derrida
+                      scgilardi- Dr_Jazz_ cbmuser Vorpal PuercoPop boyscared
+                      Joelbyte mitchty Anusko fsbot marienz delYsid` CampinSam
+                      kodein chaoflow Viiru acewin paroneayea nuba
+                  *** Users on #emacs: leathekd bigjust jannie tazle
+                      justinabrahms mechairo` emacsnw ok2 tirengarfio
+                      brainproxy shoepie1 kini CosmicRay mami oconnore oufo
+                      iiska_ mattcen corecode Laynef cmbntr basho kordex
+                      PuffTheMagic xhrl_ axrfnu johnsu01 jaredrhine mgsk
+                      wanders_ wchun madnificent adriftatsea2 NimeshNeema
+                      jdhore eqyiel AlexanderS hlprmnky cantsin tuvwx Jonte
+                      `micro snufu anyfoo hgb ezanol_ copiga cross qlkzy
+                      torbjorn notdan heath dale_ mokau dubz Neptu yhvh fuleo2
+                      hiredman
+                  *** Users on #emacs: davef kloeri NaCl elpolilla emilh
+                      chriswk dbristow Apic webframp Natch dominikh rotty_ mns
+                      binski theBlackDragon hhuuggoo mefisto tensorpudding
+                      _mst surrounder Guest25865 thorkill redline6561 zw01
+                      mstr beneth` portante cpt_nemo Koshian__ binjured fmu
+                      semente _guitarman_ qDot_ superbil marten wdouglas
+                      kelebeks spaceone rcj_ arrdem jhj Dybber sshirokov
+                      smull_ baudtack kenyon aboudreault offbyone robmyers_
+                      yezariaely Han bob2 majoh iderrick tychoish
+                  *** Users on #emacs: zendeavor lokydor Boney anaumov drewc
+                      spratap kjfletch Seb Hodapp grettke_ lightquake maio
+                      raso2 elik txxt roxlu kbtr hanDerPeder dented42 k0ral_
+                      a00001 eN_Joy yang_ j0ni boredomist srid jordanm murr4y
+                      muep tvaalen _schulte_ erewhon Will|- angelixd_ adimit
+                      caveat- dotemacs_ epsylon` insatsu nyergler
+                      steckerhalter jubos_ Sketch necronian magnars mw_
+                      raph_ael arbn Jobbe offby1_ mnemonikk sweet_kid Ulrar
+                      bastii literal fimblo asuka Odin- wyan cthuluh
+                  *** Users on #emacs: zhengyi samrat fperrin james_woods
+                      felipe_ Lenzoid korutsu aroemers neurodamage rizumu
+                      TTilus fschmitt
+[02:53]        <Fuco> still seems pretty evil :P
+               <Fuco> maybe you can send it to magnars to add to
+                      annoying-arrows though :P
+[02:55]           *** Topic for #emacs: To be an emacs user without changing
+                      it is no more possible than to be alive without
+                      breathing. -- MLK | Emacsconf vids
+                      http://j.mp/emacs2013videos | Read
+                      http://www.emacswiki.org/EmacsChannel | Pastebin:
+                      http://paste.lisp.org | No public logging! What happens
+                      in #emacs stays in #emacs! | No sexism, racism,
+                      xenophobia, misogyny or general asshattery
+                  *** #emacs: topic set by
+                      ijp!~user@host81-155-24-157.range81-155.btcentralplus.com,
+                      2013-05-13 11:06:53
+                  *** Users on #emacs: visayafan aaptel morphling yrk redblue
+                      Sixmsj parsifal` LAMMJohnson tali713 ijp rryoumaa
+                      dark_element easye digie wgreenhouse leifw Munksgaard
+                      sellout- Gue______ jandrusk ryuslash edw JordiGH
+                      ivan-kanis hypnocat joebloggs59 mathrick wishbone4
+                      haroldwu c0rn dberg agumonkey goshawk jgama hyperair
+                      SoftwareMaven CR0W dstatyvka davemq spcshpopr8r bipt
+                      nu7hatch Eldariof-ru Rovanion tgunr jstein sorabji5252
+                      ketil dtm UrsoBranco daniel_- hiroakip scfrazer
+                  *** Users on #emacs: pocoyo` kilon mahmoudimus leo2007
+                      b1rkh0ff GnarlyBob morazow_ Twey Sigma damiancarrillo
+                      andres-v kliph alakra Guest15574 nullie assem seangrove
+                      Macphisto jlf surio bitonic npeihl jackcviers cofi
+                      retroj jeffisabelle smazga lusory th0ma5 jagaj konr
+                      shergill pppaul dkh` icule jcromartie cmatei mtk tiwula
+                      zellio greenhat cyberspace- libertas zenwryly PetrVod
+                      lu2 chronno underscores ecraven natechan nicferrier
+                      isomer_ galex-713 benny cortman victor_lowther
+                  *** Users on #emacs: microcode s00pcan kanru segv- bnzmnzhnz
+                      golodhrim cvandusen erkin nilg drmeister davexunit
+                      vicenteH RhubarbSin paddymahoney bobdobbs cluck
+                      unknown_lamer ivan`` chrisb pkkm tmh_ vmlinuz fledermaus
+                      adrian progo marjan- cud jlhg2 mgile danlentz wilder
+                      dropdrive theos rking1 jrm jweiss ginkgo xinming
+                      teiresias mfisher elbeardmorez nikhilg _AnK pw_
+                      charlietanksley Gooder`` d11wtq plovs CrazyEddy freefall
+                      jashank thone ivan\ molqr Philonous simao vipzrx rgrau
+                  *** Users on #emacs: mrSpec killown msx thompsy shadowdaemon
+                      cbpage_ mpenet lduros djcoin wagle emss dash edgar-rft
+                      quazimodo doomlord__ jehan tmh__ Myk267 forcer SamB
+                      cityroasted rudybot kahen ggherdov monotux HedgeMage
+                      amoe yacks crculver Bentbot ndrst IanKelling gazoombo
+                      jlf_` karbak kmic runningskull gko Monolith| SuperNoeMan
+                      loke_ jave_ Fuco barika ffualo_ _flow_ solarus peder
+                      dajva` brendyn Ralt cerror abend quasisane ingenious
+                      maxm-- batsheep sorenmacbeth dueno
+                  *** Users on #emacs: mjc``` developernotes quiesce Ober_
+                      abuiles dysinger cjones it3ration k-man bpalmer ckoch__
+                      stokachu lustlife peterhil ktosiek ndngvr vibhav
+                      thatJasonSmith gstamp SunMoonStar mrBliss ljhms
+                      jeffrubic prebz taylanub netzwurm daimrod Nafai Mosu
+                      timvisher martinjlowm kennyd jlindsay classix nunag
+                      sawjig abeaumont dooglus dgvncsz0f pjb callen Pio
+                      MicaiahC johnw cmmagid AimHere sajith roelj bps
+                      jdavidboyd brianloveswords _daniel-s__ exobit Silex
+                      ErhardtMundt
+                  *** Users on #emacs: aspiers Demosthenex doomlord stowelly
+                      sword aurelien antoszka Rapp gensym dal oakaz sexyshap1
+                      mee Ulrar bastii literal fimblo asuka Odin- wyan cthuluh
+                      zhengyi samrat fperrin james_woods felipe_ Lenzoid
+                      korutsu aroemers neurodamage rizumu TTilus fschmitt
+                      sweet_kid mnemonikk offby1_ Jobbe arbn raph_ael mw_
+                      magnars necronian Sketch jubos_ steckerhalter nyergler
+                      insatsu epsylon` dotemacs_ caveat- adimit angelixd_
+                      Will|- erewhon _schulte_ tvaalen muep murr4y
+                  *** Users on #emacs: jordanm srid boredomist j0ni yang_
+                      eN_Joy a00001 k0ral_ dented42 hanDerPeder kbtr roxlu
+                      txxt elik raso2 maio lightquake grettke_ Hodapp Seb
+                      kjfletch spratap drewc anaumov Boney lokydor zendeavor
+                      tychoish iderrick majoh bob2 Han yezariaely robmyers_
+                      offbyone aboudreault kenyon baudtack smull_ sshirokov
+                      Dybber jhj arrdem rcj_ spaceone kelebeks wdouglas marten
+                      superbil qDot_ _guitarman_ semente fmu binjured
+                      Koshian__ cpt_nemo portante beneth` mstr zw01
+                  *** Users on #emacs: redline6561 thorkill Guest25865
+                      surrounder _mst tensorpudding mefisto hhuuggoo
+                      theBlackDragon binski mns rotty_ dominikh Natch webframp
+                      Apic dbristow chriswk emilh elpolilla NaCl kloeri davef
+                      hiredman fuleo2 yhvh Neptu dubz mokau dale_ heath notdan
+                      torbjorn qlkzy cross copiga ezanol_ hgb anyfoo snufu
+                      `micro Jonte tuvwx cantsin hlprmnky AlexanderS eqyiel
+                      jdhore NimeshNeema adriftatsea2 madnificent wchun
+                      wanders_ mgsk jaredrhine johnsu01 axrfnu xhrl_
+                  *** Users on #emacs: PuffTheMagic kordex basho cmbntr Laynef
+                      corecode mattcen iiska_ oufo oconnore mami CosmicRay
+                      kini shoepie1 brainproxy tirengarfio ok2 emacsnw
+                      mechairo` justinabrahms tazle jannie bigjust leathekd
+                      nuba paroneayea acewin Viiru chaoflow kodein CampinSam
+                      delYsid` marienz fsbot Anusko mitchty Joelbyte boyscared
+                      PuercoPop Vorpal cbmuser Dr_Jazz_ scgilardi- derrida ktx
+                      mds Euthy` gnomon_ sybariten mh_le ryanc jabot_ vmesons
+                      zobbo rson fallout jayne macrobat
+                  *** Users on #emacs: newcup __main__ Nahra ToothlessGear
+                      expez LogicallyDashing seneca xristos mcdonc spacebat
+                      quackv4 dshep russm Borbus ahoops karupanerura ieure
+                      BlastHardcheese daemian jjore_ bremner yacc YoungFrog
+                      prip genehack_ froggey nano- quicksilver Hapsbanan
+                      illovae reeses jaimef elarson twem2 ext barik syrinx_
+                      calimocho brighid_ rootzlevel ground4_ ski__ balle
+                      legumbre technomancy wtatsuru ruediger dothebart avar
+                      sigjuice wapiflapi tessier dzho jmaister arkx_
+                  *** Users on #emacs: rokstar Derander_ Raynes ganbold dim
+                      Sembei myeffort_ tg ckoch786 zeltak1 hober chewbranca
+                      joe9_ Krystof shabble_ jasond` jonasac vila fikusz
+                      wilfredh fhd insomnia` tuv turbofail anxt remote faen
+                      cuba33ci drewr texel bionicspider ArneBab gianlucadv
+                      tbarletz fsmunoz lykathea kmt isak1 demolith1 xhrl
+                      jbarrios xrq arelius boodle frusen iflista_ ragnul_ otm_
+                      nick06 ndsmith esfraga quotemstr thomases birny jeekl
+                      stablo_ terjesb mengwong_ noptys L42y steez
+                  *** Users on #emacs: trademark91 TheCrittaC tromey brjannc
+                      broquaint yibe__ vds mr_yall xneme Amadiro StMichel z0d
+                      Guest6664 rods
+                  *** #emacs URL: http://emacswiki.org/
+                  *** #emacs modes: +np
+                  *** #emacs was created on 2006-11-26 14:42:33
+                 ERC> /clr
+                  *** clr: Unknown command
+                 ERC> /clc
+                  *** clc: Unknown command
+        <technomancy> evil is definitely what I was going for
+        <technomancy> well, not evil.el
+[02:57]         <ijp> let's make a #emacs clip show
+        <wgreenhouse> World's Funniest Home Elisp
+[02:58] <technomancy> yes please
+                 ERC> /CLR
+                <jlf> technomancy: pls to run this on ido.el and submit patch
+                      kthx

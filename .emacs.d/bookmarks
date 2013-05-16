@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/d/Dropbox/others/contacts.org")
- (front-context-string . "* 流星99.Run-Feed2")
+ (front-context-string . "* ME\n:PROPERTIES")
  (rear-context-string . "18@qq.com\n:END:\n")
- (position . 531))
+ (position . 311))
 ("compile_file"
  (filename . "~/d/study/CC/gcc-4.7.2/gcc/toplev.c")
  (front-context-string . "compile_file (vo")

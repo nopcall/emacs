@@ -1,0 +1,4 @@
+[03:04]           *** Users on #orgmode: visayafan FL1SK jave_ mengwong_
+                  *** #orgmode modes: +nst
+                  *** #orgmode was created on 2013-04-14 05:08:56
+                 ERC> /clr

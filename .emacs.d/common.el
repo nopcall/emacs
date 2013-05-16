@@ -31,6 +31,8 @@
 (load-file "~/.emacs.d/.emacs/vf-graphviz.el") ;graphviz
 (load-file "~/.emacs.d/.emacs/vf-matlab.el")
 (load-file "~/.emacs.d/.emacs/vf-email.el")
+(load-file "~/.emacs.d/.emacs/vf-erc.el")
+;; (load-file "~/.emacs.d/.emacs/vf-filecache.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-bbdb.el")
 ;; (load-file "~/.emacs.d/.emacs/typopunct.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-weibo.el")
@@ -95,6 +97,8 @@
  '(minimap-semantic-variable-face ((t (:inherit (font-lock-function-name-face minimap-font-face) :background "gray90" :box (:line-width 1 :color "black") :height 3.5))))
  '(region ((t (:background "gtk_selection_bg_color" :foreground "gtk_selection_fg_color"))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
- '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button))))))
+ '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button)))))
+ '(erc-timestamp-face '((t (:bold t :foreground "SkyBlue4"))))
+ )
 
 (menu-bar-mode -1)
