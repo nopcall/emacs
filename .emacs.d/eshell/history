@@ -1,59 +1,3 @@
-clc
-git checkout -b deleteGrid
-git branch
-d
-cd study/ImageRecognition/mex/
-ls
-alias
-gitb
-gitco master
-git add .
-git commit -m "删除了grid参数"
-gitco master
-git merge deleteGrid
-ls
-gitst
-git add -u
-clc
-ls
-gitst
-gitlol
-cd
-cdvo
-cdt
-d
-cd study/Bilateral_Filter/mex/
-ls
-ls images/
-clc
-d
-cd study/Bilateral_Filter/mex/
-ls
-cd ../../ImageRecognition/mex/
-cdvo
-ls
-cd ../diary/
-ls
-clc
-cd
-cd 
-d
-cd study/ImageRecognition/mex/
-d
-cd study/GraduationProject/Real_Time_Compresive_Tracking/
-clc
-ls
-cde
-cdee
-cde
-cdee
-ls ~/d/Dropbox/
-cd ~/d/Dropbox/
-mkdir others
-cde
-cd others/
-cde
-cd others/
 cdee
 d
 cd Dropbox/others/
@@ -126,3 +70,59 @@ cdee
 cdvcl
 cdee
 cdvcl
+cden
+cdvcl
+cdee
+cdvcl
+d
+cd Dropbox/software/emacs/
+clc
+cdvo
+cdccc
+./test
+./test
+cden
+cd
+clc
+cd .getmail/
+ls
+mkdir gmail
+cd gmail/
+ls
+cd cur/
+ls
+cd ../new/
+ls
+ls
+rm *
+ls
+cd ..
+ls
+rmdir GmailAll/
+ls tmp/
+cde
+cd others/
+ls
+cdv
+cd Layout/CSS/
+cdee
+cdv
+cd Layout/CSS/
+cdee
+cd
+mv emacs_bbdb_contacts bk
+mv bk emacs_bbdb_contacts
+d
+cd Dropbox/others/
+cdee
+cd -
+d
+cd Dropbox/others/
+cdee
+cdt
+cdt
+d
+cd Dropbox/others/
+cdvcl
+cdee
+cde

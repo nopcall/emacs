@@ -1,6 +1,7 @@
 ;; org7和8版本之间差别非常大，这里是版本8的配置文件
 (add-to-list 'load-path "~/.emacs.d/org-mode/lisp")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-common.el")
+(load-file "~/.emacs.d/.emacs/vf-org-contacts.el")
 (add-hook 'org-mode-hook 
           '(lambda ()
              (setq org-html-postamble nil)           ;在7.x版本中使用的是org-export-html-postamble
@@ -32,8 +33,9 @@
 ;;     (replace-match ">")))
 
 (eval-after-load 'ox-html
-  '(add-to-list 'org-export-filter-final-output-functions
-             'fan/org-html-produce-inline-html))
+  '(dolist (fun (list 'fan/org-html-produce-inline-html))
+     (add-to-list 'org-export-filter-final-output-functions fun)))
+
 (defun fan/org-html-produce-inline-html (string backend info)
   "replace !!!!! to < and @@@@@ to >"
   (when (and (org-export-derived-backend-p backend 'html)
@@ -43,8 +45,7 @@
                                    (= 5 "@"))
                               "<\\1>"
                               string)))
-      
-    
+
 (setq org-publish-project-alist
       '(("java"
          :base-directory "~/visayafan.github.com/Coding/Java"
@@ -130,7 +131,3 @@
          :components ("cpp" "java" "python" "lisp" "linux" "linuxc" "kernel" "compiler")
          )
         ))
-
-
-
-

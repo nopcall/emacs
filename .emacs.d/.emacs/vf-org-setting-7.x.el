@@ -3,6 +3,7 @@
 (add-hook 'org-mode-hook 
           '(lambda ()
              (setq org-export-html-divs (quote ("preamble" "content" "postamble")))
+             (setq org-emphasis-regexp-components (quote ("('\"{。，？！" "- 	.,:!?;'\")}\\。，？！" " ,\"'" "." 1)))
              (setq org-export-html-home/up-format "<div id=\"org-div-home-and-up\"> <a accesskey=\"H\" href=\"%s\"> HOME </a> </div>")
              (setq org-export-html-postamble nil)
              (setq org-export-html-preamble nil)

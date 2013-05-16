@@ -1,0 +1,54 @@
+Delivered-To: visayafan@gmail.com
+Received: from pa-in-f109.1e100.net [74.125.25.109]
+	by visayafan-Compaq-510 with POP3 (fetchmail-6.3.21)
+	for <visayafan@localhost> (single-drop); Wed, 15 May 2013 21:12:42 +0800 (CST)
+Received: by 10.114.160.202 with SMTP id xm10csp12774ldb;
+        Wed, 15 May 2013 06:12:33 -0700 (PDT)
+X-Received: by 10.66.89.65 with SMTP id bm1mr38530671pab.179.1368623552695;
+        Wed, 15 May 2013 06:12:32 -0700 (PDT)
+Return-Path: <visayafan@163.com>
+Received: from mproxyjp5.163.com (mproxyjp5.163.com. [176.34.24.136])
+        by mx.google.com with ESMTP id tq5si2126587pab.88.2013.05.15.06.12.30
+        for <visayafan@gmail.com>;
+        Wed, 15 May 2013 06:12:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of visayafan@163.com designates 176.34.24.136 as permitted sender) client-ip=176.34.24.136;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of visayafan@163.com designates 176.34.24.136 as permitted sender) smtp.mail=visayafan@163.com;
+       dkim=pass (test mode) header.i=@163.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Received:Date:From:To:Subject:Content-Type:
+	MIME-Version:Message-ID; bh=NRp1w06PgybydoZak0flckY0dWb0oLnY1WWM
+	6wW7iAs=; b=mG9jfMXpVFjy9fITOiCaJz7vWmFBF4H+EHNUpQdElO3bfCwQxp+c
+	i55EqyEQk5dGykp26Uv65uyXorE7diYSgjKDR0OUDPY5UXkbEfpySh60zZgrgjw2
+	ZvfqPwYx2aqJIqptlkqIlm83TVwt7eCxKVkQy2En/CGDmidPRtx/Kk4=
+Received: from visayafan$163.com ( [1.80.225.194] ) by ajax-webmail-wmsvr125
+ (Coremail) ; Wed, 15 May 2013 21:12:27 +0800 (CST)
+X-Originating-IP: [1.80.225.194]
+Date: Wed, 15 May 2013 21:12:27 +0800 (CST)
+From: visayafan <visayafan@163.com>
+To: visayafan@gmail.com
+Subject: adfkl
+X-Priority: 3
+X-Mailer: Coremail Webmail Server Version SP_ntes V3.5 build
+ 20130424(22035.5339.5325) Copyright (c) 2002-2013 www.mailtech.cn 163com
+X-CM-CTRLDATA: hZuk7WZvb3Rlcl9odG09ODc6ODE=
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_199661_2102003018.1368623547924"
+MIME-Version: 1.0
+Message-ID: <5438b0c5.d3a9.13ea8520614.Coremail.visayafan@163.com>
+X-CM-TRANSID:fcGowECJtEO8iZNR87A2AA--.1092W
+X-CM-SenderInfo: 5ylvt5hdid0qqrwthudrp/1tbiVhse7FEAENbo7wACst
+X-Coremail-Antispam: 1U5529EdanIXcx71UUUUU7vcSsGvfC2KfnxnUU==
+
+------=_Part_199661_2102003018.1368623547924
+Content-Type: text/plain; charset=GBK
+Content-Transfer-Encoding: 7bit
+
+aldkj
+------=_Part_199661_2102003018.1368623547924
+Content-Type: text/html; charset=GBK
+Content-Transfer-Encoding: 7bit
+
+<div style="line-height:1.7;color:#000000;font-size:14px;font-family:arial">aldkj</div><br><br><span title="neteasefooter"><span id="netease_mail_footer"></span></span>
+------=_Part_199661_2102003018.1368623547924--
+

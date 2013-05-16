@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("compile_file"
+(("org-capture-last-stored"
+ (filename . "d:/Dropbox/others/org-contacts-file.org")
+ (front-context-string . "* 周义仓\n  :PROPERT")
+ (rear-context-string . "edu.cn\n   :END:\n")
+ (position . 147))
+("compile_file"
  (filename . "~/d/study/CC/gcc-4.7.2/gcc/toplev.c")
  (front-context-string . "compile_file (vo")
  (rear-context-string . "*/\n\nstatic void\n")

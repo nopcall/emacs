@@ -26,12 +26,12 @@
 (setq mml-default-directory "~/.emacs.d/gnus/attach/")              ;附件的存储位置
 
 
-;; 将发送的邮件和帖子保存在nnml gropu 根据时间保存
-(setq gnus-message-archive-method '(nnml "archive"
-                                         (nnml-directory "~/.emacs.d/gnus/archive")
-                                         (nnml-active-file "~/.emacs.d/gnus/archive/active")
-                                         (nnml-get-new-mail nil)
-                                         (nnml-inhibit-expiry t)))
+;; ;; 将发送的邮件和帖子保存在nnml group 根据时间保存
+;; (setq gnus-message-archive-method '(nnml "archive"
+;;                                          (nnml-directory "~/.emacs.d/gnus/archive")
+;;                                          (nnml-active-file "~/.emacs.d/gnus/archive/active")
+;;                                          (nnml-get-new-mail nil)
+;;                                          (nnml-inhibit-expiry t)))
 (setq gnus-message-archive-group
       '((if (message-news-p)
             (concat "news-" (format-time-string "%Y"))

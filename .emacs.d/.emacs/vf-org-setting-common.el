@@ -8,16 +8,14 @@
           '(lambda ()
              (turn-on-font-lock)
              (setq truncate-lines nil)  ;解决org-mode在编辑中文的时候不会自动折行的问题
-             ;; (setq org-export-default-language "zh-CN")
-             ;; (setq org-export-language-setup (append org-export-language-setup '(("zh-CN" "作者" "日期" "目录" "脚注"))))
-             (setq org-emphasis-regexp-components (quote (" 	('\"{。，？！" "- 	.,:!?;'\")}\\。，？！" " ,\"'" "." 1)))
              (define-key org-mode-map "\C-col" 'org-store-link)
              (define-key org-mode-map "\C-coc" 'org-capture)
              (define-key org-mode-map "\C-coa" 'org-agenda)
              (define-key org-mode-map "\C-cob" 'org-iswitchb)            ;switch only between files with org suffix
              (define-key org-mode-map "\C-cot" 'org-toggle-link-display) ;toogle link display, literal or descriptive
+             (setq org-export-default-language "zh-CN")
+             (setq org-export-language-setup (quote (("zh-cn" "作者" "日期" "目录" "脚注") ("en" "Author" "Date" "Table of Contents" "Footnotes"))))
              ))
-
 ;; org-babel
 ;; active Babel languages
 (org-babel-do-load-languages

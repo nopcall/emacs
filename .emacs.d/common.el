@@ -30,6 +30,7 @@
 (load-file "~/.emacs.d/.emacs/vf-emms.el")
 (load-file "~/.emacs.d/.emacs/vf-graphviz.el") ;graphviz
 (load-file "~/.emacs.d/.emacs/vf-matlab.el")
+(load-file "~/.emacs.d/.emacs/vf-email.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-bbdb.el")
 ;; (load-file "~/.emacs.d/.emacs/typopunct.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-weibo.el")

@@ -2,16 +2,16 @@
 (setq user-mail-address "visayafan@gmail.com")
 
 (setq gnus-select-method '(nntp "news.aioe.org"))
-;; (setq gnus-select-method '(nntp "localhost"))
-(add-to-list 'gnus-secondary-select-methods '(nntp "news.gnus.org"))
-(add-to-list 'gnus-secondary-select-methods '(nntp  "news.gmane.org"))
-(add-to-list 'gnus-secondary-select-methods '(nntp  "news.gwene.org"))
-;; (add-to-list 'gnus-secondary-select-methods '(nntp  "news.newsfan.net"))
-
+(setq gnus-secondary-select-methods
+      '((nntp "news.gnus.org")
+        (nntp  "news.gmane.org")
+        (nntp  "news.gwene.org")
+        (nnmaildir "" (directory "/home/visayafan/.emacs.d/gnus/Gmail/"))
+        ))
 ;; 满71字符自动换行
 (add-hook 'message-mode-hook (lambda () (setq fill-column 72) (turn-on-auto-fill)))
 ;; 回贴时buffer的显示设置
-(setq gnus-posting-styles '((".*" (name "visayafan") (body "\n----") (address "visayafan@gmail.com"))))
+(setq gnus-posting-styles '((".*" (name "visayafan") (body "\n") (address "visayafan@gmail.com"))))
 ;; 语言环境设定
 (set-language-environment 'UTF-8)
 (setq default-buffer-file-coding-system 'utf-8-unix)
@@ -94,6 +94,22 @@
   (< (time-to-days (date-to-time (mail-header-date gnus-headers)))
      (- (time-to-days (current-time)) gnus-agent-expire-days)))
 (require 'gnus-agent)
+;; 类似short/long/true/false添加了old类型，要想agent不要下载90天前的帖子
+;; 可以将其predicate设置为(not old)
 (setq  gnus-category-predicate-alist
        (append gnus-category-predicate-alist
                '((old . my-article-old-p))))
+;; 默认gnus设置为unplugged
+(setq gnus-plugged nil)
+;; 启动gnus后进行topic分类模式
+(add-hook 'gnus-group-mode-hook 'gnus-topic-mode)
+
+;; 发邮件
+(setq message-send-mail-function 'message-send-mail-with-sendmail
+      sendmail-program "/usr/bin/msmtp")
+(setq message-sendmail-extra-arguments '("-a" "default"))
+(setq mail-host-address "gmail.com")
+;; 当emacs idle 10分钟后每隔5分钟检查一次帖子
+;; 参数含义见http://www.gnus.org/manual/big-gnus.html#IDX2455
+(gnus-demon-add-handler 'gnus-group-get-new-news 5 10)
+(gnus-demon-init)
