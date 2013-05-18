@@ -5,13 +5,13 @@
 (setq gnus-secondary-select-methods
       '((nntp "news.gnus.org")
         (nntp  "news.gmane.org")
-        (nntp  "news.gwene.org")
+        ;; (nntp  "news.gwene.org")
         (nnmaildir "" (directory "/home/visayafan/.emacs.d/gnus/Gmail/"))
         ))
 ;; 满71字符自动换行
 (add-hook 'message-mode-hook (lambda () (setq fill-column 72) (turn-on-auto-fill)))
 ;; 回贴时buffer的显示设置
-(setq gnus-posting-styles '((".*" (name "visayafan") (body "\n") (address "visayafan@gmail.com"))))
+(setq gnus-posting-styles '((".*" (name "Han Fan") (body "\n") (address "visayafan@gmail.com"))))
 ;; 语言环境设定
 (set-language-environment 'UTF-8)
 (setq default-buffer-file-coding-system 'utf-8-unix)

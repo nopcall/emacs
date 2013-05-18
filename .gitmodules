@@ -43,3 +43,6 @@
 [submodule ".emacs.d/bbdb3"]
 	path = .emacs.d/bbdb3
 	url = git://github.com/barak/bbdb3.git
+[submodule ".emacs.d/org-reveal"]
+	path = .emacs.d/org-reveal
+	url = git://github.com/yjwen/org-reveal.git

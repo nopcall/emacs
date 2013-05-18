@@ -2,6 +2,21 @@
 (add-to-list 'load-path "~/.emacs.d/org-mode/lisp")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-common.el")
 (load-file "~/.emacs.d/.emacs/vf-org-contacts.el")
+
+;; 将制作org文件转换成幻灯片
+;; https://github.com/yjwen/org-reveal
+(add-to-list 'load-path "~/.emacs.d/org-reveal")
+(require 'ox-reveal)
+(setq org-reveal-root "../..//Layout/JS/reveal.js")
+(setq org-reveal-hlevel 2)              ;>2的headline则纵向显示（需要用down键查看）
+(setq org-reveal-control t)             ;右下角显示控制台
+(setq org-reveal-center t)              ;为nil则所有slide大小相同
+(setq org-reveal-progress t)            ;显示进度条
+(setq org-reveal-history nil)
+(setq org-reveal-mathjax t)
+(setq org-reveal-theme 'moon)
+(setq org-reveal-trans 'cube)
+
 (add-hook 'org-mode-hook 
           '(lambda ()
              (setq org-html-postamble nil)           ;在7.x版本中使用的是org-export-html-postamble

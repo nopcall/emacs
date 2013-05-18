@@ -1,83 +1,3 @@
-cdvo
-cdt
-cde
-cd yasnippet/snippets/org-mode/
-ls
-cdv
-cdvcl
-cdccc
-clc
-./test
-./test
-cdee
-cd
-cd ß
-cd -
-cde
-cd gnus/
-cdt
-cd
-cdee
-cdvcl
-cdee
-cdvcl
-cden
-cdvcl
-cdee
-cdvcl
-d
-cd Dropbox/software/emacs/
-clc
-cdvo
-cdccc
-./test
-./test
-cden
-cd
-clc
-cd .getmail/
-ls
-mkdir gmail
-cd gmail/
-ls
-cd cur/
-ls
-cd ../new/
-ls
-ls
-rm *
-ls
-cd ..
-ls
-rmdir GmailAll/
-ls tmp/
-cde
-cd others/
-ls
-cdv
-cd Layout/CSS/
-cdee
-cdv
-cd Layout/CSS/
-cdee
-cd
-mv emacs_bbdb_contacts bk
-mv bk emacs_bbdb_contacts
-d
-cd Dropbox/others/
-cdee
-cd -
-d
-cd Dropbox/others/
-cdee
-cdt
-cdt
-d
-cd Dropbox/others/
-cdvcl
-cdee
-cde
-cde
 cdvcl
 cdee
 d
@@ -126,3 +46,83 @@ cdee
 cdee
 cd
 cdvcl
+d
+cd study/GraduationProject/Mandelbrot_Set/Mandelbrot_Set/
+cdvcl
+cd
+cde
+cd gnus/
+cd Gmail/
+mkdir junk
+cdvo
+cd -
+ls
+mkdir spam
+mkdir tech
+cd tech/new/
+ls
+cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zfx | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+cd ../cur/
+ls
+cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+clc
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -z
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfx
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxSubject
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxFrom
+clc
+cat 1368780266.9074_1.visayafan-Compaq-510:2,|formail -I ""
+cat 1368780266.9074_1.visayafan-Compaq-510:2,|formail -I ""|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxSubject
+echo " =?GBK?B?sKG6w7Chx+u9zA==?="|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+echo "PGRpdiBzdHlsZT0ibGluZS1oZWlnaHQ6MS43O2NvbG9yOiMwMDAwMDA7Zm9udC1zaXplOjE0cHg7Zm9udC1mYW1pbHk6YXJpYWwiPjxkaXYgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuNztjb2xvcjojMDAwMDAwO2ZvbnQtc2l6ZToxNHB4O2ZvbnQtZmFtaWx5OmFyaWFsIj48ZGl2IHN0eWxlPSJsaW5lLWhlaWdodDoxLjc7Y29sb3I6IzAwMDAwMDtmb250LXNpemU6MTRweDtmb250LWZhbWlseTphcmlhbCI+PGRpdiBzdHlsZT0ibGluZS1oZWlnaHQ6MS43O2NvbG9yOiMwMDAwMDA7Zm9udC1zaXplOjE0cHg7Zm9udC1mYW1pbHk6YXJpYWwiPjxkaXYgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuNztjb2xvcjojMDAwMDAwO2ZvbnQtc2l6ZToxNHB4O2ZvbnQtZmFtaWx5OmFyaWFsIj7H673MxOO6wzwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPg=="|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+clc
+cde
+cd gnus/
+cdv
+cdvo
+d
+cd Dropbox/software/emacs/
+mv .gitignore .gitignore_bk
+git st
+rm .gitignore_bk
+cdt
+cd test/
+cdv
+rm .gitignore
+cdt
+cd git/super/sub/
+cdvcl
+cdvo
+cde
+cd  yasnippet/snippets/org-mode/
+cdt
+ls
+cdt
+cdee
+cde
+cdee
+cde
+cd org-reveal/
+ls
+cdvo
+cd -
+cdv
+cd Layout/JS/reveal.js/
+ls
+ls css/theme/
+cdv
+cd Layout/JS/MathJax/
+ls
+ls
+cde
+cd org-reveal/
+ls
+rm Readme.org
+clc
+cd .emacs.d/org-reveal/
+mv Readme.html ~/visayafan.github.com/Others/o/

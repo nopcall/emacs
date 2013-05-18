@@ -98,7 +98,7 @@
  '(region ((t (:background "gtk_selection_bg_color" :foreground "gtk_selection_fg_color"))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button)))))
- '(erc-timestamp-face '((t (:bold t :foreground "SkyBlue4"))))
+ ;; '(erc-timestamp-face '((t (:bold t :foreground "SkyBlue4"))))
  )
 
 (menu-bar-mode -1)
