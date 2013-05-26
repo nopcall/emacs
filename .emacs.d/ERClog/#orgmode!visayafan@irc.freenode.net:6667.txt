@@ -2,3 +2,22 @@
                   *** #orgmode modes: +nst
                   *** #orgmode was created on 2013-04-14 05:08:56
                  ERC> /clr
+[22:02]           *** Users on #orgmode: visayafan andyland jave_ FL1SK
+                  *** #orgmode modes: +nst
+                  *** #orgmode was created on 2013-04-14 05:08:56
+[22:20]          ERC> /names
+                  *** Users on #orgmode: visayafan andyland jave_ FL1SK
+                 ERC> /leave
+[23:53]           *** Users on #orgmode: visayafan andyland jave_ FL1SK
+                  *** #orgmode modes: +nst
+                  *** #orgmode was created on 2013-04-14 05:08:56
+                 ERC> /names
+                  *** Users on #orgmode: visayafan andyland jave_ FL1SK
+[02:04]           *** Users on #orgmode: visayafan jave_ FL1SK
+                  *** #orgmode modes: +nst
+                  *** #orgmode was created on 2013-04-14 05:08:56
+[21:46]           *** Users on #orgmode: visayafan FL1SK jave_
+                  *** #orgmode modes: +nst
+                  *** #orgmode was created on 2013-04-14 05:08:56
+[21:49]          ERC> /names
+                  *** Users on #orgmode: visayafan FL1SK jave_

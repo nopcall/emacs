@@ -78,11 +78,12 @@
 
 (setq erc-insert-timestamp-function 'erc-insert-timestamp-left)
 
+
 ;; 下面所有配置都是关于颜色的
 ;; http://www.emacswiki.org/emacs/ErcNickColors
 (setq nick-face-list '())
 ;; Define the list of colors to use when coloring IRC nicks.                                                                     
-(setq-default erc-colors-list '("blue" "red" "purple" "magenta" "DodgerBlue" "DeepPink2" "DarkGoldenrod"))
+(setq-default erc-colors-list '("blue" "red" "purple" "gray0" "DodgerBlue" "SeaGreen4" "MediumSlateBlue"  "DeepPink2" "DarkGoldenrod"))
 
 (defun build-nick-face-list ()
   "build-nick-face-list builds a list of new faces using the                                                                     

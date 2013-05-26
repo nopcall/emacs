@@ -1,6 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/matlab-emacs/matlab-emacs")
 (require 'matlab-load)
-(setq matlab-shell-command "/usr/local/MATLAB/R2010b/bin/matlab")
+(setq matlab-shell-command "/home/visayafan/vfinstall/matlab2012a/bin/matlab")
 (autoload 'matlab-mode "matlab" "Enter MATLAB mode." t)
 (setq auto-mode-alist (cons '("\\.m\\'" . matlab-mode) auto-mode-alist))
 (autoload 'matlab-shell "matlab" "Interactive MATLAB mode." t)

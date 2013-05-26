@@ -2,10 +2,8 @@
 ;; http://www.emacswiki.org/cgi-bin/wiki/InteractivelyDoThings
 (require 'ido) 
 (ido-mode 'both) ;; for buffers and files
-(setq 
- ido-save-directory-list-file "~/.emacs.d/ido/ido.last"
-
- ;; ido-ignore-buffers ;; ignore these guys
+(setq ido-save-directory-list-file "~/.emacs.d/ido/ido.last"
+      ido-ignore-buffers '("^\*ediff.*" "\*scratch\*" ".*\.LOCAL\..*" ".*\.REMOTE\..*" ".*\.BASE\..*")
  ;; '("\\` " "^\*Mess" "^\*Back" ".*Completion" "^\*Ido" "^\*trace" "^\*compilation" "^\*GTAGS" "^session\.*" "^\*")
  ;; ido-work-directory-list '("~/" "~/study" "~/visayafan.github.com")
  ido-case-fold  t                 ; be case-insensitive
@@ -30,5 +28,6 @@
 ;; (global-set-key (kbd "M-q") 'ido-switch-buffer)
 
 (global-set-key (kbd "M-s") 'ido-switch-buffer)
+(global-set-key (kbd "C-x b") 'switch-to-buffer)
 
 

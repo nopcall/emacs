@@ -1,128 +1,128 @@
-cdvcl
-cdee
-d
-cd Dropbox/others/
-mv org-contacts-file.org contacts.org
-cdee
-clcc
-cdvcl
-cde
-cd url/
-ls
-ls cache/
-ls cache/visayafan/
-ls cache/visayafan/http/
-d
-cd Dropbox/software/emacs/
-cdee
-d
-cdvcl
-d
-cd Dropbox/others/
-cdt
-cd NeuWort/
-l
-ls
-ls
-rm \#NeuWort01.org\# 
 clc
+cd English/
 ls
-ls
-cddn
-cdee
-cd
-cde
+ls VOA/
+cat ../.git/info/exclude 
 clc
-cdvcl
-cdee
-cd ../ERClog/
-ls
-ll
-cdvcl
-cdt
-cdvcl
-cde
-cdee
-cdee
+ls Scenario/
+clc
 cd
-cdvcl
+cd -
+ls Gmail/
+ls Gmail/junk/
+ls Gmail/junk/new/
+ls Gmail/junk/cur/
+ls Gmail/spam/cur/
+ls Gmail/spam/new/
+clc
 d
-cd study/GraduationProject/Mandelbrot_Set/Mandelbrot_Set/
-cdvcl
+cd study/GraduationProject/
+cd Bilateral_Filter/mex/
+ls
+clc
+cd ../..
+git clone git://github.com/haoyun/xjtu-thesis-BSc.git
+cd xjtu-thesis-BSc/
+ls
+xelatex main.tex 
+ls
+clc
+xelatex main.tex
+xelatex main.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex test.tex
+xelatex main.tex 
+xelatex main.tex 
+xelatex main.tex 
+d
+cd VFInstall/texlive/texmf-dist/
+cd tex/latex/
+cd -
+d
+cd study/GraduationProject/xjtu-thesis-BSc/
+xelatex main.tex
+xelatex main.tex
+xelatex main.tex
+xelatex main.tex
+xelatex main.tex
+rm test.*
+make clean
+touch branches/reference.bib
+d
+cd
+cd Dropbox/goagent/
+cdv
+cd Linux/LinuxOS/
+cd
+cdv
+cd Linux/LinuxOS/
+cdvo
+ll *.org
+mv BlogCollection.org urls.org
+rm BlogCollection.html 
+cden
+cdee
+cde
+cd
+cd vfinstall/matlab2012a/bin/
+pwd
+cdt
+clc
+cden
+cde
+cd emacs-w3m/
+ls
+cdee
+cd -
+cdee
+cdv
+cd Others/diary/
+ls
+ls ~/orgnotes.org 
+rm ~/orgnotes.org 
+clc
+d
+cdv
+mv test.* Others/o/
+cdvo
+cden
 cd
 cde
 cd gnus/
-cd Gmail/
-mkdir junk
-cdvo
-cd -
-ls
-mkdir spam
-mkdir tech
-cd tech/new/
-ls
-cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zfx | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-cd ../cur/
-ls
-cat 1368780266.9074_1.visayafan-Compaq-510 | formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf | perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-clc
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -z
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zf
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfx
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxSubject
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxFrom
-clc
-cat 1368780266.9074_1.visayafan-Compaq-510:2,|formail -I ""
-cat 1368780266.9074_1.visayafan-Compaq-510:2,|formail -I ""|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-cat 1368780266.9074_1.visayafan-Compaq-510:2,| formail -zfxSubject
-echo " =?GBK?B?sKG6w7Chx+u9zA==?="|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
-echo "PGRpdiBzdHlsZT0ibGluZS1oZWlnaHQ6MS43O2NvbG9yOiMwMDAwMDA7Zm9udC1zaXplOjE0cHg7Zm9udC1mYW1pbHk6YXJpYWwiPjxkaXYgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuNztjb2xvcjojMDAwMDAwO2ZvbnQtc2l6ZToxNHB4O2ZvbnQtZmFtaWx5OmFyaWFsIj48ZGl2IHN0eWxlPSJsaW5lLWhlaWdodDoxLjc7Y29sb3I6IzAwMDAwMDtmb250LXNpemU6MTRweDtmb250LWZhbWlseTphcmlhbCI+PGRpdiBzdHlsZT0ibGluZS1oZWlnaHQ6MS43O2NvbG9yOiMwMDAwMDA7Zm9udC1zaXplOjE0cHg7Zm9udC1mYW1pbHk6YXJpYWwiPjxkaXYgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuNztjb2xvcjojMDAwMDAwO2ZvbnQtc2l6ZToxNHB4O2ZvbnQtZmFtaWx5OmFyaWFsIj7H673MxOO6wzwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPjwvZGl2Pjxicj48YnI+PHNwYW4gdGl0bGU9Im5ldGVhc2Vmb290ZXIiPjxzcGFuIGlkPSJuZXRlYXNlX21haWxfZm9vdGVyIj48L3NwYW4+PC9zcGFuPg=="|perl -MEncode -ne 'print encode("UTF8", decode("MIME-Header",$_))'
+cdee
+cd ..
+ls others/
+head unicad.el
+cd others/
+head unicad.el
+head unicad.el -n 30
+head unicad.el -n 70
 clc
 cde
-cd gnus/
-cdv
-cdvo
+cd org-reveal/
+cd ../org-mode/
+gitlol
+cd ../multiple-cursors/
+git lol
+git log
+cd ..
 d
 cd Dropbox/software/emacs/
-mv .gitignore .gitignore_bk
-git st
-rm .gitignore_bk
-cdt
-cd test/
-cdv
-rm .gitignore
-cdt
-cd git/super/sub/
-cdvcl
-cdvo
-cde
-cd  yasnippet/snippets/org-mode/
-cdt
-ls
-cdt
-cdee
-cde
-cdee
-cde
-cd org-reveal/
-ls
-cdvo
-cd -
-cdv
-cd Layout/JS/reveal.js/
-ls
-ls css/theme/
-cdv
-cd Layout/JS/MathJax/
-ls
-ls
-cde
-cd org-reveal/
-ls
-rm Readme.org
+git lol
+gitlol
 clc
-cd .emacs.d/org-reveal/
-mv Readme.html ~/visayafan.github.com/Others/o/
+cd .emacs.d/org-mode/
+cat .gitmodules
+cat .git
+clc
+cd ../gnus/
+rm -rf news\ \(Selective\ Sync\ Conflict\)/*
+rm -rf news\ \(Selective\ Sync\ Conflict\ \(1\)\)/
+clc

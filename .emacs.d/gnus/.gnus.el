@@ -52,7 +52,7 @@
 (setq gnus-check-new-newsgroups nil)
 (setq gnus-check-bogus-newsgroups nil)
 ;; 最多读取帖子数，默认值是nil
-(setq gnus-newsgroup-maximum-articles nil) 
+(setq gnus-newsgroup-maximum-articles 8000)
 ;; 保存article时默认header冗余太多，设置变量gnus-saved-headers来精简
 (setq gnus-save-all-headers nil)        ;只有此变量为nil，gnus-saved-headers才有效
 (setq gnus-saved-headers "^From:\\|^Newsgroups:\\|^Date:\\|^Followup-To:\\|^Reply-To:\\|^Summary:\\|^Keywords:\\|^Subject:")
@@ -113,3 +113,5 @@
 ;; 参数含义见http://www.gnus.org/manual/big-gnus.html#IDX2455
 (gnus-demon-add-handler 'gnus-group-get-new-news 5 10)
 (gnus-demon-init)
+;; w3m
+(load-file "~/.emacs.d/.emacs/vf-w3m.el")

@@ -273,28 +273,52 @@ BEG and END (region to sort)."
           (goto-char next-line))))))
 
 ;; open file fast
+;; http://ergoemacs.org/emacs/emacs_hotkey_open_file_fast.html
 (global-unset-key [f1])
 (global-set-key [f1] 'open-file-fast)
+(defvar xah-filelist nil "alist for files i need to open frequently. Key is a short abbrev, Value is file path.")
+(setq prefix (if (eq system-type 'gnu/linux) "~/" "d:/"))
+(setq filelist
+      (list
+        (cons "gtd.org"  (concat prefix "visayafan.github.com/Others/diary/gtd.org"))
+        (cons ".emacs"  "~/.emacs")
+        (cons "index.html"  (concat prefix "visayafan.github.com/index.html"))
+        (cons "emacs.org"  (concat prefix "visayafan.github.com/Coding/Lisp/Emacs.org"))
+        (cons "org.org"  (concat prefix "visayafan.github.com/Coding/Lisp/EmacsOrg.org"))
+        (cons "gnus.org"  (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org"))
+        (cons "latex.org"  (concat prefix "visayafan.github.com/Others/o/latex-lyx.org"))
+        (cons "git.org"  (concat prefix "visayafan.github.com/Others/o/git.org"))
+        ))
 
-(defun open-file-fast ()
-  (interactive)
-  (let* ((prefix (if (eq system-type 'gnu/linux)
-                    "~/"
-                  "d:/"))
-        (file-list (list
-                     (concat prefix "visayafan.github.com/Others/diary/gtd.org")
-                     "~/.emacs"
-                     (concat prefix "visayafan.github.com/index.html")
-                     (concat prefix "visayafan.github.com/Coding/Lisp/Emacs.org")
-                     (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org")
-                     ))
-        (prompt-string)
-        number)
-    (dotimes (i (length file-list))
-      (setq prompt-string (concat prompt-string "[" (number-to-string i) "]" (elt file-list i) "\n")))
-    (setq prompt-string (concat prompt-string "Enter a number:"))
-    (setq number (read-number prompt-string))
-    (find-file (elt file-list number))))
+(defun open-file-fast (openCode)
+  "Prompt to open a file from a pre-defined set."
+  (interactive
+   (list
+    (ido-completing-read "Open:"
+                         (mapcar
+                          (lambda (x) (car x))
+                          filelist))))
+  (find-file (cdr (assoc openCode filelist))))
+
+;; (defun open-file-fast ()
+;;   (interactive)
+;;   (let* ((prefix (if (eq system-type 'gnu/linux)
+;;                     "~/"
+;;                   "d:/"))
+;;         (file-list (list
+;;                      (concat prefix "visayafan.github.com/Others/diary/gtd.org")
+;;                      "~/.emacs"
+;;                      (concat prefix "visayafan.github.com/index.html")
+;;                      (concat prefix "visayafan.github.com/Coding/Lisp/Emacs.org")
+;;                      (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org")
+;;                      ))
+;;         (prompt-string)
+;;         number)
+;;     (dotimes (i (length file-list))
+;;       (setq prompt-string (concat prompt-string "[" (number-to-string i) "]" (elt file-list i) "\n")))
+;;     (setq prompt-string (concat prompt-string "Enter a number:"))
+;;     (setq number (read-number prompt-string))
+;;     (find-file (elt file-list number))))
 
 (fset 'vf-copy-current-line-down
       "\C-a\367\C-y\C-e")

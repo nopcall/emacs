@@ -1,9 +1,9 @@
 ;; org7.x和8.x版本共有的配置
 (require 'org-install)
 ;; (require 'org-latex)
-;; (require 'vf-org-latex)      ;;;; org里的latex配置 
-(load-file "~/.emacs.d/.emacs/vf-org-gtd.el") ;;; org里gtd配置 
-;; (require 'org-publish)                        ;;; org-publish 配置 
+;; (require 'vf-org-latex)      ;;;; org里的latex配置
+(load-file "~/.emacs.d/.emacs/vf-org-gtd.el") ;;; org里gtd配置
+;; (require 'org-publish)                        ;;; org-publish 配置
 (global-set-key "\C-coc" 'org-capture)
 (add-hook 'org-mode-hook
           '(lambda ()
@@ -22,3 +22,9 @@
                              (sh . t)
                              (emacs-lisp . t)))
 (setq org-confirm-babel-evaluate nil)
+
+(setq org-capture-templates
+      `(
+        ("n" "Notes" entry (file+datetree ,(concat org-directory "notes.org"))
+         "* %^{Description} %^g %?
+Added: %U")))

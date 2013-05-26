@@ -13,7 +13,7 @@
 ;; (load-file "~/.emacs.d/.emacs/vf-cedet-bzr.el")
 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")
 (load-file "~/.emacs.d/.emacs/vf-webjump.el")
-(load-file "~/.emacs.d/.emacs/vf-org-remember.el")
+;; (load-file "~/.emacs.d/.emacs/vf-org-remember.el")
 (load-file "~/.emacs.d/.emacs/vf-zencoding.el")
 (load-file "~/.emacs.d/.emacs/vf-yasnippet.el")
 (load-file "~/.emacs.d/.emacs/vf-multiple-cursors.el")          ;多个光标同时操作
@@ -32,6 +32,7 @@
 (load-file "~/.emacs.d/.emacs/vf-matlab.el")
 (load-file "~/.emacs.d/.emacs/vf-email.el")
 (load-file "~/.emacs.d/.emacs/vf-erc.el")
+(load-file "~/.emacs.d/.emacs/vf-daemon.el")                 ;daemon client
 ;; (load-file "~/.emacs.d/.emacs/vf-filecache.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-bbdb.el")
 ;; (load-file "~/.emacs.d/.emacs/typopunct.el")
@@ -57,7 +58,6 @@
 ;; (load-file "~/.emacs.d/.emacs/vf-w3m.el")                    ;w3m
 ;; (load-file "~/.emacs.d/.emacs/vf-mail.el")                   ;mail
 ;; (load-file "~/.emacs.d/.emacs/vf-auto-complete-clang.el")    ;clang
-;; (load-file "~/.emacs.d/.emacs/vf-daemon.el")                 ;daemon client
 ;; (load-file "~/.emacs.d/.emacs/vf-newsticker.el")             ;newsticker
 ;; (load-file "~/.emacs.d/.emacs/vf-iedit.el")                  ;iedit
 ;; (load-file "~/.emacs.d/.emacs/unicad.el")                       ;自动判断文档编码Universal Charset Auto Detector
@@ -98,7 +98,6 @@
  '(region ((t (:background "gtk_selection_bg_color" :foreground "gtk_selection_fg_color"))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "#102e4e" :foreground "green" :box (:line-width 2 :color "#102e4e" :style released-button)))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :foreground "#102e4e" :box (:line-width 2 :color "white" :style pressed-button)))))
- ;; '(erc-timestamp-face '((t (:bold t :foreground "SkyBlue4"))))
  )
 
 (menu-bar-mode -1)

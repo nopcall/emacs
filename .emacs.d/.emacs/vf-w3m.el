@@ -7,6 +7,10 @@
 (setq w3m-command-arguments '("-cookie" "-F"))
 (setq w3m-use-cookies t)
 
+(setq gnus-mime-display-multipart-related-as-mixed nil)
+(setq mm-inline-text-html-with-images t)
+(setq mm-inline-text-html-with-w3m-keymap nil)
+
 (setq w3m-add-tab-number t)
 (setq w3m-bookmark-file-coding-system (quote gb18030))
 (setq w3m-command-arguments (quote ("-cookie" "-F" "-o" "http_proxy=http://127.0.0.1:8087/")))
