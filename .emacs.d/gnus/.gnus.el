@@ -1,13 +1,19 @@
+;; http://blog.jqian.net/post/gnus-with-offlineimap.html
+;; http://www.sanityinc.com/articles/read-mailing-lists-in-emacs-over-imap/
+;; http://sachachua.com/blog/2008/05/geek-how-to-use-offlineimap-and-the-dovecot-mail-server-to-read-your-gmail-in-emacs-efficiently/
 (setq user-full-name "Han Fan")
 (setq user-mail-address "visayafan@gmail.com")
 
-(setq gnus-select-method '(nntp "news.aioe.org"))
-(setq gnus-secondary-select-methods
-      '((nntp "news.gnus.org")
-        (nntp  "news.gmane.org")
-        ;; (nntp  "news.gwene.org")
-        (nnmaildir "" (directory "/home/visayafan/.emacs.d/gnus/Gmail/"))
-        ))
+
+(setq gnus-select-method '(nntp  "news.gmane.org"))
+(setq gnus-secondary-select-methods '((nntp "news.gnus.org")
+                                      (nntp  "news.aioe.org")))
+
+(add-to-list 'gnus-secondary-select-methods '(nnimap "gmail"
+                                                     (nnimap-address "imap.gmail.com")
+                                                     (nnimap-server-port 993)
+                                                     (nnimap-authinfo-file “~/.authinfo”)
+                                                     (nnimap-stream ssl)))
 ;; 满71字符自动换行
 (add-hook 'message-mode-hook (lambda () (setq fill-column 72) (turn-on-auto-fill)))
 ;; 回贴时buffer的显示设置

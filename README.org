@@ -6,6 +6,6 @@
 
 *注意*
 
-下载完成 *注释掉.emacs.d/common.el中 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")* 或者为了使用最新版本的org-mode，进入.emacs.d/org-mode目录进行安装(make && sudo make insatll),参考http://orgmode.org/worg/dev/org-build-system.html 。
+下载完成 *注释掉.emacs.d/common.el中 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")* 或者为了使用最新版本的org-mode，进入.emacs.d/org-8.0.3目录进行安装(make && sudo make insatll),参考http://orgmode.org/worg/dev/org-build-system.html 。
    
 有问题可以来信交流：visayafan@gmail.com
