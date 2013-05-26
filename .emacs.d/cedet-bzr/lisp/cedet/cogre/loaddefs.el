@@ -199,6 +199,11 @@ Setup buffer for parse.
 
 ;;;***
 
+;;;### (autoloads nil nil ("wisent-dot-wy.el") (20897 54714 894048
+;;;;;;  630000))
+
+;;;***
+
 (provide 'loaddefs)
 ;; Local Variables:
 ;; version-control: never

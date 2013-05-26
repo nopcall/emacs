@@ -280,8 +280,8 @@ Adds the following:
 ;;;***
 
 ;;;### (autoloads nil nil ("args.el" "ctxt.el" "dictionary.el" "extract.el"
-;;;;;;  "fields.el" "filters.el" "find.el" "semantic.el" "table.el")
-;;;;;;  (20878 28474 481549 991000))
+;;;;;;  "fields.el" "filters.el" "find.el" "semantic.el" "srt-wy.el"
+;;;;;;  "table.el") (20897 54719 377560 536000))
 
 ;;;***
 

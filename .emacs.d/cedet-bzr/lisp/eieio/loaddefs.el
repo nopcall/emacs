@@ -83,7 +83,7 @@ Bind the viss bookmark functions to F2 related keys.
 ;;;***
 
 ;;;### (autoloads nil nil ("chart.el" "eieio-base.el" "eieio-datadebug.el"
-;;;;;;  "eieio-speedbar.el" "eieio.el") (20878 28464 108840 105000))
+;;;;;;  "eieio-speedbar.el" "eieio.el") (20897 54713 792233 29000))
 
 ;;;***
 

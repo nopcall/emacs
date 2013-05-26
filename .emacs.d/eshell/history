@@ -1,9 +1,4 @@
 clc
-cd English/
-ls
-ls VOA/
-cat ../.git/info/exclude 
-clc
 ls Scenario/
 clc
 cd
@@ -126,3 +121,8 @@ cd ../gnus/
 rm -rf news\ \(Selective\ Sync\ Conflict\)/*
 rm -rf news\ \(Selective\ Sync\ Conflict\ \(1\)\)/
 clc
+cd ..
+git rm --cached .emacs.d/org-mode
+git st
+exit
+cdvo

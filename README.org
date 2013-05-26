@@ -4,5 +4,8 @@
 
 因为用到了子模块，所以clone本地时需要加上 --recursive选项： =git clone --recursive git://github.com/visayafan/emacs.git=
 
-下载完成后为了使用最新版本的org-mode，需要进入.emacs.d/org-mode目录进行安装,参考http://orgmode.org/worg/dev/org-build-system.html 或者如果想使用emacs自带的org-mode的话直接 *注释掉.emacs.d/common.el中 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")* 即可。
+*注意*
+
+下载完成 *注释掉.emacs.d/common.el中 (load-file "~/.emacs.d/.emacs/vf-org-setting-8.x.el")* 或者为了使用最新版本的org-mode，进入.emacs.d/org-mode目录进行安装(make && sudo make insatll),参考http://orgmode.org/worg/dev/org-build-system.html 。
+   
 有问题可以来信交流：visayafan@gmail.com

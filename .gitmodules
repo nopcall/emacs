@@ -37,9 +37,6 @@
 [submodule ".emacs.d/twittering-mode"]
 	path = .emacs.d/twittering-mode
 	url = git://github.com/hayamiz/twittering-mode.git
-[submodule ".emacs.d/org-mode"]
-	path = .emacs.d/org-mode
-	url = git://orgmode.org/org-mode.git
 [submodule ".emacs.d/org-reveal"]
 	path = .emacs.d/org-reveal
 	url = git://github.com/yjwen/org-reveal.git

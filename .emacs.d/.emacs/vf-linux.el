@@ -9,7 +9,7 @@
 (prefer-coding-system 'utf-8)
 (set-selection-coding-system 'utf-8)
 
-(load-file "~/.emacs.d/.emacs/vf-cedet-bzr.el")
+;; (load-file "~/.emacs.d/.emacs/vf-cedet-bzr.el")
 
 (setq erc-timestamp-format "[%H:%M]")
 (custom-set-faces '(erc-timestamp-face '((t :weight bold :foreground "SkyBlue4"))))
