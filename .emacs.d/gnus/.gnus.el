@@ -55,8 +55,8 @@
 (setq gnus-group-line-format "%P%M%S%p%P%5y-|--%B%(%G%)
 ")      ;;此处换行不可移动到上行中
 ;; 加快启动速度
-(setq gnus-check-new-newsgroups nil)
-(setq gnus-check-bogus-newsgroups nil)
+;; (setq gnus-check-new-newsgroups nil)
+;; (setq gnus-check-bogus-newsgroups nil)
 ;; 最多读取帖子数，默认值是nil
 (setq gnus-newsgroup-maximum-articles 8000)
 ;; 保存article时默认header冗余太多，设置变量gnus-saved-headers来精简

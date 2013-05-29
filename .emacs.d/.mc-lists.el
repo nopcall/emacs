@@ -8,10 +8,13 @@
         delete-horizontal-space
         delete-indentation
         kill-region
+        org-delete-char
+        org-end-of-line
         org-self-insert-command
         yas-expand
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        org-return-indent
         ))

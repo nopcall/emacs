@@ -1,53 +1,3 @@
-xelatex test.tex
-xelatex test.tex
-xelatex test.tex
-xelatex test.tex
-xelatex test.tex
-xelatex test.tex
-xelatex main.tex 
-xelatex main.tex 
-xelatex main.tex 
-d
-cd VFInstall/texlive/texmf-dist/
-cd tex/latex/
-cd -
-d
-cd study/GraduationProject/xjtu-thesis-BSc/
-xelatex main.tex
-xelatex main.tex
-xelatex main.tex
-xelatex main.tex
-xelatex main.tex
-rm test.*
-make clean
-touch branches/reference.bib
-d
-cd
-cd Dropbox/goagent/
-cdv
-cd Linux/LinuxOS/
-cd
-cdv
-cd Linux/LinuxOS/
-cdvo
-ll *.org
-mv BlogCollection.org urls.org
-rm BlogCollection.html 
-cden
-cdee
-cde
-cd
-cd vfinstall/matlab2012a/bin/
-pwd
-cdt
-clc
-cden
-cde
-cd emacs-w3m/
-ls
-cdee
-cd -
-cdee
 cdv
 cd Others/diary/
 ls
@@ -126,3 +76,53 @@ cat /etc/hosts
 cd
 cde
 cd
+cde
+cd gnus/
+cd
+ls .offlineimap/
+ls .offlineimap/Account-GMail/
+ls .offlineimap/Account-GMail/LocalStatus/
+clc
+cd
+cd
+cd
+cd
+rm .newsrc*
+clc
+cdvo
+d
+cd study/GraduationProject/Bilateral_Filter/
+cd mex/
+ls
+cd ../..
+cd xjtu-thesis-BSc/
+cd ../ImageRecognition/
+ls
+cd mex/
+ls
+ls images/
+cd ../../Bilateral_Filter/mex/
+clc
+ls
+cd ../
+ls
+cd cpu/
+ls
+d
+cd study/GraduationProject/xjtu-thesis-BSc/
+ls
+d
+cd study/GraduationProject/xjtu-thesis-BSc/
+cd ../ImageRecognition/mex/
+cd ../../Bilateral_Filter/mex/
+cd ../kernel/
+ls
+d
+cd study/GraduationProject/Bilateral_Filter/cpu/
+cd ../mex/
+cde
+cd gnus/
+cdee
+cd
+cdv
+cd Layout/CSS/

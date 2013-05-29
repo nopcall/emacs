@@ -288,6 +288,7 @@ BEG and END (region to sort)."
         (cons "gnus.org"  (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org"))
         (cons "latex.org"  (concat prefix "visayafan.github.com/Others/o/latex-lyx.org"))
         (cons "git.org"  (concat prefix "visayafan.github.com/Others/o/git.org"))
+        (cons "en.org"  (concat prefix "visayafan.github.com/English/NewWords/NewWords04.org"))
         ))
 
 (defun open-file-fast (openCode)
@@ -340,3 +341,6 @@ BEG and END (region to sort)."
                              
 ;; replace-string可以无询问式地替换指定区域内容
 (global-set-key "\C-crs" 'replace-string)
+
+;; 自动识别编码
+(require 'unicad)
