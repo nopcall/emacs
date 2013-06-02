@@ -16,21 +16,12 @@
 [submodule ".emacs.d/multiple-cursors"]
 	path = .emacs.d/multiple-cursors
 	url = git://github.com/magnars/multiple-cursors.el.git
-[submodule ".emacs.d/weibo.emacs"]
-	path = .emacs.d/weibo.emacs
-	url = git://github.com/austin-----/weibo.emacs.git
 [submodule ".emacs.d/wrap-region"]
 	path = .emacs.d/wrap-region
 	url = git://github.com/rejeep/wrap-region.git
 [submodule ".emacs.d/expand-region"]
 	path = .emacs.d/expand-region
 	url = git://github.com/magnars/expand-region.el.git
-[submodule ".emacs.d/iedit"]
-	path = .emacs.d/iedit
-	url = https://github.com/victorhge/iedit.git
-[submodule ".emacs.d/twittering-mode"]
-	path = .emacs.d/twittering-mode
-	url = git://github.com/hayamiz/twittering-mode.git
 [submodule ".emacs.d/org-reveal"]
 	path = .emacs.d/org-reveal
 	url = git://github.com/yjwen/org-reveal.git
