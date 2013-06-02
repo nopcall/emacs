@@ -33,6 +33,8 @@
 (load-file "~/.emacs.d/.emacs/vf-email.el")
 (load-file "~/.emacs.d/.emacs/vf-erc.el")
 (load-file "~/.emacs.d/.emacs/vf-daemon.el")                 ;daemon client
+(load-file "~/.emacs.d/.emacs/vf-popwin.el")
+;; (load-file "~/.emacs.d/.emacs/vf-emacs-powerline.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-filecache.el")
 ;; (load-file "~/.emacs.d/.emacs/vf-bbdb.el")
 ;; (load-file "~/.emacs.d/.emacs/typopunct.el")

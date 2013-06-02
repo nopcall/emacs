@@ -171,7 +171,7 @@
 
 (setq default-fill-column 110)
 
-(global-set-key "\C-z" 'undo)
+;; (global-set-key "\C-z" 'undo)
 
 ;; For Linux 鼠标滚轮＋C设置字体大小
 (global-set-key (kbd "<C-mouse-4>") 'text-scale-increase)
@@ -288,7 +288,7 @@ BEG and END (region to sort)."
         (cons "gnus.org"  (concat prefix "visayafan.github.com/Coding/Lisp/EmacsGnus.org"))
         (cons "latex.org"  (concat prefix "visayafan.github.com/Others/o/latex-lyx.org"))
         (cons "git.org"  (concat prefix "visayafan.github.com/Others/o/git.org"))
-        (cons "en.org"  (concat prefix "visayafan.github.com/English/NewWords/NewWords04.org"))
+        (cons "en.org"  (concat prefix "visayafan.github.com/English/NewWords/NewWords05.org"))
         ))
 
 (defun open-file-fast (openCode)

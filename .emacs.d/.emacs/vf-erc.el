@@ -13,7 +13,7 @@
     (erase-buffer)
     (message "Flushed contents of channel")
     t))
-(defun erc-cmd-CLR (&rest ignore)
+(defun erc-cmd-CLS (&rest ignore)
   "Erase the current buffer."
   (interactive)
   (save-excursion
@@ -77,6 +77,11 @@
 (setq erc-fill-static-center 15)
 
 (setq erc-insert-timestamp-function 'erc-insert-timestamp-left)
+
+
+;; (setq erc-timestamp-format "[%H:%M]")
+;; (custom-set-faces '(erc-timestamp-face '((t :weight bold :foreground "SkyBlue4"))))
+(custom-set-faces '(erc-timestamp-face ((t (:inherit shadow)))))
 
 
 ;; 下面所有配置都是关于颜色的

@@ -1,67 +1,3 @@
-cdv
-cd Others/diary/
-ls
-ls ~/orgnotes.org 
-rm ~/orgnotes.org 
-clc
-d
-cdv
-mv test.* Others/o/
-cdvo
-cden
-cd
-cde
-cd gnus/
-cdee
-cd ..
-ls others/
-head unicad.el
-cd others/
-head unicad.el
-head unicad.el -n 30
-head unicad.el -n 70
-clc
-cde
-cd org-reveal/
-cd ../org-mode/
-gitlol
-cd ../multiple-cursors/
-git lol
-git log
-cd ..
-d
-cd Dropbox/software/emacs/
-git lol
-gitlol
-clc
-cd .emacs.d/org-mode/
-cat .gitmodules
-cat .git
-clc
-cd ../gnus/
-rm -rf news\ \(Selective\ Sync\ Conflict\)/*
-rm -rf news\ \(Selective\ Sync\ Conflict\ \(1\)\)/
-clc
-cde
-d
-cd Dropbox/software/emacs/
-ls .git/modules/.emacs.d/emacs-w3m/
-cdt
-cd emacs/.emacs.d/
-d
-cd Dropbox/software/emacs/
-cdee
-cd ../cedet-bzr/
-cdee
-cde
-cd org-8.0.3/
-clc
-make
-sudo make install
-clc
-git lol
-clc
-git st
 clc
 d
 cd Dropbox/software/emacs/
@@ -126,3 +62,67 @@ cdee
 cd
 cdv
 cd Layout/CSS/
+cdvo
+d
+cdee
+cden
+cddn
+touch *
+cdv 
+cd Linux/LinuxOS/
+cdee
+cdvcl
+cde
+cdee
+clc
+cdv
+cd Linux/LinuxOS/
+ls
+clc
+cde
+cd gnus/
+cden
+ls image/
+d
+cdd study/GraduationProject/
+cd study/GraduationProject/
+cd xjtu-thesis-BSc/
+d
+cd study/GraduationProject/xjtu-thesis-BSc/
+ls
+du -sh
+d
+cd study/GraduationProject/xjtu-thesis-BSc/
+cde
+d
+cd Dropbox/software/emacs/
+ls
+ll
+cd .emacs.d/
+git clone git://github.com/jonathanchu/emacs-powerline.git
+cd emacs-powerline/
+ls
+ll
+rm .git
+rm .gitignore 
+rm AUTHORS README.rst 
+ccl
+cdee
+cd -
+mv powerline.el ../others/
+cd ..
+rmdir emms-3.0/
+rmdir emacs-powerline/
+clc
+d
+cd Dropbox/software/emacs/.emacs.d/wrap-region/
+git pull
+ll
+cat .git
+clc
+cat Makefile 
+clc
+cd ..
+cd ..
+ccl
+git status

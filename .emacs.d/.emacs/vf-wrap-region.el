@@ -1,5 +1,4 @@
 ;; https://github.com/rejeep/wrap-region.git
-
 (add-to-list 'load-path "~/.emacs.d/wrap-region")
 (require 'wrap-region)
 ;; 总是打开

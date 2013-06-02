@@ -64,6 +64,7 @@
 (setq gnus-saved-headers "^From:\\|^Newsgroups:\\|^Date:\\|^Followup-To:\\|^Reply-To:\\|^Summary:\\|^Keywords:\\|^Subject:")
 ;; 自动取回部分完整thead
 (setq gnus-fetch-old-headers 'some)
+;; (setq gnus-fetch-old-headers 't)        ;取回完整thread 生成summary速度会非常慢
 ;; 下载header和article方便 offline的时候使用
 ;; http://www.gnus.org/manual/gnus_401.html#SEC522
 (setq gnus-agent t) ;;默认已经开启
