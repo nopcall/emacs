@@ -1,10 +1,4 @@
 (tool-bar-mode -1)
-(require 'tabbar)                       ;标签
-(tabbar-mode)
-(global-set-key (kbd "M-P") 'tabbar-backward-group)
-(global-set-key (kbd "M-N") 'tabbar-forward-group)
-(global-set-key (kbd "M-p") 'tabbar-backward)
-(global-set-key (kbd "M-n") 'tabbar-forward)
 ;; 最近访问过的文件和最近修改过的文件
 (require 'session)
 (add-hook 'after-init-hook 'session-initialize)
@@ -180,10 +174,6 @@
 (global-set-key "\C-cln" 'linum-mode)
 (global-set-key "\C-cmb" 'menu-bar-mode)
 
-(global-set-key (kbd "M-P") 'tabbar-backward-group)
-(global-set-key (kbd "M-N") 'tabbar-forward-group)
-(global-set-key (kbd "M-p") 'tabbar-backward)
-(global-set-key (kbd "M-n") 'tabbar-forward)
 (global-set-key "\C-cds" 'desktop-save)
 (global-set-key "\C-cdc" 'desktop-change-dir)
 ;; (load "desktop")
@@ -242,10 +232,10 @@
 
 ;; highlight the current line; set a custom face, so we can
 ;; recognize from the normal marking (selection)
-(defface hl-line '((t (:background "white")))
-  "Face to use for `hl-line-face'." :group 'hl-line)
-(setq hl-line-face 'hl-line)
-(global-hl-line-mode t) ; turn it on for all modes by default
+;; (defface hl-line '((t (:background "white")))
+;;   "Face to use for `hl-line-face'." :group 'hl-line)
+;; (setq hl-line-face 'hl-line)
+;; (global-hl-line-mode t) ; turn it on for all modes by default
 
 ;; C-o 用c-context-open-line替换原来的open-line
 (global-set-key "\C-o" 'open-line)
@@ -344,3 +334,9 @@ BEG and END (region to sort)."
 
 ;; 自动识别编码
 (require 'unicad)
+;; jump-char 快捷键
+;; | ;      | next     |
+;; | :      | previous |
+;; | C-c C-c| ace-jump |
+(require 'jump-char)
+(define-key global-map (kbd "C-c a") 'jump-char-forward)

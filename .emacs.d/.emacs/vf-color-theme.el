@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
+;; (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
 ;; (require 'color-theme)
 ;; (eval-after-load "color-theme"      
 ;;   '(progn      
@@ -11,3 +11,5 @@
 ;; (global-set-key "\C-cce" 'color-theme-emacs-21)
 
 
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme")

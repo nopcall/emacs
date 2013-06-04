@@ -75,22 +75,20 @@ that was stored with ska-point-to-register."
 
 ;; 下面的功能已经被 ace-jump-mode替换
 ;; ;;有了这段代码之后，当你按 C-c a x (x 是任意一个字符) 时，光标就会到下一个 x 处。再次按 x，光标就到下一个 x。比如 C-c a w w w w ..., C-c a b b b b b b ...
-(defun wy-go-to-char (n char)
-  "Move forward to Nth occurence of CHAR.
-Typing `wy-go-to-char-key' again will move forwad to the next Nth
-occurence of CHAR."
-  (interactive "p\ncGo to char: ")
-  (search-forward (string char) nil nil n)
-  (while (char-equal (read-char)
-                     char)
-    (search-forward (string char) nil nil n))
-  (setq unread-command-events (list last-input-event)))
-(define-key global-map (kbd "C-c a") 'wy-go-to-char)
+;; 2013年06月4日已经被https://github.com/lewang/jump-char取代
+;; (defun wy-go-to-char (n char)
+;;   "Move forward to Nth occurence of CHAR.
+;; Typing `wy-go-to-char-key' again will move forwad to the next Nth
+;; occurence of CHAR."
+;;   (interactive "p\ncGo to char: ")
+;;   (search-forward (string char) nil nil n)
+;;   (while (char-equal (read-char)
+;;                      char)
+;;     (search-forward (string char) nil nil n))
+;;   (setq unread-command-events (list last-input-event)))
+;; (define-key global-map (kbd "C-c a") 'wy-go-to-char)
 
 (global-set-key [(super left)] 'windmove-left)
 (global-set-key [(super right)] 'windmove-right)
 (global-set-key [(super up)] 'windmove-up)
 (global-set-key [(super down)] 'windmove-down)
-
-
-
